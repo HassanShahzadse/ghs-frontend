@@ -14857,8 +14857,8 @@ body.page-template-tpl-in-the-news .view-all-block #wpmem_reg .buttons,
     @media (max-width: 991px) {
       .home-block-banner .banner__container {
         padding: 0 40px; } }
-  .home-block-banner .banner--desktop {
-    opacity: 0; }
+  /* .home-block-banner .banner--desktop {
+    opacity: 0; } */
     @media (max-width: 768px) {
       .home-block-banner .banner--desktop {
         display: none; } }

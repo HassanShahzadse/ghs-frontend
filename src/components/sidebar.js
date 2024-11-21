@@ -30,7 +30,7 @@ const Sidebar = () => {
 
           <Link to="/Search">
             <div className="top-nav__logo">
-              <img src="/assets/img/logo/crest.svg" alt="Eton College Logo" />
+              <img src="/assets/Final-GHS-logo.jpg" alt="Eton College Logo" />
             </div>
           </Link>
 

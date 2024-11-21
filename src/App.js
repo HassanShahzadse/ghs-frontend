@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Sidebar />
       <div className="content">
-        <SearchComponent />
+        {/* <SearchComponent /> */}
         <HomePage />
         <AboutUs />     
       </div>
