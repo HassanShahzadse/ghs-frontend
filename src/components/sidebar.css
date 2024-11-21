@@ -1,0 +1,16 @@
+.sidebar .title {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .nav__top-level {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav__top-level li {
+    margin: 5px 0;
+  }
+  
