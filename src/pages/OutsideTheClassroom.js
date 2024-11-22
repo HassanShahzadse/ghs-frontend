@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-export const OutsideTheClassroom = () => {
-  return (
-    <div>OutsideTheClassroom</div>
-  )
-}
+const OutsideTheClassroom= () => {
+  return <h1>OutsideTheClassroom Page</h1>;
+};
+
+export default OutsideTheClassroom;

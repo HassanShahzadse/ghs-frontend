@@ -39,7 +39,7 @@ const Header = () => {
       category: "Museums and Collections",
       layout: "landscape",
     },
-    // Add more objects here for additional banners
+   
   ];
   const banners2 = [
     {
@@ -74,7 +74,7 @@ const Header = () => {
       src: "/assets/11/779f14aec30378bd9abb86d2f8256787-scaled-1-1024x576.jpg",
       alt: "",
       highlight: "Boarding nurtures personal growth and lifelong friendships",
-      text: "Cherishing our",
+      text: "Cherishing our", 
       category: "Boarding",
       layout: "landscape",
     },

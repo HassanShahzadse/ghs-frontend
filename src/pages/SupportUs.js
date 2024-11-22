@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-export const SupportUs = () => {
-  return (
-    <div>SupportUs</div>
-  )
-}
+const SupportUs = () => {
+  return <h1>SupportUs Page</h1>;
+};
 
+export default SupportUs;

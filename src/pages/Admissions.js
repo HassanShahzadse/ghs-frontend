@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-export const Admissions = () => {
-  return (
-    <div>Admissions</div>
-  )
-}
+const Admissions = () => {
+  return <h1>Admissions Page</h1>;
+};
+
+export default Admissions;

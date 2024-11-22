@@ -35,7 +35,7 @@ const Sidebar = () => {
           </Link>
 
           <div className="top-nav__search-contact">
-            {/* Search Icon with hover effects */}
+          
             <div className="search-box-button" onClick={toggleSearchBar}>
               <span>
                 <svg
@@ -63,7 +63,7 @@ const Sidebar = () => {
               </span>
             </div>
 
-            {/* Phone Icon */}
+        
             <Link to="/contact">
               <div className="top-nav__contact">
                 <img src="/assets/img/icons/phone.svg" alt="Contact" />
@@ -72,7 +72,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        {/* Main Navigation Menu */}
+       
         <nav className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
           <ul className="nav__top-level">
             <li>
@@ -109,7 +109,7 @@ const Sidebar = () => {
         </nav>
       </div>
 
-      {/* Search Bar - Conditional Rendering */}
+     
       {isSearchOpen && (
         <div id="search-full-screen" className="menu-search-form-container">
           <form
@@ -143,13 +143,14 @@ const Sidebar = () => {
             Close
           </button>
         </div>
-      )}
+      )}      
 
-      {/* Routes for Components */}
+   
       <Routes>
         <Route path="/search" element={<SearchComponent />} />
         <Route path="/contact" element={<ContactDetails />} />
-        {/* Add other routes as needed */}
+       
+       
       </Routes>
     </Router>
   );

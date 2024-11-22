@@ -38,7 +38,7 @@ const Footer = () => {
 							<div className="row">
 								<div className="col-lg-3">
 									<a href="index.html"><img
-											src="/assets/img/logo/footer-logo.svg" /></a>
+											src="assets/Gradient Fill 1 copy.jpg"/></a>
 
 									<div className="social-icons">
 										<a href="https://twitter.com/eton_college?lang=en" target="_blank"><img
