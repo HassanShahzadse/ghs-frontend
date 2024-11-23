@@ -1,14 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../components/Header';
-import NextUp from '../components/NextUp';
-import Footer from '../components/footer'; // or '../components/Footer' if that's the correct case
+import LandingPage from "../components/LandingPage";
+import Footer from '../components/footer';
 
 export const HomePage = () => {
   return (
     <>
-      <Header />
-      <NextUp />
+      <LandingPage />
       <Footer />
       <div>
         <h1>Welcome to the Home Page</h1>

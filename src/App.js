@@ -1,12 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
- import { HomePage } from './pages/homepage.jsx';
- import InsideTheClassroom from './pages/InsideTheClassroom';
+import { HomePage } from './pages/homepage.jsx';
+import InsideTheClassroom from './pages/InsideTheClassroom';
 import OutsideTheClassroom from './pages/OutsideTheClassroom';
 import Admissions from './pages/Admissions';
 import SupportUs from './pages/SupportUs';
 import ContactUs from './pages/ContactUs';
 import AboutUs from './pages/AboutUs.jsx';
+import "./App.css"
 
 function App() {
   return (
