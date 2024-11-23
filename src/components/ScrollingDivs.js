@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import "../App.css";
+// import "../App.css";
 
 const ScrollingDivs = () => {
   const yScroll = useMotionValue(0);
@@ -22,13 +22,13 @@ const ScrollingDivs = () => {
     <div className="scrolling-divs-container">
       {/* First Div */}
       <motion.div
-        className="scroll-div div-1"
+        className="scroll-div div-1 "
         style={{ y: y1 }}
       >
         {[...Array(5)].map((_, index) => (
           <img
             key={index}
-            src={`https://via.placeholder.com/300x200?text=Image+${index + 1}`}
+            src={`/assets/11/121f4b40b626d224d72ce1e7ee790dd2-scaled-1-1024x683.jpg?text=Image+${index + 1}`}
             alt={`Image ${index + 1}`}
           />
         ))}
@@ -42,7 +42,7 @@ const ScrollingDivs = () => {
         {[...Array(5)].map((_, index) => (
           <img
             key={index}
-            src={`https://via.placeholder.com/300x200?text=Image+${index + 6}`}
+            src={`/assets/11/779f14aec30378bd9abb86d2f8256787-scaled-1-1024x576.jpg?text=Image+${index + 6}`}
             alt={`Image ${index + 6}`}
           />
         ))}
@@ -56,7 +56,7 @@ const ScrollingDivs = () => {
         {[...Array(5)].map((_, index) => (
           <img
             key={index}
-            src={`https://via.placeholder.com/300x200?text=Image+${index + 11}`}
+            src={`/assets/11/927957f1544d260c4ea6af34676a57d5-scaled-1-1024x683.jpg?text=Image+${index + 11}`}
             alt={`Image ${index + 11}`}
           />
         ))}
