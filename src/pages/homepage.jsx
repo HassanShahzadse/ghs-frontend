@@ -2,11 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import LandingPage from "../components/LandingPage";
 import Footer from '../components/footer';
+import AfterScrollingSection from '../components/AfterScrollingSection';
 
 export const HomePage = () => {
   return (
     <>
       <LandingPage />
+      <AfterScrollingSection/>
       <Footer />
       <div>
         <h1>Welcome to the Home Page</h1>

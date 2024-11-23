@@ -98,3 +98,80 @@ body {
     text-align: center;
     z-index: 1; /* Ensure it stays below the scrolling divs */
 }
+
+/* After Scrolling Section */
+.after-scrolling-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.big-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%; /* Ensure it doesn’t take over */
+}
+
+.big-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-and-small-image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 50%; /* Same size as the big image */
+}
+
+.text-and-small-image .paragraph {
+    margin-bottom: 20px;
+}
+.text-and-small-image .heading {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    font-size: 1.4rem;
+    /* text-decoration: underline;
+    text-decoration-color: aqua; */
+    margin-left: 96px;
+}
+.text-and-small-image .heading .underlineword {
+
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 140, 0);
+    margin-left: 96px;
+}
+
+
+.text-and-small-image .paragraph p {
+    font-size: 2.1rem;
+    line-height: 1.0;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 40px;
+    color: #333;
+}
+
+.small-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-image img {
+    width: 70%; /* Smaller than the big image */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
