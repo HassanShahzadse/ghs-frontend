@@ -1,84 +1,10 @@
-/* General styles
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .landing-page {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #f4f4f4;
-    text-align: center;
-  }
-  
-  .heading {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .sub-heading {
-    font-size: 1.5rem;
-    color: #666;
-  }
-  
-  .scrolling-divs-container {
-    display: flex;
-    height: 300vh;
-    overflow: hidden;
-    background-color: #e0e0e0;
-    position: relative;
-  }
-  
-  .scroll-div {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    position: relative;
-  }
-  
-  .scroll-div img {
-    width: 90%;
-    margin: 1px auto;
-    border-radius: 8px;
-  }
-  
-  .div-1 {
-    background-color: #ffdddd;
-  }
-  
-  .div-2 {
-    background-color: #ddffdd;
-  }
-  
-  .div-3 {
-    background-color: #ddddff;
-  }
-  
-  .footer {
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-  }
-   */
-
-
-
-
-
 /* General styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-  }
-  
-  .landing-page {
+}
+
+.landing-page {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -88,20 +14,20 @@ body {
     text-align: center;
     position: relative; /* Allows positioning of overlayed content */
     z-index: 1; /* Ensure the landing page is behind the scrolling divs */
-  }
-  
-  .heading {
+}
+
+.heading {
     font-size: 3rem;
     margin-bottom: 1rem;
-  }
-  
-  .sub-heading {
+}
+
+.sub-heading {
     font-size: 1.5rem;
     color: #666;
-  }
-  
-  /* Scrolling Divs Container */
-  .scrolling-divs-container {
+}
+
+/* Scrolling Divs Container */
+.scrolling-divs-container {
     display: flex;
     height: 100vh; /* Full height */
     overflow: hidden;
@@ -112,9 +38,9 @@ body {
     pointer-events: none; /* Ensures user interactions pass through */
     z-index: 2; /* Stays above the landing page */
     background: transparent; /* Makes the background transparent */
-  }
-  
-  .scroll-div {
+}
+
+.scroll-div {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -123,34 +49,52 @@ body {
     height: 100%;
     position: relative;
     padding: 20px 0; /* Add some padding to prevent images from sticking to edges */
-  }
-  
-  .scroll-div img {
+}
+
+.scroll-div img {
     width: 90%;
     height: auto;
     margin-bottom: 15px; /* Adds space between images */
     border-radius: 8px;
     object-fit: cover;
-  }
-  
-  /* Specific div styles */
-  .div-1 {
+}
+
+/* Specific div styles */
+.div-1 {
     background: none; /* Transparent */
-  }
-  
-  .div-2 {
+}
+
+.div-2 {
     background: none; /* Transparent */
-  }
-  
-  .div-3 {
+}
+
+.div-3 {
     background: none; /* Transparent */
-  }
-  
-  .footer {
+}
+
+/* Overlay Headings */
+.overlay-heading {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    z-index: 3; /* Ensure the headings are above the scrolling divs */
+}
+
+.overlay-heading-1 {
+    top: 0; /* Positioned at the top of the first div */
+}
+
+.overlay-heading-2 {
+    top: 200%; /* Positioned above the third div (2x viewport height) */
+}
+
+.footer {
     padding: 20px;
     background-color: #333;
     color: #fff;
     text-align: center;
     z-index: 1; /* Ensure it stays below the scrolling divs */
-  }
-  
+}
