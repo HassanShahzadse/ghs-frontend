@@ -46,13 +46,13 @@ const ScrollingDivs = () => {
   return (
     <div className="scrolling-divs-container">
       {/* Heading above the first div */}
-
+      {/* <h2 className="overlay-heading overlay-heading-1">Above the First Div</h2> */}
       {/* First Div */}
       <motion.div
         className="scroll-div div-1"
         style={{ y: y1 }}
       >
-      <h2 className="overlay-heading overlay-heading-1">Above the First Div</h2>
+     
         {image1.map((img, index) => (
           <img key={index} src={img} alt={`Image ${index + 1}`} />
         ))}
