@@ -32,6 +32,37 @@ body {
     color: #223C59;
 }
 
+.image-container {
+    position: relative;
+  }
+
+  .image-container img {
+    width: 100%;
+    display: inline-block;;
+    border-radius: 8px;
+    object-fit: cover;
+}
+  .hover-text{
+    position: absolute;
+    width: 630px;
+    height: 428px;
+  bottom: 14px;
+  left: 36px;
+  right: 10px;
+  color: white;
+  font-size:2rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-color: none;
+  padding: 40px 1px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+  }
+  .image-container:hover .hover-text {
+    opacity: 1;
+  }
+
 .image-overlay{
     font-size: 4rem;
     margin-top: 40px;
@@ -46,9 +77,9 @@ body {
     overflow: hidden;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 30px;
     width: 100%;
-    pointer-events: none;
+    pointer-events: auto;
     margin-top: 10px;
     z-index: 2;
     background: transparent;
@@ -63,6 +94,7 @@ body {
     height: 100%;
     position: relative;
     padding: 20px 0;
+    pointer-events: auto;
 }
 
 .scroll-div img {
