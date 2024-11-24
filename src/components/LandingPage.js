@@ -5,8 +5,8 @@ import ScrollingDivs from "./ScrollingDivs";
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      {/* <h1 className="heading">Welcome</h1>
-      <h2 className="sub-heading">Scroll down to see the magic!</h2> */}
+      {/* <h2 className="heading">Honouring Tradition.</h2> */}
+      {/* <h2 className="sub-heading">Inspiring Change</h2> */}
       <ScrollingDivs/>
     </div>
   );

@@ -45,17 +45,20 @@ const ScrollingDivs = () => {
 
   return (
     <div className="scrolling-divs-container">
-      {/* Heading above the first div */}
-      {/* <h2 className="overlay-heading overlay-heading-1">Above the First Div</h2> */}
-      {/* First Div */}
       <motion.div
         className="scroll-div div-1"
         style={{ y: y1 }}
       >
      
         {image1.map((img, index) => (
-          <img key={index} src={img} alt={`Image ${index + 1}`} />
+          <div className="image-container" key={index}>
+          {index === 0 && (
+        <div className="image-overlay">Honouring Tradition.</div>
+      )}
+          <img src={img} alt={`Image ${index + 1}`} />
+        </div>
         ))}
+
       </motion.div>
 
       {/* Second Div */}
@@ -68,16 +71,18 @@ const ScrollingDivs = () => {
         ))}
       </motion.div>
 
-      {/* Heading above the third div */}
-
-      <h1 className="overlay-heading overlay-heading-2">Above the Third Div</h1>
       {/* Third Div */}
       <motion.div
         className="scroll-div div-3"
         style={{ y: y3 }}
       >
-        {image3.map((img, index) => (
-          <img key={index} src={img} alt={`Image ${index + 1}`} />
+         {image3.map((img, index) => (
+          <div className="image-container" key={index}>
+          {index === 0 && (
+        <div className="image-overlay">Inspiring Change</div>
+      )}
+          <img src={img} alt={`Image ${index + 1}`} />
+        </div>
         ))}
       </motion.div>
     </div>

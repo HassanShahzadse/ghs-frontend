@@ -7,9 +7,9 @@ body {
 .landing-page {
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
     background-color: #f4f4f4;
     text-align: center;
     position: relative;
@@ -17,13 +17,26 @@ body {
 }
 
 .heading {
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-top: 40px;
     margin-bottom: 1rem;
+    margin-left:120px;
+    color: #223C59;
+
 }
 
 .sub-heading {
-    font-size: 1.5rem;
-    color: #666;
+    font-size: 4rem;
+    margin-top: 40px;
+    margin-left:800px;
+    color: #223C59;
+}
+
+.image-overlay{
+    font-size: 4rem;
+    margin-top: 40px;
+    margin-left:72px;
+    color: #223C59;
 }
 
 /* Scrolling Divs Container */
@@ -36,6 +49,7 @@ body {
     left: 0;
     width: 100%;
     pointer-events: none;
+    margin-top: 10px;
     z-index: 2;
     background: transparent;
 }
@@ -80,7 +94,7 @@ body {
     font-size: 2rem;
     color: #333;
     font-weight: bold;
-    z-index: 3;
+    z-index: 5;
 }
 
 .overlay-heading-1 {
@@ -88,7 +102,7 @@ body {
 }
 
 .overlay-heading-2 {
-    top: 200%;
+    top: 0;
 }
 
 .footer {
