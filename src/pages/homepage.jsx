@@ -4,6 +4,11 @@ import LandingPage from "../components/LandingPage";
 import Footer from '../components/footer';
 import AfterScrollingSection from '../components/AfterScrollingSection';
 import ScrollingImagesSection from '../components/ScrollingImageSection';
+import QuoteSection from '../components/QuoteSection';
+import IntroSection from '../components/IntroSection';
+import EducationSection from '../components/EducationSection';
+import AfterEducationSection from '../components/AfterEducationSection';
+import SpotlightSection from '../components/SpotlightSection';
 
 export const HomePage = () => {
   return (
@@ -11,6 +16,11 @@ export const HomePage = () => {
       <LandingPage />
       <AfterScrollingSection/>
       <ScrollingImagesSection/>
+      <QuoteSection/>
+      <IntroSection/>
+      <EducationSection/>
+      <AfterEducationSection/>
+      <SpotlightSection/>
       <Footer />
       {/* <div>
         <h1>Welcome to the Home Page</h1>
