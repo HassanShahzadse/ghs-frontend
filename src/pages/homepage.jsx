@@ -3,14 +3,16 @@ import { Link } from 'react-router-dom';
 import LandingPage from "../components/LandingPage";
 import Footer from '../components/footer';
 import AfterScrollingSection from '../components/AfterScrollingSection';
+import ScrollingImagesSection from '../components/ScrollingImageSection';
 
 export const HomePage = () => {
   return (
     <>
       <LandingPage />
       <AfterScrollingSection/>
+      <ScrollingImagesSection/>
       <Footer />
-      <div>
+      {/* <div>
         <h1>Welcome to the Home Page</h1>
         <nav>
           <ul>
@@ -21,7 +23,7 @@ export const HomePage = () => {
             <li><Link to="/contact-us">Contact Us</Link></li>
           </ul>
         </nav>
-      </div>
+      </div> */}
     </>
   );
 };

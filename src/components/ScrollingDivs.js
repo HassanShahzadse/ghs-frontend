@@ -18,6 +18,31 @@ const ScrollingDivs = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const image1 = [
+    
+    "/assets/11/2221de4b856ff83688d757a4a9df1d6a-scaled-1-1024x819.jpg",
+    "/assets/11/230223b249a163f3c4e12bce538aaa76-scaled-1-1024x683.jpg",
+    "/assets/11/20231213124820.jpg",
+    "/assets/11/230223b249a163f3c4e12bce538aaa76-scaled-1-1024x683.jpg",
+    "/assets/11/20231213124820.jpg",
+  ]
+  const image2 = [
+    
+    "/assets/11/8d135f425b4e0766950e1c120964d11b-scaled-1-1024x683.jpg",
+    "/assets/11/image-20241108-211702-4b1c960e-2000x1333.jpg",
+    "/assets/11/8d135f425b4e0766950e1c120964d11b-scaled-1-1024x683.jpg",
+    "/assets/11/230223b249a163f3c4e12bce538aaa76-scaled-1-1024x683.jpg",
+    "/assets/11/20231213124820.jpg",
+  ]
+  const image3 = [
+    
+    "/assets/11/927957f1544d260c4ea6af34676a57d5-scaled-1-1024x683.jpg",
+    "/assets/11/230223b249a163f3c4e12bce538aaa76-scaled-1-1024x683.jpg",
+    "/assets/11/927957f1544d260c4ea6af34676a57d5-scaled-1-1024x683.jpg",
+    "/assets/11/927957f1544d260c4ea6af34676a57d5-scaled-1-1024x683.jpg",
+    "/assets/11/20231213124820.jpg",
+  ]
+
   return (
     <div className="scrolling-divs-container">
       {/* Heading above the first div */}
@@ -28,12 +53,8 @@ const ScrollingDivs = () => {
         style={{ y: y1 }}
       >
       <h2 className="overlay-heading overlay-heading-1">Above the First Div</h2>
-        {[...Array(5)].map((_, index) => (
-          <img
-            key={index}
-            src={`/assets/11/2221de4b856ff83688d757a4a9df1d6a-scaled-1-1024x819.jpg?text=Image+${index + 1}`}
-            alt={`Image ${index + 1}`}
-          />
+        {image1.map((img, index) => (
+          <img key={index} src={img} alt={`Image ${index + 1}`} />
         ))}
       </motion.div>
 
@@ -42,12 +63,8 @@ const ScrollingDivs = () => {
         className="scroll-div div-2"
         style={{ y: y2 }}
       >
-        {[...Array(5)].map((_, index) => (
-          <img
-            key={index}
-            src={`/assets/11/8d135f425b4e0766950e1c120964d11b-scaled-1-1024x683.jpg?text=Image+${index + 6}`}
-            alt={`Image ${index + 6}`}
-          />
+        {image2.map((img, index) => (
+          <img key={index} src={img} alt={`Image ${index + 1}`} />
         ))}
       </motion.div>
 
@@ -59,12 +76,8 @@ const ScrollingDivs = () => {
         className="scroll-div div-3"
         style={{ y: y3 }}
       >
-        {[...Array(5)].map((_, index) => (
-          <img
-            key={index}
-            src={`/assets/11/927957f1544d260c4ea6af34676a57d5-scaled-1-1024x683.jpg?text=Image+${index + 11}`}
-            alt={`Image ${index + 11}`}
-          />
+        {image3.map((img, index) => (
+          <img key={index} src={img} alt={`Image ${index + 1}`} />
         ))}
       </motion.div>
     </div>

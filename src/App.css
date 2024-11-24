@@ -12,8 +12,8 @@ body {
     justify-content: center;
     background-color: #f4f4f4;
     text-align: center;
-    position: relative; /* Allows positioning of overlayed content */
-    z-index: 1; /* Ensure the landing page is behind the scrolling divs */
+    position: relative;
+    z-index: 1;
 }
 
 .heading {
@@ -29,47 +29,47 @@ body {
 /* Scrolling Divs Container */
 .scrolling-divs-container {
     display: flex;
-    height: 100vh; /* Full height */
+    height: 100vh;
     overflow: hidden;
-    position: absolute; /* Overlay it on the page */
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Full width */
-    pointer-events: none; /* Ensures user interactions pass through */
-    z-index: 2; /* Stays above the landing page */
-    background: transparent; /* Makes the background transparent */
+    width: 100%;
+    pointer-events: none;
+    z-index: 2;
+    background: transparent;
 }
 
 .scroll-div {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align content to the top */
+    justify-content: flex-start;
     align-items: center;
     height: 100%;
     position: relative;
-    padding: 20px 0; /* Add some padding to prevent images from sticking to edges */
+    padding: 20px 0;
 }
 
 .scroll-div img {
     width: 90%;
     height: auto;
-    margin-bottom: 15px; /* Adds space between images */
+    margin-bottom: 15px;
     border-radius: 8px;
     object-fit: cover;
 }
 
 /* Specific div styles */
 .div-1 {
-    background: none; /* Transparent */
+    background: none;
 }
 
 .div-2 {
-    background: none; /* Transparent */
+    background: none;
 }
 
 .div-3 {
-    background: none; /* Transparent */
+    background: none;
 }
 
 /* Overlay Headings */
@@ -80,15 +80,15 @@ body {
     font-size: 2rem;
     color: #333;
     font-weight: bold;
-    z-index: 3; /* Ensure the headings are above the scrolling divs */
+    z-index: 3;
 }
 
 .overlay-heading-1 {
-    top: 0; /* Positioned at the top of the first div */
+    top: 0;
 }
 
 .overlay-heading-2 {
-    top: 200%; /* Positioned above the third div (2x viewport height) */
+    top: 200%;
 }
 
 .footer {
@@ -96,82 +96,151 @@ body {
     background-color: #333;
     color: #fff;
     text-align: center;
-    z-index: 1; /* Ensure it stays below the scrolling divs */
+    z-index: 1;
 }
 
 /* After Scrolling Section */
 .after-scrolling-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 20px;
     padding: 40px 20px;
-    background-color: #f9f9f9; /* Light background for contrast */
+    background-color: #f9f9f9;
 }
 
-.big-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 50%; /* Ensure it doesn’t take over */
-}
-
-.big-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
+/* Left Section: Text and Small Image */
 .text-and-small-image {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 50%; /* Same size as the big image */
+    max-width: 78%;
+    gap: 20px;
 }
 
-.text-and-small-image .paragraph {
+.text-content .paragraph {
     margin-bottom: 20px;
-}
-.text-and-small-image .heading {
-    margin-bottom: 60px;
-    margin-top: 60px;
-    font-size: 1.4rem;
-    /* text-decoration: underline;
-    text-decoration-color: aqua; */
+    margin-top: 40px;
     margin-left: 96px;
 }
-.text-and-small-image .heading .underlineword {
 
+.text-content .heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 96px;
+}
+
+.text-content .heading .underlineword {
     text-decoration: underline;
     text-decoration-color: rgb(255, 140, 0);
-    margin-left: 96px;
 }
 
-
-.text-and-small-image .paragraph p {
-    font-size: 2.1rem;
+.text-content .paragraph p {
+    font-size: 1rem;
     line-height: 1.0;
-    margin-bottom: 40px;
-    margin-left: 60px;
-    margin-right: 40px;
     color: #333;
 }
 
+/* Smaller Image */
 .small-image {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 .small-image img {
-    width: 70%; /* Smaller than the big image */
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Right Section: Big Image and Text with Button */
+.big-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 78%;
+}
+
+.big-image img {
+    width: 100%;
+    max-width: 1500px;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.big-image-text .underline {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 140, 0);
+}
+
+/* Text Below Big Image */
+.big-image-text {
+    text-align: left;
+    margin-top: 20px;
+    max-width: 700px;
+}
+
+.big-image-text h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.big-image-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.learn-more-button {
+    padding: 10px 20px;
+    background-color: rgb(255, 140, 0);
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+    background-color: rgb(220, 120, 0);
+}
+
+
+/* Scrolling Images Section */
+.scrolling-images-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.scrolling-div {
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+    transition: transform 0.1s linear;
+}
+
+.scrolling-div img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
