@@ -10,7 +10,7 @@ const ScrollingImagesSection = () => {
       const scrollPosition = window.scrollY;
       if (div1Ref.current && div2Ref.current) {
         // Move the first div to the right based on scroll
-        div1Ref.current.style.transform = `translateX(${scrollPosition * 0.5}px)`;
+        div1Ref.current.style.transform = `translateX(calc(-1000px + ${scrollPosition * 0.5}px))`;
 
         // Move the second div to the left based on scroll
         div2Ref.current.style.transform = `translateX(-${scrollPosition * 0.5}px)`;
