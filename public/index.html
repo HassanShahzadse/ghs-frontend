@@ -30,23 +30,228 @@
     -->
     <title>React App</title>
   
-
+    <script
+    type="text/javascript"
+    src="assets/js/jquery.min.js"
+    id="jquery-js"
+  ></script>
+  <script type="text/javascript" id="search-filter-plugin-build-js-extra">
+    /* <![CDATA[ */
+    var SF_LDATA = {
+      ajax_url: "https:\/\/www.etoncollege.com\/wp-admin\/admin-ajax.php",
+      home_url: "https:\/\/www.etoncollege.com\/",
+      extensions: [],
+    };
+    /* ]]> */
+  </script>
+  <script
+    type="text/javascript"
+    src="assets/js/search-filter-build.min7cdf.js"
+    id="search-filter-plugin-build-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/js/chosen.jquery.min7cdf.js"
+    id="search-filter-plugin-chosen-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/js/modernizr-3.6.0.min.js"
+    id="modernizr-js-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/js/ScrollTrigger.min.js"
+    id="gsap-scroll-js-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="assets/js/lenis.js"
+    id="lenis-js"
+  ></script>
   </head>
-  <body>
+  <body class="home page-template-default page page-id-21395">
+    <script>
+      function defer(method) {
+        if (window.jQuery) {
+          method();
+        } else {
+          setTimeout(function () {
+            defer(method);
+          }, 50);
+        }
+      }
+      defer(function () {
+        (function ($) {
+          $(window).on("load", function () {
+            function getCookie(name) {
+              var dc = document.cookie;
+              var prefix = name + "=";
+              var begin = dc.indexOf("; " + prefix);
+              if (begin == -1) {
+                begin = dc.indexOf(prefix);
+                if (begin != 0) return null;
+              } else {
+                begin += 2;
+                var end = document.cookie.indexOf(";", begin);
+                if (end == -1) {
+                  end = dc.length;
+                }
+              }
+              // because unescape has been deprecated, replaced with decodeURI
+              //return unescape(dc.substring(begin + prefix.length, end));
+              return decodeURI(dc.substring(begin + prefix.length, end));
+            }
+
+            let cookie_name = "twk_cookies_bar_cookie_00001";
+            let cookies_notification_cookies_name = getCookie(cookie_name);
+
+            if (!cookies_notification_cookies_name) {
+              $(".notification.cookies-bar").fadeIn();
+            }
+
+            // Accepts all cookies.
+            $(".cookies-bar .accept-button").on("click", function (event) {
+              event.preventDefault();
+
+              setCookie(cookie_name, "true", 50000);
+              setCookie("twk_cookies_google_analytics", "true", 50000); // GA/GTM.
+              setCookie("twk_cookies_marketing", "true", 50000); // Notifications Popup.
+
+              // Gtag Manager - Fire event.
+              if (typeof dataLayer !== "undefined") {
+                dataLayer.push({ event: "twk_cookies_consent_given" });
+                dataLayer.push({ cookie_consent: "true" });
+              }
+
+              $(".notification.cookies-bar").fadeTo("slow", 0, function () {
+                $(".notification.cookies-bar").css("pointer-events", "none");
+              });
+            });
+
+            function setCookie(cname, cvalue, exdays) {
+              var d = new Date();
+              d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+              var expires = "expires=" + d.toUTCString();
+
+              if (exdays == 0) {
+                document.cookie = cname + "=" + cvalue + ";path=/";
+              } else {
+                document.cookie =
+                  cname + "=" + cvalue + ";" + expires + ";path=/";
+              }
+            }
+          });
+        })(jQuery);
+      });
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
-
+      
       You can add webfonts, meta tags, or analytics to this file.
       The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
- 
-
-
+        
+        To begin the development, run `npm start` or `yarn start`.
+        To create a production bundle, use `npm run build` or `yarn build`.
+        -->
+        
+        <script src="assets/js/script275b.js"></script>
+      <script
+        type="text/javascript"
+        src="assets/js/core.minb37e.js"
+        id="jquery-ui-core-js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="assets/js/datepicker.minb37e.js"
+        id="jquery-ui-datepicker-js"
+      ></script>
+      <script type="text/javascript" id="jquery-ui-datepicker-js-after">
+        /* <![CDATA[ */
+        jQuery(function (jQuery) {
+          jQuery.datepicker.setDefaults({
+            closeText: "Close",
+            currentText: "Today",
+            monthNames: [
+              "January",
+              "February",
+              "March",
+              "April",
+              "May",
+              "June",
+              "July",
+              "August",
+              "September",
+              "October",
+              "November",
+              "December",
+            ],
+            monthNamesShort: [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec",
+            ],
+            nextText: "Next",
+            prevText: "Previous",
+            dayNames: [
+              "Sunday",
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+            dayNamesShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+            dayNamesMin: ["S", "M", "T", "W", "T", "F", "S"],
+            dateFormat: "dS MM yy",
+            firstDay: 1,
+            isRTL: false,
+          });
+        });
+        /* ]]> */
+      </script>
+      <script
+        type="text/javascript"
+        src="assets/js/jquery.magnific-popup.min.js"
+        id="magnific-js-js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="assets/js/gsap.min.js"
+        id="gsap-js-js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="assets/js/scrollmagic.js"
+        id="scrollmagic-js-js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="assets/js/slick.min.js"
+        id="slick-js-js"
+      ></script>
+      <script type="text/javascript" id="script-js-js-extra">
+        /* <![CDATA[ */
+        var php_vars = {
+          themeDirUrl:
+            "https:\/\/www.etoncollege.com\/wp-content\/themes\/eton-college",
+          homeUrl: "https:\/\/www.etoncollege.com",
+        };
+        /* ]]> */
+      </script>
+        
   </body>
 </html>

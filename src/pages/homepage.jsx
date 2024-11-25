@@ -9,11 +9,13 @@ import IntroSection from '../components/IntroSection';
 import EducationSection from '../components/EducationSection';
 import AfterEducationSection from '../components/AfterEducationSection';
 import SpotlightSection from '../components/SpotlightSection';
+import Header from '../components/Header';
 
 export const HomePage = () => {
   return (
     <>
-      <LandingPage />
+    <Header/>
+      {/* <LandingPage />
       <AfterScrollingSection/>
       <ScrollingImagesSection/>
       <QuoteSection/>
@@ -21,7 +23,7 @@ export const HomePage = () => {
       <EducationSection/>
       <AfterEducationSection/>
       <SpotlightSection/>
-      <Footer />
+      <Footer /> */}
       {/* <div>
         <h1>Welcome to the Home Page</h1>
         <nav>
