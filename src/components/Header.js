@@ -1,15 +1,15 @@
 // import React, { useState } from "react";
 import "./footer.css";
-
+  
 const Header = () => {
   const banners1 = [
     {
       href: "outside-the-classroom/sport/index.html",
-      src: "/assets/11/8d135f425b4e0766950e1c120964d11b-scaled-1-1024x683.jpg",
+        src: "/assets/11/IMG_0073.JPG",
       alt: "Sport image",
       text: "An unparalleled",
       highlight: "breadth of sport on offer",
-      category: "Sport",
+      category: "Sport",    
       layout: "landscape",
     },
     {

@@ -27,7 +27,7 @@ const NextUp = () => {
                           alt="RockSoc Shakes The Parry Hall"
                         />
                       </span>
-                    </div>
+                    </div>  
                     <div className="corner-category">
                       <div className="corner-category__inner">News</div>
                     </div>
