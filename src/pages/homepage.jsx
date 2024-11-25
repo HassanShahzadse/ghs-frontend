@@ -1,28 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import LandingPage from "../components/LandingPage";
-import Footer from '../components/footer';
-import AfterScrollingSection from '../components/AfterScrollingSection';
-import ScrollingImagesSection from '../components/ScrollingImageSection';
-import QuoteSection from '../components/QuoteSection';
-import IntroSection from '../components/IntroSection';
-import EducationSection from '../components/EducationSection';
-import AfterEducationSection from '../components/AfterEducationSection';
-import SpotlightSection from '../components/SpotlightSection';
 import Header from '../components/Header';
+// import { Link } from 'react-router-dom';
+// import LandingPage from "../components/LandingPage";
+// import Footer from '../components/footer';
+// import AfterScrollingSection from '../components/AfterScrollingSection';
+// import ScrollingImagesSection from '../components/ScrollingImageSection';
+// import QuoteSection from '../components/QuoteSection';
+// import IntroSection from '../components/IntroSection';
+// import NextSection from '../components/NextSection';
+// import AfterEducationSection from '../components/AfterEducationSection';
+// import SpotlightSection from '../components/SpotlightSection';
+// import ScrollingDivs from '../components/ScrollingDivs';
 
 export const HomePage = () => {
   return (
     <>
     <Header/>
-      {/* <LandingPage />
+    {/* <ScrollingDivs/>
       <AfterScrollingSection/>
       <ScrollingImagesSection/>
       <QuoteSection/>
       <IntroSection/>
-      <EducationSection/>
-      <AfterEducationSection/>
       <SpotlightSection/>
+      <NextSection/>
+      <AfterEducationSection/>
       <Footer /> */}
       {/* <div>
         <h1>Welcome to the Home Page</h1>
