@@ -1,7 +1,12 @@
 // import React, { useState } from "react";
-import Footer from "./footer";
+// import AfterScrollingSection from "./AfterScrollingSection";
+// import Footer from "./footer";
 import "./footer.css";
+// import IntroSection from "./IntroSection";
+// import NextSection from "./NextSection";
+// import QuoteSection from "./QuoteSection";
 import ScrollingDivs from "./ScrollingDivs";
+// import ScrollingImagesSection from "./ScrollingImageSection";
 
 const Header = () => {
   return (
@@ -9,7 +14,12 @@ const Header = () => {
 
 
       <ScrollingDivs/>
-      <Footer/>
+      {/* <AfterScrollingSection/>
+      <ScrollingImagesSection/>
+      <QuoteSection/>
+      <IntroSection/>
+      <NextSection/>
+      <Footer/> */}
 
       {/* <footer className="site-footer">
         <div className="container-fluid">

@@ -1,24 +1,10 @@
-import React from "react";
-// import { motion, useMotionValue, useTransform } from "framer-motion";
-import "./footer.css";
-import AfterScrollingSection from "./AfterScrollingSection";
-import ScrollingImagesSection from "./ScrollingImageSection";
-import SpotlightSection from "./SpotlightSection";
-import NextSection from "./NextSection";
-import Footer from "./footer";
+import React from 'react'
+import "./footer.css"
 
-const ScrollingDivs = () => {
+const LandingSection = () => {
   return (
-    <div id="content-wrap">
-      <main className="main">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-12">
-              <article
-                className="
-                                "
-              >
-                <section className="home-block-banner js-home-banner-full">
+    <div>
+                     <section className="home-block-banner js-home-banner-full">
                   <div className="js-home-banner-pin">
                     <div className="banner__container banner--desktop js-home-banner-container">
                       <div className="banner-col-1">
@@ -705,19 +691,8 @@ const ScrollingDivs = () => {
 
                   <div className="js-clip-scroll banner--clip-scroll"></div>
                 </section>
-
-                <AfterScrollingSection />
-                <ScrollingImagesSection />
-                <SpotlightSection />
-                <NextSection />
-                <Footer/>
-              </article>
-            </div>
-          </div>
-        </div>
-      </main>
     </div>
-  );
-};
+  )
+}
 
-export default ScrollingDivs;
+export default LandingSection
