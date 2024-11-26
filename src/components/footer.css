@@ -26,7 +26,7 @@
 :root {
   --primary: #223C59;
   --secondary: #A0D1CA;
-  --secondary-dark: #7ec0b7;
+  --secondary-dark: #8E6334;
   --orange: #E59C25;
   --grey: #DDE6DF; }
 
@@ -117,7 +117,7 @@ body {
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #223C59;
-  --secondary: #A0D1CA;
+  --secondary: #CA9966;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;

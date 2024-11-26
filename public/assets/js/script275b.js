@@ -1,13 +1,5 @@
 
 jQuery(document).ready(function ($) {
-  consoleMessage: {
-    console.log(
-      '%cCreated by %cTWK%cwww.thewebkitchen.co.uk',
-      'background: #13212E; color: #FFFFFF; padding: 5px 0px 5px 10px; margin: 25px 0px;',
-      'background: #13212E; color: #05E5C8; padding: 5px 10px 5px 0px; font-weight: bold;',
-      'background: #FFFFFF; padding: 5px 10px;'
-    )
-  }
 
   modernizer: {
     if (!Modernizr.objectfit) {
