@@ -18,7 +18,7 @@ const Sidebar = () => {
           <div className="top-nav__logo">
             <img
               fetchpriority="high"
-              src="wp-content/themes/eton-college/assets/img/logo/crest.svg"
+              src="assets/img/Final GHS logo.png"
             />
           </div>
         </a>
