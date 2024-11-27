@@ -1,0 +1,124 @@
+
+  h3 {
+    margin-bottom: 40px;
+    margin-top: 30px;
+    background-color: #223C59;
+    padding: 20px;
+    color: white !important;
+
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+  }
+input {
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+  
+  /* Focused input state */
+  input:focus {
+    color: black;
+    background-color: white;
+    border: 1px solid #007bff;
+  }
+  
+  button {
+    margin-top: 40px;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 6px 18px;
+    color: white;
+  }
+  button:hover {
+    margin-top: 40px;
+    background-color: #0368d4;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 6px 18px;
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    body {
+        font-size: 15px;
+      }
+      .heading {
+        display: block;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 100px;
+    }
+    .form-container {
+        margin: 100px auto;
+        padding: 15px;
+    }
+    .formLableAdress{
+        display: flex;
+    }
+  }
+  
+  /* Styles for larger screens (desktops) */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 15px;
+      }
+      .heading {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        background-color: #223C59;
+        padding: 30px;
+        font-size: 60px;
+        font-weight: bolder;
+        /* margin-top: 50px; */
+    }
+    .form-container {
+        margin: 100px auto;
+        padding: 20px;
+        /* display: block; */
+    }
+    .row{
+        margin-top: 20px;
+    }
+    .row .formLable{
+        margin-right: 5px;
+    }
+    .formLableAdress{
+        display: flex;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    body {
+      font-size: 20px;
+    }
+    .heading {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        background-color: #223C59;
+        padding: 30px;
+        font-size: 60px;
+        /* margin-top: 150px; */
+    }
+    .form-container {
+        margin: 30px 90px;
+        padding: 20px;
+        display: block;
+    }
+    .row{
+        margin-top: 20px;
+    }
+    .row .formLable{
+        margin-right: 5px;
+    }
+    .formLableAdress{
+        display: flex;
+    }
+  }

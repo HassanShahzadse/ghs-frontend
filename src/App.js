@@ -29,6 +29,7 @@ import GiftOfEducation from './pages/SupportUs/GiftOfEducation.js';
 import ContactUs from './pages/SupportUs/ContactUs.js';
 import ContactDetails from './pages/ContactUs/ContactDetails.js';
 import VisitUs from './pages/ContactUs/VisitUs.js';
+import AdmissionForm from './pages/Admissions/AdmissionForm.js';
 // import WaysToSuppport from './pages/SupportUs/WaysToSupport.js';
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
 
         <Route path="/Admissions/EntryToGHS" element={<EntryToGHS/>} />
         <Route path="/Admissions/ApplyOnline" element={<ApplyOnline/>} />
+        <Route path="/Admissions/AdmissionForm" element={<AdmissionForm/>} />
         <Route path="/Admissions/ScholarshipFinancialAid" element={<ScholarshipFinancialAid/>} />
         <Route path="/Admissions/Fees" element={<Fees/>} />
 

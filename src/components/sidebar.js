@@ -1,13 +1,25 @@
-import React from "react";
+import React, {useState} from "react";
 import {Link } from "react-router-dom";
 import "./footer.css";
 
 const Sidebar = () => {
+  const [isOpen, setIsOpen] = useState(true);
+  const closeSidebar = () => {
+    setIsOpen(false);
+  };
+
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  };
+
+ 
+
   return (
     <>
-      <div id="page-wrap" className="sidebar-container">
+    <div className={`${isOpen ? "open" : "closed"}`}>
+      <div id="page-wrap" className="sidebar-container" >
       <div className="top-nav">
-        <div className="hamburger">
+        <div className="hamburger" onClick={toggleSidebar}>
           <div className="nav-icon">
             <div></div>
           </div>
@@ -60,7 +72,7 @@ const Sidebar = () => {
 
           <ul className="nav__top-level" id="main-menu">
             <li>
-              <Link to="">Home</Link>
+              <Link to="" onClick={closeSidebar}>Home</Link>
             </li>
             <li className="parent-page">
               <Link to="" id="5" className="">
@@ -198,6 +210,9 @@ const Sidebar = () => {
               <Link to="/Admissions/ApplyOnline">Apply Online</Link>
             </li>
             <li className="menu-item">
+              <Link to="/Admissions/AdmissionForm">Admission Form</Link>
+            </li>
+            <li className="menu-item">
               <Link to="/Admissions/ScholarshipFinancialAid">Scholarships and Financial Aid</Link>
             </li>
             <li className="menu-item">
@@ -243,9 +258,9 @@ const Sidebar = () => {
           <div className="back-button">Back</div>
         </div>
       </div>
+      </div>
       </>
 
   );
 };
-
 export default Sidebar;
