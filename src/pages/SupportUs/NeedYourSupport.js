@@ -53,9 +53,7 @@ const NeedYourSupport = () => {
                           className="banner__intro background-primary color-white"
                         >
                           <p className="intro">
-                            GHS is dedicated to ensuring all boys, whatever
-                            their learning needs, are supported throughout their
-                            time at GHS to achieve their learning potential.
+                          Education is the foundation upon which individuals and communities build brighter futures. At Global Hub School Karachi, we are dedicated to providing a world-class education to students who may not otherwise have access to such opportunities. However, as a charity school, achieving this vision requires the unwavering support of generous donors like you.
                           </p>
                         </div>
                       </div>
@@ -99,9 +97,7 @@ const NeedYourSupport = () => {
                       </div>
                       <div className="banner__intro background-primary color-white">
                         <p className="intro">
-                          GHS is dedicated to ensuring all boys, whatever their
-                          learning needs, are supported throughout their time at
-                          GHS to achieve their learning potential.
+                        Education is the foundation upon which individuals and communities build brighter futures. At Global Hub School Karachi, we are dedicated to providing a world-class education to students who may not otherwise have access to such opportunities. However, as a charity school, achieving this vision requires the unwavering support of generous donors like you.
                         </p>
                       </div>
                     </div>
@@ -130,49 +126,31 @@ const NeedYourSupport = () => {
                   </div>
     
                   <p>
-                    Our aim is for boys to develop the skills and strategies
-                    necessary to become successful, lifelong, independent and
-                    confident learners.
+                  Empowering Students Through Access
+Many of our students come from underserved communities and rely on scholarships and financial aid to pursue their education. Your support ensures that no talented and deserving child is left behind due to financial constraints.
+
                   </p>
     
                   <p>
-                    Through specialist and bespoke intervention, boys gain a
-                    clear understanding of their particular needs and develop
-                    strategies to overcome their specific learning difficulties,
-                    gain confidence in their own learning, fulfil academic
-                    potential and acquire study skills that will equip them for
-                    life at university and beyond. Guided by the learning
-                    support department, GHS takes a whole school approach to
-                    identifying and supporting boys with Special Educational
-                    Needs and Disabilities (SEND), English as an Additional
-                    Language (EAL) and those seeking advice or support to
-                    further their studies.&nbsp;
+                  Sustaining Excellence
+Our goal is not just to educate but to provide an exceptional experience that includes state-of-the-art facilities, qualified educators, and a nurturing environment. These opportunities empower our students to excel academically, socially, and morally. Your contributions allow us to maintain and enhance the high standards we set for our school.
+
                   </p>
     
                   <blockquote
                     className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
                   >
                     <p>
-                      My House Master recommended learning support and I found
-                      it to be really helpful, as I could see the impacts it was
-                      having on my academic achievements.
+                    Building for the Future
+                    With your help, we can continue to expand and improve our facilities, ensuring every student has access to modern classrooms, well-equipped labs, libraries, and sports areas. Investments in infrastructure today mean generations of students will benefit tomorrow
                     </p>
-                    <cite>Boy, B Block</cite>
+                    <cite>Block</cite>
                   </blockquote>
     
                   <p>
-                    Support comes in many bespoke forms and is in place to help
-                    boys confidently overcome current and future potential
-                    challenges. Boys may receive one-to-one lessons focusing on
-                    areas such as executive functioning skills, revision and
-                    learning strategies, and handwriting development which will
-                    enable them to work successfully across subject
-                    areas.&nbsp;Group lessons are also provided focusing on
-                    areas such as study skills, exam techniques and effective
-                    reading strategies. The department also provides training,
-                    support and information to the wider staff body with regards
-                    to how they can differentiate and develop the educational
-                    experiences of the boys they work with or teach.
+                  Leaving a Lasting Impact
+Education has a ripple effect—it doesn’t just change the life of one student; it uplifts families and entire communities. By supporting GHS Karachi, you become a part of this transformational journey, impacting lives far beyond the boundaries of our campus.
+
                   </p>
     
                   <section className="image-with-statistic">

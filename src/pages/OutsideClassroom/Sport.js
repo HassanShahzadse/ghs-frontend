@@ -53,10 +53,7 @@ const Sport = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Our broad curriculum promotes academic excellence,
-                        the best habits of independent thought and a
-                        lifelong habit of intellectual curiosity and love of
-                        learning.
+                      Sports at GHS Karachi are more than just games—they are a cornerstone of our mission to develop balanced and disciplined individuals. Our extensive sports program allows students to engage in horse riding, cricket, football, swimming, basketball, tennis, and more, catering to both recreational players and competitive athletes.
                       </p>
                     </div>
                   </div>
@@ -65,7 +62,7 @@ const Sport = () => {
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                      style={{backgroundImage:"url(../../../../../assets/11/90192471_2479260052320799_1132917114605142016_n.jpg)"}}
                     >
                       <div
                         className="fadeIn js-image-move__inner"
@@ -101,9 +98,7 @@ const Sport = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Our broad curriculum promotes academic excellence, the
-                      best habits of independent thought and a lifelong
-                      habit of intellectual curiosity and love of learning.
+                    Sports at GHS Karachi are more than just games—they are a cornerstone of our mission to develop balanced and disciplined individuals. Our extensive sports program allows students to engage in horse riding, cricket, football, swimming, basketball, tennis, and more, catering to both recreational players and competitive athletes.
                     </p>
                   </div>
                 </div>
@@ -132,21 +127,11 @@ const Sport = () => {
               </div>
 
               <p>
-                Examination results matter. We understand this, and
-                encourage all our boys to aspire to academic excellence. Our
-                record in enabling boys to achieve the qualifications they
-                need to access the best universities across the globe speaks
-                for itself.&nbsp;
+              Students benefit from top-tier sports facilities, professional coaches, and structured training schedules that help them grow their skills while fostering resilience and perseverance. Regular inter-school tournaments and competitions provide platforms for students to showcase their abilities, build camaraderie, and experience healthy competition.
               </p>
 
               <p>
-                That said, we strongly believe that the journey is as
-                important as the destination, and to send a boy to
-                university without the best habits of independent learning
-                and, critically, a love of learning is to send him woefully
-                unprepared. It is crucial that boys enjoy their studies,
-                thrive and have fun, rather than leave feeling burnt out and
-                disengaged.
+              Our sports curriculum emphasizes both physical and mental well-being. Participation not only improves fitness but also teaches valuable life lessons such as goal setting, teamwork, and handling pressure. Beyond the skills acquired on the field, students carry with them an enduring sense of discipline, collaboration, and sportsmanship.
               </p>
 
               <blockquote
@@ -196,7 +181,7 @@ const Sport = () => {
                         >
                           <img
                             decoding="async"
-                            src="/assets/11/IMG_0100.JPG"
+                            src="/assets/11/90172896_2479257448987726_2746791719352664064_n.jpg"
                             />
                         </div>
                       </div>

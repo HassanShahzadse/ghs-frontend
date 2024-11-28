@@ -62,7 +62,7 @@ const AcadmicCurriculum = () => {
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                      style={{backgroundImage:"url(../../../../../assets/11/461991582_3684004391846353_7501919082942478913_n.jpg)"}}
                     >
                       <div
                         className="fadeIn js-image-move__inner"
@@ -177,7 +177,7 @@ const AcadmicCurriculum = () => {
                         >
                           <img
                             decoding="async"
-                            src="/assets/11/IMG_0100.JPG"
+                            src="/assets/11/462131386_3683986411848151_2259247329909775880_n.jpg"
                             />
                         </div>
                       </div>

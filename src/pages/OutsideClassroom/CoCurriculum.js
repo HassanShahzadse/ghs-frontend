@@ -54,10 +54,7 @@ const CoCurriculum = () => {
                         className="banner__intro background-primary color-white"
                       >
                         <p className="intro">
-                          Our broad curriculum promotes academic excellence,
-                          the best habits of independent thought and a
-                          lifelong habit of intellectual curiosity and love of
-                          learning.
+                        At Global Hub School Karachi, we believe that growth is not confined to textbooks and lectures. Our co-curricular program is designed to inspire creativity, innovation, and leadership by offering students a wide range of activities to explore. From debate and public speaking clubs to robotics, music, drama, and cultural societies, students are encouraged to discover their passions and develop unique talents.
                         </p>
                       </div>
                     </div>
@@ -66,7 +63,7 @@ const CoCurriculum = () => {
                     <div className="row">
                       <div
                         className="image-container js-image-move grey-background"
-                        style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                        style={{backgroundImage:"url(../../../../../assets/11/173949365_2788094718103996_8914009337549083740_n.jpg)"}}
                       >
                         <div
                           className="fadeIn js-image-move__inner"
@@ -102,9 +99,7 @@ const CoCurriculum = () => {
                     </div>
                     <div className="banner__intro background-primary color-white">
                       <p className="intro">
-                        Our broad curriculum promotes academic excellence, the
-                        best habits of independent thought and a lifelong
-                        habit of intellectual curiosity and love of learning.
+                      At Global Hub School Karachi, we believe that growth is not confined to textbooks and lectures. Our co-curricular program is designed to inspire creativity, innovation, and leadership by offering students a wide range of activities to explore. From debate and public speaking clubs to robotics, music, drama, and cultural societies, students are encouraged to discover their passions and develop unique talents.
                       </p>
                     </div>
                   </div>
@@ -133,21 +128,11 @@ const CoCurriculum = () => {
                 </div>
   
                 <p>
-                  Examination results matter. We understand this, and
-                  encourage all our boys to aspire to academic excellence. Our
-                  record in enabling boys to achieve the qualifications they
-                  need to access the best universities across the globe speaks
-                  for itself.&nbsp;
+                Through these opportunities, students learn the value of teamwork, time management, and problem-solving. For instance, our debate team provides a platform to hone analytical skills, while the robotics club ignites curiosity and innovation. Artistic expression is also celebrated through fine arts and drama productions, where students gain confidence and creative vision.
                 </p>
   
                 <p>
-                  That said, we strongly believe that the journey is as
-                  important as the destination, and to send a boy to
-                  university without the best habits of independent learning
-                  and, critically, a love of learning is to send him woefully
-                  unprepared. It is crucial that boys enjoy their studies,
-                  thrive and have fun, rather than leave feeling burnt out and
-                  disengaged.
+                By integrating the co-curriculum into daily life at GHS, we ensure students are not only academically prepared but also equipped with the confidence and skills to lead in any field they choose. These experiences help shape their character, broaden their perspectives, and build memories they will cherish for a lifetime.
                 </p>
   
                 <blockquote
@@ -163,24 +148,7 @@ const CoCurriculum = () => {
                   <cite>ISI inspection, December 2021</cite>
                 </blockquote>
   
-                <p>
-                  Our academic curriculum is broad. With 28 subjects on offer,
-                  including 10 modern and classical languages, every boy has
-                  the best opportunity to discover his passion.&nbsp;
-                </p>
-  
-                <p>
-                  Our Masters are subject-specialists who invariably hold
-                  prestigious degrees in their subjects, but equally as
-                  important in their appointment has been their capacity to
-                  build relationships and inspire learners.
-                </p>
-  
-                <p>
-                  Our House Master and Tutor system ensures that at least two
-                  adults have oversight of every boy’s individual progress and
-                  are there to support and encourage him.
-                </p>
+
   
                 <section className="image-with-statistic">
                   <div>
@@ -197,7 +165,7 @@ const CoCurriculum = () => {
                           >
                             <img
                               decoding="async"
-                              src="/assets/11/IMG_0100.JPG"
+                              src="/assets/11/70462977_2298415337071939_5397888453499158528_n.jpg"
                               />
                           </div>
                         </div>

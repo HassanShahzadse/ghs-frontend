@@ -49,8 +49,7 @@ const ContactUs = () => {
                       </div>
                       <div className="banner__intro background-primary color-white">
                         <p className="intro">
-                          The Development Team is always pleased to hear from
-                          Old GHSans, parents, and friends of GHS College.
+                        We would love to hear from you! For more information on how you can support GHS Karachi or to discuss collaboration or partnership opportunities, please get in touch with us.
                         </p>
                       </div>
                     </div>
@@ -94,8 +93,7 @@ const ContactUs = () => {
                     </div>
                     <div className="banner__intro background-primary color-white">
                       <p className="intro">
-                        The Development Team is always pleased to hear from Old
-                        GHSans, parents, and friends of GHS College.
+                      We would love to hear from you! For more information on how you can support GHS Karachi or to discuss collaboration or partnership opportunities, please get in touch with us.
                       </p>
                     </div>
                   </div>

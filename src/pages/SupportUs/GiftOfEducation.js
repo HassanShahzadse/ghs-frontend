@@ -53,9 +53,7 @@ const GiftOfEducation = () => {
                           className="banner__intro background-primary color-white"
                         >
                           <p className="intro">
-                            GHS is dedicated to ensuring all boys, whatever
-                            their learning needs, are supported throughout their
-                            time at GHS to achieve their learning potential.
+                          When you invest in education, you invest in the future. By making a significant contribution, such as funding an academic block, a library, or a sports facility, you leave behind a legacy that shapes countless young lives
                           </p>
                         </div>
                       </div>
@@ -99,9 +97,7 @@ const GiftOfEducation = () => {
                       </div>
                       <div className="banner__intro background-primary color-white">
                         <p className="intro">
-                          GHS is dedicated to ensuring all boys, whatever their
-                          learning needs, are supported throughout their time at
-                          GHS to achieve their learning potential.
+                        When you invest in education, you invest in the future. By making a significant contribution, such as funding an academic block, a library, or a sports facility, you leave behind a legacy that shapes countless young lives
                         </p>
                       </div>
                     </div>
@@ -130,50 +126,10 @@ const GiftOfEducation = () => {
                   </div>
     
                   <p>
-                    Our aim is for boys to develop the skills and strategies
-                    necessary to become successful, lifelong, independent and
-                    confident learners.
+                  Your generosity will stand as a beacon of hope and inspiration, benefiting students for generations to come. Every classroom taught in, every book read, and every achievement celebrated will be a testament to your commitment to creating a brighter future.
                   </p>
     
-                  <p>
-                    Through specialist and bespoke intervention, boys gain a
-                    clear understanding of their particular needs and develop
-                    strategies to overcome their specific learning difficulties,
-                    gain confidence in their own learning, fulfil academic
-                    potential and acquire study skills that will equip them for
-                    life at university and beyond. Guided by the learning
-                    support department, GHS takes a whole school approach to
-                    identifying and supporting boys with Special Educational
-                    Needs and Disabilities (SEND), English as an Additional
-                    Language (EAL) and those seeking advice or support to
-                    further their studies.&nbsp;
-                  </p>
-    
-                  <blockquote
-                    className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                  >
-                    <p>
-                      My House Master recommended learning support and I found
-                      it to be really helpful, as I could see the impacts it was
-                      having on my academic achievements.
-                    </p>
-                    <cite>Boy, B Block</cite>
-                  </blockquote>
-    
-                  <p>
-                    Support comes in many bespoke forms and is in place to help
-                    boys confidently overcome current and future potential
-                    challenges. Boys may receive one-to-one lessons focusing on
-                    areas such as executive functioning skills, revision and
-                    learning strategies, and handwriting development which will
-                    enable them to work successfully across subject
-                    areas.&nbsp;Group lessons are also provided focusing on
-                    areas such as study skills, exam techniques and effective
-                    reading strategies. The department also provides training,
-                    support and information to the wider staff body with regards
-                    to how they can differentiate and develop the educational
-                    experiences of the boys they work with or teach.
-                  </p>
+               <p>Whether it’s an academic block, a state-of-the-art laboratory, or a community space, your gift will become a cornerstone of the school’s mission to educate and empower. Help us create a world where every child has the chance to learn, grow, and succeed—your contribution makes all the difference.</p>
     
                   <section className="image-with-statistic">
                     <div>

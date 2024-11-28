@@ -53,9 +53,7 @@ const WaysToSupport = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        GHS is dedicated to ensuring all boys, whatever
-                        their learning needs, are supported throughout their
-                        time at GHS to achieve their learning potential.
+                      There are many meaningful ways to support the Global Hub School Karachi and make a lasting difference in the lives of our students:
                       </p>
                     </div>
                   </div>
@@ -99,9 +97,7 @@ const WaysToSupport = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      GHS is dedicated to ensuring all boys, whatever their
-                      learning needs, are supported throughout their time at
-                      GHS to achieve their learning potential.
+                    There are many meaningful ways to support the Global Hub School Karachi and make a lasting difference in the lives of our students:
                     </p>
                   </div>
                 </div>
@@ -130,50 +126,25 @@ const WaysToSupport = () => {
               </div>
 
               <p>
-                Our aim is for boys to develop the skills and strategies
-                necessary to become successful, lifelong, independent and
-                confident learners.
+              ⦁	Educational Supplies: Donate books, computers, lab equipment, or other essential learning tools to enhance the academic experience.
+⦁	Dedicated Facilities: Contribute towards the construction or improvement of key facilities such as science laboratories, the school mosque, or recreational spaces.
+⦁	Scholarships and Financial Aid: Fund a student’s education and give them the opportunity to reach their potential.
+⦁	A School Block: Gift an entire academic block or wing, leaving a legacy that will impact generations of students.
+⦁	Recurring Donations (Sadaqah): Make regular contributions towards operational costs, student meals, or facility maintenance to ensure the school runs smoothly.
+
               </p>
 
-              <p>
-                Through specialist and bespoke intervention, boys gain a
-                clear understanding of their particular needs and develop
-                strategies to overcome their specific learning difficulties,
-                gain confidence in their own learning, fulfil academic
-                potential and acquire study skills that will equip them for
-                life at university and beyond. Guided by the learning
-                support department, GHS takes a whole school approach to
-                identifying and supporting boys with Special Educational
-                Needs and Disabilities (SEND), English as an Additional
-                Language (EAL) and those seeking advice or support to
-                further their studies.&nbsp;
-              </p>
+            
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
                 <p>
-                  My House Master recommended learning support and I found
-                  it to be really helpful, as I could see the impacts it was
-                  having on my academic achievements.
+                Your support, whether big or small, helps us continue to provide an exceptional educational experience for our students.
                 </p>
-                <cite>Boy, B Block</cite>
+                <cite>Block</cite>
               </blockquote>
 
-              <p>
-                Support comes in many bespoke forms and is in place to help
-                boys confidently overcome current and future potential
-                challenges. Boys may receive one-to-one lessons focusing on
-                areas such as executive functioning skills, revision and
-                learning strategies, and handwriting development which will
-                enable them to work successfully across subject
-                areas.&nbsp;Group lessons are also provided focusing on
-                areas such as study skills, exam techniques and effective
-                reading strategies. The department also provides training,
-                support and information to the wider staff body with regards
-                to how they can differentiate and develop the educational
-                experiences of the boys they work with or teach.
-              </p>
 
               <section className="image-with-statistic">
                 <div>

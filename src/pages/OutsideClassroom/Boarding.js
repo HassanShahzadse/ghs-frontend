@@ -53,10 +53,7 @@ const Boarding = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Our broad curriculum promotes academic excellence,
-                        the best habits of independent thought and a
-                        lifelong habit of intellectual curiosity and love of
-                        learning.
+                      The boarding houses at GHS Karachi are at the heart of the school community, providing a nurturing environment where students can grow and flourish. Each house is more than just a place to stay—it’s a home filled with camaraderie, encouragement, and support.
                       </p>
                     </div>
                   </div>
@@ -65,7 +62,7 @@ const Boarding = () => {
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                      style={{backgroundImage:"url(../../../../../assets/11/unnamed.png)"}}
                     >
                       <div
                         className="fadeIn js-image-move__inner"
@@ -101,9 +98,7 @@ const Boarding = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Our broad curriculum promotes academic excellence, the
-                      best habits of independent thought and a lifelong
-                      habit of intellectual curiosity and love of learning.
+                    The boarding houses at GHS Karachi are at the heart of the school community, providing a nurturing environment where students can grow and flourish. Each house is more than just a place to stay—it’s a home filled with camaraderie, encouragement, and support.
                     </p>
                   </div>
                 </div>
@@ -132,21 +127,11 @@ const Boarding = () => {
               </div>
 
               <p>
-                Examination results matter. We understand this, and
-                encourage all our boys to aspire to academic excellence. Our
-                record in enabling boys to achieve the qualifications they
-                need to access the best universities across the globe speaks
-                for itself.&nbsp;
+              Boarding life is structured to balance academic responsibilities with personal growth and social interaction. Modern living spaces offer comfortable accommodations, quiet study areas, and recreational facilities that promote a healthy and balanced lifestyle. Students form close bonds with their housemates, creating a sense of family and belonging.
               </p>
 
               <p>
-                That said, we strongly believe that the journey is as
-                important as the destination, and to send a boy to
-                university without the best habits of independent learning
-                and, critically, a love of learning is to send him woefully
-                unprepared. It is crucial that boys enjoy their studies,
-                thrive and have fun, rather than leave feeling burnt out and
-                disengaged.
+              Under the guidance of experienced housemasters and caring staff, students learn independence, responsibility, and time management. Whether organizing house events, taking part in inter-house competitions, or simply sharing stories over meals, boarders experience personal development and build lifelong friendships.
               </p>
 
               <blockquote
@@ -196,7 +181,7 @@ const Boarding = () => {
                         >
                           <img
                             decoding="async"
-                            src="/assets/11/IMG_0100.JPG"
+                            src="/assets/11/174739355_2788092938104174_1790550117626444802_n.jpg"
                             />
                         </div>
                       </div>

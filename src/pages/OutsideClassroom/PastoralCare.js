@@ -53,10 +53,7 @@ const PastoralCare = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Our broad curriculum promotes academic excellence,
-                        the best habits of independent thought and a
-                        lifelong habit of intellectual curiosity and love of
-                        learning.
+                      At GHS Karachi, we understand that a successful education goes hand in hand with emotional well-being. That’s why pastoral care is a fundamental part of school life, ensuring every student feels valued, supported, and heard.
                       </p>
                     </div>
                   </div>
@@ -65,7 +62,7 @@ const PastoralCare = () => {
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                      style={{backgroundImage:"url(../../../../../assets/11/247470871_2919321168314683_3967744707871769205_n.png)"}}
                     >
                       <div
                         className="fadeIn js-image-move__inner"
@@ -101,9 +98,7 @@ const PastoralCare = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Our broad curriculum promotes academic excellence, the
-                      best habits of independent thought and a lifelong
-                      habit of intellectual curiosity and love of learning.
+                    At GHS Karachi, we understand that a successful education goes hand in hand with emotional well-being. That’s why pastoral care is a fundamental part of school life, ensuring every student feels valued, supported, and heard.
                     </p>
                   </div>
                 </div>
@@ -132,34 +127,17 @@ const PastoralCare = () => {
               </div>
 
               <p>
-                Examination results matter. We understand this, and
-                encourage all our boys to aspire to academic excellence. Our
-                record in enabling boys to achieve the qualifications they
-                need to access the best universities across the globe speaks
-                for itself.&nbsp;
+              Our approach to pastoral care includes one-on-one mentorship programs, group workshops, and open-door policies that encourage students to reach out whenever they need guidance. Dedicated staff members work to create a nurturing environment where students can confidently navigate challenges, celebrate their achievements, and build emotional resilience.
               </p>
 
-              <p>
-                That said, we strongly believe that the journey is as
-                important as the destination, and to send a boy to
-                university without the best habits of independent learning
-                and, critically, a love of learning is to send him woefully
-                unprepared. It is crucial that boys enjoy their studies,
-                thrive and have fun, rather than leave feeling burnt out and
-                disengaged.
-              </p>
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
                 <p>
-                  The school is highly successful in fulfilling its aim to
-                  promote the best habits of independent thought and
-                  learning in the pursuit of excellence. This is reflected
-                  in exceptional results in GCSE, A-level and Pre-U
-                  examinations
+                Through a focus on empathy, kindness, and mutual respect, we aim to foster a community where every student feels secure and empowered to be their best self.
                 </p>
-                <cite>ISI inspection, December 2021</cite>
+                <cite></cite>
               </blockquote>
 
               <p>
@@ -196,7 +174,7 @@ const PastoralCare = () => {
                         >
                           <img
                             decoding="async"
-                            src="/assets/11/IMG_0100.JPG"
+                            src="/assets/11/300435996_172020862062507_4477850517123929161_n.jpg"
                             />
                         </div>
                       </div>

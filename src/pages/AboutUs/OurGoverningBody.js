@@ -58,7 +58,7 @@ const OurGoverningBody = () => {
                       <div
                         className="image-container js-image-move grey-background"
                         style={{
-                          backgroundImage: `url(${process.env.PUBLIC_URL}/assets/11/IMG_0090.JPG)`,
+                          backgroundImage: `url(/assets/11/263599925_2949755145271285_6770598982686416049_n.jpg)`,
                         }}
                       >
                         <div

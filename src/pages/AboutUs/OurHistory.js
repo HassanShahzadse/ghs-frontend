@@ -182,7 +182,7 @@ const OurHistory = () => {
                           className="js-image-move__inner object-fit object-fit--cover"
                         >
                             <img
-                    src="/assets/11/IMG_0090.JPG"
+                    src="/assets/11/Open air- dining hall.JPG"
                     alt="Image"
                   />
                         </div>
@@ -245,7 +245,7 @@ const OurHistory = () => {
 
               <p>
                   <img
-                    src="/assets/11/IMG_0090.JPG"
+                    src="/assets/11/DSC_2159.JPG"
                     alt="Image"
                     style={{
                       width: "70%",

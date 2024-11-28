@@ -54,9 +54,7 @@ const ScholarshipFinancialAid = () => {
                           className="banner__intro background-primary color-white"
                         >
                           <p className="intro">
-                             GHS is dedicated to ensuring all boys, whatever
-                            their learning needs, are supported throughout their
-                            time at  GHS to achieve their learning potential.
+                          At GHS Karachi, we believe that financial constraints should never be a barrier to quality education. Our scholarships and financial aid programs provide support to talented and deserving students, allowing them to benefit from the opportunities we offer.
                           </p>
                         </div>
                       </div>
@@ -65,7 +63,7 @@ const ScholarshipFinancialAid = () => {
                       <div className="row">
                         <div
                           className="image-container js-image-move grey-background"
-                          style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                          style={{backgroundImage:"url(../../../../../assets/11/71518606_2324152407831565_4640834380917374976_n.jpg)"}}
     >
                           <div
                             className="fadeIn js-image-move__inner"
@@ -100,9 +98,7 @@ const ScholarshipFinancialAid = () => {
                       </div>
                       <div className="banner__intro background-primary color-white">
                         <p className="intro">
-                           GHS is dedicated to ensuring all boys, whatever their
-                          learning needs, are supported throughout their time at
-                           GHS to achieve their learning potential.
+                        At GHS Karachi, we believe that financial constraints should never be a barrier to quality education. Our scholarships and financial aid programs provide support to talented and deserving students, allowing them to benefit from the opportunities we offer.
                         </p>
                       </div>
                     </div>
@@ -131,50 +127,10 @@ const ScholarshipFinancialAid = () => {
                   </div>
     
                   <p>
-                    Our aim is for boys to develop the skills and strategies
-                    necessary to become successful, lifelong, independent and
-                    confident learners.
+                  With a range of merit-based and need-based options, we are committed to nurturing potential and fostering excellence in every student, regardless of their financial circumstances. To learn more about eligibility and the application process, contact our admissions team for personalized assistance.
                   </p>
     
-                  <p>
-                    Through specialist and bespoke intervention, boys gain a
-                    clear understanding of their particular needs and develop
-                    strategies to overcome their specific learning difficulties,
-                    gain confidence in their own learning, fulfil academic
-                    potential and acquire study skills that will equip them for
-                    life at university and beyond. Guided by the learning
-                    support department,  GHS takes a whole school approach to
-                    identifying and supporting boys with Special Educational
-                    Needs and Disabilities (SEND), English as an Additional
-                    Language (EAL) and those seeking advice or support to
-                    further their studies.&nbsp;
-                  </p>
-    
-                  <blockquote
-                    className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                  >
-                    <p>
-                      My House Master recommended learning support and I found
-                      it to be really helpful, as I could see the impacts it was
-                      having on my academic achievements.
-                    </p>
-                    <cite>Boy, B Block</cite>
-                  </blockquote>
-    
-                  <p>
-                    Support comes in many bespoke forms and is in place to help
-                    boys confidently overcome current and future potential
-                    challenges. Boys may receive one-to-one lessons focusing on
-                    areas such as executive functioning skills, revision and
-                    learning strategies, and handwriting development which will
-                    enable them to work successfully across subject
-                    areas.&nbsp;Group lessons are also provided focusing on
-                    areas such as study skills, exam techniques and effective
-                    reading strategies. The department also provides training,
-                    support and information to the wider staff body with regards
-                    to how they can differentiate and develop the educational
-                    experiences of the boys they work with or teach.
-                  </p>
+            
     
                   <section className="image-with-statistic">
                     <div>
@@ -191,7 +147,7 @@ const ScholarshipFinancialAid = () => {
                             >
                               <img
                                 decoding="async"
-                                src="/assets/11/IMG_0101.JPG"                          />
+                                src="/assets/11/81218517_2414471095466362_1277845215436079104_n.jpg"                          />
                             </div>
                           </div>
                         </div>

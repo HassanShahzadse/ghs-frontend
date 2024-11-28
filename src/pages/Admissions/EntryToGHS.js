@@ -55,8 +55,7 @@ const EntryToGHS = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Welcome to GHS College, a boarding school for boys
-                        aged between 13 and 18.
+                      Applying to GHS Karachi is a straightforward process designed to evaluate students’ academic capabilities, character, and passion for learning. Applicants are required to complete an online form and submit relevant documentation for review before appearing for an online test.
                       </p>
                     </div>
                   </div>
@@ -101,8 +100,7 @@ const EntryToGHS = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Welcome to GHS College, a boarding school for boys
-                      aged between 13 and 18.
+                    Applying to GHS Karachi is a straightforward process designed to evaluate students’ academic capabilities, character, and passion for learning. Applicants are required to complete an online form and submit relevant documentation for review before appearing for an online test.
                     </p>
                   </div>
                 </div>
@@ -131,39 +129,9 @@ const EntryToGHS = () => {
               </div>
 
               <p>
-                Everyone at GHS works hard to create an exciting,
-                stimulating and caring environment, to enable each boy to
-                reach his full potential. All our boys are also expected to
-                make their own contribution to school life.
+              Once shortlisted, students are invited to participate in assessments or interviews, allowing us to get to know them better. This personalized approach ensures that every student is evaluated fairly and holistically
               </p>
 
-              <p>
-                To achieve this we have developed an admissions process
-                which looks at a boy’s current and potential academic
-                ability as well as whether he will be happy in our boarding
-                environment. Every year we typically welcome boys from about
-                120 different state and independent schools.
-              </p>
-
-              <blockquote
-                className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-              >
-                <p>
-                  The best thing about GHS is that it allows you to become
-                  who you want to be. It brings out what your passions are
-                  and it gives you the chance to try anything that you think
-                  you will be good at.
-                </p>
-                <cite>Hamza, Orwell Award recipient</cite>
-              </blockquote>
-
-              <p>
-                A boy may be registered up until 30 June of the school year
-                he turns 10 (UK school Year 5). After this the only route of
-                entry will be through scholarships or Sixth Form entry,
-                which open in Year 8 (for Year 9 entry) and Year 11 (for
-                Sixth Form entry).
-              </p>
 
               <p>
                 GHS is committed to supporting boys with disabilities and
@@ -242,8 +210,8 @@ const EntryToGHS = () => {
                         >
                           <img
                             decoding="async"
-                            src="../../wp-content/uploads/2023/10/230515_eton_005-2000x1333.jpg"
-                          />
+                            src="/assets/11/300435996_172020862062507_4477850517123929161_n.jpg"
+                            />
                         </div>
                       </div>
                     </div>
@@ -279,7 +247,7 @@ const EntryToGHS = () => {
 
               <img
                             decoding="async"
-                            src="/assets/11/IMG_0100.JPG"
+                            src="/assets/11/285821649_151499194114674_2299889885274654907_n.jpg"
                             />
 
               <h2 className="wp-block-heading">Essential Information</h2>
@@ -287,7 +255,7 @@ const EntryToGHS = () => {
               <p>
               <img
                             decoding="async"
-                            src="/assets/11/IMG_0147.JPG"
+                            src="/assets/11/176550934_2788094451437356_5384273365940172592_n.jpg"
                             />
               </p>
 

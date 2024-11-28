@@ -55,9 +55,7 @@ const Fees = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        GHS warmly welcomes bursary applications from
-                        parents who might, under ordinary circumstances, not
-                        consider GHS for their son for financial reasons.
+                      Our fee structure is designed to reflect the exceptional educational experience GHS Karachi provides. Detailed information about tuition, boarding, and other related costs is readily available to families, ensuring complete transparency
                       </p>
                     </div>
                   </div>
@@ -66,7 +64,7 @@ const Fees = () => {
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                      style={{backgroundImage:"url(../../../../../assets/11/461936833_3683428045237321_8140968138120842639_n.jpg)"}}
                       >
                       <div
                         className="fadeIn js-image-move__inner"
@@ -102,9 +100,7 @@ const Fees = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      GHS warmly welcomes bursary applications from parents
-                      who might, under ordinary circumstances, not consider
-                      GHS for their son for financial reasons.
+                    Our fee structure is designed to reflect the exceptional educational experience GHS Karachi provides. Detailed information about tuition, boarding, and other related costs is readily available to families, ensuring complete transparency
                     </p>
                   </div>
                 </div>
@@ -145,11 +141,7 @@ const Fees = () => {
               <h2 className="wp-block-heading">School Fees &amp; Extras</h2>
 
               <p>
-                The school fee includes tuition, board, lodging, and the
-                cost of most games activities and the majority of
-                educational materials. In addition, boys incur variable
-                extras, e.g. charges for music lessons, optional insurances,
-                boat club membership and school trips.
+              We make sure it is easy to access our world-class education, and work with families to find the best plans for them. For further details, reach out to our admissions team, who will be happy to assist you.
               </p>
 
               <p>
@@ -317,10 +309,10 @@ const Fees = () => {
                         <div
                           className="js-image-move__inner object-fit object-fit--cover"
                         >
-                          <img
+                            <img
                             decoding="async"
-                            src="../../wp-content/uploads/2023/03/eton_23-62-2000x1333.jpg"
-                          />
+                            src="/assets/11/461939397_3683732285206897_1030922366464620113_n.jpg"
+                            />
                         </div>
                       </div>
                     </div>
@@ -1358,7 +1350,7 @@ const Fees = () => {
                     </div>
                     <img
                             decoding="async"
-                            src="/assets/11/IMG_0100.JPG"
+                            src="/assets/11/461968913_3684004521846340_906275821340010015_n.jpg"
                             />
                   </div>
                 </div>

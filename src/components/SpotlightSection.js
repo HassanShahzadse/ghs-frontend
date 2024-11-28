@@ -20,7 +20,7 @@ const SpotlightSection = () => {
                               <img
                                 decoding="async"
                                 className="moving-img"
-                                src="/assets/11/IMG_0101.JPG"                              />
+                                src="/assets/11/81218517_2414471095466362_1277845215436079104_n.jpg"                              />
                             </span>
                           </div>
                           <div className="corner-category">
@@ -58,7 +58,7 @@ const SpotlightSection = () => {
                             <div className="author-card__image">
                               <img
                                 decoding="async"
-                                src="/assets/11/IMG_0142.JPG"                              />
+                                src="/assets/11/71518606_2324152407831565_4640834380917374976_n.jpg"                              />
                             </div>
                             <div className="author-card__content">
                               <p>
@@ -72,7 +72,7 @@ const SpotlightSection = () => {
                             <div className="author-card__image">
                               <img
                                 decoding="async"
-                                src="/assets/11/IMG_0111.JPG"                              />
+                                src="/assets/11/73372222_2355401751373297_7012429237739061248_n.jpg"                              />
                             </div>
                             <div className="author-card__content">
                               <p>
@@ -93,7 +93,7 @@ const SpotlightSection = () => {
                             <div className="author-card__image">
                               <img
                                 decoding="async"
-                                src="/assets/11/IMG_0115.JPG"                              />
+                                src="/assets/11/71518606_2324152407831565_4640834380917374976_n.jpg"                              />
                             </div>
                             <div className="author-card__content">
                               <p>
@@ -117,7 +117,7 @@ const SpotlightSection = () => {
                             <div className="author-card__image">
                               <img
                                 decoding="async"
-                                src="/assets/11/IMG_0118.JPG"                              />
+                                src="/assets/11/71518606_2324152407831565_4640834380917374976_n.jpg"                              />
                             </div>
                             <div className="author-card__content">
                               <p>

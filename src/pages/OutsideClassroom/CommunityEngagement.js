@@ -53,10 +53,7 @@ const CommunityEngagement = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Our broad curriculum promotes academic excellence,
-                        the best habits of independent thought and a
-                        lifelong habit of intellectual curiosity and love of
-                        learning.
+                      GHS Karachi is deeply committed to instilling a sense of social responsibility in our students. Through community engagement programs, students have the opportunity to make a real difference while developing empathy and leadership skills.
                       </p>
                     </div>
                   </div>
@@ -65,7 +62,7 @@ const CommunityEngagement = () => {
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                      style={{backgroundImage:"url(../../../../../assets/11/70462977_2298415337071939_5397888453499158528_n.jpg)"}}
                     >
                       <div
                         className="fadeIn js-image-move__inner"
@@ -101,9 +98,7 @@ const CommunityEngagement = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Our broad curriculum promotes academic excellence, the
-                      best habits of independent thought and a lifelong
-                      habit of intellectual curiosity and love of learning.
+                    GHS Karachi is deeply committed to instilling a sense of social responsibility in our students. Through community engagement programs, students have the opportunity to make a real difference while developing empathy and leadership skills.
                     </p>
                   </div>
                 </div>
@@ -132,54 +127,24 @@ const CommunityEngagement = () => {
               </div>
 
               <p>
-                Examination results matter. We understand this, and
-                encourage all our boys to aspire to academic excellence. Our
-                record in enabling boys to achieve the qualifications they
-                need to access the best universities across the globe speaks
-                for itself.&nbsp;
+                
+Whether it’s volunteering at local shelters, participating in fundraising events, or organizing environmental clean-ups, students are encouraged to contribute to meaningful causes. These experiences help them understand the importance of giving back, cultivating a sense of gratitude and purpose.
+
               </p>
 
-              <p>
-                That said, we strongly believe that the journey is as
-                important as the destination, and to send a boy to
-                university without the best habits of independent learning
-                and, critically, a love of learning is to send him woefully
-                unprepared. It is crucial that boys enjoy their studies,
-                thrive and have fun, rather than leave feeling burnt out and
-                disengaged.
-              </p>
+ 
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
                 <p>
-                  The school is highly successful in fulfilling its aim to
-                  promote the best habits of independent thought and
-                  learning in the pursuit of excellence. This is reflected
-                  in exceptional results in GCSE, A-level and Pre-U
-                  examinations
+                By connecting students with their communities, we nurture compassionate individuals who are driven to create positive change in the world.
                 </p>
-                <cite>ISI inspection, December 2021</cite>
+                <cite></cite>
               </blockquote>
 
-              <p>
-                Our academic curriculum is broad. With 28 subjects on offer,
-                including 10 modern and classical languages, every boy has
-                the best opportunity to discover his passion.&nbsp;
-              </p>
 
-              <p>
-                Our Masters are subject-specialists who invariably hold
-                prestigious degrees in their subjects, but equally as
-                important in their appointment has been their capacity to
-                build relationships and inspire learners.
-              </p>
 
-              <p>
-                Our House Master and Tutor system ensures that at least two
-                adults have oversight of every boy’s individual progress and
-                are there to support and encourage him.
-              </p>
 
               <section className="image-with-statistic">
                 <div>
@@ -196,7 +161,7 @@ const CommunityEngagement = () => {
                         >
                           <img
                             decoding="async"
-                            src="/assets/11/IMG_0100.JPG"
+                            src="/assets/11/69729319_2298412693738870_1343645145202950144_n.jpg"
                             />
                         </div>
                       </div>

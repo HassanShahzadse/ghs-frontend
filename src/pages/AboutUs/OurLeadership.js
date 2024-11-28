@@ -114,7 +114,7 @@ const OurLeadership = () => {
                               className="teaser__inner"
                               style={{
                                 backgroundImage:
-                                  "url(../../../../../assets/11/IMG_0100.JPG)",
+                                  "url(../../../../../assets/11/IMG_0332.JPG)",
                               }}
                             ></span>
 
@@ -144,7 +144,7 @@ const OurLeadership = () => {
                                   className="author-image"
                                   style={{
                                     backgroundImage:
-                                      "url(../../../../../assets/11/IMG_0100.JPG)",
+                                      "url(../../../../../assets/11/275054573_122711713660089_1312944415058859257_n.jpg)",
                                   }}
                                 ></div>
                                 <div className="pullout text-center">
@@ -194,7 +194,7 @@ const OurLeadership = () => {
                               className="teaser__inner"
                               style={{
                                 backgroundImage:
-                                  "url(../../../../../assets/11/IMG_0100.JPG)",
+                                  "url(../../../../../assets/11/art & tech block- front view.JPG)",
                               }}
                             ></span>
 

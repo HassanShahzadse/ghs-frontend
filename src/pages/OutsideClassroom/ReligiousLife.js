@@ -53,10 +53,7 @@ const ReligiousLife = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Our broad curriculum promotes academic excellence,
-                        the best habits of independent thought and a
-                        lifelong habit of intellectual curiosity and love of
-                        learning.
+                      While GHS Karachi is a non-denominational institution, we recognize the importance of spiritual growth in shaping well-rounded individuals. For our predominantly Muslim student body, we offer structured programs that provide a comprehensive understanding of Islamic teachings and values.
                       </p>
                     </div>
                   </div>
@@ -101,9 +98,7 @@ const ReligiousLife = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Our broad curriculum promotes academic excellence, the
-                      best habits of independent thought and a lifelong
-                      habit of intellectual curiosity and love of learning.
+                    While GHS Karachi is a non-denominational institution, we recognize the importance of spiritual growth in shaping well-rounded individuals. For our predominantly Muslim student body, we offer structured programs that provide a comprehensive understanding of Islamic teachings and values.
                     </p>
                   </div>
                 </div>
@@ -132,54 +127,20 @@ const ReligiousLife = () => {
               </div>
 
               <p>
-                Examination results matter. We understand this, and
-                encourage all our boys to aspire to academic excellence. Our
-                record in enabling boys to achieve the qualifications they
-                need to access the best universities across the globe speaks
-                for itself.&nbsp;
+              These programs include Quranic studies, religious discussions, and regular prayers, helping students integrate their faith into daily life. Beyond religious education, we foster an environment of respect and understanding for all beliefs, encouraging students to embrace diversity and develop strong moral principles.
               </p>
 
-              <p>
-                That said, we strongly believe that the journey is as
-                important as the destination, and to send a boy to
-                university without the best habits of independent learning
-                and, critically, a love of learning is to send him woefully
-                unprepared. It is crucial that boys enjoy their studies,
-                thrive and have fun, rather than leave feeling burnt out and
-                disengaged.
-              </p>
+      
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
                 <p>
-                  The school is highly successful in fulfilling its aim to
-                  promote the best habits of independent thought and
-                  learning in the pursuit of excellence. This is reflected
-                  in exceptional results in GCSE, A-level and Pre-U
-                  examinations
+                By emphasizing the role of faith in character building, we aim to guide students toward lives of integrity, compassion, and purpose.
                 </p>
-                <cite>ISI inspection, December 2021</cite>
+                <cite></cite>
               </blockquote>
 
-              <p>
-                Our academic curriculum is broad. With 28 subjects on offer,
-                including 10 modern and classical languages, every boy has
-                the best opportunity to discover his passion.&nbsp;
-              </p>
-
-              <p>
-                Our Masters are subject-specialists who invariably hold
-                prestigious degrees in their subjects, but equally as
-                important in their appointment has been their capacity to
-                build relationships and inspire learners.
-              </p>
-
-              <p>
-                Our House Master and Tutor system ensures that at least two
-                adults have oversight of every boy’s individual progress and
-                are there to support and encourage him.
-              </p>
 
               <section className="image-with-statistic">
                 <div>

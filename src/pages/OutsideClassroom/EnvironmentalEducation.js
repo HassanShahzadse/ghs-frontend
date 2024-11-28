@@ -53,10 +53,7 @@ const EnvironmentalEducation = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Our broad curriculum promotes academic excellence,
-                        the best habits of independent thought and a
-                        lifelong habit of intellectual curiosity and love of
-                        learning.
+                      Environmental sustainability is a cornerstone of the GHS Karachi ethos. Our environmental education programs empower students to take active roles in protecting the planet while gaining a deeper appreciation for nature.
                       </p>
                     </div>
                   </div>
@@ -65,7 +62,7 @@ const EnvironmentalEducation = () => {
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                      style={{backgroundImage:"url(../../../../../assets/11/300980504_172020772062516_5311573638736429145_n.jpg)"}}
                     >
                       <div
                         className="fadeIn js-image-move__inner"
@@ -101,9 +98,7 @@ const EnvironmentalEducation = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Our broad curriculum promotes academic excellence, the
-                      best habits of independent thought and a lifelong
-                      habit of intellectual curiosity and love of learning.
+                    Environmental sustainability is a cornerstone of the GHS Karachi ethos. Our environmental education programs empower students to take active roles in protecting the planet while gaining a deeper appreciation for nature.
                     </p>
                   </div>
                 </div>
@@ -132,54 +127,18 @@ const EnvironmentalEducation = () => {
               </div>
 
               <p>
-                Examination results matter. We understand this, and
-                encourage all our boys to aspire to academic excellence. Our
-                record in enabling boys to achieve the qualifications they
-                need to access the best universities across the globe speaks
-                for itself.&nbsp;
-              </p>
-
-              <p>
-                That said, we strongly believe that the journey is as
-                important as the destination, and to send a boy to
-                university without the best habits of independent learning
-                and, critically, a love of learning is to send him woefully
-                unprepared. It is crucial that boys enjoy their studies,
-                thrive and have fun, rather than leave feeling burnt out and
-                disengaged.
+              Students participate in initiatives like tree planting, recycling drives, and conservation projects, learning practical ways to address global challenges. Eco-clubs provide a platform for collaborative problem-solving and innovative ideas, enabling students to lead sustainability efforts both within the school and beyond.
               </p>
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
                 <p>
-                  The school is highly successful in fulfilling its aim to
-                  promote the best habits of independent thought and
-                  learning in the pursuit of excellence. This is reflected
-                  in exceptional results in GCSE, A-level and Pre-U
-                  examinations
+                By fostering an awareness of environmental responsibility, we prepare students to make informed and conscientious decisions that contribute to a sustainable future.
                 </p>
-                <cite>ISI inspection, December 2021</cite>
+                <cite></cite>
               </blockquote>
 
-              <p>
-                Our academic curriculum is broad. With 28 subjects on offer,
-                including 10 modern and classical languages, every boy has
-                the best opportunity to discover his passion.&nbsp;
-              </p>
-
-              <p>
-                Our Masters are subject-specialists who invariably hold
-                prestigious degrees in their subjects, but equally as
-                important in their appointment has been their capacity to
-                build relationships and inspire learners.
-              </p>
-
-              <p>
-                Our House Master and Tutor system ensures that at least two
-                adults have oversight of every boy’s individual progress and
-                are there to support and encourage him.
-              </p>
 
               <section className="image-with-statistic">
                 <div>
@@ -196,7 +155,7 @@ const EnvironmentalEducation = () => {
                         >
                           <img
                             decoding="async"
-                            src="/assets/11/IMG_0100.JPG"
+                            src="/assets/11/461848694_3683395301907262_9150366868156804753_n.jpg"
                             />
                         </div>
                       </div>

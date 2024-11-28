@@ -151,10 +151,10 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                         <div
                           className="js-image-move__inner object-fit object-fit--cover"
                         >
-                          <img
+                                <img
                             decoding="async"
-                            src="../../wp-content/uploads/2023/10/eton-23-84-2000x1333.jpg"
-                          />
+                            src="/assets/11/Academic block- side view.JPG"
+                            />
                         </div>
                       </div>
                     </div>
@@ -237,10 +237,10 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                         <div
                           className="js-image-move__inner object-fit object-fit--cover"
                         >
-                          <img
+                                   <img
                             decoding="async"
-                            src="../../wp-content/uploads/2022/10/220920-eton-447-2000x1333.jpg"
-                          />
+                            src="/assets/11/461968913_3684004521846340_906275821340010015_n.jpg"
+                            />
                         </div>
                       </div>
                     </div>

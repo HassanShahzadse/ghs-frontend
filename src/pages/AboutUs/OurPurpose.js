@@ -109,7 +109,7 @@ const OurPurpose = () => {
                           <img
                             fetchpriority="high"
                             decoding="async"
-                            src="/assets/11/IMG_0101.JPG"
+                            src="/assets/11/462142391_3684004605179665_4619771339123697881_n.jpg"
                           />
 
                         </div>
