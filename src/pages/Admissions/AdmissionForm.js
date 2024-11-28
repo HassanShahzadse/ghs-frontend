@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 // import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import PhoneInput from 'react-phone-number-input';
+// import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import '../StudentForm.css';
 
@@ -32,8 +32,8 @@ const AdmissionForm = () => {
   });
   
 //   const [showPassword, setShowPassword] = useState(false);
-  const [mobileValue, setMobileValue] = useState('');
-  const [fatherMobileValue, setFatherMobileValue] = useState('');
+  // const [mobileValue, setMobileValue] = useState('');
+  // const [fatherMobileValue, setFatherMobileValue] = useState('');
 
   const onSubmit = (data) => {
     console.log(data);
@@ -47,19 +47,6 @@ const AdmissionForm = () => {
         <hr />
         <Row>
           <Col md={6}>
-            <Form.Group controlId="admissionCourse">
-              <Form.Label className='formLable'>Admission Course</Form.Label>
-              <Form.Control as="select" {...register("admissionCourse")}>
-                <option value="">Select Course</option>
-                <option value="Science">Science</option>
-                <option value="Arts">Arts</option>
-                <option value="Commerce">Commerce</option>
-              </Form.Control>
-              <div>{errors.admissionCourse && <small className="text-danger">{errors.admissionCourse.message}</small>}</div>
-            </Form.Group>
-          </Col>
-
-          <Col md={6}>
             <Form.Group controlId="name">
               <Form.Label className='formLable'>Name</Form.Label>
               <Form.Control
@@ -71,9 +58,6 @@ const AdmissionForm = () => {
               <div>{errors.name && <small className="text-danger">{errors.name.message}</small>}</div>
             </Form.Group>
           </Col>
-        </Row>
-
-        <Row className='row'>
           <Col md={6}>
             <Form.Group controlId="cnic">
               <Form.Label className='formLable'>CNIC</Form.Label>
@@ -85,7 +69,9 @@ const AdmissionForm = () => {
               <div>{errors.cnic && <small className="text-danger">{errors.cnic.message}</small>}</div>
             </Form.Group>
           </Col>
+        </Row>
 
+        <Row className='row'>
           <Col md={6}>
             <Form.Group controlId="email">
               <Form.Label className='formLable'>Email</Form.Label>
@@ -97,9 +83,6 @@ const AdmissionForm = () => {
               <div>{errors.email && <small className="text-danger">{errors.email.message}</small>}</div>
             </Form.Group>
           </Col>
-        </Row>
-
-        <Row>
           <Col md={6}>
             <Form.Group controlId="mobile">
               <Form.Label className='formLable'>Phone</Form.Label>
@@ -120,6 +103,21 @@ const AdmissionForm = () => {
               <div>{errors.mobile && <small className="text-danger">{errors.mobile.message}</small>}</div>
             </Form.Group>
           </Col>
+        </Row>
+
+        <Row>
+         <Col md={6}>
+            <Form.Group controlId="admissionCourse">
+              <Form.Label className='formLable'>Admission Course</Form.Label>
+              <Form.Control as="select" {...register("admissionCourse")}>
+                <option value="">Select Course</option>
+                <option value="Science">Science</option>
+                <option value="Arts">Arts</option>
+                <option value="Commerce">Commerce</option>
+              </Form.Control>
+              <div>{errors.admissionCourse && <small className="text-danger">{errors.admissionCourse.message}</small>}</div>
+            </Form.Group>
+          </Col>
 
           <Col md={6}>
             <Form.Group controlId="gender">
@@ -137,14 +135,6 @@ const AdmissionForm = () => {
 
         <Row>
           <Col md={6}>
-            <Form.Group controlId="dob">
-              <Form.Label className='formLable'>Date of Birth</Form.Label>
-              <Form.Control type="date" {...register("dob")} />
-              <div> {errors.dob && <small className="text-danger">{errors.dob.message}</small>} </div>
-            </Form.Group>
-          </Col>
-
-          <Col md={6}>
             <Form.Group controlId="howDidYouLearn">
               <Form.Label className='formLable'>How did you learn about us?</Form.Label>
               <Form.Control as="select" {...register("howDidYouLearn")}>
@@ -159,6 +149,14 @@ const AdmissionForm = () => {
               <div>{errors.howDidYouLearn && <small className="text-danger">{errors.howDidYouLearn.message}</small>}</div>
             </Form.Group>
           </Col>
+          <Col md={6}>
+            <Form.Group controlId="dob">
+              <Form.Label className='formLable'>Date of Birth</Form.Label>
+              <Form.Control type="date" {...register("dob")} />
+              <div> {errors.dob && <small className="text-danger">{errors.dob.message}</small>} </div>
+            </Form.Group>
+          </Col>
+
         </Row>
 
         <h3>Father/Guardian Detail Section</h3>
@@ -193,8 +191,8 @@ const AdmissionForm = () => {
         <Row>
           <Col md={6}>
             <Form.Group controlId="fatherMobile">
-              {/* <Form.Label className='formLable'>FNumber</Form.Label> */}
-              <Form.Label className='formLable'>Phone</Form.Label>
+              <Form.Label className='formLable'>Father Phone</Form.Label>
+              {/* <Form.Label className='formLable'>Phone</Form.Label> */}
               <Form.Control
                 type="text"
                 placeholder="Enter Number"
@@ -215,10 +213,10 @@ const AdmissionForm = () => {
         <h3>Address Details Section</h3>
         <hr />
         <Row>
-          <Col md={12}>
+          <Col md={6}>
             <Form.Group controlId="address">
-              <Form.Label className='formLaAdress'>Address</Form.Label>
-              <Form.Control as="textarea" rows={3} {...register("address")} className='formLableAdress' />
+              <Form.Label className='formLabelAdress'>Address</Form.Label>
+              <Form.Control as="textarea" rows={3} {...register("address")} className='formTextareaAdress' />
              <div> {errors.address && <small className="text-danger">{errors.address.message}</small>}</div>
             </Form.Group>
           </Col>
@@ -237,10 +235,11 @@ const AdmissionForm = () => {
             </Form.Group>
           </Col>
         </Row>
-
+                <div className="buttondiv">
         <Button variant="primary" type="submit" disabled={Object.keys(errors).length > 0}>
           Submit
         </Button>
+        </div>
       </Form>
     </div>
     </>

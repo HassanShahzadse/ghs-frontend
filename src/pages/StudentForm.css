@@ -41,6 +41,8 @@ input {
     color: white;
   }
 
+/* -------------------------------------------Styles for screens (Mobiles) */
+
   @media (max-width: 768px) {
     body {
         font-size: 15px;
@@ -50,18 +52,40 @@ input {
         color: black;
         font-size: 20px;
         font-weight: bold;
-        margin-top: 100px;
+        margin-top: 105px;
     }
     .form-container {
-        margin: 100px auto;
+        margin: 0 auto;
         padding: 15px;
     }
-    .formLableAdress{
+
+    .row .formLable{
+      margin-right: 5px;
+      font-weight:bold;
+  }
+
+    .formLabelAdress{
         display: flex;
+        font-weight: bold;
+    }
+    .formTextareaAdress{
+      display: flex;
+
+    }
+
+    .buttondiv{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
     }
   }
   
-  /* Styles for larger screens (desktops) */
+
+
+
+  /* -------------------------------------------Styles for large screens (desktops) */
+
 @media screen and (min-width: 768px) {
     body {
         font-size: 15px;
@@ -90,9 +114,26 @@ input {
     }
     .formLableAdress{
         display: flex;
+        font-weight: bold;
+
+    }
+
+    .formTextareaAdress{
+      display: flex;
+
+    }
+
+    .buttondiv{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
     }
   }
 
+
+/* -------------------------------------------Styles for large screens (desktops) */
+ 
   @media screen and (min-width: 1024px) {
     body {
       font-size: 20px;
@@ -117,8 +158,24 @@ input {
     }
     .row .formLable{
         margin-right: 5px;
+        padding-right: 10px;
     }
     .formLableAdress{
         display: flex;
+        font-weight: bold;
+    }
+
+    .formTextareaAdress{
+      display: flex;
+      padding-right: 10px;
+
+
+    }
+
+    .buttondiv{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
     }
   }
