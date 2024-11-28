@@ -65,7 +65,7 @@ const Footer = () => {
 									<div className="row pad-med-top">
 										<div className="col-md-4">
 											<h3 className="title title--sm">Contact Us</h3>
-											<p>Eton College<br />
+											<p>GHSCollege<br />
 												Windsor, Berkshire, SL4 6DW</p>
 											<p>(+44) 01753 370 100</p>
 											<p><a
@@ -98,7 +98,7 @@ const Footer = () => {
 									<div className="row final-row">
 										<div className="col-md-4">
 											<small>Registered Charity Number 1139086<br/>
-												© Eton College 2024</small>
+												© GHSCollege 2024</small>
 										</div>
 
 										<div className="col-md-5 offset-md-1 ">
@@ -125,7 +125,7 @@ const Footer = () => {
 				<div className="pillar background-secondary"></div>
 
 				<div className="credit"><a href="https://thewebkitchen.co.uk/">Web design</a> by <a
-						href="https://thewebkitchen.co.uk/">TWK</a></div>
+						href="https://thewebkitchen.co.uk/"></a>comeleit</div>
 			</div>
 		</footer>
   );

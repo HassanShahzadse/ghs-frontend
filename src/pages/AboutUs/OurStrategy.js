@@ -1,6 +1,8 @@
 import React from "react";
 import NextSection from "../../components/NextSection";
 import Footer from "../../components/footer";
+import "../../components/footer.css"
+
 
 const OurStrategy = () => {
   return (
@@ -45,11 +47,7 @@ const OurStrategy = () => {
                       </div>
                       <div className="banner__intro background-primary color-white">
                         <p className="intro">
-                          Eton College is a charity for the advancement of
-                          education. At its heart sits an independent boys’
-                          boarding school which leads a dynamic range of
-                          educational activities and an expanding network of
-                          educational partnerships.
+                        At Global Hub School Karachi, our strategy is a dynamic, forward-thinking approach designed to deliver excellence in education while fostering personal and societal growth. Rooted in our core values, our strategy outlines how we empower students, embrace innovation, and build a sustainable future.
                         </p>
                       </div>
                     </div>
@@ -88,11 +86,7 @@ const OurStrategy = () => {
                     </div>
                     <div className="banner__intro background-primary color-white">
                       <p className="intro">
-                        Eton College is a charity for the advancement of
-                        education. At its heart sits an independent boys’
-                        boarding school which leads a dynamic range of
-                        educational activities and an expanding network of
-                        educational partnerships.
+                      At Global Hub School Karachi, our strategy is a dynamic, forward-thinking approach designed to deliver excellence in education while fostering personal and societal growth. Rooted in our core values, our strategy outlines how we empower students, embrace innovation, and build a sustainable future.
                       </p>
                     </div>
                   </div>
@@ -121,19 +115,21 @@ const OurStrategy = () => {
                 </div>
 
                 <p>
-                  For nearly 600 years, Eton has taken a long-term view as to
-                  how we can make a real and sustained contribution as an
-                  educational charity and as a school. This strategy derives
-                  from wide-ranging discussion and consultation with staff,
-                  boys, parents and Old Etonians to review our educational
-                  purpose. You can read our strategy below, or download it
-                  <a
+                ⦁	Encourage Creativity and Individuality:
+By offering a diverse range of academic and co-curricular opportunities, we foster an environment where students can explore their passions and develop unique perspectives.
+We emphasize understanding and respect for diverse cultures and viewpoints, preparing our students to be compassionate global citizens.
+Through a curriculum that encourages inquiry and critical analysis, we instill a lifelong love for learning and independent thought.
+Recognizing the importance of physical, mental, and spiritual health, we provide resources and programs that nurture the overall well-being of our students.
+We encourage students to take on leadership roles and engage in community service, understanding the value of contributing to society.
+Kindness, integrity, determination, and gratitude are at the heart of our community, guiding our students in their personal and academic journeys
+
+                  {/* <a
                     href="../../wp-content/uploads/2023/07/Eton-Strategy-2023-Final-09062023.pdf"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
                     here
-                  </a>
+                  </a> */}
                   .
                 </p>
 

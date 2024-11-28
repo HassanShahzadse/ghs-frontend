@@ -1,6 +1,7 @@
 import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
+import "../../components/footer.css"
 
 const LearningSupport = () => {
   return (
@@ -52,9 +53,8 @@ const LearningSupport = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Eton is dedicated to ensuring all boys, whatever
-                        their learning needs, are supported throughout their
-                        time at Eton to achieve their learning potential.
+                      Global Hub School Karachi offers a dynamic learning environment with a diverse curriculum designed to foster critical thinking, creativity, and academic excellence. Small class sizes ensure personalized attention, while state-of-the-art facilities, including science labs, computer labs, and a rich library, support hands-on learning and exploration.
+
                       </p>
                     </div>
                   </div>
@@ -98,9 +98,8 @@ const LearningSupport = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Eton is dedicated to ensuring all boys, whatever their
-                      learning needs, are supported throughout their time at
-                      Eton to achieve their learning potential.
+                    Global Hub School Karachi offers a dynamic learning environment with a diverse curriculum designed to foster critical thinking, creativity, and academic excellence. Small class sizes ensure personalized attention, while state-of-the-art facilities, including science labs, computer labs, and a rich library, support hands-on learning and exploration.
+
                     </p>
                   </div>
                 </div>
@@ -129,32 +128,18 @@ const LearningSupport = () => {
               </div>
 
               <p>
-                Our aim is for boys to develop the skills and strategies
-                necessary to become successful, lifelong, independent and
-                confident learners.
+              Every student learns differently, and we celebrate this diversity by offering a robust learning support program tailored to individual needs. At GHS Karachi, we are committed to helping every child overcome challenges, build confidence, and achieve their personal best.
               </p>
 
               <p>
-                Through specialist and bespoke intervention, boys gain a
-                clear understanding of their particular needs and develop
-                strategies to overcome their specific learning difficulties,
-                gain confidence in their own learning, fulfil academic
-                potential and acquire study skills that will equip them for
-                life at university and beyond. Guided by the learning
-                support department, Eton takes a whole school approach to
-                identifying and supporting boys with Special Educational
-                Needs and Disabilities (SEND), English as an Additional
-                Language (EAL) and those seeking advice or support to
-                further their studies.&nbsp;
+              Students with specific learning needs receive targeted interventions that focus on skill-building, self-awareness, and strategy development. Whether it’s strengthening study habits, tackling academic obstacles, or addressing learning differences, our support team works collaboratively with teachers and families to provide an integrated and compassionate approach.
               </p>
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
                 <p>
-                  My House Master recommended learning support and I found
-                  it to be really helpful, as I could see the impacts it was
-                  having on my academic achievements.
+                The program emphasizes not only academic success but also emotional resilience, helping students develop a positive mindset toward challenges. With the right tools and encouragement, students are empowered to thrive not just in school, but in every stage of life.
                 </p>
                 <cite>Boy, B Block</cite>
               </blockquote>

@@ -1,6 +1,7 @@
 import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
+import "../../components/footer.css"
 
 const AcadmicFacilities = () => {
   return (
@@ -49,9 +50,7 @@ const AcadmicFacilities = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Etonians live and work in a rich cultural
-                        environment, with an exceptional range of libraries,
-                        museums and other resources available for boys.
+                      An exceptional education begins with a carefully crafted curriculum, and at Global Hub School Karachi, ours is designed to provide a strong foundation for academic and personal growth. With numerous subjects to explore, our curriculum challenges students to think critically, question creatively, and engage deeply with their studies.
                       </p>
                     </div>
                   </div>
@@ -92,9 +91,7 @@ const AcadmicFacilities = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Etonians live and work in a rich cultural environment,
-                      with an exceptional range of libraries, museums and
-                      other resources available for boys.
+                    An exceptional education begins with a carefully crafted curriculum, and at Global Hub School Karachi, ours is designed to provide a strong foundation for academic and personal growth. With numerous subjects to explore, our curriculum challenges students to think critically, question creatively, and engage deeply with their studies.
                     </p>
                   </div>
               </section>
@@ -122,50 +119,23 @@ const AcadmicFacilities = () => {
               </div>
 
               <p>
-                Led by Eton’s development programme, the continual
-                enhancement and re-imagining of our learning spaces to
-                embrace the latest technology and pedagogy provides our boys
-                with academic facilities designed to inspire and equip our
-                boys to excel. This is supported by the broad range of
-                outstanding resources made available by our libraries and
-                Collections.
+              Our campus is designed to create an environment that nurtures focus, collaboration, and excellence. With cutting-edge facilities, small class sizes, and a commitment to personalized learning, we ensure that every student has the resources and support they need to succeed.
               </p>
 
-              <h2 className="wp-block-heading">Queen’s Schools</h2>
+              <h2 className="wp-block-heading">Global Hub School Karachi</h2>
 
               <p>
-                Housing 29&nbsp;laboratories for the biology, chemistry and
-                physics departments, this Victorian building has been
-                substantially extended and refurbished multiple times over
-                the last half-century.
+              Each classroom is purpose-built to foster a productive and engaging learning atmosphere. By keeping class sizes small, teachers are able to give individualized attention to every student, addressing their strengths and areas for improvement in real-time. This ensures that no child is left behind and that every student has the opportunity to thrive academically.
               </p>
 
               <p>
-                The most recent modernisation of Queen’s Schools has grown
-                the available teaching space with two new classrooms,
-                communal discussion zones and subject-based exhibition
-                areas. With the addition of a ‘critical space’ at its heart,
-                all three science departments are brought together for
-                social encounter and informal discourse with a united sense
-                of identity within the faculty.
+              Our science laboratories for Physics, Chemistry, and Biology allow students to experience the excitement of hands-on experiments, while our computer labs provide access to advanced software and technologies to sharpen digital skills. The school library, a treasure trove of knowledge, offers an extensive collection of books, journals, and digital resources to stimulate curiosity and intellectual growth.
               </p>
 
               <p>
-                Featuring photovoltaic panels on its distinctive
-                parallelogram roof to generate much of the power needed for
-                the building below, the newly-renovated Queen’s Schools is a
-                truly innovative learning environment. Indeed, topics such
-                as renewable energy, biodiversity and other areas of
-                sustainability form the focus of experimental teaching on
-                the new rooftop pavilion on the Holford Building.
-              </p>
+              
+Additionally, dedicated collaborative spaces encourage teamwork and creative problem-solving, helping students develop essential life skills beyond academics. At GHS, our facilities reflect our commitment to excellence and innovation in education.
 
-              <p>
-                All of Eton’s laboratories are supported by a team of
-                well-qualified technicians and the latest equipment. As
-                safety is a major concern in science teaching, all our staff
-                have received appropriate safety training and a wide range
-                of safety-related equipment is in use.
               </p>
 
               <section className="image-with-statistic">
@@ -216,7 +186,7 @@ const AcadmicFacilities = () => {
                 can also be found in Queen’s Schools. Opened in 1875 to
                 house the Thackeray Collection of British Birds, this museum
                 has been on its present site since 1895, and generations of
-                boys at Eton and from other local schools have enjoyed
+                boys at GHSand from other local schools have enjoyed
                 learning from its extensive and well-displayed collection.
                 The collection continues to grow and now houses over 17,000
                 objects, most of which are on display. Among the many items
@@ -229,7 +199,7 @@ const AcadmicFacilities = () => {
               <h2 className="wp-block-heading">School Library&nbsp;</h2>
 
               <p>
-                At the heart of Eton is School Library, which provides over
+                At the heart of GHSis School Library, which provides over
                 30,000 resources including books, music CDs, audio CDs,
                 magazines and a range of online resources accessible
                 throughout the College.&nbsp;There is also a large suite of
@@ -296,7 +266,7 @@ const AcadmicFacilities = () => {
               <p>
                 College Library is a library of international importance
                 that holds an outstanding collection of rare books and
-                manuscripts together with the Eton archives. This working
+                manuscripts together with the GHSarchives. This working
                 library is open throughout the year and used by visiting
                 scholars. Introduced to this library in their first year,
                 boys visit for teaching sessions and are encouraged to use
@@ -304,7 +274,7 @@ const AcadmicFacilities = () => {
               </p>
 
               <p>
-                Established soon after the foundation of Eton College, this
+                Established soon after the foundation of GHSCollege, this
                 library houses more than 150,000 items, ranging from the 9th
                 to 21st Centuries. These include printed and manuscript
                 volumes, literary manuscripts, autograph letters, prints and
@@ -328,7 +298,7 @@ const AcadmicFacilities = () => {
                 and is also rich in travel writing, theatrical history and
                 fine printing. College Library also has responsibility for
                 the Macnaghten Library of First World War materials,
-                presented to Eton as a memorial in 1938.&nbsp;
+                presented to GHSas a memorial in 1938.&nbsp;
               </p>
 
               <h3 className="wp-block-heading">Access and Enquiries</h3>
@@ -350,7 +320,7 @@ const AcadmicFacilities = () => {
                   target="_blank"
                   rel="noreferrer noopener"
                   >Collections Administrator</a
-                >, or write to: the Librarian, Eton College Library, Eton
+                >, or write to: the Librarian, GHSCollege Library, Eton
                 College, Windsor, SL4 6DB. The library also welcomes
                 specialist groups and school
                 <a
@@ -405,7 +375,7 @@ const AcadmicFacilities = () => {
                   href="https://etonx.com/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  >EtonX</a
+                  >GHSnX</a
                 >, digital technology is integrated into our
                 <a
                   href="../evidence-led-innovation/index.html"

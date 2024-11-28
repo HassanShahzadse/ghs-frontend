@@ -1,6 +1,8 @@
 import React from "react";
 import NextSection from "../../components/NextSection";
 import Footer from "../../components/footer";
+import "../../components/footer.css"
+
 
 const ContactDetails = () => {
   return (
@@ -57,7 +59,7 @@ const ContactDetails = () => {
                             </p>
                             <hr />
                             <p>
-                              Eton College
+                              GHS College
                               <br />
                               Windsor, Berkshire, SL4 6DW
                             </p>
@@ -108,7 +110,7 @@ const ContactDetails = () => {
                                     <p>
                                       Admissions Office
                                       <br />
-                                      Eton College
+                                      GHS College
                                       <br />
                                       Windsor, SL4 6DW
                                     </p>
@@ -137,7 +139,7 @@ const ContactDetails = () => {
                                     <p>
                                       Press Enquiries
                                       <br />
-                                      Eton College
+                                      GHS College
                                       <br />
                                       Windsor, SL4 6DW
                                     </p>
@@ -168,7 +170,7 @@ const ContactDetails = () => {
                                       <br />
                                       St Christopher&#8217;s House
                                       <br />
-                                      Eton College
+                                      GHS College
                                       <br />
                                       Windsor, SL4 6DW
                                     </p>
@@ -222,7 +224,7 @@ const ContactDetails = () => {
                         >
                           Admissions Office
                         </a>
-                        . Once your son has started at Eton your primary point
+                        . Once your son has started at GHS your primary point
                         of contact is his House Master. Any changes to your
                         contact information should be sent to
                         <a href="../../cdn-cgi/l/email-protection.html#91f2f9f0fff6f4fef7f5f4e5f0f8fde2d1f4e5fefff2fefdfdf4f6f4bffee3f6bfe4fa">
@@ -301,7 +303,7 @@ const ContactDetails = () => {
                           target="_blank"
                           rel="noopener"
                         >
-                          Map of central Eton
+                          Map of central GHS
                         </a>
                       </p>
                     </div>

@@ -1,6 +1,8 @@
 import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
+import "../../components/footer.css"
+
 
 const EntryToGHS = () => {
   return (
@@ -31,7 +33,7 @@ const EntryToGHS = () => {
                       >
                       <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page"
-                        >Entry To Eton</span
+                        >Entry To GHS </span
                       ></span
                     >
                   </p>
@@ -44,7 +46,7 @@ const EntryToGHS = () => {
                           <h1
                             className="banner__title title color-white title--xl2"
                           >
-                            Entry to Eton
+                            Entry to GHS 
                           </h1>
                         </span>
                       </div>
@@ -53,7 +55,7 @@ const EntryToGHS = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Welcome to Eton College, a boarding school for boys
+                        Welcome to GHS College, a boarding school for boys
                         aged between 13 and 18.
                       </p>
                     </div>
@@ -92,14 +94,14 @@ const EntryToGHS = () => {
                         <h1
                           className="banner__title title color-white title--xl2"
                         >
-                          Entry to Eton
+                          Entry to GHS 
                         </h1>
                       </span>
                     </div>
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Welcome to Eton College, a boarding school for boys
+                      Welcome to GHS College, a boarding school for boys
                       aged between 13 and 18.
                     </p>
                   </div>
@@ -122,14 +124,14 @@ const EntryToGHS = () => {
                     >
                     <span className="breadcrumbs-separator"></span>
                     <span className="breadcrumb_last" aria-current="page"
-                      >Entry To Eton</span
+                      >Entry To GHS </span
                     ></span
                   >
                 </p>
               </div>
 
               <p>
-                Everyone at Eton works hard to create an exciting,
+                Everyone at GHS works hard to create an exciting,
                 stimulating and caring environment, to enable each boy to
                 reach his full potential. All our boys are also expected to
                 make their own contribution to school life.
@@ -147,7 +149,7 @@ const EntryToGHS = () => {
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
                 <p>
-                  The best thing about Eton is that it allows you to become
+                  The best thing about GHS is that it allows you to become
                   who you want to be. It brings out what your passions are
                   and it gives you the chance to try anything that you think
                   you will be good at.
@@ -164,7 +166,7 @@ const EntryToGHS = () => {
               </p>
 
               <p>
-                Eton is committed to supporting boys with disabilities and
+                GHS is committed to supporting boys with disabilities and
                 also has a
                 <a
                   href="../../inside-the-classroom/learning-support/index.html"
@@ -266,10 +268,10 @@ const EntryToGHS = () => {
               <p>
                 <a
                   className="button"
-                  href="https://application.etoncollege.com/"
+                  href="https://app.ghskarachi.com/student/online/reg2"
                   target="_blank"
                   rel="noopener"
-                  >13+ Online Registration</a
+                  >Online Registration</a
                 >
               </p>
 
@@ -308,7 +310,7 @@ const EntryToGHS = () => {
                       If you have any admissions enquiries or would like to
                       book a place on the tour, please leave your details
                       below and submit a general admissions enquiry. You may
-                      also contact us to know more about visiting Eton.
+                      also contact us to know more about visiting GHS .
                     </p>
                     <script type="text/javascript"></script>
                     <div
@@ -1635,7 +1637,7 @@ const EntryToGHS = () => {
 
               <p>
                 If you are a prospective parent and would like to be booked
-                onto a visit to Eton College, please contact our Admissions
+                onto a visit to GHS College, please contact our Admissions
                 Team (01753 370611).
               </p>
 

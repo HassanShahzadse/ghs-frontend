@@ -7,15 +7,11 @@ const AfterScrollingSection = () => {
       <div className="introduction__container">
         <div className="introduction--column-1 introduction--column">
           <div className="introduction--column--text introduction--column-1--text js-fade-up">
-            <h4>Welcome to Eton</h4>
+            <h4>Welcome to Global Hub School Karachi</h4>
             <div className="text">
               <p>
                 <span className="intro">
-                  Eton College is a charity dedicated to the advancement of
-                  education. As a school, we draw out young people’s talents to
-                  enable them to flourish and make a positive impact on others
-                  and the wider world, while enjoying a healthy, happy and
-                  fulfilling life.
+                At Global Hub School Karachi, we are committed to nurturing the leaders of tomorrow through an unparalleled blend of academic excellence, character development, and holistic growth. Located in the picturesque Karachi Hub Area, our state-of-the-art boarding facilities and internationally accredited curriculum set the foundation for students to achieve their fullest potential.
                 </span>
               </p>
             </div>
@@ -129,9 +125,7 @@ const AfterScrollingSection = () => {
             <div className="text">
               <p>
                 <span className="intro">
-                  At our heart sits a leading boys’ boarding school with a
-                  tradition of excellence, where we proudly offer a unique and
-                  outstanding education with endless opportunities. 
+                Our emphasis on civic engagement, sustainability efforts, and a well-rounded student experience make us the premier destination for parents seeking the best for their children. At GHS, ambition is cultivated, creativity is celebrated, and diversity is embraced—all within a safe and supportive community where students are empowered to thrive.
                 </span>
               </p>
               <p>
@@ -142,13 +136,13 @@ const AfterScrollingSection = () => {
                   service.
                 </span>
               </p>
-              <p>
+              {/* <p>
                 <span>
                   We cherish Eton’s history and tradition, which combined with a
                   willingness to innovate has seen Eton thrive for almost six
                   centuries. 
                 </span>
-              </p>
+              </p> */}
               <p>&nbsp;</p>
               <p>
                 <a

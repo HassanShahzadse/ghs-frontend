@@ -30,7 +30,7 @@ const Sidebar = () => {
           <div className="top-nav__logo">
             <img
               fetchpriority="high"
-              src="assets/img/Final GHS logo.png"
+              src="assets/img/Final GHS.png"
             />
           </div>
         </Link>
@@ -209,9 +209,9 @@ const Sidebar = () => {
             <li className="menu-item">
               <Link to="/Admissions/ApplyOnline">Apply Online</Link>
             </li>
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <Link to="/Admissions/AdmissionForm">Admission Form</Link>
-            </li>
+            </li> */}
             <li className="menu-item">
               <Link to="/Admissions/ScholarshipFinancialAid">Scholarships and Financial Aid</Link>
             </li>

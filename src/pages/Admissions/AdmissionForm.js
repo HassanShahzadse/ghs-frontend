@@ -216,8 +216,8 @@ const AdmissionForm = () => {
           <Col md={6}>
             <Form.Group controlId="address">
               <Form.Label className='formLabelAdress'>Address</Form.Label>
-              <Form.Control as="textarea" rows={3} {...register("address")} className='formTextareaAdress' />
-             <div> {errors.address && <small className="text-danger">{errors.address.message}</small>}</div>
+              <Form.Control as="textarea" cols={42} rows={3} {...register("address")} className='formTextareaAdress' />
+              <div> {errors.address && <small className="text-danger">{errors.address.message}</small>}</div>
             </Form.Group>
           </Col>
 
@@ -231,7 +231,7 @@ const AdmissionForm = () => {
                 <option value="Islamabad">Islamabad</option>
                 <option value="Rawalpindi">Rawalpindi</option>
               </Form.Control>
-             <div> {errors.city && <small className="text-danger">{errors.city.message}</small>}</div>
+              <div> {errors.city && <small className="text-danger">{errors.city.message}</small>}</div>
             </Form.Group>
           </Col>
         </Row>

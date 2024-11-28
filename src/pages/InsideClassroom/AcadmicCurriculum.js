@@ -1,6 +1,7 @@
 import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
+import "../../components/footer.css"
 
 const AcadmicCurriculum = () => {
   return (
@@ -52,10 +53,7 @@ const AcadmicCurriculum = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Our broad curriculum promotes academic excellence,
-                        the best habits of independent thought and a
-                        lifelong habit of intellectual curiosity and love of
-                        learning.
+                      Global Hub School Karachi offers a dynamic learning environment with a diverse curriculum designed to foster critical thinking, creativity, and academic excellence. Small class sizes ensure personalized attention, while state-of-the-art facilities, including science labs, computer labs, and a rich library, support hands-on learning and exploration.
                       </p>
                     </div>
                   </div>
@@ -100,9 +98,7 @@ const AcadmicCurriculum = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Our broad curriculum promotes academic excellence, the
-                      best habits of independent thought and a lifelong
-                      habit of intellectual curiosity and love of learning.
+                    Global Hub School Karachi offers a dynamic learning environment with a diverse curriculum designed to foster critical thinking, creativity, and academic excellence. Small class sizes ensure personalized attention, while state-of-the-art facilities, including science labs, computer labs, and a rich library, support hands-on learning and exploration.
                     </p>
                   </div>
                 </div>
@@ -131,32 +127,18 @@ const AcadmicCurriculum = () => {
               </div>
 
               <p>
-                Examination results matter. We understand this, and
-                encourage all our boys to aspire to academic excellence. Our
-                record in enabling boys to achieve the qualifications they
-                need to access the best universities across the globe speaks
-                for itself.&nbsp;
+              An exceptional education begins with a carefully crafted curriculum, and at Global Hub School Karachi, ours is designed to provide a strong foundation for academic and personal growth. With numerous subjects to explore, our curriculum challenges students to think critically, question creatively, and engage deeply with their studies.
               </p>
 
               <p>
-                That said, we strongly believe that the journey is as
-                important as the destination, and to send a boy to
-                university without the best habits of independent learning
-                and, critically, a love of learning is to send him woefully
-                unprepared. It is crucial that boys enjoy their studies,
-                thrive and have fun, rather than leave feeling burnt out and
-                disengaged.
+              Our expert educators inspire curiosity and encourage intellectual independence, ensuring students are prepared to tackle complex concepts with confidence. Beyond the classroom, students are provided opportunities to integrate their learning into real-world applications, further solidifying their understanding.
               </p>
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
                 <p>
-                  The school is highly successful in fulfilling its aim to
-                  promote the best habits of independent thought and
-                  learning in the pursuit of excellence. This is reflected
-                  in exceptional results in GCSE, A-level and Pre-U
-                  examinations
+                Regular projects, assignments, and evaluations are seamlessly integrated into the curriculum to foster time management, problem-solving skills, and a culture of lifelong learning. This dynamic curriculum not only prepares students for rigorous examinations but also equips them with the tools to adapt and excel in a rapidly evolving global environment.
                 </p>
                 <cite>ISI inspection, December 2021</cite>
               </blockquote>
@@ -245,7 +227,7 @@ const AcadmicCurriculum = () => {
                 specific educational needs. All boys sit an assessment when
                 they arrive to determine whether additional support is
                 required, and boys can be referred to learning support at
-                any time during their Eton career.
+                any time during their GHS career.
               </p>
 
               <blockquote

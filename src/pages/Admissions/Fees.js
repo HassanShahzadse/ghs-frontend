@@ -1,6 +1,8 @@
 import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
+import "../../components/footer.css"
+
 
 const Fees = () => {
   return (
@@ -53,9 +55,9 @@ const Fees = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Eton warmly welcomes bursary applications from
+                        GHS warmly welcomes bursary applications from
                         parents who might, under ordinary circumstances, not
-                        consider Eton for their son for financial reasons.
+                        consider GHS for their son for financial reasons.
                       </p>
                     </div>
                   </div>
@@ -100,9 +102,9 @@ const Fees = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Eton warmly welcomes bursary applications from parents
+                      GHS warmly welcomes bursary applications from parents
                       who might, under ordinary circumstances, not consider
-                      Eton for their son for financial reasons.
+                      GHS for their son for financial reasons.
                     </p>
                   </div>
                 </div>
@@ -283,7 +285,7 @@ const Fees = () => {
                     <p>
                       School extras are billed in arrears and the level of
                       charges varies depending on the activities a boy does
-                      while at Eton. Extras can vary greatly but are usually
+                      while at GHS . Extras can vary greatly but are usually
                       between £500-£1,000 per Half. A full list of possible
                       additional charges is available on the Parent Portal.
                     </p>
@@ -342,7 +344,7 @@ const Fees = () => {
               <p>
                 The school offers a pre-paid fees scheme which may be of
                 interest to parents who have a capital sum available for
-                Eton school fees. Putting a payment down in advance has the
+                GHS school fees. Putting a payment down in advance has the
                 attraction of securing a chosen amount towards future school
                 bills.
               </p>
@@ -1365,14 +1367,14 @@ const Fees = () => {
               <h2 className="wp-block-heading">Bursaries</h2>
 
               <p>
-                Eton warmly welcomes bursary applications from parents who
-                might, under ordinary circumstances, not consider Eton for
-                their son for financial reasons. Eton has substantial
+                GHS warmly welcomes bursary applications from parents who
+                might, under ordinary circumstances, not consider GHS for
+                their son for financial reasons. GHS has substantial
                 bursary funds designed to widen access by enabling boys to
                 come to the school at the normal entry age of 13, who could
                 not otherwise do so, and to allow boys to remain in the
                 event of an unforeseen change in family circumstances. No
-                parents with a talented boy should feel that Eton is
+                parents with a talented boy should feel that GHS is
                 necessarily beyond their means. Both the registration fee
                 and the entrance fee may be waived in case of parental need
                 subject to supporting documentation.

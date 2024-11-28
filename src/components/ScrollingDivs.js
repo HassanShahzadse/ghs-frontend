@@ -428,7 +428,7 @@ const ScrollingDivs = () => {
                                     </span>
                                   </p>
                                   <div className="bottom">
-                                    <p>Eton Star Schools Programme</p>
+                                    <p>GHSStar Schools Programme</p>
                                   </div>
                                 </div>
                               </div>
@@ -460,7 +460,7 @@ const ScrollingDivs = () => {
                                   <p className="text">
                                     Exceptional pastoral care is at
                                     <span className="text-secondary">
-                                      the heart of an Eton education
+                                      the heart of an GHSeducation
                                     </span>
                                   </p>
                                   <div className="bottom">

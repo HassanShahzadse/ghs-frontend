@@ -1,6 +1,8 @@
 import React from 'react'
 import Footer from '../../components/footer'
 import "../../components/footer.css"
+import "../../components/footer.css"
+
 
 const VisitUs = () => {
   return (
@@ -49,8 +51,8 @@ const VisitUs = () => {
           >
         </li>
         <li className="menu-item">
-          <a href="../../about-us/old-etonian-association/index.html"
-            >Old Etonian Association</a
+          <a href="../../about-us/old-GHSian-association/index.html"
+            >Old GHSian Association</a
           >
         </li>
         <li className="menu-item">
@@ -65,7 +67,7 @@ const VisitUs = () => {
         </li>
         <li className="menu-item">
           <a href="../../about-us/eton-glossary/index.html"
-            >Eton Glossary</a
+            >GHS  Glossary</a
           >
         </li>
       </ul>
@@ -209,13 +211,13 @@ const VisitUs = () => {
           <a href="../../college-life/chapel/index.html">Chapel</a>
         </li>
         <li className="menu-item">
-          <a href="../../college-life/after-eton/index.html">After Eton</a>
+          <a href="../../college-life/after-eton/index.html">After GHS</a>
         </li>
       </ul>
       <div className="back-button">Back</div>
     </div>
     <div className="sub-menu-wrap" id="sub_9">
-      <div className="title title--sm">Eton Outwards</div>
+      <div className="title title--sm">GHS  Outwards</div>
       <ul>
         <li className="menu-item">
           <a href="../../eton-outwards/broadening-access/index.html"
@@ -225,13 +227,13 @@ const VisitUs = () => {
         <li className="menu-item">
           <a
             href="../../eton-outwards/eton-connect-core-partnerships/index.html"
-            >Eton Connect Core Partnerships</a
+            >GHS  Connect Core Partnerships</a
           >
         </li>
         <li className="menu-item">
           <a
             href="../../eton-outwards/eton-connect-local-partnerships/index.html"
-            >Eton Connect Local Partnerships</a
+            >GHS  Connect Local Partnerships</a
           >
         </li>
         <li className="menu-item">
@@ -256,12 +258,12 @@ const VisitUs = () => {
         </li>
         <li className="menu-item">
           <a href="../../eton-outwards/eton-action/index.html"
-            >Eton Action</a
+            >GHS  Action</a
           >
         </li>
         <li className="menu-item">
           <a href="../../eton-outwards/eton-connect-boxes/index.html"
-            >Eton Connect Boxes</a
+            >GHS  Connect Boxes</a
           >
         </li>
         <li className="menu-item">
@@ -439,7 +441,7 @@ const VisitUs = () => {
                           <hr />
                           <p>
                             Admissions Office<br />
-                            Eton College<br />
+                            GHS  College<br />
                             Windsor, SL4 6DW
                           </p>
                           <hr />

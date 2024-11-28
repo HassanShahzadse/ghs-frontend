@@ -1,6 +1,8 @@
 import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
+import "../../components/footer.css"
+
 
 const ScholarshipFinancialAid = () => {
     return (
@@ -52,9 +54,9 @@ const ScholarshipFinancialAid = () => {
                           className="banner__intro background-primary color-white"
                         >
                           <p className="intro">
-                            Eton is dedicated to ensuring all boys, whatever
+                             GHS is dedicated to ensuring all boys, whatever
                             their learning needs, are supported throughout their
-                            time at Eton to achieve their learning potential.
+                            time at  GHS to achieve their learning potential.
                           </p>
                         </div>
                       </div>
@@ -98,9 +100,9 @@ const ScholarshipFinancialAid = () => {
                       </div>
                       <div className="banner__intro background-primary color-white">
                         <p className="intro">
-                          Eton is dedicated to ensuring all boys, whatever their
+                           GHS is dedicated to ensuring all boys, whatever their
                           learning needs, are supported throughout their time at
-                          Eton to achieve their learning potential.
+                           GHS to achieve their learning potential.
                         </p>
                       </div>
                     </div>
@@ -141,7 +143,7 @@ const ScholarshipFinancialAid = () => {
                     gain confidence in their own learning, fulfil academic
                     potential and acquire study skills that will equip them for
                     life at university and beyond. Guided by the learning
-                    support department, Eton takes a whole school approach to
+                    support department,  GHS takes a whole school approach to
                     identifying and supporting boys with Special Educational
                     Needs and Disabilities (SEND), English as an Additional
                     Language (EAL) and those seeking advice or support to
@@ -254,7 +256,7 @@ const ScholarshipFinancialAid = () => {
                     Communication with parents and carers is also vital to the
                     development of a boy&#8217;s learning profile and the
                     department welcomes the input.&nbsp; Even before a boy joins
-                    Eton, such communication is urged so we can ensure the
+                     GHS , such communication is urged so we can ensure the
                     appropriate support is in place from the first day they move
                     in.&nbsp;&nbsp;&nbsp;
                   </p>

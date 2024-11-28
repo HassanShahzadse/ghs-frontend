@@ -189,7 +189,7 @@ const ScrollingImagesSection = () => {
               </div>
               <div className="ig-hover-caption">
                 <p>
-                  &#8220;Eton has an almost limitless ability to
+                  &#8220;GHShas an almost limitless ability to
                   provide opportunities across an immense
                   spectrum, creating lasting memories and
                   friendships while achievin&#8230;
@@ -470,7 +470,7 @@ const ScrollingImagesSection = () => {
                   For anyone who missed it on BBC TWO, here is
                   last week&#8217;s BBC Young Musician winner
                   Ryan Wang revealing what it&#8217;s like to
-                  study and board at Eton Co&#8230;
+                  study and board at GHSCo&#8230;
                 </p>
               </div>
             </a>
@@ -658,7 +658,7 @@ const ScrollingImagesSection = () => {
                   🏏Congratulations to Aryaman Varma OE on his
                   second nomination for #Wisden Schools
                   Cricketer of the Year. With 100+ wickets for
-                  Eton, he has more &#8230;
+                  GHS, he has more &#8230;
                 </p>
               </div>
             </a>
@@ -749,9 +749,9 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover-caption">
                 <p>
                   Last week, we commemorated Dr Jane Goodall’s
-                  historic visit to Eton in 2023 and her 90th
+                  historic visit to GHSin 2023 and her 90th
                   birthday in 2024 by planting a beech tree at
-                  Eton College&#8230;.
+                  GHSCollege&#8230;.
                 </p>
               </div>
             </a>
@@ -843,7 +843,7 @@ const ScrollingImagesSection = () => {
                 <p>
                   🎹🎶 Huge congratulations to Ryan Wang in Year
                   13, who tonight won BBC Young Musician,
-                  becoming the first Etonian to have ever done
+                  becoming the first GHSian to have ever done
                   so. Ryan said: “&#8230;
                 </p>
               </div>
@@ -1215,7 +1215,7 @@ const ScrollingImagesSection = () => {
             <div className="ig-hover-caption">
               <p>
                 🎶🎉Congratulations to Ryan Wang on becoming the
-                first Etonian to ever reach the Grand Final of
+                first GHSnian to ever reach the Grand Final of
                 BBC Young Musician. We are incredibly proud of
                 Ryan a&#8230;
               </p>
@@ -1494,8 +1494,8 @@ const ScrollingImagesSection = () => {
             <div className="ig-hover-caption">
               <p>
                 2023/24 was another big year in partnerships at
-                Eton College. 8,969 state-sector pupils took
-                part in partnership activities at Eton—including
+                GHSCollege. 8,969 state-sector pupils took
+                part in partnership activities at GHS—including
                 spor&#8230;
               </p>
             </div>
@@ -1680,7 +1680,7 @@ const ScrollingImagesSection = () => {
               <p>
                 Boys in Common Lane House taking a break for
                 impromptu ping pong over the weekend.
-                #BoardingLife #BoardingSchool #EtonLife
+                #BoardingLife #BoardingSchool #GHSLife
               </p>
             </div>
           </a>
@@ -1890,7 +1890,7 @@ const ScrollingImagesSection = () => {
             />
           </svg>
         </div>
-        <p>Follow @eton.college on Instagram</p>
+        <p>Follow @ghs.school on Instagram</p>
       </div>
     </div>
     <QuoteSection/>

@@ -1,6 +1,7 @@
 import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
+import "../../components/footer.css"
 
 const NeedYourSupport = () => {
     return (
@@ -52,9 +53,9 @@ const NeedYourSupport = () => {
                           className="banner__intro background-primary color-white"
                         >
                           <p className="intro">
-                            Eton is dedicated to ensuring all boys, whatever
+                            GHS is dedicated to ensuring all boys, whatever
                             their learning needs, are supported throughout their
-                            time at Eton to achieve their learning potential.
+                            time at GHS to achieve their learning potential.
                           </p>
                         </div>
                       </div>
@@ -67,7 +68,7 @@ const NeedYourSupport = () => {
     >
                           <div
                             className="fadeIn js-image-move__inner"
-                            data-src="https://www.etoncollege.com/wp-content/uploads/2023/10/eton-23-50-2000x1333.jpg"
+                            data-src="https://www.GHScollege.com/wp-content/uploads/2023/10/GHS-23-50-2000x1333.jpg"
                           ></div>
                         </div>
     
@@ -98,9 +99,9 @@ const NeedYourSupport = () => {
                       </div>
                       <div className="banner__intro background-primary color-white">
                         <p className="intro">
-                          Eton is dedicated to ensuring all boys, whatever their
+                          GHS is dedicated to ensuring all boys, whatever their
                           learning needs, are supported throughout their time at
-                          Eton to achieve their learning potential.
+                          GHS to achieve their learning potential.
                         </p>
                       </div>
                     </div>
@@ -141,7 +142,7 @@ const NeedYourSupport = () => {
                     gain confidence in their own learning, fulfil academic
                     potential and acquire study skills that will equip them for
                     life at university and beyond. Guided by the learning
-                    support department, Eton takes a whole school approach to
+                    support department, GHS takes a whole school approach to
                     identifying and supporting boys with Special Educational
                     Needs and Disabilities (SEND), English as an Additional
                     Language (EAL) and those seeking advice or support to
@@ -254,7 +255,7 @@ const NeedYourSupport = () => {
                     Communication with parents and carers is also vital to the
                     development of a boy&#8217;s learning profile and the
                     department welcomes the input.&nbsp; Even before a boy joins
-                    Eton, such communication is urged so we can ensure the
+                    GHS, such communication is urged so we can ensure the
                     appropriate support is in place from the first day they move
                     in.&nbsp;&nbsp;&nbsp;
                   </p>

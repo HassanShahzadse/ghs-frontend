@@ -23,23 +23,7 @@ input {
     background-color: white;
     border: 1px solid #007bff;
   }
-  
-  button {
-    margin-top: 40px;
-    background-color: #007bff;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-    padding: 6px 18px;
-    color: white;
-  }
-  button:hover {
-    margin-top: 40px;
-    background-color: #0368d4;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-    padding: 6px 18px;
-    color: white;
-  }
+
 
 /* -------------------------------------------Styles for screens (Mobiles) */
 
@@ -78,6 +62,23 @@ input {
       justify-content: center;
       align-items: center;
       margin-bottom: 30px;
+    }
+
+    button {
+      margin-top: 40px;
+      background-color: #8E6334;
+      border: 1px solid #8E6334;
+      border-radius: 5px;
+      padding: 6px 18px;
+      color: white;
+    }
+    button:hover {
+      margin-top: 40px;
+      background-color: #997147;
+      border: 1px solid #997147;
+      border-radius: 5px;
+      padding: 6px 18px;
+      color: white;
     }
   }
   
@@ -129,11 +130,28 @@ input {
       align-items: center;
       margin-bottom: 30px;
     }
+
+    button {
+      margin-top: 40px;
+      background-color: #8E6334;
+      border: 1px solid #8E6334;
+      border-radius: 5px;
+      padding: 6px 18px;
+      color: white;
+    }
+    button:hover {
+      margin-top: 40px;
+      background-color: #997147;
+      border: 1px solid #997147;
+      border-radius: 5px;
+      padding: 6px 18px;
+      color: white;
+    }
   }
 
 
 /* -------------------------------------------Styles for large screens (desktops) */
- 
+
   @media screen and (min-width: 1024px) {
     body {
       font-size: 20px;
@@ -177,5 +195,22 @@ input {
       justify-content: center;
       align-items: center;
       margin-bottom: 30px;
+    }
+
+    button {
+      margin-top: 40px;
+      background-color: #8E6334;
+      border: 1px solid #8E6334;
+      border-radius: 5px;
+      padding: 14px 250px;
+      color: white;
+    }
+    button:hover {
+      margin-top: 40px;
+      background-color: #997147;
+      border: 1px solid #997147;
+      border-radius: 5px;
+      padding: 14px 250px;
+      color: white;
     }
   }

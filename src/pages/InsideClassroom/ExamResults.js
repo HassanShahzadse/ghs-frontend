@@ -1,6 +1,7 @@
 import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
+import "../../components/footer.css"
 
 const ExamResults = () => {
   return (
@@ -52,9 +53,8 @@ const ExamResults = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Eton is dedicated to ensuring all boys, whatever
-                        their learning needs, are supported throughout their
-                        time at Eton to achieve their learning potential.
+                      At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. 
+
                       </p>
                     </div>
                   </div>
@@ -98,9 +98,8 @@ const ExamResults = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Eton is dedicated to ensuring all boys, whatever their
-                      learning needs, are supported throughout their time at
-                      Eton to achieve their learning potential.
+                    At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. 
+
                     </p>
                   </div>
                 </div>
@@ -129,37 +128,23 @@ const ExamResults = () => {
               </div>
 
               <p>
-                Our aim is for boys to develop the skills and strategies
-                necessary to become successful, lifelong, independent and
-                confident learners.
+              Assessment plays a critical role in shaping a student’s learning journey, and at Global Hub School Karachi, we have developed a comprehensive examination system that reflects this philosophy. Year-round evaluations are designed to not only test a student’s understanding but also encourage consistent effort and continuous learning.
               </p>
 
               <p>
-                Through specialist and bespoke intervention, boys gain a
-                clear understanding of their particular needs and develop
-                strategies to overcome their specific learning difficulties,
-                gain confidence in their own learning, fulfil academic
-                potential and acquire study skills that will equip them for
-                life at university and beyond. Guided by the learning
-                support department, Eton takes a whole school approach to
-                identifying and supporting boys with Special Educational
-                Needs and Disabilities (SEND), English as an Additional
-                Language (EAL) and those seeking advice or support to
-                further their studies.&nbsp;
+              As students advance through their academic years, the level of rigor increases, preparing them thoroughly for their final board examinations. These carefully curated assessments ensure that students are both challenged and supported, building their confidence and competence as they progress.
               </p>
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
                 <p>
-                  My House Master recommended learning support and I found
-                  it to be really helpful, as I could see the impacts it was
-                  having on my academic achievements.
+                The system is designed to strike a balance between teaching and testing, creating an environment where students can master concepts while learning to handle the pressures of exams. By the time they graduate, our students are equipped not only with knowledge but also with the resilience and skills to excel in competitive academic environments.
                 </p>
                 <cite>Boy, B Block</cite>
               </blockquote>
 
-              <p>
+              {/* <p>
                 Support comes in many bespoke forms and is in place to help
                 boys confidently overcome current and future potential
                 challenges. Boys may receive one-to-one lessons focusing on
@@ -172,7 +157,7 @@ const ExamResults = () => {
                 support and information to the wider staff body with regards
                 to how they can differentiate and develop the educational
                 experiences of the boys they work with or teach.
-              </p>
+              </p> */}
 
               <section className="image-with-statistic">
                 <div>
@@ -254,7 +239,7 @@ const ExamResults = () => {
                 Communication with parents and carers is also vital to the
                 development of a boy&#8217;s learning profile and the
                 department welcomes the input.&nbsp; Even before a boy joins
-                Eton, such communication is urged so we can ensure the
+                GHS, such communication is urged so we can ensure the
                 appropriate support is in place from the first day they move
                 in.&nbsp;&nbsp;&nbsp;
               </p>

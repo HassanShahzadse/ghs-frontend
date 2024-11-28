@@ -1,6 +1,7 @@
 import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
+import "../../components/footer.css"
 
 const Boarding = () => {
   return (
@@ -245,7 +246,7 @@ const Boarding = () => {
                 specific educational needs. All boys sit an assessment when
                 they arrive to determine whether additional support is
                 required, and boys can be referred to learning support at
-                any time during their Eton career.
+                any time during their GHScareer.
               </p>
 
               <blockquote

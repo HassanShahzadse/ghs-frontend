@@ -1,7 +1,7 @@
 import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
-// import "../../components/footer.css"
+import "../../components/footer.css"
 
 const OurPurpose = () => {
   return (
@@ -15,7 +15,7 @@ const OurPurpose = () => {
                 className="aims-ethos aims-ethos--banner"
                 data-color="secondary"
               >
-                <div className="breadcrumbs-desk">
+                {/* <div className="breadcrumbs-desk">
                   <p id="breadcrumbs">
                     <span
                       ><span
@@ -35,7 +35,7 @@ const OurPurpose = () => {
                       ></span
                     >
                   </p>
-                </div>
+                </div> */}
                 <div className="container">
                   <div className="row">
                     <div
@@ -45,20 +45,11 @@ const OurPurpose = () => {
                         className="title title--shadow horizontal-scroll--right"
                       ></div>
                       <div className="title title--lg">
-                        Eton College is a charity for the advancement of
-                        education. At its heart sits an independent boys’
-                        boarding school which leads a dynamic range of
-                        educational activities and an expanding network of
-                        educational partnerships.
+                      At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. Rooted in our foundational values are the key aims of the college that we hope to instill in each of our students:
                         <p className="mt-30">
-                          The charity’s primary purpose, determined from its
-                          Christian foundation in 1440, is to draw out the
-                          best of young people’s talents and to enable them
-                          to flourish and make a positive impact on others
-                          through the course of a healthy, happy and
-                          fulfilling life.<br />
+                        At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. Rooted in our foundational values are the key aims of the college that we hope to instill in each of our students:<br />
                           <p>
-                            In advancing this purpose, Eton is committed to
+                            In advancing this purpose, GHS is committed to
                             an ethos which:
                           </p>
                         </p>
@@ -70,37 +61,25 @@ const OurPurpose = () => {
                         <div className="col-lg-6">
                           <ol>
                             <li>
-                              encourages creativity, individuality,
-                              innovation and enjoyment through a broad
-                              vision of education based on wide-ranging
-                              academic and co-curricular opportunities;
+                            We provide an internationally recognized Cambridge-based curriculum delivered by expert educators. This rigorous academic framework develops critical thinking, creativity, and analytical skills, preparing students to excel in an ever-changing world.
+
                             </li>
                             <li>
-                              enables boys to develop a strong understanding
-                              of themselves and their capabilities, while
-                              also empathising with others through a genuine
-                              appreciation for different people, different
-                              perspectives and different cultures;
+                            Our approach encourages students to develop a love for learning, empowering them to pursue knowledge independently and confidently throughout their lives. By cultivating curiosity, we ensure our pupils stay adaptable and informed.
+
                             </li>
                           </ol>
                         </div>
                         <div className="col-lg-6">
                           <ol start="3">
                             <li>
-                              develops enquiring minds and fosters a
-                              life-long appreciation of independent thinking
-                              and learning;
+                            GHS nurtures leadership qualities in every student by offering opportunities to take initiative, work collaboratively, and lead with empathy. We prepare our pupils to make meaningful contributions both locally and globally.
                             </li>
                             <li>
-                              develops physical and mental health, emotional
-                              maturity and spiritual richness;
+                            Our commitment to sustainability drives our decisions and practices. From environmental awareness to community outreach, we instill in our students a sense of responsibility to protect and enhance the world around them.
                             </li>
                             <li>
                               nurtures the value of leadership and service;
-                            </li>
-                            <li>
-                              celebrates kindness, loyalty, gratitude,
-                              integrity and determination.
                             </li>
                           </ol>
                         </div>
@@ -137,7 +116,7 @@ const OurPurpose = () => {
                         <div className="col-md-8">
                           <p>
                             <span className="intro"
-                              >In order to achieve this Eton:</span
+                              >In order to achieve this GHS:</span
                             >
                           </p>
                           <p>
@@ -146,7 +125,7 @@ const OurPurpose = () => {
                             wider school community; this is the foundation
                             of the trusting relationships formed between
                             boys and adults, which is a particular feature
-                            of Eton life.
+                            of GHS life.
                           </p>
                           <p>
                             b) has a competitive school culture in which
@@ -167,7 +146,7 @@ const OurPurpose = () => {
                             the school’s sustained success.
                           </p>
                           <p>
-                            Eton is proud of its history and heritage and
+                            GHS is proud of its history and heritage and
                             honours many of its traditions; but the school
                             has always had a dynamic relationship with its
                             past and it is in balancing the old with the new

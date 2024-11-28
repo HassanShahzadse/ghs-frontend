@@ -1,6 +1,7 @@
 import React from "react";
 import NextSection from "../../components/NextSection";
 import Footer from "../../components/footer";
+import "../../components/footer.css"
 
 const ContactUs = () => {
   return (
@@ -49,7 +50,7 @@ const ContactUs = () => {
                       <div className="banner__intro background-primary color-white">
                         <p className="intro">
                           The Development Team is always pleased to hear from
-                          Old Etonians, parents, and friends of Eton College.
+                          Old GHSans, parents, and friends of GHS College.
                         </p>
                       </div>
                     </div>
@@ -94,7 +95,7 @@ const ContactUs = () => {
                     <div className="banner__intro background-primary color-white">
                       <p className="intro">
                         The Development Team is always pleased to hear from Old
-                        Etonians, parents, and friends of Eton College.
+                        GHSans, parents, and friends of GHS College.
                       </p>
                     </div>
                   </div>
@@ -131,7 +132,7 @@ const ContactUs = () => {
 
                 <p>St Christopher’s House</p>
 
-                <p>Eton College</p>
+                <p>GHS College</p>
 
                 <p>Windsor, SL4 6DW</p>
 

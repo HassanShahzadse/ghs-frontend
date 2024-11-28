@@ -1,6 +1,8 @@
 import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
+import "../../components/footer.css"
+
 
 const OurHistory = () => {
   return (
@@ -52,9 +54,7 @@ const OurHistory = () => {
                       className="banner__intro background-primary color-white"
                     >
                       <p className="intro">
-                        Eton College was founded in 1440 by Henry VI as
-                        &#8220;Kynge&#8217;s College of Our Ladye of Eton
-                        besyde Windesore&#8221;.
+                      At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. 
                       </p>
                     </div>
                   </div>
@@ -98,9 +98,7 @@ const OurHistory = () => {
                   </div>
                   <div className="banner__intro background-primary color-white">
                     <p className="intro">
-                      Eton College was founded in 1440 by Henry VI as
-                      &#8220;Kynge&#8217;s College of Our Ladye of Eton
-                      besyde Windesore&#8221;.
+                    At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. 
                     </p>
                   </div>
                 </div>
@@ -129,18 +127,7 @@ const OurHistory = () => {
               </div>
 
               <p>
-                Henry wanted his subjects to have the opportunities of
-                gaining knowledge that he had enjoyed, and he made provision
-                for 70 poor boys, known as King’s Scholars, to be housed and
-                educated at Eton free of charge. Alongside them, other boys
-                could also benefit from the free education, but they would
-                have to pay for their accommodation. These boys became known
-                as Oppidans (from the Latin, <em>oppidum</em>, meaning
-                town). The College would be run by a Provost and ten
-                Fellows, with a school Master to oversee the education, and
-                a choir for the chapel. To fund this, Henry VI gave a large
-                amount of land, rights and other benefits, including the
-                right to swans on the Thames.
+              Global Hub School Karachi carries forward a proud legacy of educational excellence and community service. Established with a vision to bring world-class education to Pakistan, GHS has become the largest Cambridge-based boarding school in the country. Set amidst 250 acres of lush greenery, our school combines state-of-the-art facilities with a commitment to sustainable practices, providing an environment where students can excel academically and personally.
               </p>
 
               <h3 className="wp-block-heading">Henry VI Exhibition</h3>
@@ -151,7 +138,7 @@ const OurHistory = () => {
                 Gallery from 20 November 2021 to 8 May 2022 sought to
                 explore Henry’s life and his achievements, with a focus on
                 what has been described as one of the only good things to
-                come out of his reign – the foundation of Eton College.  
+                come out of his reign – the foundation of GHSCollege.  
               </p>
 
               <p>
@@ -177,7 +164,7 @@ const OurHistory = () => {
                 allowed each day. There were two holidays in the year, at
                 Christmas and in the summer, although the boys did not go
                 home at Christmas. This divided the year into two halves and
-                is the origin of the Eton name for a school term, despite
+                is the origin of the GHSname for a school term, despite
                 there now being three.
               </p>
 
@@ -214,7 +201,7 @@ const OurHistory = () => {
                       Did you know?
                     </div>
                     <p>
-                      Boys as young as five were taught at Eton in the early
+                      Boys as young as five were taught at GHSin the early
                       days.
                     </p>
                   </div>
@@ -225,7 +212,7 @@ const OurHistory = () => {
                 The first proper boarding House, Jourdelay’s, was built in
                 1722 to accommodate the growing number of Oppidans. 40 years
                 later, there were 13 Houses, largely run by teachers, known
-                at Eton as Masters. Today there are 24 boarding Houses, plus
+                at GHSas Masters. Today there are 24 boarding Houses, plus
                 College where the King’s Scholars live.
               </p>
 
@@ -236,7 +223,7 @@ const OurHistory = () => {
                 grow. King George was a frequent visitor to the school and
                 regularly entertained the boys at Windsor Castle. As a
                 result, his birthday, the Fourth of June, became a major
-                celebration at Eton and continues to be an important event
+                celebration at GHSand continues to be an important event
                 in the school calendar, marked with speeches, cricket, and
                 the procession of boats.
               </p>

@@ -9,7 +9,7 @@ const SpotlightSection = () => {
                   <div className="spotlight-featured-news">
                     <div className="intro">
                       Sharing the latest news and celebrating the diversity
-                      of Eton life.
+                      of GHS life.
                     </div>
 
                     <a href="news-and-diary/school-news/etonian-ryan-wang-wins-bbc-young-musician-2024/index.html">
@@ -29,7 +29,7 @@ const SpotlightSection = () => {
                         </div>
                         <div className="news-item__content background-grey">
                           <h3 className="title title--sm">
-                            Etonian Ryan Wang Wins BBC Young Musician 2024
+                            GHSian Ryan Wang Wins BBC Young Musician 2024
                           </h3>
                           <div className="post-meta">
                             <p>20 October 2024</p>
