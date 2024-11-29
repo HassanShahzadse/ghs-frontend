@@ -3,23 +3,23 @@ import {Link } from "react-router-dom";
 import "./footer.css";
 
 const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(true);
-  const closeSidebar = () => {
-    setIsOpen(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
+  
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
-
  
 
   return (
     <>
-    <div className={`${isOpen ? "open" : "closed"}`}>
+    <div >
       <div id="page-wrap" className="sidebar-container" >
       <div className="top-nav">
-        <div className="hamburger" onClick={toggleSidebar}>
+        <div className="hamburger" onClick={toggleMenu}>
           <div className="nav-icon">
             <div></div>
           </div>
@@ -66,15 +66,15 @@ const Sidebar = () => {
         </div>
       </div>
 
-        <nav className="nav-menu">
+        <nav className={`nav-menu ${isMenuOpen ? "open" : "close"}`}>
         <div>
           <div className="title title--sm">Main Menu</div>
 
           <ul className="nav__top-level" id="main-menu">
-            <li>
-              <Link to="" onClick={closeSidebar}>Home</Link>
+            <li >
+              <Link to="" onClick={closeMenu}>Home</Link>
             </li>
-            <li className="parent-page">
+            <li className="parent-page" >
               <Link to="" id="5" className="">
                 About Us
               </Link>
@@ -109,148 +109,148 @@ const Sidebar = () => {
       </nav>
       </div>
 
-      <div className="sub-menu-wrapper">
-        <div className="sub-menu-wrap" id="sub_5">
+      <div className= {`sub-menu-wrapper ${isMenuOpen ? "open" : ""}`}>
+        <div className={`sub-menu-wrap ${isMenuOpen ? "open" : ""}`} id="sub_5">
           <div className="title title--sm">About Us</div>
           <ul>
             <li className="menu-item">
-              <Link to="/AboutUs/OurPurpose">Our Purpose</Link>
+              <Link to="/AboutUs/OurPurpose" onClick={closeMenu}>Our Purpose</Link>
             </li>
             <li className="menu-item">
-              <Link to="/AboutUs/OurStrategy">Our Strategy</Link>
+              <Link to="/AboutUs/OurStrategy" onClick={closeMenu}>Our Strategy</Link>
             </li>
             <li className="menu-item">
-              <Link to="/AboutUs/OurHistory">Our History</Link>
+              <Link to="/AboutUs/OurHistory" onClick={closeMenu}>Our History</Link>
             </li>
             <li className="menu-item">
-              <Link to="/AboutUs/OurLeadership">
+              <Link to="/AboutUs/OurLeadership" onClick={closeMenu}>
                 Our Leadership
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/AboutUs/OurGoverningBody">
+              <Link to="/AboutUs/OurGoverningBody" onClick={closeMenu}>
                 Our Governing Body
               </Link>
             </li>
           </ul>
           <div className="back-button">Back</div>
         </div>
-        <div className="sub-menu-wrap" id="sub_6">
-          <div className="title title--sm">Inside the Classroom</div>
+        <div className={`sub-menu-wrap ${isMenuOpen ? "open" : ""}`} id="sub_6">
+          <div className="title title--sm" >Inside the Classroom</div>
           <ul>
             <li className="menu-item">
-              <Link to="/InsideClassroom/AcadmicCurriculum">
+              <Link to="/InsideClassroom/AcadmicCurriculum" onClick={closeMenu}>
                 The Academic Curriculum
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/InsideClassroom/LearningSupport">
+              <Link to="/InsideClassroom/LearningSupport" onClick={closeMenu}>
                 Learning Support
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/InsideClassroom/AcadmicFacilities">
+              <Link to="/InsideClassroom/AcadmicFacilities" onClick={closeMenu}>
                 Academic Facilities
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/InsideClassroom/ExamResults">
+              <Link to="/InsideClassroom/ExamResults" onClick={closeMenu}>
                 Exam Results
               </Link>
             </li>
           </ul>
           <div className="back-button">Back</div>
         </div>
-        <div className="sub-menu-wrap" id="sub_7">
+        <div className={`sub-menu-wrap ${isMenuOpen ? "open" : ""}`} id="sub_7">
           <div className="title title--sm">Outside the Classroom</div>
           <ul>
             <li className="menu-item">
-              <Link to="/OutsideClassroom/CoCurriculum">
+              <Link to="/OutsideClassroom/CoCurriculum" onClick={closeMenu}>
                 The Co-Curriculum
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/OutsideClassroom/Sport">Sport</Link>
+              <Link to="/OutsideClassroom/Sport" onClick={closeMenu}>Sport</Link>
             </li>
             <li className="menu-item">
-              <Link to="/OutsideClassroom/Boarding">
+              <Link to="/OutsideClassroom/Boarding" onClick={closeMenu}>
                 Boarding
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/OutsideClassroom/PastoralCare">
+              <Link to="/OutsideClassroom/PastoralCare" onClick={closeMenu}>
                 Pastoral Care
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/OutsideClassroom/CommunityEngagement">
+              <Link to="/OutsideClassroom/CommunityEngagement" onClick={closeMenu}>
                 Community Engagement
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/OutsideClassroom/ReligiousLife">
+              <Link to="/OutsideClassroom/ReligiousLife" onClick={closeMenu}>
                 Religious Life
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/OutsideClassroom/EnvironmentalEducation">
+              <Link to="/OutsideClassroom/EnvironmentalEducation" onClick={closeMenu}>
                 Environmental Education
               </Link>
             </li>
           </ul>
           <div className="back-button">Back</div>
         </div>
-        <div className="sub-menu-wrap" id="sub_11">
-          <div className="title title--sm">Admissions</div>
+        <div className={`sub-menu-wrap ${isMenuOpen ? "open" : ""}`} id="sub_11">
+          <div className="title title--sm" >Admissions</div>
           <ul>
             <li className="menu-item">
-              <Link to="/Admissions/EntryToGHS">Entry To GHS</Link>
+              <Link to="/Admissions/EntryToGHS" onClick={closeMenu}>Entry To GHS</Link>
             </li>
             <li className="menu-item">
-              <Link to="/Admissions/ApplyOnline">Apply Online</Link>
+              <Link to="/Admissions/ApplyOnline" onClick={closeMenu}>Apply Online</Link>
             </li>
             {/* <li className="menu-item">
               <Link to="/Admissions/AdmissionForm">Admission Form</Link>
             </li> */}
             <li className="menu-item">
-              <Link to="/Admissions/ScholarshipFinancialAid">Scholarships and Financial Aid</Link>
+              <Link to="/Admissions/ScholarshipFinancialAid" onClick={closeMenu}>Scholarships and Financial Aid</Link>
             </li>
             <li className="menu-item">
-              <Link to="/Admissions/Fees">Fees</Link>
+              <Link to="/Admissions/Fees" onClick={closeMenu}>Fees</Link>
             </li>
           </ul>
           <div className="back-button">Back</div>
         </div>
-        <div className="sub-menu-wrap" id="sub_10">
+        <div className={`sub-menu-wrap ${isMenuOpen ? "open" : ""}`} id="sub_10">
           <div className="title title--sm">Support Us</div>
           <ul>
             <li className="menu-item">
-              <Link to="/SupportUs/NeedYourSupport">
+              <Link to="/SupportUs/NeedYourSupport" onClick={closeMenu}>
                 Why We Need Your Support
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/SupportUs/WaysToSupport">Ways to Suport</Link>
+              <Link to="/SupportUs/WaysToSupport" onClick={closeMenu}>Ways to Suport</Link>
             </li>
             <li className="menu-item">
-              <Link to="/SupportUs/GiftOfEducation">The Gift of Education</Link>
+              <Link to="/SupportUs/GiftOfEducation" onClick={closeMenu}>The Gift of Education</Link>
             </li>
             <li className="menu-item">
-              <Link to="/SupportUs/ContactUs">Contact Us</Link>
+              <Link to="/SupportUs/ContactUs" onClick={closeMenu}>Contact Us</Link>
             </li>
           </ul>
-          <div className="back-button">Back</div>
+          <div className="back-button" >Back</div>
         </div>
-        <div className="sub-menu-wrap" id="sub_13">
+        <div className={`sub-menu-wrap ${isMenuOpen ? "open" : ""}`} id="sub_13">
           <div className="title title--sm">Contact Us</div>
           <ul>
             <li className="menu-item">
-              <Link to="/ContactUs/ContactDetails">
+              <Link to="/ContactUs/ContactDetails" onClick={closeMenu}>
                 Contact Details
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/ContactUs/VisitUs">
+              <Link to="/ContactUs/VisitUs" onClick={closeMenu}>
                 Visit Us
               </Link>
             </li>
