@@ -206,8 +206,11 @@ const Sidebar = () => {
             <li className="menu-item">
               <Link to="/Admissions/EntryToGHS" onClick={closeMenu}>Entry To GHS</Link>
             </li>
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <Link to="/Admissions/ApplyOnline" onClick={closeMenu}>Apply Online</Link>
+            </li> */}
+            <li className="menu-item">
+              <a href="https://app.ghskarachi.com/student/online/reg2">Apply Online</a>
             </li>
             {/* <li className="menu-item">
               <Link to="/Admissions/AdmissionForm">Admission Form</Link>
