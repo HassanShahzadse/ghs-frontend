@@ -21,7 +21,7 @@ const Sidebar = () => {
     <div >
       <div id="page-wrap" className="sidebar-container" >
       <div className="top-nav">
-        <div className="hamburger" onClick={toggleMenu}>
+        <div className="hamburger" >
           <div className="nav-icon">
             <div></div>
           </div>
