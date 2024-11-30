@@ -21,7 +21,7 @@ const Sidebar = () => {
     <div >
       <div id="page-wrap" className="sidebar-container" >
       <div className="top-nav">
-        <div className="hamburger" >
+        <div className="hamburger" onClick={toggleMenu}>
           <div className="nav-icon">
             <div></div>
           </div>
@@ -32,7 +32,7 @@ const Sidebar = () => {
           <div className="top-nav__logo">
             <img
               fetchpriority="high"
-              src="/assets/img/Final GHS.png"
+              src="assets/img/Final GHS.png"
             />
           </div>
         </Link>
@@ -62,7 +62,7 @@ const Sidebar = () => {
           </div>
           <div className="top-nav__contact">
           {/* <FaPhone size={30} /> */}
-          <FiPhone size={25} strokeWidth={'1px'}/>
+          <FiPhone size={25} />
           </div>
         </div>
       </div>
