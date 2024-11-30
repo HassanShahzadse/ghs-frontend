@@ -37,8 +37,10 @@ const Footer = () => {
 						<div className="site-footer__content">
 							<div className="row">
 								<div className="col-lg-3">
-									<a href="index.html"><img
-											src="assets/Gradient Fill 1 copy.jpg"/></a>
+									<div style={{ width: '50px', height: '50px' }}>
+									<img	src="/assets/img/Final GHS.png"/>
+											
+											</div>
 
 									<div className="social-icons">
 										<a href="https://twitter.com/eton_college?lang=en" target="_blank"><img
@@ -58,20 +60,19 @@ const Footer = () => {
 								</div>
 								<div className="col-lg-8 offset-lg-1">
 									<p className="intro">
-										A modern, forward-thinking school that embraces innovation and new opportunities
-										to provide an outstanding, progressive and well-rounded education.
+									Global Hub School Karachi strives to nurture well-rounded, compassionate leaders by providing exceptional education, fostering critical thinking, and empowering students to make a meaningful impact on the world.
 									</p>
 
 									<div className="row pad-med-top">
 										<div className="col-md-4">
 											<h3 className="title title--sm">Contact Us</h3>
-											<p>GHSCollege<br />
-												Windsor, Berkshire, SL4 6DW</p>
-											<p>(+44) 01753 370 100</p>
+											<p>Global Hub School<br />
+											Hub Dam Road (5 KM from Hamdard University), Karachi, Sindh, Pakistan</p>
+											<p>(+92 ) 21 3644 0300</p>
 											<p><a
 													href="cdn-cgi/l/email-protection.html#10757e616579627975635075647f7e737f7c7c7577753e7f62773e657b"><span
 														className="__cf_email__"
-														data-cfemail="dbbeb5aaaeb2a9b2bea89bbeafb4b5b8b4b7b7bebcbef5b4a9bcf5aeb0">[email&#160;protected]</span></a>
+														data-cfemail="dbbeb5aaaeb2a9b2bea89bbeafb4b5b8b4b7b7bebcbef5b4a9bcf5aeb0">info@ghskarachi.com</span></a>
 											</p>
 
 										</div>
@@ -97,8 +98,8 @@ const Footer = () => {
 									</div>
 									<div className="row final-row">
 										<div className="col-md-4">
-											<small>Registered Charity Number 1139086<br/>
-												© GHSCollege 2024</small>
+											<small>Registered Number <br/>
+												© Global Hub School 2024</small>
 										</div>
 
 										<div className="col-md-5 offset-md-1 ">

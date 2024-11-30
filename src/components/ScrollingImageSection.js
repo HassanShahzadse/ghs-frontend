@@ -89,7 +89,7 @@ const ScrollingImagesSection = () => {
               <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0141.JPG"              />
+                src="/assets/11/69729319_2298412693738870_1343645145202950144_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -182,7 +182,7 @@ const ScrollingImagesSection = () => {
               <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0142.JPG"              />
+                src="/assets/11/73372222_2355401751373297_7012429237739061248_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -275,7 +275,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0143.JPG"              />
+                src="/assets/11/247470871_2919321168314683_3967744707871769205_n.png"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -368,7 +368,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0144.JPG"              />
+                src="/assets/11/300435996_172020862062507_4477850517123929161_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -460,7 +460,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0145.JPG"              />
+                src="/assets/11/174739355_2788092938104174_1790550117626444802_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -553,7 +553,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0146.JPG"              />
+                src="/assets/11/275054573_122711713660089_1312944415058859257_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -648,7 +648,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0153.JPG"              />
+                src="/assets/11/90172896_2479257448987726_2746791719352664064_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -741,7 +741,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0152.JPG"              />
+                src="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -834,7 +834,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0151.JPG"              />
+                src="/assets/11/90181962_2479259875654150_3669534647982751744_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -927,7 +927,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0150.JPG"              />
+                src="/assets/11/90148787_2479258218987649_5600563102589386752_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -1020,7 +1020,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0149.JPG"              />
+                src="/assets/11/176074127_2788094911437310_1793668116840003786_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -1113,7 +1113,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0148.JPG"              />
+                src="/assets/11/173949365_2788094718103996_8914009337549083740_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -1207,7 +1207,7 @@ const ScrollingImagesSection = () => {
            <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0147.JPG"              />
+                src="/assets/11/70462977_2298415337071939_5397888453499158528_n.jpg"              />
 
             <div className="ig-hover">
               <p>View on instagram</p>
@@ -1300,7 +1300,7 @@ const ScrollingImagesSection = () => {
           <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0157.JPG"              />
+                src="/assets/11/81218517_2414471095466362_1277845215436079104_n.jpg"              />
 
             <div className="ig-hover">
               <p>View on instagram</p>
@@ -1393,7 +1393,7 @@ const ScrollingImagesSection = () => {
            <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0156.JPG"              />
+                src="/assets/11/277148812_130958129502114_7861657689476040255_n.jpg"              />
 
             <div className="ig-hover">
               <p>View on instagram</p>
@@ -1486,7 +1486,7 @@ const ScrollingImagesSection = () => {
            <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0155.JPG"              />
+                src="/assets/11/461968913_3684004521846340_906275821340010015_n.jpg"              />
 
             <div className="ig-hover">
               <p>View on instagram</p>
@@ -1579,7 +1579,7 @@ const ScrollingImagesSection = () => {
           <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0158.JPG"              />
+                src="/assets/11/275241410_126106049987322_9784042813719939_n.jpg"              />
 
             <div className="ig-hover">
               <p>View on instagram</p>
@@ -1671,7 +1671,7 @@ const ScrollingImagesSection = () => {
           <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0176.JPG"              />
+                src="/assets/11/Open air- dining hall.JPG"              />
 
             <div className="ig-hover">
               <p>View on instagram</p>
@@ -1763,7 +1763,7 @@ const ScrollingImagesSection = () => {
             <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0178.JPG"              />
+                src="/assets/11/263856165_2949755955271204_4147642677834431307_n.jpg"              />
 
             <div className="ig-hover">
               <p>View on instagram</p>
@@ -1856,7 +1856,7 @@ const ScrollingImagesSection = () => {
             <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0101.JPG"              />
+                src="/assets/11/462039087_3684004518513007_3582644176386282950_n.jpg"              />
 
             <div className="ig-hover">
               <p>View on instagram</p>

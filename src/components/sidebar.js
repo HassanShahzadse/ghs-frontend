@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import {Link } from "react-router-dom";
+// import { FaPhone } from "react-icons/fa";
+import { FiPhone } from "react-icons/fi";
 import "./footer.css";
 
 const Sidebar = () => {
@@ -59,9 +61,8 @@ const Sidebar = () => {
             </div>
           </div>
           <div className="top-nav__contact">
-            <Link to="contact-us/contact-details/index">
-              <img src="wp-content/themes/eton-college/assets/img/icons/phone.svg" />
-            </Link>
+          {/* <FaPhone size={30} /> */}
+          <FiPhone size={25} />
           </div>
         </div>
       </div>
