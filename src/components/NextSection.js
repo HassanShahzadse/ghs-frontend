@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 const NextSection = () => {
   return (
@@ -19,38 +20,41 @@ const NextSection = () => {
                       </div>
 
                       <div className="fade-in__child fade-in--3">
-                        <a
+                        {/* <a
                           href="news-and-diary/school-news/rocksoc-shakes-the-parry-hall/index.html"
                           className="post-link"
-                        >
+                        > */}
                           <div className="news-item">
                             <div className="news-item__img">
                               <div className="js-image-move">
                                 <span className="js-image-move__inner object-fit object-fit--cover">
+                               
+
                                   <img
                                     decoding="async"
                                     className="moving-img"
-                                    src="/assets/11/IMG_0101.JPG"                                  />
+                                    src="/assets/11/461968913_3684004521846340_906275821340010015_n.jpg"  />
+                                    
                                 </span>
                               </div>
                               <div className="corner-category">
                                 <div className="corner-category__inner">
-                                  News
+                                  New
                                 </div>
                               </div>
                             </div>
                             <div className="news-item__content background-grey">
                               <h3 className="title title--sm">
-                                RockSoc Shakes The Parry Hall
+                                 The  Labs
                               </h3>
                               <div className="post-meta">
-                                <p>14 November 2024</p>
+                                <p>November 2024</p>
 
-                                <p>Music</p>
+                                <p>Learning</p>
                               </div>
                             </div>
                           </div>
-                        </a>
+                        {/* </a> */}
                       </div>
                     </div>
 
@@ -61,23 +65,31 @@ const NextSection = () => {
                             <div className="js-image-move__inner object-fit object-fit--cover">
                               <img
                                 decoding="async"
-                                src="/assets/11/IMG_0108.JPG"                              />
+                                src="/assets/11/Dorm block- quadrangle.JPG"     />
                             </div>
                           </div>
+                          <Link to="/AboutUs/OurPurpose">
                           <h3 className="title title--md">Our Purpose</h3>
-                          <a
+                          </Link>
+                          {/* <a
                             href="about-us/our-purpose/index.html"
                             className="cover-link"
-                          ></a>
+                          ></a> */}
                         </div>
                         <div className="teaser-item">
                           <div
                             className="teaser-item__inner"
                             // style="background-image:url()"
                             image-background-scroll
-                          ></div>
-                          <h3 className="title title--md"></h3>
-                          <a href="/" className="cover-link"></a>
+                          >
+                             <div className="js-image-move__inner object-fit object-fit--cover">
+                              <img
+                                decoding="async"
+                                src="/assets/11/DSC_2159.JPG"     />
+                            </div>
+                          </div>
+                          <Link to="/OutsideClassroom/Sport">  <h3 className="title title--md">Sport</h3></Link>
+                          {/* <a href="/" className="cover-link"></a> */}
                         </div>
                       </div>
                       <div className="fade-in__child fade-in--2">
@@ -86,23 +98,16 @@ const NextSection = () => {
                             <div className="js-image-move__inner object-fit object-fit--cover">
                               <img
                                 decoding="async"
-                                src="/assets/11/IMG_0153.JPG"                              />
+                                src="/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg"     />
                             </div>
                           </div>
-                          <h3 className="title title--md">Entry To GHS</h3>
                           <a
-                            href="admissions/entry-to-eton/index.html"
+                            href="https://app.ghskarachi.com/student/online/reg2" 
+                            target="blank"
                             className="cover-link"
-                          ></a>
-                        </div>
-                        <div className="teaser-item">
-                          <div
-                            className="teaser-item__inner"
-                            // style="background-image:url()"
-                            image-background-scroll
-                          ></div>
-                          <h3 className="title title--md"></h3>
-                          <a href="/" className="cover-link"></a>
+                          >
+                             <h3 className="title title--md">Apply Online</h3>
+                          </a>
                         </div>
                       </div>
                     </div>

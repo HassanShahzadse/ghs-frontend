@@ -3,7 +3,7 @@ import React from "react";
 import "./footer.css";
 import AfterScrollingSection from "./AfterScrollingSection";
 import ScrollingImagesSection from "./ScrollingImageSection";
-import SpotlightSection from "./SpotlightSection";
+// import SpotlightSection from "./SpotlightSection";
 import NextSection from "./NextSection";
 import Footer from "./footer";
 
@@ -28,7 +28,7 @@ const ScrollingDivs = () => {
                         <div className="banner--column banner--column-1 js-home-banner-col-1">
                           <div className="banner__image landscape">
                             <a
-                              href="outside-the-classroom/sport/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -65,7 +65,7 @@ const ScrollingDivs = () => {
 
                           <div className="banner__image landscape">
                             <a
-                              href="inside-the-classroom/the-academic-curriculum/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -101,7 +101,7 @@ const ScrollingDivs = () => {
 
                           <div className="banner__image portrait">
                             <a
-                              href="outside-the-classroom/music/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -137,7 +137,7 @@ const ScrollingDivs = () => {
 
                           <div className="banner__image landscape">
                             <a
-                              href="about-us/our-public-museums/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -177,7 +177,7 @@ const ScrollingDivs = () => {
                         <div className="banner--column banner--column-2 js-home-banner-col-2">
                           <div className="banner__image landscape">
                             <a
-                              href="eton-outwards/research-and-innovation/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -213,7 +213,7 @@ const ScrollingDivs = () => {
 
                           <div className="banner__image portrait">
                             <a
-                              href="outside-the-classroom/environmental-education/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -249,7 +249,7 @@ const ScrollingDivs = () => {
 
                           <div className="banner__image portrait">
                             <a
-                              href="outside-the-classroom/drama/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -285,7 +285,7 @@ const ScrollingDivs = () => {
 
                           <div className="banner__image landscape">
                             <a
-                              href="college-life/boarding/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -328,7 +328,7 @@ const ScrollingDivs = () => {
                         <div className="banner--column banner--column-3 js-home-banner-col-3">
                           <div className="banner__image portrait">
                             <a
-                              href="outside-the-classroom/societies-programme/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -365,7 +365,7 @@ const ScrollingDivs = () => {
 
                           <div className="banner__image portrait">
                             <a
-                              href="about-us/our-outward-facing-work-2/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -401,7 +401,7 @@ const ScrollingDivs = () => {
 
                           <div className="banner__image landscape">
                             <a
-                              href="support-us/areas-for-support/eton-star-schools-programme/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -437,7 +437,7 @@ const ScrollingDivs = () => {
 
                           <div className="banner__image landscape">
                             <a
-                              href="college-life/pastoral-care/index.html"
+                              href=""
                               className="banner__image--link"
                             >
                               <img
@@ -486,7 +486,7 @@ const ScrollingDivs = () => {
                     <div className="mobile-banner-carousel">
                       <div className="banner__image">
                         <a
-                          href="college-life/boarding/index.html"
+                          href=""
                           className="banner__image--link"
                         >
                           <img
@@ -522,7 +522,7 @@ const ScrollingDivs = () => {
 
                       <div className="banner__image">
                         <a
-                          href="outside-the-classroom/sport/index.html"
+                          href=""
                           className="banner__image--link"
                         >
                           <img
@@ -558,7 +558,7 @@ const ScrollingDivs = () => {
 
                       <div className="banner__image">
                         <a
-                          href="outside-the-classroom/music/index.html"
+                          href=""
                           className="banner__image--link"
                         >
                           <img
@@ -594,7 +594,7 @@ const ScrollingDivs = () => {
 
                       <div className="banner__image">
                         <a
-                          href="outside-the-classroom/drama/index.html"
+                          href=""
                           className="banner__image--link"
                         >
                           <img
@@ -630,7 +630,7 @@ const ScrollingDivs = () => {
 
                       <div className="banner__image">
                         <a
-                          href="outside-the-classroom/societies-programme/index.html"
+                          href=""
                           className="banner__image--link"
                         >
                           <img
@@ -667,7 +667,7 @@ const ScrollingDivs = () => {
 
                       <div className="banner__image">
                         <a
-                          href="inside-the-classroom/the-academic-curriculum/index.html"
+                          href=""
                           className="banner__image--link"
                         >
                           <img

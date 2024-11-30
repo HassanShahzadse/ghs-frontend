@@ -83,8 +83,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/reel/DCgrc_Dqhva/"
-              target="_blank"
+              href=""
             >
               <img
                 decoding="async"
@@ -176,8 +175,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/reel/DCWZMACNh5U/"
-              target="_blank"
+              href=''
             >
               <img
                 decoding="async"
@@ -269,8 +267,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/p/DCT7ieFuV7p/"
-              target="_blank"
+              href=''
             >
              <img
                 decoding="async"
@@ -362,8 +359,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/p/DCPDH9GNCkA/"
-              target="_blank"
+              href=''
             >
              <img
                 decoding="async"
@@ -454,8 +450,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/reel/DByN5zSNqnw/"
-              target="_blank"
+              href=''
             >
              <img
                 decoding="async"
@@ -547,8 +542,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/p/DBi3AkpMq5t/"
-              target="_blank"
+              href=''
             >
              <img
                 decoding="async"
@@ -642,8 +636,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/p/DBdqen7pbpP/"
-              target="_blank"
+              href=''
             >
              <img
                 decoding="async"
@@ -735,8 +728,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/reel/DBYeG_9NvFH/"
-              target="_blank"
+              href=''
             >
              <img
                 decoding="async"
@@ -828,8 +820,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/p/DBXCgITOuWJ/"
-              target="_blank"
+              href=''
             >
              <img
                 decoding="async"
@@ -921,8 +912,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/p/DBQnsQiARzK/"
-              target="_blank"
+              href=''
             >
              <img
                 decoding="async"
@@ -1014,8 +1004,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/p/DBOH40tsNrw/"
-              target="_blank"
+              href=''
             >
              <img
                 decoding="async"
@@ -1107,8 +1096,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href="https://www.instagram.com/reel/DBJB6Z1ti_i/"
-              target="_blank"
+              href=''
             >
              <img
                 decoding="async"
@@ -1201,8 +1189,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href="https://www.instagram.com/p/DBGcoiUP5nI/"
-            target="_blank"
+            href=''
           >
            <img
                 decoding="async"
@@ -1294,8 +1281,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href="https://www.instagram.com/reel/DA_IRzGhGK0/"
-            target="_blank"
+            href=''
           >
           <img
                 decoding="async"
@@ -1387,8 +1373,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href="https://www.instagram.com/p/DA8ASCytI6Z/"
-            target="_blank"
+            href=''
           >
            <img
                 decoding="async"
@@ -1480,8 +1465,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href="https://www.instagram.com/reel/DA5pyfgpb_o/"
-            target="_blank"
+            href=''
           >
            <img
                 decoding="async"
@@ -1573,8 +1557,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href="https://www.instagram.com/p/DA5dA_qulEa/"
-            target="_blank"
+            href=''
           >
           <img
                 decoding="async"
@@ -1665,8 +1648,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href="https://www.instagram.com/reel/DA3Z8k4J2JJ/"
-            target="_blank"
+            href=''
           >
           <img
                 decoding="async"
@@ -1757,8 +1739,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href="https://www.instagram.com/p/DA3CRoYNNmY/"
-            target="_blank"
+            href=''
           >
             <img
                 decoding="async"
@@ -1850,8 +1831,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href="https://www.instagram.com/p/DAvCjlGJYNp/"
-            target="_blank"
+            href=''
           >
             <img
                 decoding="async"

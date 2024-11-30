@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import "./footer.css"; 
+import { Link } from "react-router-dom";
 
 
 
@@ -39,23 +40,18 @@ const Footer = () => {
 								<div className="col-lg-3">
 									<div style={{ width: '50px', height: '50px' }}>
 									<img	src="/assets/img/Final GHS.png"/>
-											
 											</div>
 
 									<div className="social-icons">
-										<a href="https://twitter.com/eton_college?lang=en" target="_blank"><img
+									<img
 												src="/assets/img/social/twitter_circle_stroke.svg"
-												alt="twitter Icon" /></a><a
-											href="https://www.instagram.com/eton.college/" target="_blank"><img
+												alt="twitter Icon" /><img
 												src="/assets/img/social/instagram_circle_stroke.svg"
-												alt="instagram Icon" /></a><a
-											href="https://www.facebook.com/Eton-College-117613119649208"
-											target="_blank"><img
+												alt="instagram Icon" /><img
 												src="/assets/img/social/facebook_circle_stroke.svg"
-												alt="facebook Icon" /></a><a
-											href="https://www.linkedin.com/school/62841" target="_blank"><img
+												alt="facebook Icon" /><img
 												src="/assets/img/social/linkedin_circle_stroke.svg"
-												alt="linkedin Icon" /></a>
+												alt="linkedin Icon" />
 									</div>
 								</div>
 								<div className="col-lg-8 offset-lg-1">
@@ -79,20 +75,12 @@ const Footer = () => {
 										<div className="col-md-5 offset-md-1 ">
 											<h3 className="title title--sm">Quick Links</h3>
 											<ul>
-
-												<li><a href="news-and-diary/school-news/index.html">School News</a></li>
-
-												<li><a href="news-and-diary/term-dates/index.html">Term Dates</a></li>
-
-												<li><a href="about-us/employment-opportunities/index.html">Employment
-														Opportunities</a></li>
-
-												<li><a href="about-us/policies-and-reports/index.html">Policies and
-														Reports</a></li>
-
-												<li><a href="contact-us/index.html">Contact Us</a></li>
-
-												<li><a href="privacy-policy/index.html">Privacy Policy</a></li>
+												<li> <Link to="/AboutUs/OurPurpose" >Our Purpose</Link></li>
+												<li>  <Link to="/AboutUs/OurLeadership"> Our Leadership</Link></li>
+												<li><Link to="/OutsideClassroom/CoCurriculum">The Co-Curriculum</Link></li>
+												<li> <Link to="/OutsideClassroom/Boarding">Boarding</Link></li>
+												<li><Link to="/Admissions/EntryToGHS">Entry To GHS</Link></li>
+												<li><Link to="/ContactUs/ContactDetails">Contact Us</Link></li>
 											</ul>
 										</div>
 									</div>
@@ -103,7 +91,7 @@ const Footer = () => {
 										</div>
 
 										<div className="col-md-5 offset-md-1 ">
-											<form action="https://www.etoncollege.com/" id="searchform" className="search"
+											<form action="" id="searchform" className="search"
 												method="get">
 												<div>
 													<input type="search" id="s" name="s" value=""
@@ -125,8 +113,7 @@ const Footer = () => {
 
 				<div className="pillar background-secondary"></div>
 
-				<div className="credit"><a href="https://thewebkitchen.co.uk/">Web design</a> by <a
-						href="https://thewebkitchen.co.uk/"></a>comeleit</div>
+				<div className="credit">Web design by comeleit</div>
 			</div>
 		</footer>
   );

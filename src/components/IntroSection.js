@@ -138,7 +138,7 @@ const IntroSection = () => {
               </p>
             </div>
             <a
-              href="college-life/after-eton/index.html"
+              href=""
               className="button"
             >
               How we plan for our boys&#8217; futures
@@ -181,7 +181,7 @@ const IntroSection = () => {
               </p>
             </div>
             <a
-              href="eton-outwards/eton-connect-local-partnerships/index.html"
+              href=""
               className="button"
             >
               Our positive impact beyond Eton
@@ -263,7 +263,7 @@ const IntroSection = () => {
               </p>
             </div>
             <a
-              href="about-us/our-research-centre/index.html"
+              href=""
               className="button"
             >
               Our award-winning Research Centre
@@ -299,7 +299,7 @@ const IntroSection = () => {
               </p>
             </div>
             <a
-              href="college-life/after-eton/index.html"
+              href=""
               className="button"
             >
               How we plan for our boys&#8217; futures
@@ -334,7 +334,7 @@ const IntroSection = () => {
                 </p>
               </div>
               <a
-                href="eton-outwards/eton-connect-local-partnerships/index.html"
+                href=""
                 className="button"
               >
                 Our positive impact beyond Eton
