@@ -41,7 +41,7 @@ const QuoteSection = () => {
             <p>
               <a
                 className="button"
-                href="outside-the-classroom/our-ethos/index.html"
+                href=""
               >
                 The Co-Curriculum
               </a>

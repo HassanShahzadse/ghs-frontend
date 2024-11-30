@@ -147,7 +147,7 @@ const AfterScrollingSection = () => {
               <p>
                 <a
                   className="button"
-                  href="about-us/meet-the-head-master/index.html"
+                  href=""
                 >
                   Meet the Headmaster
                 </a>

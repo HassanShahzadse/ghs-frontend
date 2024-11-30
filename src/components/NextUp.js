@@ -58,7 +58,7 @@ const NextUp = () => {
                   </div>
                 </div>
                 <h3 className="title title--md">Our Purpose</h3>
-                <a href="about-us/our-purpose/index.html" className="cover-link"></a>
+                <a href="" className="cover-link"></a>
               </div>
             </div>
 
@@ -74,7 +74,7 @@ const NextUp = () => {
                   </div>
                 </div>
                 <h3 className="title title--md">Entry To Eton</h3>
-                <a href="admissions/entry-to-eton/index.html" className="cover-link"></a>
+                <a href="" className="cover-link"></a>
               </div>
             </div>
           </div>
