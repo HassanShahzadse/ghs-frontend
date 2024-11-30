@@ -8,11 +8,11 @@ const ContactDetails = () => {
   return (
     <div id="content-wrap">
       <main className="main">
-        <div className="container-fluid">
+        <div className="container-fluid py-md-5 py-3">
           <div className="row">
             <div className="col-12">
               <article className="">
-                <div className="contact-banner">
+                <div className="">
                   <div className="container">
                     <div className="row">
                       <p id="breadcrumbs">
