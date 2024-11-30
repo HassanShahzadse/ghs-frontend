@@ -23,7 +23,7 @@ const ScrollingDivs = () => {
                     <div className="banner__container banner--desktop js-home-banner-container">
                       <div className="banner-col-1">
                         <div className="banner-text js-home-banner-text">
-                          <h1>Honouring Tradition.</h1>
+                          <h1>GHS Karachi.</h1>
                         </div>
                         <div className="banner--column banner--column-1 js-home-banner-col-1">
                           <div className="banner__image landscape">
@@ -323,7 +323,7 @@ const ScrollingDivs = () => {
 
                       <div className="banner-col-3">
                         <div className="banner-text js-home-banner-text">
-                          Inspiring Change.
+                          Onwards & Upwards.
                         </div>
                         <div className="banner--column banner--column-3 js-home-banner-col-3">
                           <div className="banner__image portrait">
@@ -708,7 +708,7 @@ const ScrollingDivs = () => {
 
                 <AfterScrollingSection />
                 <ScrollingImagesSection />
-                <SpotlightSection />
+                {/* <SpotlightSection /> */}
                 <NextSection />
                 <Footer/>
               </article>

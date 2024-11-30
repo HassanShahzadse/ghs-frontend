@@ -20,7 +20,7 @@ const ApplyOnline = () => {
                       <p id="breadcrumbs">
                         <span
                           ><span
-                            ><a className="my-class" href="../../index.html"
+                            ><a className="my-class" href=""
                               >Home</a
                             ></span
                           >
@@ -111,7 +111,7 @@ const ApplyOnline = () => {
                     <p id="breadcrumbs">
                       <span
                         ><span
-                          ><a className="my-class" href="../../index.html"
+                          ><a className="my-class" href=""
                             >Home</a
                           ></span
                         >
@@ -189,7 +189,7 @@ const ApplyOnline = () => {
                     <cite>ISI inspection, December 2021</cite>
                   </blockquote>
     
-                  <p>
+                  {/* <p>
                     There are around 1,350 boys at the school. In academic year
                     2022/23, 20% of boys received financial support towards
                     their fees (averaging a 69% award), with 105 boys paying no
@@ -222,7 +222,7 @@ const ApplyOnline = () => {
                       rel="noreferrer noopener"
                       >Assessment and Bursary Timeline for Applications</a
                     >
-                  </p>
+                  </p> */}
     
                   <p>Good luck with your application.</p>
     
@@ -1632,7 +1632,7 @@ const ApplyOnline = () => {
                     </div>
                   </div>
     
-                  <h2 className="wp-block-heading">Tours</h2>
+                  {/* <h2 className="wp-block-heading">Tours</h2>
     
                   <p>
                     If you are a prospective parent and would like to be booked
@@ -1653,7 +1653,7 @@ const ApplyOnline = () => {
                     Michaelmas and Lent terms and Tuesdays and Thursdays during
                     the Summer term. Please note we do not run tours on
                     weekends.
-                  </p>
+                  </p> */}
     
                   </article>
                   <NextSection/>

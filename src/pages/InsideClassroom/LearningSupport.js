@@ -19,7 +19,7 @@ const LearningSupport = () => {
                   <p id="breadcrumbs">
                     <span
                       ><span
-                        ><a className="my-class" href="../../index.html"
+                        ><a className="my-class" href=""
                           >Home</a
                         ></span
                       >
@@ -118,7 +118,7 @@ const LearningSupport = () => {
                 <p id="breadcrumbs">
                   <span
                     ><span
-                      ><a className="my-class" href="../../index.html"
+                      ><a className="my-class" href=""
                         >Home</a
                       ></span
                     >
@@ -207,7 +207,7 @@ const LearningSupport = () => {
                 </div>
               </section>
 
-              <p>
+              {/* <p>
                 Boys that require further intervention can also either be
                 assessed on-site by one of our specialist teachers or they
                 can be referred to one of our highly respected, outside
@@ -263,7 +263,7 @@ const LearningSupport = () => {
                   rel="noreferrer noopener"
                   >SEND Policy</a
                 >.
-              </p>
+              </p> */}
 
               </article>
               <NextSection/>

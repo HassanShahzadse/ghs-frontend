@@ -16,7 +16,7 @@ const AcadmicFacilities = () => {
                   <p id="breadcrumbs">
                     <span
                       ><span
-                        ><a className="my-class" href="../../index.html"
+                        ><a className="my-class" href=""
                           >Home</a
                         ></span
                       >
@@ -110,7 +110,7 @@ const AcadmicFacilities = () => {
                 <p id="breadcrumbs">
                   <span
                     ><span
-                      ><a className="my-class" href="../../index.html"
+                      ><a className="my-class" href=""
                         >Home</a
                       ></span
                     >
@@ -183,7 +183,7 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                 </div>
               </section>
 
-              <h2 className="wp-block-heading">Collections</h2>
+              {/* <h2 className="wp-block-heading">Collections</h2>
 
               <p>
                 The
@@ -232,7 +232,7 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                 Departmental libraries with more specialised materials are
                 also available for art, classics, geography, history,
                 mathematics, and music.
-              </p>
+              </p> */}
 
               <section className="image-with-statistic">
                 <div>
@@ -311,7 +311,7 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                 presented to GHSas a memorial in 1938.&nbsp;
               </p>
 
-              <h3 className="wp-block-heading">Access and Enquiries</h3>
+              {/* <h3 className="wp-block-heading">Access and Enquiries</h3>
 
               <p>
                 College Library’s collections may be explored in our&nbsp;<a
@@ -339,9 +339,9 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                   rel="noreferrer noopener"
                   >visits</a
                 >.&nbsp;
-              </p>
+              </p> */}
 
-              <h2 className="wp-block-heading">Learning Support</h2>
+              {/* <h2 className="wp-block-heading">Learning Support</h2>
 
               <p>
                 Our
@@ -394,7 +394,7 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                   >innovative approach to learning</a
                 >
                 both inside and outside the classroom.
-              </p>
+              </p> */}
               </article>
               <NextSection/>
               <Footer/>

@@ -13374,12 +13374,6 @@ article strong {
     margin-top: 0px; }
   .contact-banner hr {
     border-top: 1px solid var(--secondary); }
-  .contact-banner p {
-    font-size: 22px;
-    letter-spacing: 0;
-    line-height: 29px;
-    color: #fff;
-    margin-bottom: 37px; }
   .contact-banner #breadcrumbs a {
     color: #fff; }
     .contact-banner #breadcrumbs a:before {
