@@ -30,10 +30,21 @@ import ContactUs from './pages/SupportUs/ContactUs.js';
 import ContactDetails from './pages/ContactUs/ContactDetails.js';
 import VisitUs from './pages/ContactUs/VisitUs.js';
 import AdmissionForm from './pages/Admissions/AdmissionForm.js';
+import Sidebar from './components/sidebar.js';
+import Footer from './components/footer.jsx';
 // import WaysToSuppport from './pages/SupportUs/WaysToSupport.js';
-
+function Layout({ children }) {
+  return (
+    <div className="layout">
+      <Sidebar />
+      <main className="content">{children}</main>
+      <Footer />
+    </div>
+  );
+}
 function App() {
   return (
+    <Layout>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/AboutUs/OurPurpose" element={<OurPurpose/>} />
@@ -79,6 +90,7 @@ function App() {
         <Route path="/ContactUs/ContactDetails" element={<ContactDetails/>} />
         <Route path="/ContactUs/VisitUs" element={<VisitUs/>} />
         </Routes>
+        </Layout>
   );
 }
 
