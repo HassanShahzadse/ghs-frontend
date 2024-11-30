@@ -17,7 +17,7 @@ const OurLeadership = () => {
                     <p id="breadcrumbs">
                       <span>
                         <span>
-                          <a className="my-class" href="../../index.html">
+                          <a className="my-class" href="/">
                             Home
                           </a>
                         </span>{" "}
@@ -86,7 +86,7 @@ const OurLeadership = () => {
                   <p id="breadcrumbs">
                     <span>
                       <span>
-                        <a className="my-class" href="../../index.html">
+                        <a className="my-class" href="/">
                           Home
                         </a>
                       </span>{" "}

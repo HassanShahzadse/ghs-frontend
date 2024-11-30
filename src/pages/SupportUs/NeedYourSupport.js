@@ -19,7 +19,7 @@ const NeedYourSupport = () => {
                       <p id="breadcrumbs">
                         <span
                           ><span
-                            ><a className="my-class" href="../../index.html"
+                            ><a className="my-class" href="/"
                               >Home</a
                             ></span
                           >
@@ -116,7 +116,7 @@ const NeedYourSupport = () => {
                     <p id="breadcrumbs">
                       <span
                         ><span
-                          ><a className="my-class" href="../../index.html"
+                          ><a className="my-class" href="/"
                             >Home</a
                           ></span
                         >
@@ -150,10 +150,9 @@ Our goal is not just to educate but to provide an exceptional experience that in
                     className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
                   >
                     <p>
-                    Building for the Future
-                    With your help, we can continue to expand and improve our facilities, ensuring every student has access to modern classrooms, well-equipped labs, libraries, and sports areas. Investments in infrastructure today mean generations of students will benefit tomorrow
+                    A meaningful donation has such a profound and lasting impact, that it outlives any of us. Doing that with GHS Karachi would have a ripple effect, empowering not only students but also uplifting entire communities; you can have an impact far beyond the confines of this campus.
                     </p>
-                    <cite>Block</cite>
+                    <cite>Lt Cdr (r) Suhaib Farooq, CEO</cite>
                   </blockquote>
     
                   <p>
@@ -201,7 +200,7 @@ Education has a ripple effect—it doesn’t just change the life of one student
                     </div>
                   </section>
     
-                  <p>
+                  {/* <p>
                     Boys that require further intervention can also either be
                     assessed on-site by one of our specialist teachers or they
                     can be referred to one of our highly respected, outside
@@ -258,7 +257,7 @@ Education has a ripple effect—it doesn’t just change the life of one student
                       >SEND Policy</a
                     >.
                   </p>
-    
+     */}
                   </article>
                   <NextSection/>
                   <Footer/>

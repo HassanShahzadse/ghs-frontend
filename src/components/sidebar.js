@@ -211,7 +211,7 @@ const Sidebar = () => {
               <Link to="/Admissions/ApplyOnline" onClick={closeMenu}>Apply Online</Link>
             </li> */}
             <li className="menu-item">
-              <a href="https://app.ghskarachi.com/student/online/reg2">Apply Online</a>
+              <a href="https://app.ghskarachi.com/student/online/reg2" target="blank">Apply Online <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </li>
             {/* <li className="menu-item">
               <Link to="/Admissions/AdmissionForm">Admission Form</Link>

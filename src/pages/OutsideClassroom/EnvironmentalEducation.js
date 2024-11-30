@@ -19,7 +19,7 @@ const EnvironmentalEducation = () => {
                   <p id="breadcrumbs">
                     <span
                       ><span
-                        ><a className="my-class" href="../../index.html"
+                        ><a className="my-class" href=""
                           >Home</a
                         ></span
                       >
@@ -117,7 +117,7 @@ const EnvironmentalEducation = () => {
                 <p id="breadcrumbs">
                   <span
                     ><span
-                      ><a className="my-class" href="../../index.html"
+                      ><a className="my-class" href=""
                         >Home</a
                       ></span
                     >
@@ -186,7 +186,7 @@ const EnvironmentalEducation = () => {
                 </div>
               </section>
 
-              <p>
+              {/* <p>
                 We set regular Extra Work (homework) to be completed in the
                 boarding House, with discrete time set aside for this. This
                 encourages a culture of industry but also independence, as
@@ -253,7 +253,7 @@ const EnvironmentalEducation = () => {
                 teaching which directly benefits the boys, but boys can also
                 access the centre to develop their understanding about how
                 best to learn.
-              </p>
+              </p> */}
               </article>
               <NextSection/>
               <Footer/>

@@ -19,7 +19,7 @@ const GiftOfEducation = () => {
                       <p id="breadcrumbs">
                         <span
                           ><span
-                            ><a className="my-class" href="../../index.html"
+                            ><a className="my-class" href="/"
                               >Home</a
                             ></span
                           >
@@ -115,7 +115,7 @@ const GiftOfEducation = () => {
                     <p id="breadcrumbs">
                       <span
                         ><span
-                          ><a className="my-class" href="../../index.html"
+                          ><a className="my-class" href="/"
                             >Home</a
                           ></span
                         >
@@ -178,7 +178,7 @@ const GiftOfEducation = () => {
                     </div>
                   </section>
     
-                  <p>
+                  {/* <p>
                     Boys that require further intervention can also either be
                     assessed on-site by one of our specialist teachers or they
                     can be referred to one of our highly respected, outside
@@ -188,11 +188,11 @@ const GiftOfEducation = () => {
                     (Academic) and the Exams Officer.&nbsp; All access
                     arrangements put into place stringently follow the JCQ and
                     CIE guidelines.
-                  </p>
+                  </p> */}
     
                   <p></p>
     
-                  <blockquote
+                  {/* <blockquote
                     className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
                   >
                     <p>
@@ -235,7 +235,7 @@ const GiftOfEducation = () => {
                       >SEND Policy</a
                     >.
                   </p>
-    
+     */}
                   </article>
                   <NextSection/>
                   <Footer/>

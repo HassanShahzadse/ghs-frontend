@@ -20,7 +20,7 @@ const OurHistory = () => {
                   <p id="breadcrumbs">
                     <span
                       ><span
-                        ><a className="my-class" href="../../index.html"
+                        ><a className="my-class" href=""
                           >Home</a
                         ></span
                       >
@@ -117,7 +117,7 @@ const OurHistory = () => {
                 <p id="breadcrumbs">
                   <span
                     ><span
-                      ><a className="my-class" href="../../index.html"
+                      ><a className="my-class" href=""
                         >Home</a
                       ></span
                     >
@@ -139,7 +139,7 @@ const OurHistory = () => {
               Global Hub School Karachi carries forward a proud legacy of educational excellence and community service. Established with a vision to bring world-class education to Pakistan, GHS has become the largest Cambridge-based boarding school in the country. Set amidst 250 acres of lush greenery, our school combines state-of-the-art facilities with a commitment to sustainable practices, providing an environment where students can excel academically and personally.
               </p>
 
-              <h3 className="wp-block-heading">Henry VI Exhibition</h3>
+              {/* <h3 className="wp-block-heading">Henry VI Exhibition</h3>
 
               <p>
                 Created to celebrate the 600th anniversary of his birth at
@@ -175,7 +175,7 @@ const OurHistory = () => {
                 home at Christmas. This divided the year into two halves and
                 is the origin of the GHSname for a school term, despite
                 there now being three.
-              </p>
+              </p> */}
 
               <section className="image-with-statistic">
                 <div>
@@ -217,7 +217,7 @@ const OurHistory = () => {
                 </div>
               </section>
 
-              <p>
+              {/* <p>
                 The first proper boarding House, Jourdelay’s, was built in
                 1722 to accommodate the growing number of Oppidans. 40 years
                 later, there were 13 Houses, largely run by teachers, known
@@ -250,7 +250,7 @@ const OurHistory = () => {
                 taught a wide variety of subjects in new purpose-built
                 classrooms, laboratories and lecture halls, together with a
                 museum and library.
-              </p>
+              </p> */}
 
               <p>
                   <img
@@ -264,7 +264,7 @@ const OurHistory = () => {
                   />
               </p>
 
-              <h3 className="wp-block-heading">Floreat Etona</h3>
+              {/* <h3 className="wp-block-heading">Floreat Etona</h3>
 
               <p>
                 In the 20<sup>th</sup> century, more changes were made.
@@ -286,7 +286,7 @@ const OurHistory = () => {
                 numbers receiving substantial fee remissions. A wide and
                 varied curriculum sits alongside time for sports, music and
                 drama, aimed at developing the whole person.
-              </p>
+              </p> */}
 
               <NextSection/>
               <Footer/>

@@ -21,7 +21,7 @@ const EntryToGHS = () => {
                   <p id="breadcrumbs">
                     <span
                       ><span
-                        ><a className="my-class" href="../../index.html"
+                        ><a className="my-class" href=""
                           >Home</a
                         ></span
                       >
@@ -119,7 +119,7 @@ const EntryToGHS = () => {
                 <p id="breadcrumbs">
                   <span
                     ><span
-                      ><a className="my-class" href="../../index.html"
+                      ><a className="my-class" href=""
                         >Home</a
                       ></span
                     >
@@ -167,7 +167,7 @@ const EntryToGHS = () => {
                 <cite>ISI inspection, December 2021</cite>
               </blockquote>
 
-              <p>
+              {/* <p>
                 There are around 1,350 boys at the school. In academic year
                 2022/23, 20% of boys received financial support towards
                 their fees (averaging a 69% award), with 105 boys paying no
@@ -200,7 +200,7 @@ const EntryToGHS = () => {
                   rel="noreferrer noopener"
                   >Assessment and Bursary Timeline for Applications</a
                 >
-              </p>
+              </p> */}
 
               <p>Good luck with your application.</p>
 

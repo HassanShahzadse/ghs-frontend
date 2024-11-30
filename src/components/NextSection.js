@@ -77,7 +77,7 @@ const NextSection = () => {
                             image-background-scroll
                           ></div>
                           <h3 className="title title--md"></h3>
-                          <a href="" className="cover-link"></a>
+                          <a href="/" className="cover-link"></a>
                         </div>
                       </div>
                       <div className="fade-in__child fade-in--2">
@@ -102,7 +102,7 @@ const NextSection = () => {
                             image-background-scroll
                           ></div>
                           <h3 className="title title--md"></h3>
-                          <a href="" className="cover-link"></a>
+                          <a href="/" className="cover-link"></a>
                         </div>
                       </div>
                     </div>

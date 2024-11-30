@@ -1893,8 +1893,8 @@ const ScrollingImagesSection = () => {
         <p>Follow @ghs.school on Instagram</p>
       </div>
     </div>
-    <QuoteSection/>
-    <IntroSection/>
+    {/* <QuoteSection/> */}
+    {/* <IntroSection/> */}
   </section>
   );
 };

@@ -17,7 +17,7 @@ const OurGoverningBody = () => {
                     <p id="breadcrumbs">
                       <span>
                         <span>
-                          <a className="my-class" href="../../index.html">
+                          <a className="my-class" href="">
                             Home
                           </a>
                         </span>
@@ -111,7 +111,7 @@ const OurGoverningBody = () => {
                   <p id="breadcrumbs">
                     <span>
                       <span>
-                        <a className="my-class" href="../../index.html">
+                        <a className="my-class" href="">
                           Home
                         </a>
                       </span>
@@ -144,7 +144,7 @@ const OurGoverningBody = () => {
                   </li>
                 </ul>
 
-                <h2 className="wp-block-heading">The Present Governing Body</h2>
+                {/* <h2 className="wp-block-heading">The Present Governing Body</h2>
 
                 <figure className="wp-block-table aligncenter is-style-stripes">
                   <table>
@@ -262,7 +262,7 @@ const OurGoverningBody = () => {
                       </tr>
                     </tbody>
                   </table>
-                </figure>
+                </figure> */}
             </div>
         </div>
         <NextSection/>

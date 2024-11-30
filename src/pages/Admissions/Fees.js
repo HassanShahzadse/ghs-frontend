@@ -21,7 +21,7 @@ const Fees = () => {
                   <p id="breadcrumbs">
                     <span
                       ><span
-                        ><a className="my-class" href="../../index.html"
+                        ><a className="my-class" href=""
                           >Home</a
                         ></span
                       >
@@ -119,7 +119,7 @@ const Fees = () => {
                 <p id="breadcrumbs">
                   <span
                     ><span
-                      ><a className="my-class" href="../../index.html"
+                      ><a className="my-class" href=""
                         >Home</a
                       ></span
                     >
@@ -340,7 +340,7 @@ const Fees = () => {
                 </div>
               </section>
 
-              <h3 className="wp-block-heading">Pre-Paid Fees Scheme</h3>
+              {/* <h3 className="wp-block-heading">Pre-Paid Fees Scheme</h3>
 
               <p>
                 The school offers a pre-paid fees scheme which may be of
@@ -1425,7 +1425,7 @@ const Fees = () => {
                   href="../../cdn-cgi/l/email-protection.html#bcdec9cecfddced5d9cffcd9c8d3d2dfd3d0d0d9dbd992d3cedb92c9d7"
                   >Fees and Bursaries team</a
                 >&nbsp;for guidance regarding a possible application.
-              </p>
+              </p> */}
 
               </article>
               <NextSection/>
