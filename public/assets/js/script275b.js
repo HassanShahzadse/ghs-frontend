@@ -811,7 +811,7 @@ jQuery(document).ready(function ($) {
       $(this).toggleClass('open')
       $('.nav-menu').toggleClass('open')
       $('.parent-page > a').removeClass('active')
-      $('.sub-menu-wrap').removeClass('sub-menu-open')
+      // $('.sub-menu-wrap').removeClass('sub-menu-open')
       if ($('.hamburger span').text() == 'Close') {
         $('.hamburger span').text('Menu')
       } else {

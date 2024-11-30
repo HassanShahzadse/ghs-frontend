@@ -33,7 +33,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/461848694_3683395301907262_9150366868156804753_n.jpg"
+                                src="/assets/11/461848694_3683395301907262_9150366868156804753_n.jpg"
                                 alt="Image description"
                                 srcset="
         /assets/11/461848694_3683395301907262_9150366868156804753_n.jpg  1024w,
@@ -70,7 +70,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/public/assets/11/461936833_3683428045237321_8140968138120842639_n.jpg"
+                                src="/assets/11/461936833_3683428045237321_8140968138120842639_n.jpg"
                                 alt="Image description"
                                 srcset="
         /assets/11/461936833_3683428045237321_8140968138120842639_n.jpg  1024w,
@@ -106,7 +106,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/public/assets/11/DSC_4385.JPG"
+                                src="/assets/11/DSC_4385.JPG"
                                 alt="Image description"
                                 srcset="
         /assets/11/DSC_4385.JPG  1024w,
@@ -142,7 +142,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/public/assets/11/DSC_2159.JPG "
+                                src="/assets/11/DSC_2159.JPG "
                                 alt="Image description"
                                 srcset="
         /assets/11/DSC_2159.JPG   1024w,
@@ -182,7 +182,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/public/assets/11/71518606_2324152407831565_4640834380917374976_n.jpg"
+                                src="/assets/11/71518606_2324152407831565_4640834380917374976_n.jpg"
                                 alt="Image description"
                                 srcset="
         /assets/11/71518606_2324152407831565_4640834380917374976_n.jpg  1024w,
@@ -218,7 +218,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/public/assets/11/462131386_3683986411848151_2259247329909775880_n.jpg"
+                                src="/assets/11/462131386_3683986411848151_2259247329909775880_n.jpg"
                                 alt="Image description"
                                 srcset="
         /assets/11/462131386_3683986411848151_2259247329909775880_n.jpg  1024w,
@@ -254,7 +254,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/public/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg"
+                                src="/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg"
                                 alt="Image description"
                                 srcset="
         /assets/11/461991582_3684004391846353_7501919082942478913_n.jpg  1024w,
@@ -290,7 +290,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/public/assets/11/461960192_3683991158514343_4451415336598492767_n.jpg"
+                                src="/assets/11/461960192_3683991158514343_4451415336598492767_n.jpg"
                                 alt="Image description"
                                 srcset="
         /assets/11/461960192_3683991158514343_4451415336598492767_n.jpg  1024w,
@@ -333,7 +333,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/public/assets/11/414482271_390719683519003_6561115105494497189_n.jpg"
+                                src="/assets/11/414482271_390719683519003_6561115105494497189_n.jpg"
                                 alt="Image description"
                                 srcset="
         /assets/11/414482271_390719683519003_6561115105494497189_n.jpg 1024w,
@@ -370,7 +370,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/public/assets/11/301027547_172020865395840_3346290675082538010_n.jpg"
+                                src="/assets/11/301027547_172020865395840_3346290675082538010_n.jpg"
                                 alt="Image description"
                                 srcset="
         /assets/11/301027547_172020865395840_3346290675082538010_n.jpg  1024w,
@@ -406,7 +406,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/public/assets/11/300504071_172020888729171_3528704732704868454_n.jpg"
+                                src="/assets/11/300504071_172020888729171_3528704732704868454_n.jpg"
                                 alt="Image description"
                                 srcset="
         /assets/11/300504071_172020888729171_3528704732704868454_n.jpg  1024w,
@@ -442,7 +442,7 @@ const ScrollingDivs = () => {
                             >
                               <img
                                 decoding="async"
-                                src="public/assets/11/public/assets/11/285821649_151499194114674_2299889885274654907_n.jpg"
+                                src="/assets/11/285821649_151499194114674_2299889885274654907_n.jpg"
                                 alt="Image description"
                                 srcset="
         /assets/11/285821649_151499194114674_2299889885274654907_n.jpg  1024w,
@@ -491,7 +491,7 @@ const ScrollingDivs = () => {
                         >
                           <img
                             decoding="async"
-                            src="public/assets/11/public/assets/11/277148812_130958129502114_7861657689476040255_n.jpg"
+                            src="/assets/11/277148812_130958129502114_7861657689476040255_n.jpg"
                             alt="Image description"
                             srcset="
         /assets/11/277148812_130958129502114_7861657689476040255_n.jpg  1024w,
@@ -527,7 +527,7 @@ const ScrollingDivs = () => {
                         >
                           <img
                             decoding="async"
-                            src="public/assets/11/public/assets/11/275054573_122711713660089_1312944415058859257_n.jpg"
+                            src="/assets/11/275054573_122711713660089_1312944415058859257_n.jpg"
                             alt="Image description"
                             srcset="
         /assets/11/275054573_122711713660089_1312944415058859257_n.jpg  1024w,
@@ -563,7 +563,7 @@ const ScrollingDivs = () => {
                         >
                           <img
                             decoding="async"
-                            src="public/assets/11/public/assets/11/265025219_2949755348604598_8252143876884700374_n.jpg"
+                            src="/assets/11/265025219_2949755348604598_8252143876884700374_n.jpg"
                             alt="Image description"
                             srcset="
         /assets/11/265025219_2949755348604598_8252143876884700374_n.jpg  1024w,
@@ -599,7 +599,7 @@ const ScrollingDivs = () => {
                         >
                           <img
                             decoding="async"
-                            src="public/assets/11/public/assets/11/176550934_2788094451437356_5384273365940172592_n.jpg"
+                            src="/assets/11/176550934_2788094451437356_5384273365940172592_n.jpg"
                             alt="Image description"
                             srcset="
         /assets/11/176550934_2788094451437356_5384273365940172592_n.jpg  1024w,
@@ -635,7 +635,7 @@ const ScrollingDivs = () => {
                         >
                           <img
                             decoding="async"
-                            src="public/assets/11/public/assets/11/176299917_2788094574770677_7086346180454366200_n.jpg"
+                            src="/assets/11/176299917_2788094574770677_7086346180454366200_n.jpg"
                             alt="Image description"
                             srcset="
         /assets/11/176299917_2788094574770677_7086346180454366200_n.jpg  1024w,
