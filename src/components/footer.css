@@ -7790,7 +7790,8 @@ img.responsive {
       display: block;
       content: "";
       width: 100%;
-      padding-top: 46.88279%; }
+      /* padding-top: 46.88279%;  */
+    }
     .banner .image-container > div {
       position: absolute;
       top: 0;
@@ -7813,7 +7814,8 @@ img.responsive {
           display: block;
           content: "";
           width: 100%;
-          padding-top: 50%; }
+          /* padding-top: 50%; */
+         }
         .banner .image-container > div {
           position: absolute;
           top: 0;

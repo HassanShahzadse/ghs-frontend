@@ -64,12 +64,21 @@ const EntryToGHS = () => {
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                      // style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
                     >
-                      <div
+                      <img
+                    src="/assets/11/461982838_3683986398514819_5431606055278620223_n.jpg"
+                    alt="Image"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      objectFit: "cover",
+                    }}
+                  />
+                      {/* <div
                         className="fadeIn js-image-move__inner"
                         data-src="https://www.etoncollege.com/wp-content/uploads/2024/02/20240131145115-2-32.2-2000x1333.jpg"
-                      ></div>
+                      ></div> */}
                     </div>
 
                     <div className="col-md-10 offset-md-2"></div>

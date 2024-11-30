@@ -62,12 +62,21 @@ const PastoralCare = () => {
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      style={{backgroundImage:"url(../../../../../assets/11/247470871_2919321168314683_3967744707871769205_n.png)"}}
+                      // style={{backgroundImage:"url(../../../../../assets/11/247470871_2919321168314683_3967744707871769205_n.png)"}}
                     >
-                      <div
+                                      <img
+                    src="/assets/11/247470871_2919321168314683_3967744707871769205_n.png"
+                    alt="Image"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      objectFit: "cover",
+                    }}
+                  />
+                      {/* <div
                         className="fadeIn js-image-move__inner"
                         data-src="https://www.etoncollege.com/wp-content/uploads/2023/10/eton-23-60-1-2000x1333.jpg"
-                      ></div>
+                      ></div> */}
                     </div>
 
                     <div className="col-md-10 offset-md-2"></div>

@@ -142,11 +142,21 @@ const OurLeadership = () => {
                                 </div>
                                 <div
                                   className="author-image"
-                                  style={{
-                                    backgroundImage:
-                                      "url(../../../../../assets/11/275054573_122711713660089_1312944415058859257_n.jpg)",
-                                  }}
-                                ></div>
+                                  // style={{
+                                  //   backgroundImage:
+                                  //     "url(../../../../../assets/11/275054573_122711713660089_1312944415058859257_n.jpg)",
+                                  // }}
+                                >
+                                    {/* <img
+                    src="/assets/11/300435996_172020862062507_4477850517123929161_n.jpg"
+                    alt="Image"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      objectFit: "cover",
+                    }}
+                  /> */}
+                                </div>
                                 <div className="pullout text-center">
                                   Simon took up his post in September 2015,
                                   having previously been Head of Bradfield

@@ -62,12 +62,21 @@ const NeedYourSupport = () => {
                       <div className="row">
                         <div
                           className="image-container js-image-move grey-background"
-                          style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                          // style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
     >
-                          <div
+       <img
+    src="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
+    alt="Image"
+    style={{
+      width: "100%",
+      height: "auto",
+      objectFit: "cover",
+    }}
+  />
+                          {/* <div
                             className="fadeIn js-image-move__inner"
                             data-src="https://www.GHScollege.com/wp-content/uploads/2023/10/GHS-23-50-2000x1333.jpg"
-                          ></div>
+                          ></div> */}
                         </div>
     
                         <div className="col-md-10 offset-md-2"></div>
@@ -168,7 +177,7 @@ Education has a ripple effect—it doesn’t just change the life of one student
                             >
                               <img
                                 decoding="async"
-                                src="/assets/11/IMG_0101.JPG"                          />
+                                src="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"                          />
                             </div>
                           </div>
                         </div>

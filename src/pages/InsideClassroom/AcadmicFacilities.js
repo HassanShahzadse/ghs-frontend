@@ -59,12 +59,22 @@ const AcadmicFacilities = () => {
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                      // style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
                     >
-                      <div
+
+<img
+                    src="/assets/11/461968913_3684004521846340_906275821340010015_n.jpg"
+                    alt="Image"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      objectFit: "cover",
+                    }}
+                  />
+                      {/* <div
                         className="fadeIn js-image-move__inner"
                         data-src="https://www.etoncollege.com/wp-content/uploads/2023/10/Eton-Architecture321-2000x1333.jpg"
-                      ></div>
+                      ></div> */}
                     </div>
 
                     <div className="col-md-10 offset-md-2"></div>
@@ -239,7 +249,7 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                         >
                                    <img
                             decoding="async"
-                            src="/assets/11/461968913_3684004521846340_906275821340010015_n.jpg"
+                            src="/assets/11/IMG_0226.JPG"
                             />
                         </div>
                       </div>

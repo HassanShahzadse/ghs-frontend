@@ -56,12 +56,21 @@ const OurStrategy = () => {
                     <div className="row">
                       <div
                         className="image-container js-image-move grey-background"
-                        style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                        // style={{backgroundImage:"url(/assets/11/300435996_172020862062507_4477850517123929161_n.jpg)"}}
                       >
-                        <div
+                         <img
+                    src="/assets/11/300435996_172020862062507_4477850517123929161_n.jpg"
+                    alt="Image"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      objectFit: "cover",
+                    }}
+                  />
+                        {/* <div
                           className="fadeIn js-image-move__inner"
                           data-src="/assets/11/IMG_0090.JPG"
-                        ></div>
+                        ></div> */}
                       </div>
 
                       <div className="col-md-10 offset-md-2"></div>

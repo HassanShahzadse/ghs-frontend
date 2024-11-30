@@ -57,25 +57,34 @@ const OurGoverningBody = () => {
                     <div className="row">
                       <div
                         className="image-container js-image-move grey-background"
-                        style={{
-                          backgroundImage: `url(/assets/11/263599925_2949755145271285_6770598982686416049_n.jpg)`,
-                        }}
+                        // style={{
+                        //   backgroundImage: `url(/assets/11/263599925_2949755145271285_6770598982686416049_n.jpg)`,
+                        // }}
                       >
-                        <div
+                          <img
+                    src="/assets/11/263599925_2949755145271285_6770598982686416049_n.jpg"
+                    alt="Image"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      objectFit: "cover",
+                    }}
+                  />
+                        {/* <div
                           className="fadeIn js-image-move__inner"
-                          data-src="https://www.etoncollege.com/wp-content/uploads/2020/07/Meet-the-Headmaster-1-1-2000x1334.jpg"
-                        ></div>
+                          src="/assets/11/263599925_2949755145271285_6770598982686416049_n.jpg"
+                        ></div> */}
                       </div>
 
                       <div className="col-md-10 offset-md-2"></div>
                     </div>
                   </div>
-                  <div className="banner__block">
+                  {/* <div className="banner__block">
                     <div className="img-animate img-animate--horizontal animate-deactive">
                       <div className="pillar background-lgrey"></div>
                     </div>
                     <div className="banner__block__inner background-lgrey"></div>
-                  </div>
+                  </div> */}
 
                   <div className="slide-up slide-up--static">
                     <div>
@@ -92,6 +101,7 @@ const OurGoverningBody = () => {
                       Provost and Fellows’.
                     </p>
                   </div>
+                 
                 </section>
                 </article>
                 </div>

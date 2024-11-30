@@ -63,12 +63,21 @@ const OurHistory = () => {
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
+                      // style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
                     >
-                      <div
+                        <img
+                    src="/assets/11/Open air- dining hall.JPG"
+                    alt="Image"
+                    style={{
+                      width: "100%",
+                      height: "700px",
+                      objectFit: "cover",
+                    }}
+                  />
+                      {/* <div
                         className="fadeIn js-image-move__inner"
                         data-src="https://www.etoncollege.com/wp-content/uploads/2020/06/EtonEngraving-Hollar1672-1-e1592508894648.jpg"
-                      ></div>
+                      ></div> */}
                     </div>
 
                     <div className="col-md-10 offset-md-2"></div>
