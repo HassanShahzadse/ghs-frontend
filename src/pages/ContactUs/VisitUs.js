@@ -35,7 +35,7 @@ const VisitUs = () => {
                     </div>
                   </div>
                 </div>
-            <Footer/>
+            
               </div>
   </>
   )

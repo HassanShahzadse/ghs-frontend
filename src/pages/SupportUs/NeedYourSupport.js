@@ -259,8 +259,8 @@ Education has a ripple effect—it doesn’t just change the life of one student
                   </p>
      */}
                   </article>
-                  <NextSection/>
-                  <Footer/>
+                  
+                  
                 </div>
                 </div>
                 </div>

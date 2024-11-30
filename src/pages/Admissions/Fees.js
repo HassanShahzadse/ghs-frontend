@@ -1428,8 +1428,8 @@ const Fees = () => {
               </p> */}
 
               </article>
-              <NextSection/>
-              <Footer/>
+              
+              
               </div>
             </div>
           </div>

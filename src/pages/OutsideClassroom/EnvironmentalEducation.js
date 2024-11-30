@@ -255,8 +255,8 @@ const EnvironmentalEducation = () => {
                 best to learn.
               </p> */}
               </article>
-              <NextSection/>
-              <Footer/>
+              
+              
             </div>
           </div>
         </div>

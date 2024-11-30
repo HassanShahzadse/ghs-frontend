@@ -278,8 +278,8 @@ const AcadmicCurriculum = () => {
                 best to learn.
               </p> */}
               </article>
-              <NextSection/>
-              <Footer/>
+              
+              
             </div>
           </div>
         </div>

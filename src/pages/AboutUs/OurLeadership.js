@@ -1439,7 +1439,7 @@ const OurLeadership = () => {
                   </div>
                 </section>
                 <NextSection />
-                <Footer />
+                {/* <Footer /> */}
               </article>
             </div>
           </div>

@@ -328,8 +328,8 @@ const ContactUs = () => {
                   </div>
                 </div>
               </article>
-              <NextSection/>
-              <Footer/>
+              
+              
             </div>
           </div>
         </div>

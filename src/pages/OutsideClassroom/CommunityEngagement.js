@@ -261,8 +261,8 @@ Whether it’s volunteering at local shelters, participating in fundraising even
                 best to learn.
               </p> */}
               </article>
-              <NextSection/>
-              <Footer/>
+              
+              
             </div>
           </div>
         </div>

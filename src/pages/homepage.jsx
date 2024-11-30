@@ -22,7 +22,7 @@ export const HomePage = () => {
       <QuoteSection/>
       <IntroSection/>
       <SpotlightSection/>
-      <NextSection/>
+      
       <AfterEducationSection/>
       <Footer /> */}
       {/* <div>

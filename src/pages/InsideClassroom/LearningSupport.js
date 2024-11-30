@@ -266,8 +266,8 @@ const LearningSupport = () => {
               </p> */}
 
               </article>
-              <NextSection/>
-              <Footer/>
+              
+              
             </div>
             </div>
             </div>

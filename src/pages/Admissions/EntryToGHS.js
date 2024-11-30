@@ -1634,8 +1634,8 @@ const EntryToGHS = () => {
               </p>
 
               </article>
-              <NextSection/>
-              <Footer/>
+              
+              
               </div>
             </div>
           </div>

@@ -288,8 +288,8 @@ const OurHistory = () => {
                 drama, aimed at developing the whole person.
               </p> */}
 
-              <NextSection/>
-              <Footer/>
+              
+              
 
             </article>
           </div>

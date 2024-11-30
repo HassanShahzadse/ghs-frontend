@@ -18,7 +18,7 @@ const Header = () => {
       <ScrollingImagesSection/>
       <QuoteSection/>
       <IntroSection/>
-      <NextSection/>
+      
       <Footer/> */}
 
       {/* <footer className="site-footer">
