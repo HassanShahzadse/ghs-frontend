@@ -15,27 +15,8 @@ const ContactDetails = () => {
                 <div className="">
                   <div className="container">
                     <div className="row">
-                      <p id="breadcrumbs">
-                        <span>
-                          <span>
-                            <a className="my-class" href="/">
-                              Home
-                            </a>
-                          </span>
-                          <span className="breadcrumbs-separator"></span>
-                          <span>
-                            <a className="my-class" href="../index.html">
-                              Contact Us
-                            </a>
-                          </span>
-                          <span className="breadcrumbs-separator"></span>
-                          <span className="breadcrumb_last" aria-current="page">
-                            Contact Details
-                          </span>
-                        </span>
-                      </p>
-                      <div className="offset-lg-1 col-lg-9">
-                        <h2 className="title title--lg">
+                      <div className="offset-lg-1 col-lg-9 pt-5 pt-md-0">
+                        <h2 className="title title--lg pt-5 pt-md-0 fs-6">
                         We’d love to hear from you! Whether you have questions about our programs, admissions, or how to support GHS Karachi, our team is here to assist you. Please use the contact details below to get in touch, and we’ll be happy to help.
                         </h2>
                       </div>

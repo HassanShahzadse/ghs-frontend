@@ -10,27 +10,8 @@ const VisitUs = () => {
               <div className="pt-5">
                 <div className="container">
                   <div className="row">
-                    <p id="breadcrumbs">
-                      <span
-                        ><span
-                          ><a className="my-class" href="/"
-                            >Home</a
-                          ></span
-                        >
-                        <span className="breadcrumbs-separator"></span>
-                        <span
-                          ><a className="my-class" href="../index.html"
-                            >Contact Us</a
-                          ></span
-                        >
-                        <span className="breadcrumbs-separator"></span>
-                        <span className="breadcrumb_last" aria-current="page"
-                          >Admissions Tours</span
-                        ></span
-                      >
-                    </p>
-                    <div className="offset-lg-1 col-lg-9">
-                      <h2 className="title title--lg">
+                    <div className="offset-lg-1 col-lg-9 pt-5 pt-md-0">
+                      <h2 className="title title--lg pt-5 pt-md-0">
                       Experience Global Hub School Karachi firsthand! We welcome you to visit our campus, explore our state-of-the-art facilities, and meet our dedicated team. Schedule a visit to see how we are shaping the future, one student at a time.
                       </h2>
                     </div>
