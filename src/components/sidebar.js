@@ -43,7 +43,7 @@ const Sidebar = () => {
           <div className={`nav-icon ${isMenuOpen ? "open" : "close"}`}>
             <div></div>
           </div>
-          <span>{isMenuOpen ? "Close" : "Menu"}</span>
+          {/* <span>{isMenuOpen ? "Close" : "Menu"}</span> */}
         </div>
 
         <a href="/">
