@@ -12,10 +12,7 @@ const Fees = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12">
-            <article
-              className="
-                                                                    "
-            >
+            <article className="" >
               <section className="banner">
                 <div className="breadcrumbs-desktop">
                   <p id="breadcrumbs">

@@ -709,7 +709,7 @@ const ScrollingDivs = () => {
                 <AfterScrollingSection />
                 <ScrollingImagesSection />
                 {/* <SpotlightSection /> */}
-                <NextSection />
+                {/* <NextSection /> */}
                 
               </article>
             </div>
