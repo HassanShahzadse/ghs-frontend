@@ -801,9 +801,7 @@ jQuery(document).ready(function ($) {
 	} */
   menu: {
     let menuopen = false
-    $(
-      '.post-type-archive-news-item #menu-nested-pages > li:nth-of-type(9) .sub-menu-wrap'
-    ).addClass('sub-menu-open')
+    
 
     //	$('#menu-nested-pages > li:has(div ul) > a').addClass('page-has-children');
     // $('.hamburger').on('click', function () {
