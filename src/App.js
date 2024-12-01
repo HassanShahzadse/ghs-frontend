@@ -34,6 +34,7 @@ import AdmissionForm from './pages/Admissions/AdmissionForm.js';
 import Footer from './components/footer.jsx';
 import NextSection from './components/NextSection.js';
 import SideNave from './components/SideNave.js';
+import ScrollToTop from './ScrollToTop.js';
 // import WaysToSuppport from './pages/SupportUs/WaysToSupport.js';
 function Layout({ children }) {
   return (
