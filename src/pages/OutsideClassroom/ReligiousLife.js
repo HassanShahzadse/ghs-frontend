@@ -23,12 +23,7 @@ const ReligiousLife = () => {
                           >Home</a
                         ></span
                       >
-                      <span className="breadcrumbs-separator"></span>
-                      <span
-                        ><a className="my-class" href="../index.html"
-                          >Inside the Classroom</a
-                        ></span
-                      >
+                      
                       <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page"
                         >The Academic Curriculum</span
@@ -117,14 +112,8 @@ const ReligiousLife = () => {
                 <p id="breadcrumbs">
                   <span
                     ><span
-                      ><a className="my-class" href=""
+                      ><a className="my-class" href="/"
                         >Home</a
-                      ></span
-                    >
-                    <span className="breadcrumbs-separator"></span>
-                    <span
-                      ><a className="my-class" href="../index.html"
-                        >Inside the Classroom</a
                       ></span
                     >
                     <span className="breadcrumbs-separator"></span>
@@ -187,75 +176,6 @@ const ReligiousLife = () => {
                   </div>
                 </div>
               </section>
-
-              {/* <p>
-                We set regular Extra Work (homework) to be completed in the
-                boarding House, with discrete time set aside for this. This
-                encourages a culture of industry but also independence, as
-                boys have to plan their free time to ensure it is completed.
-              </p>
-
-              <p>
-                Regular internal reporting enables House Masters and Tutors
-                to keep track of every boy’s progress. Boys also sit
-                internal examinations, known as Trials, in all their
-                academic subjects at the end of the Michaelmas and Summer
-                halves, unless they are taking external examinations.
-              </p>
-
-              <p>
-                We have a dedicated
-                <a
-                  data-type="25"
-                  rel="noreferrer noopener"
-                  href="../learning-support/index.html"
-                  target="_blank"
-                  >Learning Support Centre</a
-                >
-                to help boys who need support with study skills or have
-                specific educational needs. All boys sit an assessment when
-                they arrive to determine whether additional support is
-                required, and boys can be referred to learning support at
-                any time during their GHS career.
-              </p>
-
-              <blockquote
-                className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-              >
-                <p>
-                  The pupils&#8217; excellent achievement and progress are
-                  not only evident in the school&#8217;s examination
-                  results. They can also be seen clearly in the breadth and
-                  depth of their intellectual curiosity, revealed when they
-                  discuss their work, in the work itself, and in their
-                  intelligent and perceptive contributions in lessons.
-                </p>
-                <cite>ISI inspection, December 2021</cite>
-              </blockquote>
-
-              <p>
-                Our vibrant academic enrichment programme encourages boys to
-                develop their interests beyond exam syllabuses and to take
-                the lead in introducing those interests to other boys.
-              </p>
-
-              <p>
-                The
-                <a
-                  data-type="18"
-                  rel="noreferrer noopener"
-                  href="../../about-us/our-research-centre/index.html"
-                  target="_blank"
-                  >Tony Little Centre for Innovation and Research in
-                  Learning</a
-                >
-                (CIRL) is unique facility that aims to put us at the
-                forefront of teaching and learning development. Not only
-                does the work of the research centre inform Masters’
-                teaching which directly benefits the boys, but boys can also
-                access the centre to develop their understanding about how
-                best to learn.
-              </p> */}
               </article>
               
               

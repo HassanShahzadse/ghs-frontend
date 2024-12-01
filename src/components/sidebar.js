@@ -32,17 +32,17 @@ const Sidebar = () => {
           <span>{isMenuOpen ? "Close" : "Menu"}</span>
         </div>
 
-        <Link to="index">
+        <a href="/">
           <div className="top-nav__logo">
             <img
               fetchpriority="high"
-              src="assets/img/Final GHS.png"
+              src="/assets/img/Final GHS.png"
             />
           </div>
-        </Link>
+        </a>
 
         <div className="top-nav__search-contact">
-          <div className="top-nav__search">
+          {/* <div className="top-nav__search">
             <div className="top-nav__search-wrapper">
               <form
                 action="https://www.etoncollege.com"
@@ -63,7 +63,7 @@ const Sidebar = () => {
                 </div>
               </form>
             </div>
-          </div>
+          </div> */}
           <div className="top-nav__contact">
           {/* <FaPhone size={30} /> */}
           <FiPhone size={25} />
@@ -77,7 +77,7 @@ const Sidebar = () => {
 
           <ul className="nav__top-level" id="main-menu">
             <li >
-              <Link to="" onClick={closeMenu}>Home</Link>
+              <a href="/" onClick={closeMenu}>Home</a>
             </li>
             <li className="parent-page" >
               <Link to="" id="5" className="">

@@ -1,8 +1,6 @@
 import React, { useRef, useEffect } from "react";
 // import "../App.css";
 import "./footer.css"
-import QuoteSection from "./QuoteSection";
-import IntroSection from "./IntroSection";
 
 const ScrollingImagesSection = () => {
 
@@ -1873,8 +1871,6 @@ const ScrollingImagesSection = () => {
         <p>Follow @ghs.school on Instagram</p>
       </div>
     </div>
-    {/* <QuoteSection/> */}
-    {/* <IntroSection/> */}
   </section>
   );
 };

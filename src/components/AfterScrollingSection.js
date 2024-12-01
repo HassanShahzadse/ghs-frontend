@@ -35,37 +35,6 @@ const AfterScrollingSection = () => {
               />
             </div>
           </div>
-          <div className="introduction__stat-slider introduction__stat-slider--desktop js-fade-up">
-            <div className="home-intro-stat-slider">
-              <div className="slide">
-                <h3>250</h3>
-                <p className="">society meeting speakers per year</p>
-              </div>
-
-              <div className="slide">
-                <h3>£9.7m</h3>
-                <p className="">to be spent on financial aid in 2023/24</p>
-              </div>
-
-              <div className="slide">
-                <h3>16,000</h3>
-                <p className="">
-                  biological specimens held in the College’s Natural History
-                  Museum
-                </p>
-              </div>
-
-              <div className="slide">
-                <h3>105</h3>
-                <p className="">boys on fully funded places in 2022/23</p>
-              </div>
-
-              <div className="slide">
-                <h3>51</h3>
-                <p className="">instrumental ensembles</p>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div className="introduction--column-2 introduction--column">
@@ -86,37 +55,6 @@ const AfterScrollingSection = () => {
     "
                 sizes="(max-width: 1024px) 100vw, 1024px"
               />
-            </div>
-          </div>
-          <div className="introduction__stat-slider introduction__stat-slider--mobile">
-            <div className="home-intro-stat-slider">
-              <div className="slide">
-                <h3>250</h3>
-                <p className="">society meeting speakers per year</p>
-              </div>
-
-              <div className="slide">
-                <h3>£9.7m</h3>
-                <p className="">to be spent on financial aid in 2023/24</p>
-              </div>
-
-              <div className="slide">
-                <h3>16,000</h3>
-                <p className="">
-                  biological specimens held in the College’s Natural History
-                  Museum
-                </p>
-              </div>
-
-              <div className="slide">
-                <h3>105</h3>
-                <p className="">boys on fully funded places in 2022/23</p>
-              </div>
-
-              <div className="slide">
-                <h3>51</h3>
-                <p className="">instrumental ensembles</p>
-              </div>
             </div>
           </div>
 

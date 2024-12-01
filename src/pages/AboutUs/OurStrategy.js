@@ -22,12 +22,6 @@ const OurStrategy = () => {
                           </a>
                         </span>
                         <span className="breadcrumbs-separator"></span>
-                        <span>
-                          <a className="my-class" href="../index.html">
-                            About Us
-                          </a>
-                        </span>
-                        <span className="breadcrumbs-separator"></span>
                         <span className="breadcrumb_last" aria-current="page">
                           Our Strategy
                         </span>
@@ -110,12 +104,6 @@ const OurStrategy = () => {
                         </a>
                       </span>
                       <span className="breadcrumbs-separator"></span>
-                      <span>
-                        <a className="my-class" href="../index.html">
-                          About Us
-                        </a>
-                      </span>
-                      <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page">
                         Our Strategy
                       </span>
@@ -154,7 +142,6 @@ Kindness, integrity, determination, and gratitude are at the heart of our commun
                   />
                 </p>
 
-                <NextSection />
                 {/* <Footer /> */}
               </article>
             </div>

@@ -20,14 +20,8 @@ const ApplyOnline = () => {
                       <p id="breadcrumbs">
                         <span
                           ><span
-                            ><a className="my-class" href=""
+                            ><a className="my-class" href="/"
                               >Home</a
-                            ></span
-                          >
-                          <span className="breadcrumbs-separator"></span>
-                          <span
-                            ><a className="my-class" href="../index.html"
-                              >Admissions</a
                             ></span
                           >
                           <span className="breadcrumbs-separator"></span>
@@ -111,14 +105,8 @@ const ApplyOnline = () => {
                     <p id="breadcrumbs">
                       <span
                         ><span
-                          ><a className="my-class" href=""
+                          ><a className="my-class" href="/"
                             >Home</a
-                          ></span
-                        >
-                        <span className="breadcrumbs-separator"></span>
-                        <span
-                          ><a className="my-class" href="../index.html"
-                            >Admissions</a
                           ></span
                         >
                         <span className="breadcrumbs-separator"></span>

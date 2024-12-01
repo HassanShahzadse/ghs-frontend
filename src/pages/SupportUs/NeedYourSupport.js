@@ -24,12 +24,6 @@ const NeedYourSupport = () => {
                             ></span
                           >
                           <span className="breadcrumbs-separator"></span>
-                          <span
-                            ><a className="my-class" href="../index.html"
-                              >Inside the Classroom</a
-                            ></span
-                          >
-                          <span className="breadcrumbs-separator"></span>
                           <span className="breadcrumb_last" aria-current="page"
                             >Learning Support</span
                           ></span
@@ -120,12 +114,7 @@ const NeedYourSupport = () => {
                             >Home</a
                           ></span
                         >
-                        <span className="breadcrumbs-separator"></span>
-                        <span
-                          ><a className="my-class" href="../index.html"
-                            >Inside the Classroom</a
-                          ></span
-                        >
+                        
                         <span className="breadcrumbs-separator"></span>
                         <span className="breadcrumb_last" aria-current="page"
                           >Learning Support</span

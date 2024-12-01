@@ -20,16 +20,11 @@ const OurHistory = () => {
                   <p id="breadcrumbs">
                     <span
                       ><span
-                        ><a className="my-class" href=""
+                        ><a className="my-class" href="/"
                           >Home</a
                         ></span
                       >
-                      <span className="breadcrumbs-separator"></span>
-                      <span
-                        ><a className="my-class" href="../index.html"
-                          >About Us</a
-                        ></span
-                      >
+                      
                       <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page"
                         >Our History</span
@@ -117,14 +112,8 @@ const OurHistory = () => {
                 <p id="breadcrumbs">
                   <span
                     ><span
-                      ><a className="my-class" href=""
+                      ><a className="my-class" href="/"
                         >Home</a
-                      ></span
-                    >
-                    <span className="breadcrumbs-separator"></span>
-                    <span
-                      ><a className="my-class" href="../index.html"
-                        >About Us</a
                       ></span
                     >
                     <span className="breadcrumbs-separator"></span>
