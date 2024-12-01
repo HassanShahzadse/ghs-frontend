@@ -43,15 +43,26 @@ const Footer = () => {
 											</div>
 
 									<div className="social-icons">
+									<a href="https://x.com/ghskarachi?s=21&t=i_hlnbuZYNwkgAtrgNSrEQ" target="_blank"> 
 									<img
 												src="/assets/img/social/twitter_circle_stroke.svg"
-												alt="twitter Icon" /><img
+												alt="twitter Icon" />
+												</a>
+												<a href="https://www.instagram.com/ghskarachi?igsh=MTR6YnViMGNwemY0dg==" target="_blank"> 
+												<img
 												src="/assets/img/social/instagram_circle_stroke.svg"
-												alt="instagram Icon" /><img
+												alt="instagram Icon" />
+												</a>
+												<a href="https://facebook.com/GHSKarachi/" target="_blank"> 
+												<img
 												src="/assets/img/social/facebook_circle_stroke.svg"
-												alt="facebook Icon" /><img
+												alt="facebook Icon" /></a>
+												<a href="http://Linkedin.com/company/ghskarachi" target="_blank">
+												<img
+												style={{ height:"40px",width:"40px"}}
 												src="/assets/img/social/linkedin_circle_stroke.svg"
 												alt="linkedin Icon" />
+												</a>
 									</div>
 								</div>
 								<div className="col-lg-8 offset-lg-1">

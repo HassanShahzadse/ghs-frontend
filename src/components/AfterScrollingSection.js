@@ -18,10 +18,10 @@ const AfterScrollingSection = () => {
             </div>
           </div>
           <div className="introduction--column--media introduction--column-1--media">
-            <div className="video-embed">
+            {/* <div className="video-embed">
               <img
                 decoding="async"
-                src="public/assets/11/public/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
+                src="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
                 alt="Image description"
                 srcset="
         /assets/11/90192471_2479260052320799_1132917114605142016_n.jpg  1024w,
@@ -34,7 +34,21 @@ const AfterScrollingSection = () => {
     "
                 sizes="(max-width: 1024px) 100vw, 1024px"
               />
-            </div>
+            </div> */}
+            <div className="video-embed">
+  <video
+    width="100%"
+    height="auto"
+    controls
+    autoPlay
+    loop
+    muted={false} // Ensure sound is enabled
+  >
+    <source src="/assets/video/THS Clip 2.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
           </div>
         </div>
 
@@ -43,7 +57,7 @@ const AfterScrollingSection = () => {
             <div className="image">
               <img
                 decoding="async"
-                src="public/assets/11/public/assets/11/90172896_2479257448987726_2746791719352664064_n.jpg"
+                src="/assets/11/90172896_2479257448987726_2746791719352664064_n.jpg"
                 alt="Image description"
                 srcset="
         /assets/11/90172896_2479257448987726_2746791719352664064_n.jpg  1024w,
