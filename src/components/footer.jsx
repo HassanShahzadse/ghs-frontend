@@ -75,12 +75,12 @@ const Footer = () => {
 										<div className="col-md-5 offset-md-1 ">
 											<h3 className="title title--sm">Quick Links</h3>
 											<ul>
-												<li> <Link to="/AboutUs/OurPurpose" >Our Purpose</Link></li>
-												<li>  <Link to="/AboutUs/OurLeadership"> Our Leadership</Link></li>
-												<li><Link to="/OutsideClassroom/CoCurriculum">The Co-Curriculum</Link></li>
-												<li> <Link to="/OutsideClassroom/Boarding">Boarding</Link></li>
-												<li><Link to="/Admissions/EntryToGHS">Entry To GHS</Link></li>
-												<li><Link to="/ContactUs/ContactDetails">Contact Us</Link></li>
+												<li> <a href="/AboutUs/OurPurpose" >Our Purpose</a></li>
+												<li>  <a href="/AboutUs/OurLeadership"> Our Leadership</a></li>
+												<li><a href="/OutsideClassroom/CoCurriculum">The Co-Curriculum</a></li>
+												<li> <a href="/OutsideClassroom/Boarding">Boarding</a></li>
+												<li><a href="/Admissions/EntryToGHS">Entry To GHS</a></li>
+												<li><a href="/ContactUs/ContactDetails">Contact Us</a></li>
 											</ul>
 										</div>
 									</div>

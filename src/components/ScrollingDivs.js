@@ -89,7 +89,7 @@ const ScrollingDivs = () => {
                   <div className="banner__image--hover-inner">
                     <p className="text">
                       {banner.description}{" "}
-                      <span className="text-secondary">{banner.highlight}</span>
+                      <span className="text-secondary" style={{marginLeft: "0.2em"}}>{banner.highlight}</span>
                     </p>
                     <div className="bottom">
                       <p>{banner.category}</p>
@@ -123,7 +123,7 @@ const ScrollingDivs = () => {
                             <a href="" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/461848694_3683395301907262_9150366868156804753_n.jpg"
+                                src="/assets/11/DSC_2159.JPG"
                                 alt="Image description"
                               />
 
@@ -131,7 +131,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     An unparalleled
-                                    <span className="text-secondary">
+                                    <span className="text-secondary"  style={{marginLeft: "0.2em"}}>
                                       breadth of sport on offer
                                     </span>
                                   </p>
@@ -147,14 +147,14 @@ const ScrollingDivs = () => {
                             <a href="" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/461936833_3683428045237321_8140968138120842639_n.jpg"
+                                src="/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg"
                                 alt="Image description"
                               />
                               <div className="banner__image--hover">
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Fostering a lifelong appreciation of
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       independent thinking and learning
                                     </span>
                                   </p>
@@ -177,7 +177,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     World class
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       performance venues
                                     </span>
                                   </p>
@@ -200,7 +200,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Cherishing our
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       traditions and heritage
                                     </span>
                                   </p>
@@ -227,7 +227,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     At the vanguard of
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       innovation in education
                                     </span>
                                   </p>
@@ -250,7 +250,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Committed to
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       sustainability and environmental action
                                     </span>
                                   </p>
@@ -273,7 +273,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Providing a stage for
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       talent to shine
                                     </span>
                                   </p>
@@ -296,7 +296,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Boarding nurtures personal growth and
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       lifelong friendships
                                     </span>
                                   </p>
@@ -328,7 +328,7 @@ const ScrollingDivs = () => {
                                   <p className="text">
                                     80+ societies run regular lectures,
                                     workshops and seminars with
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       world-renowned experts
                                     </span>
                                   </p>
@@ -351,7 +351,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Ambitious cross-sector
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       collaboration and research
                                     </span>
                                   </p>
@@ -374,7 +374,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Building partnerships hubs and
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       three sixth form colleges
                                     </span>
                                   </p>
@@ -397,7 +397,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Exceptional pastoral care is at
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       the heart of an GHSeducation
                                     </span>
                                   </p>
