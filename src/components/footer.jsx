@@ -90,7 +90,7 @@ const Footer = () => {
 												© Global Hub School 2024</small>
 										</div>
 
-										<div className="col-md-5 offset-md-1 ">
+										{/* <div className="col-md-5 offset-md-1 ">
 											<form action="" id="searchform" className="search"
 												method="get">
 												<div>
@@ -100,7 +100,7 @@ const Footer = () => {
 													<input type="submit" value="Search" id="searchsubmit" />
 												</div>
 											</form>
-										</div>
+										</div> */}
 									</div>
 								</div>
 							</div>

@@ -32,7 +32,7 @@ const Sidebar = () => {
           <span>{isMenuOpen ? "Close" : "Menu"}</span>
         </div>
 
-        <Link to="index">
+        <Link to="/">
           <div className="top-nav__logo">
             <img
               fetchpriority="high"
@@ -42,7 +42,7 @@ const Sidebar = () => {
         </Link>
 
         <div className="top-nav__search-contact">
-          <div className="top-nav__search">
+          {/* <div className="top-nav__search">
             <div className="top-nav__search-wrapper">
               <form
                 action="https://www.etoncollege.com"
@@ -63,7 +63,7 @@ const Sidebar = () => {
                 </div>
               </form>
             </div>
-          </div>
+          </div> */}
           <div className="top-nav__contact">
           {/* <FaPhone size={30} /> */}
           <FiPhone size={25} />
