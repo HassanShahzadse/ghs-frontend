@@ -19,7 +19,21 @@ const Sidebar = () => {
     console.log("Route changed to:", location.pathname);
     closeMenu();
   }, [location]);
+  const phoneNumber = '0324-4717777';
 
+  const handlePhoneClick = () => {
+    if (navigator.userAgent.match(/iPhone|Android/i)) {
+      // For mobile devices, the `tel:` protocol will open the dialer
+      window.location.href = `tel:${phoneNumber}`;
+    } else {
+      // For desktop devices, let's copy the number to clipboard
+      navigator.clipboard.writeText(phoneNumber).then(() => {
+        alert('Phone number copied to clipboard!');
+      }).catch((error) => {
+        alert('Failed to copy phone number: ' + error);
+      });
+    }
+  };
   return (
     <>
     <div >
@@ -66,7 +80,8 @@ const Sidebar = () => {
           </div> */}
           <div className="top-nav__contact">
           {/* <FaPhone size={30} /> */}
-          <FiPhone size={25} />
+            
+          <FiPhone size={25} strokeWidth={"1px"} onClick={handlePhoneClick} style={{ cursor: 'pointer' }} />
           </div>
         </div>
       </div>
