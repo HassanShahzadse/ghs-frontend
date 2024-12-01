@@ -5634,20 +5634,25 @@ body.page-template-tpl-dark-bg {
   margin-top: -26px;
   margin-left: -26px;
   margin-right: -26px; }
+  /* .nav-menu {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .nav-menu.close {
+    transform: translateX(-100%) !important; 
+  }
   .nav-menu {
     transition: transform 0.5s ease-in-out;
   }
   
   .nav-menu.close {
-    transform: translateX(-100%) !important; /* Slide out of view */
-  }
-  .nav-menu {
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .nav-menu.close {
-    transform: translateX(-100%) !important; /* Slide out of view */
-  }
+    transform: translateX(-100%) !important; 
+  } */
+  .nav-menu.open { display: block; }
+.nav-menu.close { display: none; }
+.sub-menu-wrap.open { display: block; }
+.sub-menu-wrap { display: none; }
+
   
   .hamburger.open .nav-icon:before {
     -webkit-transform: translateY(3px) rotate(135deg);

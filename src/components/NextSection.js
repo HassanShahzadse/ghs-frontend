@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const NextSection = () => {
   return (
     <section
-                className="teasers fade-in fade-in--active"
+                className="pt-5"
                 data-color="white"
               >
                 <div className="container">

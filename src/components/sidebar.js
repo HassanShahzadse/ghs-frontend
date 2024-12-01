@@ -32,14 +32,14 @@ const Sidebar = () => {
           <span>{isMenuOpen ? "Close" : "Menu"}</span>
         </div>
 
-        <Link to="/">
+        <a href="/">
           <div className="top-nav__logo">
             <img
               fetchpriority="high"
               src="/assets/img/Final GHS.png"
             />
           </div>
-        </Link>
+        </a>
 
         <div className="top-nav__search-contact">
           {/* <div className="top-nav__search">
@@ -77,7 +77,7 @@ const Sidebar = () => {
 
           <ul className="nav__top-level" id="main-menu">
             <li >
-              <Link to="" onClick={closeMenu}>Home</Link>
+              <a href="/" onClick={closeMenu}>Home</a>
             </li>
             <li className="parent-page" >
               <Link to="" id="5" className="">
