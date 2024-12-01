@@ -120,7 +120,7 @@ const ScrollingDivs = () => {
                         </div>
                         <div className="banner--column banner--column-1 js-home-banner-col-1">
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/Sport" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/DSC_2159.JPG"
@@ -144,7 +144,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/InsideClassroom/AcadmicCurriculum" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg"
@@ -167,7 +167,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/CoCurriculum" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/DSC_4385.JPG"
@@ -190,7 +190,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/AboutUs/OurHistory" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/DSC_2159.JPG "
@@ -217,7 +217,7 @@ const ScrollingDivs = () => {
                       <div>
                         <div className="banner--column banner--column-2 js-home-banner-col-2">
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/CommunityEngagement" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/71518606_2324152407831565_4640834380917374976_n.jpg"
@@ -240,7 +240,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/EnvironmentalEducation" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/462131386_3683986411848151_2259247329909775880_n.jpg"
@@ -263,7 +263,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="" className="banner__image--link">
+                            <a href="/AboutUs/OurPurpose" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg"
@@ -286,7 +286,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/Boarding" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/461960192_3683991158514343_4451415336598492767_n.jpg"
@@ -316,7 +316,7 @@ const ScrollingDivs = () => {
                         </div>
                         <div className="banner--column banner--column-3 js-home-banner-col-3">
                           <div className="banner__image portrait">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/CommunityEngagement" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/414482271_390719683519003_6561115105494497189_n.jpg"
@@ -341,7 +341,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="" className="banner__image--link">
+                            <a href="/AboutUs/OurStrategy" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/301027547_172020865395840_3346290675082538010_n.jpg"
@@ -364,7 +364,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/InsideClassroom/AcadmicFacilities" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/300504071_172020888729171_3528704732704868454_n.jpg"
@@ -379,7 +379,7 @@ const ScrollingDivs = () => {
                                     </span>
                                   </p>
                                   <div className="bottom">
-                                    <p>GHSStar Schools Programme</p>
+                                    <p>GHS Schools Programme</p>
                                   </div>
                                 </div>
                               </div>
@@ -387,7 +387,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/PastoralCare" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/285821649_151499194114674_2299889885274654907_n.jpg"
