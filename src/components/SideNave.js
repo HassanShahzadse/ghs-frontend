@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./SideNave.css";
 import { Link } from "react-router-dom";
+import { BiChevronDown, BiChevronUp } from "react-icons/bi";
+import { FiPhone } from "react-icons/fi";
 
 const SideNave = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,17 +18,34 @@ const SideNave = () => {
   const closeMenu = () => {
     setMenuOpen(false);
   };
+  const phoneNumber = '0324-4717777';
+
+  const handlePhoneClick = () => {
+    if (navigator.userAgent.match(/iPhone|Android/i)) {
+      // For mobile devices, the `tel:` protocol will open the dialer
+      window.location.href = `tel:${phoneNumber}`;
+    } else {
+      // For desktop devices, let's copy the number to clipboard
+      navigator.clipboard.writeText(phoneNumber).then(() => {
+        alert('Phone number copied to clipboard!');
+      }).catch((error) => {
+        alert('Failed to copy phone number: ' + error);
+      });
+    }
+  };
 
   return (
     <>
-      <div className="top-navbar">
+      <div className="top-navbar mbile-nav">
         <div className="hamburger" onClick={toggleMenu}>☰</div>
-        <div className="navbar-logo"><img src="/assets/img/Final ccGHS.png" alt=""  style={{ width: `${40}px`, height: 'auto' }}  /></div>
-        <div className="search-icon">🔍</div>
+        <div className="navbar-logo"><img src="/assets/img/Final GHS.png" alt=""  style={{ width: `${40}px`, height: 'auto' }}  /></div>
+        <div className="search-icon">          <FiPhone size={25} strokeWidth={"1px"} onClick={handlePhoneClick} style={{ cursor: 'pointer' }} />
+        </div>
       </div>
 
       <div className={`side-menu ${menuOpen ? "open" : ""}`}>
         <ul className="main-menu">
+      {/* <div class="title title--sm fw-bold">Main Menu</div> */}
           <li>
             <div className="menu-item">
              <Link to='/' onClick={closeMenu}>Home </Link>
@@ -34,7 +53,7 @@ const SideNave = () => {
           </li>
           <li>
             <div className="menu-item" onClick={() => toggleSubMenu("about")}>
-            About Us <span> {activeSubMenu === "about" ? "▲" : "▼"}</span>
+            About Us <span> {activeSubMenu === "about" ? <BiChevronUp size={25}/> : <BiChevronDown size={25}/>}</span>
             </div>
             {activeSubMenu === "about" && (
               <ul className="sub-menu">
@@ -62,7 +81,7 @@ const SideNave = () => {
           </li>
           <li>
             <div className="menu-item" onClick={() => toggleSubMenu("inside")}>
-            Inside the Classroom <span>{activeSubMenu === "inside" ? "▲" : "▼"}</span>
+            Inside the Classroom <span>{activeSubMenu === "inside" ? <BiChevronUp size={25}/> : <BiChevronDown size={25}/>}</span>
             </div>
             {activeSubMenu === "inside" && (
               <ul className="sub-menu">
@@ -91,7 +110,7 @@ const SideNave = () => {
           </li>
           <li>
             <div className="menu-item" onClick={() => toggleSubMenu("outside")}>
-            Outside the Classroom <span>{activeSubMenu === "outside" ? "▲" : "▼"}</span>
+            Outside the Classroom <span>{activeSubMenu === "outside" ? <BiChevronUp size={25}/> : <BiChevronDown size={25}/>}</span>
             </div>
             {activeSubMenu === "outside" && (
               <ul className="sub-menu">
@@ -133,7 +152,7 @@ const SideNave = () => {
           </li>
           <li>
             <div className="menu-item" onClick={() => toggleSubMenu("admissions")}>
-            Admissions <span>{activeSubMenu === "admissions" ? "▲" : "▼"}</span>
+            Admissions <span>{activeSubMenu === "admissions" ? <BiChevronUp size={25}/> : <BiChevronDown size={25}/>}</span>
             </div>
             {activeSubMenu === "admissions" && (
               <ul className="sub-menu">
@@ -154,7 +173,7 @@ const SideNave = () => {
           </li>
           <li>
             <div className="menu-item" onClick={() => toggleSubMenu("support")}>
-            Support Us <span>{activeSubMenu === "support" ? "▲" : "▼"}</span>
+            Support Us <span>{activeSubMenu === "support" ? <BiChevronUp size={25}/> : <BiChevronDown size={25}/>}</span>
             </div>
             {activeSubMenu === "support" && (
               <ul className="sub-menu">
@@ -177,7 +196,7 @@ const SideNave = () => {
           </li>
           <li>
             <div className="menu-item" onClick={() => toggleSubMenu("contact")}>
-            Contact Us <span>{activeSubMenu === "contact" ? "▲" : "▼"}</span>
+            Contact Us <span>{activeSubMenu === "contact" ? <BiChevronUp size={25}/> : <BiChevronDown size={25}/>}</span>
             </div>
             {activeSubMenu === "contact" && (
               <ul className="sub-menu">

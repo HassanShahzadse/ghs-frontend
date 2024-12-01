@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HomePage } from './pages/homepage.jsx';
 // import ContactUs from './pages/ContactUs';
@@ -30,17 +30,19 @@ import ContactUs from './pages/SupportUs/ContactUs.js';
 import ContactDetails from './pages/ContactUs/ContactDetails.js';
 import VisitUs from './pages/ContactUs/VisitUs.js';
 import AdmissionForm from './pages/Admissions/AdmissionForm.js';
-// import Sidebar from './components/sidebar.js';
+import Sidebar from './components/sidebar.js';
 import Footer from './components/footer.jsx';
 import NextSection from './components/NextSection.js';
 import SideNave from './components/SideNave.js';
 import ScrollToTop from './ScrollToTop.js';
 // import WaysToSuppport from './pages/SupportUs/WaysToSupport.js';
 function Layout({ children }) {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   return (
     <div className="layout">
       {/* <Sidebar /> */}
-      <SideNave/>
+      {/* <SideNave/> */}
+      {isMobile ? <SideNave /> : <Sidebar />}
       <main className="content">{children}</main>
       <NextSection/>
       <Footer />
