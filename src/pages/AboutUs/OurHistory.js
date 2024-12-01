@@ -80,7 +80,7 @@ const OurHistory = () => {
                 </div>
                 <div className="banner__block">
                   <div
-                    className="img-animate img-animate--horizontal animate-deactive"
+                    className=" animate-deactive"
                   >
                     <div className="pillar background-lgrey"></div>
                   </div>
@@ -170,7 +170,7 @@ const OurHistory = () => {
                 <div>
                   <div className="animate-wrapper">
                     <div
-                      className="img-animate img-animate--horizontal animate-deactive"
+                      className=" animate-deactive"
                     >
                       <div className="pillar background-primary"></div>
                     </div>
@@ -186,22 +186,6 @@ const OurHistory = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div className="image-with-statistic__stat">
-                  <div
-                    className="img-animate img-animate--horizontal animate-deactive"
-                  >
-                    <div className="pillar background-lgrey"></div>
-                  </div>
-                  <div className="">
-                    <div className="title title--md color-secondary">
-                      Did you know?
-                    </div>
-                    <p>
-                      Boys as young as five were taught at GHSin the early
-                      days.
-                    </p>
                   </div>
                 </div>
               </section>

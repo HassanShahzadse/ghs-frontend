@@ -50,7 +50,7 @@ const OurPurpose = () => {
                       </div>
 
                       <div
-                        className="row off-screen off-screen--hide off-screen--list"
+                        className="row"
                       >
                         <div className="col-lg-6">
                           <ol>

@@ -74,7 +74,7 @@ const OurGoverningBody = () => {
                     </div>
                   </div>
                   {/* <div className="banner__block">
-                    <div className="img-animate img-animate--horizontal animate-deactive">
+                    <div className=" animate-deactive">
                       <div className="pillar background-lgrey"></div>
                     </div>
                     <div className="banner__block__inner background-lgrey"></div>

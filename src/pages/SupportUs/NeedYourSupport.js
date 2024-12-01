@@ -78,7 +78,7 @@ const NeedYourSupport = () => {
                     </div>
                     <div className="banner__block">
                       <div
-                        className="img-animate img-animate--horizontal animate-deactive"
+                        className=" animate-deactive"
                       >
                         <div className="pillar background-lgrey"></div>
                       </div>
@@ -154,7 +154,7 @@ Education has a ripple effect—it doesn’t just change the life of one student
                     <div>
                       <div className="animate-wrapper">
                         <div
-                          className="img-animate img-animate--horizontal animate-deactive"
+                          className=" animate-deactive"
                         >
                           <div className="pillar background-primary"></div>
                         </div>
@@ -169,22 +169,6 @@ Education has a ripple effect—it doesn’t just change the life of one student
                             </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                    <div className="image-with-statistic__stat">
-                      <div
-                        className="img-animate img-animate--horizontal animate-deactive"
-                      >
-                        <div className="pillar background-lgrey"></div>
-                      </div>
-                      <div className="">
-                        <div className="title title--md color-secondary">
-                          Did you know?
-                        </div>
-                        <p>
-                          Boys on the Learning Support Register have gone on to
-                          some of the top universities in both the UK and US.
-                        </p>
                       </div>
                     </div>
                   </section>

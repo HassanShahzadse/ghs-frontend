@@ -79,7 +79,7 @@ const EnvironmentalEducation = () => {
                 </div>
                 <div className="banner__block">
                   <div
-                    className="img-animate img-animate--horizontal animate-deactive"
+                    className=" animate-deactive"
                   >
                     <div className="pillar background-lgrey"></div>
                   </div>
@@ -142,7 +142,7 @@ const EnvironmentalEducation = () => {
                 <div>
                   <div className="animate-wrapper">
                     <div
-                      className="img-animate img-animate--horizontal animate-deactive"
+                      className=" animate-deactive"
                     >
                       <div className="pillar background-primary"></div>
                     </div>
@@ -158,19 +158,6 @@ const EnvironmentalEducation = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div className="image-with-statistic__stat">
-                  <div
-                    className="img-animate img-animate--horizontal animate-deactive"
-                  >
-                    <div className="pillar background-lgrey"></div>
-                  </div>
-                  <div className="">
-                    <div className="title title--lg color-secondary">79%</div>
-                    <p>
-                      of all GCSE grades achieved in 2019 were Grade 8 or 9.
-                    </p>
                   </div>
                 </div>
               </section>

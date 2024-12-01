@@ -80,7 +80,7 @@ const EntryToGHS = () => {
                 </div>
                 <div className="banner__block">
                   <div
-                    className="img-animate img-animate--horizontal animate-deactive"
+                    className=" animate-deactive"
                   >
                     <div className="pillar background-lgrey"></div>
                   </div>
@@ -160,7 +160,7 @@ const EntryToGHS = () => {
                 <div>
                   <div className="animate-wrapper">
                     <div
-                      className="img-animate img-animate--horizontal animate-deactive"
+                      className=" animate-deactive"
                     >
                       <div className="pillar background-primary"></div>
                     </div>
@@ -176,20 +176,6 @@ const EntryToGHS = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div className="image-with-statistic__stat">
-                  <div
-                    className="img-animate img-animate--horizontal animate-deactive"
-                  >
-                    <div className="pillar background-lgrey"></div>
-                  </div>
-                  <div className="">
-                    <div className="title title--lg color-secondary">20%</div>
-                    <p>
-                      of boys received financial support towards their fees
-                      in academic year 2022/23.
-                    </p>
                   </div>
                 </div>
               </section>

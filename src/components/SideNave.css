@@ -78,7 +78,7 @@
   }
   
   .menu-item:hover {
-    background: #b8b5b5;
+    /* background: #b8b5b5; */
   }
   
   /* Sub Menu */
@@ -95,7 +95,7 @@
   }
   
   .sub-menu > li:hover {
-    color: rgb(177, 170, 170);
+    /* color: rgb(177, 170, 170); */
   }
   
   /* Mobile Responsive Adjustments */
