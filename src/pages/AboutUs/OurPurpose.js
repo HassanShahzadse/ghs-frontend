@@ -45,7 +45,6 @@ const OurPurpose = () => {
                         className="title title--shadow horizontal-scroll--right"
                       ></div>
                       <div className="title title--lg">
-                      At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. Rooted in our foundational values are the key aims of the college that we hope to instill in each of our students:
                         <p className="mt-30">
                         At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. Rooted in our foundational values are the key aims of the college that we hope to instill in each of our students:<br />
                           <p>

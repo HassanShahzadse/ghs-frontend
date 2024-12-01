@@ -33,6 +33,7 @@ import AdmissionForm from './pages/Admissions/AdmissionForm.js';
 import Sidebar from './components/sidebar.js';
 import Footer from './components/footer.jsx';
 import NextSection from './components/NextSection.js';
+import ScrollToTop from './ScrollToTop.js';
 // import WaysToSuppport from './pages/SupportUs/WaysToSupport.js';
 function Layout({ children }) {
   return (
@@ -47,6 +48,7 @@ function Layout({ children }) {
 function App() {
   return (
     <Layout>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/AboutUs/OurPurpose" element={<OurPurpose/>} />

@@ -36,7 +36,7 @@ const Sidebar = () => {
           <div className="top-nav__logo">
             <img
               fetchpriority="high"
-              src="assets/img/Final GHS.png"
+              src="/assets/img/Final GHS.png"
             />
           </div>
         </Link>
