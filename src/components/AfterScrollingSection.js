@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 const AfterScrollingSection = () => {
   return (
@@ -85,9 +86,11 @@ const AfterScrollingSection = () => {
               <p>
                 <a
                   className="button"
-                  href=""
+                  href="/Admissions/EntryToGHS"
                 >
-                  Meet the Headmaster
+                            {/* <Link to="/Admissions/EntryToGHS"> */}
+                            Our Prospectus
+                            {/* </Link> */}
                 </a>
               </p>
             </div>

@@ -19,11 +19,7 @@ const NextSection = () => {
                         </div>
                       </div>
 
-                      <div className="fade-in__child fade-in--3">
-                        {/* <a
-                          href="news-and-diary/school-news/rocksoc-shakes-the-parry-hall/index.html"
-                          className="post-link"
-                        > */}
+                      {/* <div className="fade-in__child fade-in--3">
                           <div className="news-item">
                             <div className="news-item__img">
                               <div className="js-image-move">
@@ -54,8 +50,7 @@ const NextSection = () => {
                               </div>
                             </div>
                           </div>
-                        {/* </a> */}
-                      </div>
+                      </div> */}
                     </div>
 
                     <div className="col-md-6">
@@ -68,13 +63,16 @@ const NextSection = () => {
                                 src="/assets/11/Dorm block- quadrangle.JPG"     />
                             </div>
                           </div>
-                          <Link to="/AboutUs/OurPurpose">
+                      
+                          {/* <Link to="/AboutUs/OurPurpose"> */}
                           <h3 className="title title--md">Our Purpose</h3>
-                          </Link>
-                          {/* <a
-                            href="about-us/our-purpose/index.html"
+                          {/* </Link> */}
+                          <a
+                            href="/AboutUs/OurPurpose"
                             className="cover-link"
-                          ></a> */}
+                          >
+
+                          </a>
                         </div>
                         <div className="teaser-item">
                           <div
@@ -88,8 +86,10 @@ const NextSection = () => {
                                 src="/assets/11/DSC_2159.JPG"     />
                             </div>
                           </div>
-                          <Link to="/OutsideClassroom/Sport">  <h3 className="title title--md">Sport</h3></Link>
-                          {/* <a href="/" className="cover-link"></a> */}
+                          {/* <Link to="/OutsideClassroom/Sport">  */}
+                           <h3 className="title title--md">Sport</h3>
+                           {/* </Link> */}
+                          <a href="/OutsideClassroom/Sport" className="cover-link"></a>
                         </div>
                       </div>
                       <div className="fade-in__child fade-in--2">

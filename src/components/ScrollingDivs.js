@@ -89,7 +89,7 @@ const ScrollingDivs = () => {
                   <div className="banner__image--hover-inner">
                     <p className="text">
                       {banner.description}{" "}
-                      <span className="text-secondary">{banner.highlight}</span>
+                      <span className="text-secondary" style={{marginLeft: "0.2em"}}>{banner.highlight}</span>
                     </p>
                     <div className="bottom">
                       <p>{banner.category}</p>
@@ -120,10 +120,10 @@ const ScrollingDivs = () => {
                         </div>
                         <div className="banner--column banner--column-1 js-home-banner-col-1">
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/Sport" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/461848694_3683395301907262_9150366868156804753_n.jpg"
+                                src="/assets/11/DSC_2159.JPG"
                                 alt="Image description"
                               />
 
@@ -131,7 +131,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     An unparalleled
-                                    <span className="text-secondary">
+                                    <span className="text-secondary"  style={{marginLeft: "0.2em"}}>
                                       breadth of sport on offer
                                     </span>
                                   </p>
@@ -144,17 +144,17 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/InsideClassroom/AcadmicCurriculum" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/461936833_3683428045237321_8140968138120842639_n.jpg"
+                                src="/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg"
                                 alt="Image description"
                               />
                               <div className="banner__image--hover">
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Fostering a lifelong appreciation of
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       independent thinking and learning
                                     </span>
                                   </p>
@@ -167,7 +167,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/CoCurriculum" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/DSC_4385.JPG"
@@ -177,7 +177,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     World class
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       performance venues
                                     </span>
                                   </p>
@@ -190,7 +190,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/AboutUs/OurHistory" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/DSC_2159.JPG "
@@ -200,7 +200,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Cherishing our
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       traditions and heritage
                                     </span>
                                   </p>
@@ -217,7 +217,7 @@ const ScrollingDivs = () => {
                       <div>
                         <div className="banner--column banner--column-2 js-home-banner-col-2">
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/CommunityEngagement" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/71518606_2324152407831565_4640834380917374976_n.jpg"
@@ -227,7 +227,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     At the vanguard of
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       innovation in education
                                     </span>
                                   </p>
@@ -240,7 +240,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/EnvironmentalEducation" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/462131386_3683986411848151_2259247329909775880_n.jpg"
@@ -250,7 +250,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Committed to
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       sustainability and environmental action
                                     </span>
                                   </p>
@@ -263,7 +263,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="" className="banner__image--link">
+                            <a href="/AboutUs/OurPurpose" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg"
@@ -273,7 +273,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Providing a stage for
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       talent to shine
                                     </span>
                                   </p>
@@ -286,7 +286,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/Boarding" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/461960192_3683991158514343_4451415336598492767_n.jpg"
@@ -296,7 +296,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Boarding nurtures personal growth and
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       lifelong friendships
                                     </span>
                                   </p>
@@ -316,7 +316,7 @@ const ScrollingDivs = () => {
                         </div>
                         <div className="banner--column banner--column-3 js-home-banner-col-3">
                           <div className="banner__image portrait">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/CommunityEngagement" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/414482271_390719683519003_6561115105494497189_n.jpg"
@@ -328,7 +328,7 @@ const ScrollingDivs = () => {
                                   <p className="text">
                                     80+ societies run regular lectures,
                                     workshops and seminars with
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       world-renowned experts
                                     </span>
                                   </p>
@@ -341,7 +341,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="" className="banner__image--link">
+                            <a href="/AboutUs/OurStrategy" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/301027547_172020865395840_3346290675082538010_n.jpg"
@@ -351,7 +351,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Ambitious cross-sector
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       collaboration and research
                                     </span>
                                   </p>
@@ -364,7 +364,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/InsideClassroom/AcadmicFacilities" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/300504071_172020888729171_3528704732704868454_n.jpg"
@@ -374,12 +374,12 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Building partnerships hubs and
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       three sixth form colleges
                                     </span>
                                   </p>
                                   <div className="bottom">
-                                    <p>GHSStar Schools Programme</p>
+                                    <p>GHS Schools Programme</p>
                                   </div>
                                 </div>
                               </div>
@@ -387,7 +387,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="" className="banner__image--link">
+                            <a href="/OutsideClassroom/PastoralCare" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/285821649_151499194114674_2299889885274654907_n.jpg"
@@ -397,7 +397,7 @@ const ScrollingDivs = () => {
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
                                     Exceptional pastoral care is at
-                                    <span className="text-secondary">
+                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
                                       the heart of an GHSeducation
                                     </span>
                                   </p>

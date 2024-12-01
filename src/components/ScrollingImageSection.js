@@ -81,7 +81,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=""
+              href="https://www.instagram.com/ghskarachi/"
             >
               <img
                 decoding="async"
@@ -173,7 +173,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=''
+              href='https://www.instagram.com/ghskarachi/'
             >
               <img
                 decoding="async"
@@ -265,7 +265,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=''
+              href='https://www.instagram.com/ghskarachi/'
             >
              <img
                 decoding="async"
@@ -357,7 +357,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=''
+              href='https://www.instagram.com/ghskarachi/'
             >
              <img
                 decoding="async"
@@ -448,7 +448,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=''
+              href='https://www.instagram.com/ghskarachi/'
             >
              <img
                 decoding="async"
@@ -540,7 +540,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=''
+              href='https://www.instagram.com/ghskarachi/'
             >
              <img
                 decoding="async"
@@ -634,7 +634,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=''
+              href='https://www.instagram.com/ghskarachi/'
             >
              <img
                 decoding="async"
@@ -726,7 +726,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=''
+              href='https://www.instagram.com/ghskarachi/'
             >
              <img
                 decoding="async"
@@ -818,7 +818,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=''
+              href='https://www.instagram.com/ghskarachi/'
             >
              <img
                 decoding="async"
@@ -910,7 +910,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=''
+              href='https://www.instagram.com/ghskarachi/'
             >
              <img
                 decoding="async"
@@ -1002,7 +1002,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=''
+              href='https://www.instagram.com/ghskarachi/'
             >
              <img
                 decoding="async"
@@ -1094,7 +1094,7 @@ const ScrollingImagesSection = () => {
               </svg>
             </div>
             <a
-              href=''
+              href='https://www.instagram.com/ghskarachi/'
             >
              <img
                 decoding="async"
@@ -1187,7 +1187,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href=''
+            href='https://www.instagram.com/ghskarachi/'
           >
            <img
                 decoding="async"
@@ -1279,7 +1279,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href=''
+            href='https://www.instagram.com/ghskarachi/'
           >
           <img
                 decoding="async"
@@ -1371,7 +1371,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href=''
+            href='https://www.instagram.com/ghskarachi/'
           >
            <img
                 decoding="async"
@@ -1463,7 +1463,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href=''
+            href='https://www.instagram.com/ghskarachi/'
           >
            <img
                 decoding="async"
@@ -1555,7 +1555,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href=''
+            href='https://www.instagram.com/ghskarachi/'
           >
           <img
                 decoding="async"
@@ -1646,7 +1646,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href=''
+            href='https://www.instagram.com/ghskarachi/'
           >
           <img
                 decoding="async"
@@ -1737,7 +1737,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href=''
+            href='https://www.instagram.com/ghskarachi/'
           >
             <img
                 decoding="async"
@@ -1829,7 +1829,7 @@ const ScrollingImagesSection = () => {
             </svg>
           </div>
           <a
-            href=''
+            href='https://www.instagram.com/ghskarachi/'
           >
             <img
                 decoding="async"
