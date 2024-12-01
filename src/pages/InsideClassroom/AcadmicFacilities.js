@@ -396,8 +396,8 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                 both inside and outside the classroom.
               </p> */}
               </article>
-              <NextSection/>
-              <Footer/>
+              
+              
             </div>
             </div>
             </div>

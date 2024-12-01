@@ -155,7 +155,7 @@ Kindness, integrity, determination, and gratitude are at the heart of our commun
                 </p>
 
                 <NextSection />
-                <Footer />
+                {/* <Footer /> */}
               </article>
             </div>
           </div>

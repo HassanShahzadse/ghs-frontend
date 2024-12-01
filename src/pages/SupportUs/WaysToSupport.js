@@ -253,8 +253,7 @@ const WaysToSupport = () => {
               </p> */}
 
               </article>
-              <NextSection/>
-              <Footer/>
+              
             </div>
             </div>
             </div>

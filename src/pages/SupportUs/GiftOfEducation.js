@@ -237,8 +237,8 @@ const GiftOfEducation = () => {
                   </p>
      */}
                   </article>
-                  <NextSection/>
-                  <Footer/>
+                  
+                  
                 </div>
                 </div>
                 </div>

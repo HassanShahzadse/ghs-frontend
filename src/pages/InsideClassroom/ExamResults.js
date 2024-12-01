@@ -267,8 +267,8 @@ const ExamResults = () => {
               </p> */}
 
               </article>
-              <NextSection/>
-              <Footer/>
+              
+              
             </div>
             </div>
             </div>

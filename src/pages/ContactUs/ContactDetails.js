@@ -47,8 +47,8 @@ const ContactDetails = () => {
 
                
               </article>
-              <NextSection/>
-              <Footer/>
+              
+              
             </div>
           </div>
         </div>

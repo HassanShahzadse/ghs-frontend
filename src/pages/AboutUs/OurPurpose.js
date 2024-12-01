@@ -159,8 +159,8 @@ const OurPurpose = () => {
                   </div>
                 </div>
               </section>
-              <NextSection/>
-              <Footer/>
+              
+              
             </article>
           </div>
         </div>

@@ -265,8 +265,8 @@ const OurGoverningBody = () => {
                 </figure> */}
             </div>
         </div>
-        <NextSection/>
-        <Footer/>
+        
+        
       </main>
     </div>
   );

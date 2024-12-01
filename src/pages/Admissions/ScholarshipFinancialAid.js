@@ -239,8 +239,8 @@ const ScholarshipFinancialAid = () => {
                   </p> */}
     
                   </article>
-                  <NextSection/>
-                  <Footer/>
+                  
+                  
                 </div>
                 </div>
                 </div>
