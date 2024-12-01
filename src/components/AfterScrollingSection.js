@@ -36,7 +36,7 @@ const AfterScrollingSection = () => {
               />
             </div> */}
             <div className="video-embed">
-  <video
+  {/* <video
     width="100%"
     height="auto"
     controls
@@ -44,9 +44,8 @@ const AfterScrollingSection = () => {
     loop
     muted={false} // Ensure sound is enabled
   >
-    <source src="/assets/video/THS Clip 2.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+    <source src="/assets/video/THS.mp4" type="video/mp4" />
+  </video> */}
 </div>
 
           </div>
