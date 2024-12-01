@@ -19,8 +19,8 @@ const NextSection = () => {
                         </div>
                       </div>
 
-                      {/* <div className="fade-in__child fade-in--3">
-                          <div className="news-item">
+                      <div className="fade-in__child fade-in--3">
+                          {/* <div className="news-item">
                             <div className="news-item__img">
                               <div className="js-image-move">
                                 <span className="js-image-move__inner object-fit object-fit--cover">
@@ -49,13 +49,8 @@ const NextSection = () => {
                                 <p>Learning</p>
                               </div>
                             </div>
-                          </div>
-                      </div> */}
-                    </div>
-
-                    <div className="col-md-6">
-                      <div className="fade-in__child fade-in--2">
-                        <div className="teaser-item">
+                          </div> */}
+                           <div className="teaser-item">
                           <div className="js-image-move">
                             <div className="js-image-move__inner object-fit object-fit--cover">
                               <img
@@ -74,6 +69,28 @@ const NextSection = () => {
 
                           </a>
                         </div>
+                      </div>
+                    </div>
+
+                    <div className="col-md-6">
+                      <div className="fade-in__child fade-in--2">
+                        {/* <div className="teaser-item">
+                          <div className="js-image-move">
+                            <div className="js-image-move__inner object-fit object-fit--cover">
+                              <img
+                                decoding="async"
+                                src="/assets/11/Dorm block- quadrangle.JPG"     />
+                            </div>
+                          </div>
+                      
+                          <h3 className="title title--md">Our Purpose</h3>
+                          <a
+                            href="/AboutUs/OurPurpose"
+                            className="cover-link"
+                          >
+
+                          </a>
+                        </div> */}
                         <div className="teaser-item">
                           <div
                             className="teaser-item__inner"
