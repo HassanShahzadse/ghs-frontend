@@ -806,21 +806,21 @@ jQuery(document).ready(function ($) {
     ).addClass('sub-menu-open')
 
     //	$('#menu-nested-pages > li:has(div ul) > a').addClass('page-has-children');
-    $('.hamburger').on('click', function () {
-      menuopen = true
-      $(this).toggleClass('open')
-      $('.nav-menu').toggleClass('open')
-      $('.parent-page > a').removeClass('active')
-      // $('.sub-menu-wrap').removeClass('sub-menu-open')
-      if ($('.hamburger span').text() == 'Close') {
-        $('.hamburger span').text('Menu')
-      } else {
-        $('.hamburger span').text('Close')
-        setTimeout(function () {
-          $('.sub-menu-slide').addClass('sub-menu-open')
-        }, 300)
-      }
-    })
+    // $('.hamburger').on('click', function () {
+      // menuopen = true
+      // $(this).toggleClass('open')
+      // $('.nav-menu').toggleClass('open')
+      // $('.parent-page > Link').removeClass('active')
+      // $('.sub-menu-wrap > Link').removeClass('sub-menu-open')
+      // if ($('.hamburger span').text() == 'Close') {
+        // $('.hamburger span').text('Menu')
+      // } else {
+        // $('.hamburger span').text('Close')
+        // setTimeout(function () {
+          // $('.sub-menu-slide').addClass('sub-menu-open')
+        // }, 300)
+      // }
+    // })
     $('.parent-page > a').on('click', function (e) {
       e.preventDefault()
       let menutoopen = $(this).attr('id')

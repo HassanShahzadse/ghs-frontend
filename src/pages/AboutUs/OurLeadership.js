@@ -114,7 +114,7 @@ const OurLeadership = () => {
                               className="teaser__inner"
                               style={{
                                 backgroundImage:
-                                  "url(../../../../../assets/11/IMG_0332.JPG)",
+                                  "url(/assets/11/IMG_0332.JPG)",
                               }}
                             ></span>
 
@@ -204,7 +204,7 @@ const OurLeadership = () => {
                               className="teaser__inner"
                               style={{
                                 backgroundImage:
-                                  "url(../../../../../assets/11/art & tech block- front view.JPG)",
+                                  "url(/assets/11/art & tech block- front view.JPG)",
                               }}
                             ></span>
 

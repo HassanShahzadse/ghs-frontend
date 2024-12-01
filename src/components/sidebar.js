@@ -1,12 +1,13 @@
-import React, {useState} from "react";
-import {Link } from "react-router-dom";
+import React, {useState,useEffect} from "react";
+import {Link, useLocation } from "react-router-dom";
 // import { FaPhone } from "react-icons/fa";
 import { FiPhone } from "react-icons/fi";
 import "./footer.css";
 
 const Sidebar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false); 
-  
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -14,7 +15,10 @@ const Sidebar = () => {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
- 
+  useEffect(() => {
+    console.log("Route changed to:", location.pathname);
+    closeMenu();
+  }, [location]);
 
   return (
     <>
@@ -22,10 +26,10 @@ const Sidebar = () => {
       <div id="page-wrap" className="sidebar-container" >
       <div className="top-nav">
         <div className="hamburger" onClick={toggleMenu}>
-          <div className="nav-icon">
+          <div className={`nav-icon ${isMenuOpen ? "open" : "close"}`}>
             <div></div>
           </div>
-          <span>Menu</span>
+          <span>{isMenuOpen ? "Close" : "Menu"}</span>
         </div>
 
         <Link to="index">
@@ -110,8 +114,8 @@ const Sidebar = () => {
       </nav>
       </div>
 
-      <div className= {`sub-menu-wrapper ${isMenuOpen ? "open" : ""}`}>
-        <div className={`sub-menu-wrap ${isMenuOpen ? "open" : ""}`} id="sub_5">
+      <div className= {`sub-menu-wrapper ${isMenuOpen ? "open" : "close"}`}>
+        <div className={`sub-menu-wrap ${isMenuOpen ? "open" : "close"}`} id="sub_5">
           <div className="title title--sm">About Us</div>
           <ul>
             <li className="menu-item">

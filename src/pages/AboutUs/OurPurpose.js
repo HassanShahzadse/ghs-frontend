@@ -64,10 +64,10 @@ const OurPurpose = () => {
                             We provide an internationally recognized Cambridge-based curriculum delivered by expert educators. This rigorous academic framework develops critical thinking, creativity, and analytical skills, preparing students to excel in an ever-changing world.
 
                             </li>
-                            <li>
+                            {/* <li>
                             Our approach encourages students to develop a love for learning, empowering them to pursue knowledge independently and confidently throughout their lives. By cultivating curiosity, we ensure our pupils stay adaptable and informed.
 
-                            </li>
+                            </li> */}
                           </ol>
                         </div>
                         <div className="col-lg-6">
@@ -78,9 +78,9 @@ const OurPurpose = () => {
                             <li>
                             Our commitment to sustainability drives our decisions and practices. From environmental awareness to community outreach, we instill in our students a sense of responsibility to protect and enhance the world around them.
                             </li>
-                            <li>
+                            {/* <li>
                               nurtures the value of leadership and service;
-                            </li>
+                            </li> */}
                           </ol>
                         </div>
                       </div>
