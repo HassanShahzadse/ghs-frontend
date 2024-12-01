@@ -35,7 +35,7 @@ const AfterScrollingSection = () => {
                 sizes="(max-width: 1024px) 100vw, 1024px"
               />
             </div> */}
-            <div className="video-embed">
+            {/* <div className="video-embed"> */}
   {/* <video
     width="100%"
     height="auto"
@@ -46,7 +46,7 @@ const AfterScrollingSection = () => {
   >
     <source src="/assets/video/THS.mp4" type="video/mp4" />
   </video> */}
-</div>
+{/* </div> */}
 
           </div>
         </div>
