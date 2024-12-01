@@ -30,15 +30,16 @@ import ContactUs from './pages/SupportUs/ContactUs.js';
 import ContactDetails from './pages/ContactUs/ContactDetails.js';
 import VisitUs from './pages/ContactUs/VisitUs.js';
 import AdmissionForm from './pages/Admissions/AdmissionForm.js';
-import Sidebar from './components/sidebar.js';
+// import Sidebar from './components/sidebar.js';
 import Footer from './components/footer.jsx';
 import NextSection from './components/NextSection.js';
-import ScrollToTop from './ScrollToTop.js';
+import SideNave from './components/SideNave.js';
 // import WaysToSuppport from './pages/SupportUs/WaysToSupport.js';
 function Layout({ children }) {
   return (
     <div className="layout">
-      <Sidebar />
+      {/* <Sidebar /> */}
+      <SideNave/>
       <main className="content">{children}</main>
       <NextSection/>
       <Footer />
