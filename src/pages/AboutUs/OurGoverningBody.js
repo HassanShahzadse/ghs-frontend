@@ -17,14 +17,8 @@ const OurGoverningBody = () => {
                     <p id="breadcrumbs">
                       <span>
                         <span>
-                          <a className="my-class" href="">
+                          <a className="my-class" href="/">
                             Home
-                          </a>
-                        </span>
-                        <span className="breadcrumbs-separator"></span>
-                        <span>
-                          <a className="my-class" href="../index.html">
-                            About Us
                           </a>
                         </span>
                         <span className="breadcrumbs-separator"></span>
@@ -111,14 +105,8 @@ const OurGoverningBody = () => {
                   <p id="breadcrumbs">
                     <span>
                       <span>
-                        <a className="my-class" href="">
+                        <a className="my-class" href="/">
                           Home
-                        </a>
-                      </span>
-                      <span className="breadcrumbs-separator"></span>
-                      <span>
-                        <a className="my-class" href="../index.html">
-                          About Us
                         </a>
                       </span>
                       <span className="breadcrumbs-separator"></span>

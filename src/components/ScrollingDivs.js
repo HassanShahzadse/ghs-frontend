@@ -10,7 +10,7 @@ const ScrollingDivs = () => {
       imageSrc:
         "/assets/11/277148812_130958129502114_7861657689476040255_n.jpg",
       alt: "Image description",
-      link: "",
+      link: "OutsideClassroom/Boarding",
       description: "Boarding nurtures personal growth and",
       highlight: "lifelong friendships",
       category: "Boarding",
@@ -19,7 +19,7 @@ const ScrollingDivs = () => {
       imageSrc:
         "/assets/11/275054573_122711713660089_1312944415058859257_n.jpg",
       alt: "Image description",
-      link: "",
+      link: "OutsideClassroom/Sport",
       description: "An unparalleled",
       highlight: "breadth of sport on offer",
       category: "Sport",
@@ -28,7 +28,7 @@ const ScrollingDivs = () => {
       imageSrc:
         "/assets/11/265025219_2949755348604598_8252143876884700374_n.jpg",
       alt: "Image description",
-      link: "",
+      link: "OutsideClassroom/CoCurriculum",
       description: "World class",
       highlight: "performance venues",
       category: "Music",
@@ -37,7 +37,7 @@ const ScrollingDivs = () => {
       imageSrc:
         "/assets/11/176550934_2788094451437356_5384273365940172592_n.jpg",
       alt: "Image description",
-      link: "",
+      link: "OutsideClassroom/CoCurriculum",
       description: "Providing a stage for",
       highlight: "talent to shine",
       category: "Drama",
@@ -46,7 +46,7 @@ const ScrollingDivs = () => {
       imageSrc:
         "/assets/11/176299917_2788094574770677_7086346180454366200_n.jpg",
       alt: "Image description",
-      link: "",
+      link: "OutsideClassroom/CoCurriculum",
       description:
         "80+ societies run regular lectures, workshops and seminars with",
       highlight: "world-renowned experts",
@@ -56,7 +56,7 @@ const ScrollingDivs = () => {
       imageSrc:
         "/assets/11/176074127_2788094911437310_1793668116840003786_n.jpg",
       alt: "Image description",
-      link: "",
+      link: "InsideClassroom/AcadmicFacilities",
       description: "Fostering a lifelong appreciation of",
       highlight: "independent thinking and learning",
       category: "Academic",
@@ -64,12 +64,12 @@ const ScrollingDivs = () => {
   ];
   const BannerCarousel = ({ banners }) => {
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 3000,
       arrows: false,
     };
@@ -422,164 +422,6 @@ const ScrollingDivs = () => {
                       </h1>
                     </div>
                     <BannerCarousel banners={banners} />
-                    {/* <div className="mobile-banner-carousel">
-                      <div className="banner__image">
-                        <a
-                          href=""
-                          className="banner__image--link"
-                        >
-                          <img
-                            decoding="async"
-                            src="/assets/11/277148812_130958129502114_7861657689476040255_n.jpg"
-                            alt="Image description"
-                          />
-                          <div className="banner__image--hover">
-                            <div className="banner__image--hover-inner">
-                              <p className="text">
-                                Boarding nurtures personal growth and
-                                <span className="text-secondary">
-                                  lifelong friendships
-                                </span>
-                              </p>
-                              <div className="bottom">
-                                <p>Boarding</p>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-
-                      <div className="banner__image">
-                        <a
-                          href=""
-                          className="banner__image--link"
-                        >
-                          <img
-                            decoding="async"
-                            src="/assets/11/275054573_122711713660089_1312944415058859257_n.jpg"
-                            alt="Image description"
-                          />
-                          <div className="banner__image--hover">
-                            <div className="banner__image--hover-inner">
-                              <p className="text">
-                                An unparalleled
-                                <span className="text-secondary">
-                                  breadth of sport on offer
-                                </span>
-                              </p>
-                              <div className="bottom">
-                                <p>Sport</p>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-
-                      <div className="banner__image">
-                        <a
-                          href=""
-                          className="banner__image--link"
-                        >
-                          <img
-                            decoding="async"
-                            src="/assets/11/265025219_2949755348604598_8252143876884700374_n.jpg"
-                            alt="Image description"
-                          />
-                          <div className="banner__image--hover">
-                            <div className="banner__image--hover-inner">
-                              <p className="text">
-                                World class
-                                <span className="text-secondary">
-                                  performance venues
-                                </span>
-                              </p>
-                              <div className="bottom">
-                                <p>Music</p>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-
-                      <div className="banner__image">
-                        <a
-                          href=""
-                          className="banner__image--link"
-                        >
-                          <img
-                            decoding="async"
-                            src="/assets/11/176550934_2788094451437356_5384273365940172592_n.jpg"
-                            alt="Image description"
-                          />
-                          <div className="banner__image--hover">
-                            <div className="banner__image--hover-inner">
-                              <p className="text">
-                                Providing a stage for
-                                <span className="text-secondary">
-                                  talent to shine
-                                </span>
-                              </p>
-                              <div className="bottom">
-                                <p>Drama</p>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-
-                      <div className="banner__image">
-                        <a
-                          href=""
-                          className="banner__image--link"
-                        >
-                          <img
-                            decoding="async"
-                            src="/assets/11/176299917_2788094574770677_7086346180454366200_n.jpg"
-                            alt="Image description"
-                          />
-                          <div className="banner__image--hover">
-                            <div className="banner__image--hover-inner">
-                              <p className="text">
-                                80+ societies run regular lectures, workshops
-                                and seminars with
-                                <span className="text-secondary">
-                                  world-renowned experts
-                                </span>
-                              </p>
-                              <div className="bottom">
-                                <p>Societies</p>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-
-                      <div className="banner__image">
-                        <a
-                          href=""
-                          className="banner__image--link"
-                        >
-                          <img
-                            decoding="async"
-                            src="public/assets/11/public/assets/11/176074127_2788094911437310_1793668116840003786_n.jpg"
-                            alt="Image description"
-                          />
-                          <div className="banner__image--hover">
-                            <div className="banner__image--hover-inner">
-                              <p className="text">
-                                Fostering a lifelong appreciation of
-                                <span className="text-secondary">
-                                  independent thinking and learning
-                                </span>
-                              </p>
-                              <div className="bottom">
-                                <p>Academic</p>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                    </div> */}
                   </div>
                 </section>
                 <AfterScrollingSection />

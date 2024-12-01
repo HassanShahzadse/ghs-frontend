@@ -22,12 +22,6 @@ const OurLeadership = () => {
                         </a>
                       </span>{" "}
                       <span className="breadcrumbs-separator"></span>{" "}
-                      <span>
-                        <a className="my-class" href="../index.html">
-                          About Us
-                        </a>
-                      </span>{" "}
-                      <span className="breadcrumbs-separator"></span>{" "}
                       <span className="breadcrumb_last" aria-current="page">
                         Our Leadership Team
                       </span>

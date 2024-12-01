@@ -18,14 +18,8 @@ const Fees = () => {
                   <p id="breadcrumbs">
                     <span
                       ><span
-                        ><a className="my-class" href=""
+                        ><a className="my-class" href="/"
                           >Home</a
-                        ></span
-                      >
-                      <span className="breadcrumbs-separator"></span>
-                      <span
-                        ><a className="my-class" href="../index.html"
-                          >Admissions</a
                         ></span
                       >
                       <span className="breadcrumbs-separator"></span>
@@ -116,14 +110,8 @@ const Fees = () => {
                 <p id="breadcrumbs">
                   <span
                     ><span
-                      ><a className="my-class" href=""
+                      ><a className="my-class" href="/"
                         >Home</a
-                      ></span
-                    >
-                    <span className="breadcrumbs-separator"></span>
-                    <span
-                      ><a className="my-class" href="../index.html"
-                        >Admissions</a
                       ></span
                     >
                     <span className="breadcrumbs-separator"></span>
@@ -135,13 +123,6 @@ const Fees = () => {
               </div>
 
               <p>
-                <a
-                  className="button"
-                  href="https://forms.office.com/pages/responsepage.aspx?id=XN7vxi-BKEePctvBoUB1AAf-upGwjMdOsTGALGE9oudUNzdKRjdCUzc2OU00R1NYVjZFM1c4RktLNS4u"
-                  target="_blank"
-                  rel="noopener"
-                  >Book an Admissions tour</a
-                >
               </p>
 
               <h2 className="wp-block-heading">School Fees &amp; Extras</h2>
@@ -153,12 +134,6 @@ const Fees = () => {
               <p>
                 Details of current fees are displayed below, and further
                 information can be obtained from the
-                <a
-                  href="../../cdn-cgi/l/email-protection.html#bedccbcccddfccd7dbcdfedbcad1d0ddd1d2d2dbd9db90d1ccd990cbd5"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  >fees and bursaries team</a
-                >.
               </p>
 
               <blockquote

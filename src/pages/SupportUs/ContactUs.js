@@ -24,12 +24,6 @@ const ContactUs = () => {
                           </a>
                         </span>
                         <span className="breadcrumbs-separator"></span>
-                        <span>
-                          <a className="my-class" href="../index.html">
-                            Support Us
-                          </a>
-                        </span>
-                        <span className="breadcrumbs-separator"></span>
                         <span className="breadcrumb_last" aria-current="page">
                           Contact Us
                         </span>
@@ -117,12 +111,6 @@ const ContactUs = () => {
                         </a>
                       </span>
                       <span className="breadcrumbs-separator"></span>
-                      <span>
-                        <a className="my-class" href="../index.html">
-                          Support Us
-                        </a>
-                      </span>
-                      <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page">
                         Contact Us
                       </span>
@@ -144,14 +132,6 @@ const ContactUs = () => {
                 <p>Windsor, SL4 6DW</p>
 
                 <p>
-                  <a href="../../cdn-cgi/l/email-protection.html#5c38392a3930332c313932281c392833323f333030393b3972332e3b722937">
-                    <span
-                      className="__cf_email__"
-                      data-cfemail="6a0e0f1c0f06051a070f041e2a0f1e0504090506060f0d0f4405180d441f01"
-                    >
-                      [email&#160;protected]
-                    </span>
-                  </a>
                 </p>
 
                 <p>(+44) 01753 370642</p>
