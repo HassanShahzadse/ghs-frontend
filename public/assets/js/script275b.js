@@ -726,27 +726,55 @@ jQuery(document).ready(function ($) {
       }
     })
   }
-  accordion: {
-    function toggleAccordion() {
-      $('.js-accordion-target')
-        .not($(this).next('.js-accordion-target'))
-        .slideUp()
-      $('.js-accordion-plus')
-        .not($(this).find('.js-accordion-plus'))
-        .removeClass('active')
-      $(this).next('.js-accordion-target').slideToggle()
-      $(this).find('.js-accordion-plus').toggleClass('active')
-    }
+//  accordion: {
+//     function toggleAccordion() {
+//       $('.js-accordion-target')
+//         .not($(this).next('.js-accordion-target'))
+//         .slideUp()
+//       $('.js-accordion-plus')
+//         .not($(this).find('.js-accordion-plus'))
+//         .removeClass('active')
+//       $(this).next('.js-accordion-target').slideToggle()
+//       $(this).find('.js-accordion-plus').toggleClass('active')
+//     }
 
-    const get_accordions = document.querySelectorAll('.js-accordion-trigger')
-    accordions = Array.prototype.slice.call(get_accordions)
+//     const get_accordions = document.querySelectorAll('.js-accordion-trigger')
+//    let accordions = Array.prototype.slice.call(get_accordions)
 
-    if (accordions.length > 0) {
-      accordions.forEach(function (accordion) {
-        accordion.addEventListener('click', toggleAccordion, false)
-      })
-    }
+//     if (accordions.length > 0) {
+//       accordions.forEach(function (accordion) {
+//         accordion.addEventListener('click', toggleAccordion, false)
+//       })
+//     }
+//   }
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Accordion Functionality
+  function toggleAccordion(event) {
+    // Prevent event propagation for specific target clicks
+    event.stopPropagation();
+
+    // Handle accordion toggling
+    const trigger = $(event.currentTarget); // Current accordion trigger
+    const target = trigger.next('.js-accordion-target'); // Target content
+    const plusIcon = trigger.find('.js-accordion-plus'); // Plus icon in the trigger
+
+    // Close all other open accordions
+    $('.js-accordion-target').not(target).slideUp();
+    $('.js-accordion-plus').not(plusIcon).removeClass('active');
+
+    // Toggle the current accordion
+    target.slideToggle();
+    plusIcon.toggleClass('active');
   }
+
+  // Bind event listeners to accordion triggers
+  const accordions = $('.js-accordion-trigger'); // All triggers
+  if (accordions.length > 0) {
+    accordions.on('click', toggleAccordion);
+  }
+});
+
   loadingAnimations: {
     $.fn.isOnScreen = function () {
       var win = $(window)

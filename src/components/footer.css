@@ -14997,6 +14997,7 @@ body.page-template-tpl-in-the-news .view-all-block #wpmem_reg .buttons,
         aspect-ratio: 579/418;
         height: auto;
         width: 100%;
+        margin-left: 30px;
         position: relative; }
         .home-block-introduction .introduction--column-1--media .image img, .home-block-introduction .introduction--column-1--media .image iframe, .home-block-introduction .introduction--column-1--media .image video, .home-block-introduction .introduction--column-1--media .video-embed img, .home-block-introduction .introduction--column-1--media .video-embed iframe, .home-block-introduction .introduction--column-1--media .video-embed video {
           position: absolute;
