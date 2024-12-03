@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const AfterScrollingSection = () => {
   return (
@@ -17,36 +17,20 @@ const AfterScrollingSection = () => {
               </p>
             </div>
           </div>
-          <div className="introduction--column--media introduction--column-1--media">
-            {/* <div className="video-embed">
-              <img
-                decoding="async"
-                src="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
-                alt="Image description"
-                srcset="
-        /assets/11/90192471_2479260052320799_1132917114605142016_n.jpg  1024w,
-        /assets/11/90192471_2479260052320799_1132917114605142016_n.jpg    300w,
-        /assets/11/90192471_2479260052320799_1132917114605142016_n.jpg    768w,
-        /assets/11/90192471_2479260052320799_1132917114605142016_n.jpg 1536w,
-        /assets/11/90192471_2479260052320799_1132917114605142016_n.jpg 2048w,
-        /assets/11/90192471_2479260052320799_1132917114605142016_n.jpg 2000w,
-        /assets/11/90192471_2479260052320799_1132917114605142016_n.jpg  400w
-    "
-                sizes="(max-width: 1024px) 100vw, 1024px"
-              />
-            </div> */}
-            {/* <div className="video-embed"> */}
-  {/* <video
-    width="100%"
-    height="auto"
-    controls
+          <div className="introduction--column--media introduction--column-1--media" >
+            <div className="video-embed">
+  <video
+  controls
     autoPlay
     loop
-    muted={false} // Ensure sound is enabled
+    playsinline
+    muted
+    className="h-full w-full absolute object-cover"
   >
-    <source src="/assets/video/THS.mp4" type="video/mp4" />
-  </video> */}
-{/* </div> */}
+    <source src="/assets/video/Ths Clip 2.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
 
           </div>
         </div>
@@ -88,22 +72,10 @@ const AfterScrollingSection = () => {
                   service.
                 </span>
               </p>
-              {/* <p>
-                <span>
-                  We cherish Eton’s history and tradition, which combined with a
-                  willingness to innovate has seen Eton thrive for almost six
-                  centuries. 
-                </span>
-              </p> */}
               <p>&nbsp;</p>
               <p>
-                <a
-                  className="button"
-                  href="/Admissions/EntryToGHS"
-                >
-                            {/* <Link to="/Admissions/EntryToGHS"> */}
+                <a className="button" href="/Admissions/EntryToGHS">
                             Our Prospectus
-                            {/* </Link> */}
                 </a>
               </p>
             </div>

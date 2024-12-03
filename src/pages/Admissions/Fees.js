@@ -2,6 +2,7 @@ import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
 import "../../components/footer.css"
+import Accordion from './Accordian'
 
 
 const Fees = () => {
@@ -150,14 +151,7 @@ const Fees = () => {
               <h3 className="wp-block-heading">Payment of Fees</h3>
 
               <p>
-                During each major school holiday, a boy’s school account is
-                sent to his parents or other person responsible for payment.
-                The school account includes the school fee for the following
-                half (term), together with extras from the preceding half.
-                School accounts must be paid by direct debit on the first
-                day of the half or, at the parents’ option, in three equal
-                instalments during the half (for which there is an
-                administration charge).
+              Our fee structure is designed to reflect the exceptional educational experience GHS Karachi provides. Detailed information about tuition, boarding, and other related costs is readily available to families, ensuring complete transparency.
               </p>
 
               <p>
@@ -167,7 +161,8 @@ const Fees = () => {
 
               <div className="accordion" id="accordion">
                 <div className="accordion__item">
-                  <div className="accordion__trigger js-accordion-trigger">
+              <Accordion/>
+                  {/* <div className="accordion__trigger js-accordion-trigger">
                     <h4 className="accordion__title title title--xs">
                       Registration and Acceptance Fees
                     </h4>
@@ -184,10 +179,10 @@ const Fees = () => {
                       leaves the school, subject to settlement of his final
                       bill.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
 
-                <div className="accordion__item">
+                {/* <div className="accordion__item">
                   <div className="accordion__trigger js-accordion-trigger">
                     <h4 className="accordion__title title title--xs">
                       2024/25 School Fee
@@ -209,9 +204,9 @@ const Fees = () => {
                       the end of the Summer Half.
                     </p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="accordion__item">
+                {/* <div className="accordion__item">
                   <div className="accordion__trigger js-accordion-trigger">
                     <h4 className="accordion__title title title--xs">
                       Financial Assistance
@@ -227,9 +222,9 @@ const Fees = () => {
                       means-tested.
                     </p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="accordion__item">
+                {/* <div className="accordion__item">
                   <div className="accordion__trigger js-accordion-trigger">
                     <h4 className="accordion__title title title--xs">
                       Music – 2024/25 Academic Year
@@ -245,9 +240,9 @@ const Fees = () => {
                     <p>45 minutes per week &#8211; £784 per Half</p>
                     <p>60 minutes per week &#8211; £1,044 per Half</p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="accordion__item">
+                {/* <div className="accordion__item">
                   <div className="accordion__trigger js-accordion-trigger">
                     <h4 className="accordion__title title title--xs">
                       Additional Extras
@@ -263,10 +258,10 @@ const Fees = () => {
                       additional charges is available on the Parent Portal.
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
 
-              <blockquote
+              {/* <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
                 <p>
@@ -275,7 +270,7 @@ const Fees = () => {
                   highest level.
                 </p>
                 <cite>ISI inspection, December 2021</cite>
-              </blockquote>
+              </blockquote> */}
 
               <section className="image-with-statistic">
                 <div>
