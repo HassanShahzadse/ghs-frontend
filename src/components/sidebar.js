@@ -115,6 +115,11 @@ const Sidebar = () => {
               </Link>
             </li>
             <li className="parent-page">
+              <Link to="" id="20" className="">
+                News
+              </Link>
+            </li>
+            <li className="parent-page">
               <Link to="" id="10" className="">
                 Support Us
               </Link>
@@ -244,6 +249,36 @@ const Sidebar = () => {
           </ul>
           <div className="back-button">Back</div>
         </div>
+
+        <div className={`sub-menu-wrap ${isMenuOpen ? "open" : ""}`} id="sub_20">
+          <div className="title title--sm" >News</div>
+          <ul>
+            <li className="menu-item">
+              <Link to="/" onClick={closeMenu}>News & Events</Link>
+            </li>
+            <li className="menu-item">
+              <Link to="/" onClick={closeMenu}>Principals Letters</Link>
+            </li>
+            {/* <li className="menu-item">
+              <a href="https://app.ghskarachi.com/student/online/reg2" target="blank">Apply Online <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </li> */}
+            {/* <li className="menu-item">
+              <Link to="/Admissions/AdmissionForm">Admission Form</Link>
+            </li> */}
+            <li className="menu-item">
+              <Link to="/" onClick={closeMenu}>Acadmic Calender</Link>
+            </li>
+            {/* <li className="menu-item">
+              <Link to="/Admissions/Fees" onClick={closeMenu}>Fees</Link>
+            </li> */}
+          </ul>
+          <div className="back-button">Back</div>
+        </div>
+
+
+
+
+
         <div className={`sub-menu-wrap ${isMenuOpen ? "open" : ""}`} id="sub_10">
           <div className="title title--sm">Support Us</div>
           <ul>

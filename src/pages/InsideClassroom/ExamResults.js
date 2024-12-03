@@ -2,6 +2,7 @@ import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
 import "../../components/footer.css"
+import ResultAccordion from './ResultAccordian'
 
 const ExamResults = () => {
   return (
@@ -26,7 +27,7 @@ const ExamResults = () => {
                       
                       <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page"
-                        >Learning Support</span
+                        >Inside the Classroom</span
                       ></span
                     >
                   </p>
@@ -137,10 +138,8 @@ const ExamResults = () => {
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
-                <p>
-                The system is designed to strike a balance between teaching and testing, creating an environment where students can master concepts while learning to handle the pressures of exams. By the time they graduate, our students are equipped not only with knowledge but also with the resilience and skills to excel in competitive academic environments.
-                </p>
-                <cite>Boy, B Block</cite>
+                
+              <ResultAccordion/>
               </blockquote>
 
               {/* <p>
@@ -180,7 +179,6 @@ const ExamResults = () => {
                   </div>
                 </div>
               </section>
-
               {/* <p>
                 Boys that require further intervention can also either be
                 assessed on-site by one of our specialist teachers or they

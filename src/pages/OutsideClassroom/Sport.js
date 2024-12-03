@@ -162,8 +162,21 @@ const Sport = () => {
                 Our House Master and Tutor system ensures that at least two
                 adults have oversight of every boy’s individual progress and
                 are there to support and encourage him.
+              <div className="mt-10" >
+  <video
+  controls
+    autoPlay
+    loop
+    playsinline
+    muted
+    className="h-1/2 w-1/2 absolute object-cover"
+    style={{width:"100%", height:"500px" , marginTop:"70px"}}
+  >
+    <source src="/assets/video/Ghs Sports.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
               </p>
-
               <section className="image-with-statistic">
                 <div>
                   <div className="animate-wrapper">

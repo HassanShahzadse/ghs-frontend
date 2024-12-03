@@ -40,16 +40,16 @@ const AfterScrollingSection = () => {
             <div className="image">
               <img
                 decoding="async"
-                src="/assets/11/90172896_2479257448987726_2746791719352664064_n.jpg"
+                src="/assets/11/Admin block- view from Dining hall.JPG"
                 alt="Image description"
                 srcset="
-        /assets/11/90172896_2479257448987726_2746791719352664064_n.jpg  1024w,
-        /assets/11/90172896_2479257448987726_2746791719352664064_n.jpg   300w,
-        /assets/11/I90172896_2479257448987726_2746791719352664064_n.jpg   768w,
-        /assets/11/90172896_2479257448987726_2746791719352664064_n.jpg1536w,
-        /assets/11/90172896_2479257448987726_2746791719352664064_n.jpg 2048w,
-        /assets/11/90172896_2479257448987726_2746791719352664064_n.jpg 2000w,
-        /assets/11/90172896_2479257448987726_2746791719352664064_n.jpg    400w
+        /assets/11/Admin block- view from Dining hall.JPG  1024w,
+        /assets/11/Admin block- view from Dining hall.JPG   300w,
+        /assets/11/Admin block- view from Dining hall.JPG   768w,
+        /assets/11/Admin block- view from Dining hall.JPG 1536w,
+        /assets/11/Admin block- view from Dining hall.JPG 2048w,
+        /assets/11/Admin block- view from Dining hall.JPG 2000w,
+        /assets/11/Admin block- view from Dining hall.JPG    400w
     "
                 sizes="(max-width: 1024px) 100vw, 1024px"
               />
