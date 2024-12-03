@@ -24,7 +24,7 @@ const WaysToSupport = () => {
                       
                       <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page"
-                        >Learning Support</span
+                        >Ways to Support</span
                       ></span
                     >
                   </p>
@@ -37,7 +37,7 @@ const WaysToSupport = () => {
                           <h1
                             className="banner__title title color-white title--xl2"
                           >
-                            Learning Support
+                           Ways to Support
                           </h1>
                         </span>
                       </div>
@@ -92,7 +92,7 @@ const WaysToSupport = () => {
                         <h1
                           className="banner__title title color-white title--xl2"
                         >
-                          Learning Support
+                        Ways to Support
                         </h1>
                       </span>
                     </div>
@@ -115,7 +115,7 @@ const WaysToSupport = () => {
                     >
                     <span className="breadcrumbs-separator"></span>
                     <span className="breadcrumb_last" aria-current="page"
-                      >Learning Support</span
+                      >Ways to Support</span
                     ></span
                   >
                 </p>

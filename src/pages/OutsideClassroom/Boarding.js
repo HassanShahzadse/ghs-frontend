@@ -26,7 +26,7 @@ const Boarding = () => {
                       
                       <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page"
-                        >The Academic Curriculum</span
+                        >Boarding</span
                       ></span
                     >
                   </p>
@@ -39,7 +39,7 @@ const Boarding = () => {
                           <h1
                             className="banner__title title color-white title--xl2"
                           >
-                            The Academic Curriculum
+                            Boarding
                           </h1>
                         </span>
                       </div>
@@ -95,7 +95,7 @@ const Boarding = () => {
                         <h1
                           className="banner__title title color-white title--xl2"
                         >
-                          The Academic Curriculum
+                          Boarding
                         </h1>
                       </span>
                     </div>
@@ -118,7 +118,7 @@ const Boarding = () => {
                     >
                     <span className="breadcrumbs-separator"></span>
                     <span className="breadcrumb_last" aria-current="page"
-                      >The Academic Curriculum</span
+                      >Boarding</span
                     ></span
                   >
                 </p>
