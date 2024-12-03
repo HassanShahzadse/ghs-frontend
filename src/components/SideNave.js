@@ -178,13 +178,13 @@ const SideNave = () => {
             {activeSubMenu === "news" && (
               <ul className="sub-menu">
             <li>
-              <Link to="/" onClick={closeMenu}>News & Events</Link>
+              <Link to="/News/NewsEvents" onClick={closeMenu}>News & Events</Link>
             </li>
             <li>
-              <Link to="/" onClick={closeMenu}>Principals Letters</Link>
+              <Link to="/News/PrincipalLetters" onClick={closeMenu}>Principals Letters</Link>
             </li>
             <li>
-              <Link to="/" onClick={closeMenu}>Academic Calendar</Link>
+              <Link to="/News/AcadmicCalender" onClick={closeMenu}>Academic Calendar</Link>
             </li>
               </ul>
             )}
