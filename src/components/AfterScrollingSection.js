@@ -27,7 +27,7 @@ const AfterScrollingSection = () => {
     muted
     className="h-full w-full absolute object-cover"
   >
-    <source src="/assets/video/Ths Clip 2.mp4" type="video/mp4" />
+    <source src="/assets/video/Ghs Ad New.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
