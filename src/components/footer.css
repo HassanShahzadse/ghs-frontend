@@ -8701,7 +8701,7 @@ html.no-objectfit .home .banner .image-container img {
         font-size: 16px; }
     .teaser--community span:not(.teaser__inner) {
       right: 30px; }
-    .teaser--community:after {
+    /* .teaser--community:after {
       z-index: 4;
       content: "";
       position: absolute;
@@ -8712,7 +8712,7 @@ html.no-objectfit .home .banner .image-container img {
       bottom: 0;
       background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(8.62%, rgba(0, 0, 0, 0.02)), color-stop(16.56%, rgba(0, 0, 0, 0.05)), color-stop(23.93%, rgba(0, 0, 0, 0.12)), color-stop(30.85%, rgba(0, 0, 0, 0.2)), color-stop(37.42%, rgba(0, 0, 0, 0.29)), color-stop(43.77%, rgba(0, 0, 0, 0.39)), color-stop(50%, rgba(0, 0, 0, 0.5)), color-stop(56.23%, rgba(0, 0, 0, 0.61)), color-stop(62.58%, rgba(0, 0, 0, 0.71)), color-stop(69.15%, rgba(0, 0, 0, 0.8)), color-stop(76.07%, rgba(0, 0, 0, 0.88)), color-stop(83.44%, rgba(0, 0, 0, 0.95)), color-stop(91.38%, rgba(0, 0, 0, 0.98)), to(#000000));
       background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 8.62%, rgba(0, 0, 0, 0.05) 16.56%, rgba(0, 0, 0, 0.12) 23.93%, rgba(0, 0, 0, 0.2) 30.85%, rgba(0, 0, 0, 0.29) 37.42%, rgba(0, 0, 0, 0.39) 43.77%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.61) 56.23%, rgba(0, 0, 0, 0.71) 62.58%, rgba(0, 0, 0, 0.8) 69.15%, rgba(0, 0, 0, 0.88) 76.07%, rgba(0, 0, 0, 0.95) 83.44%, rgba(0, 0, 0, 0.98) 91.38%, #000000 100%);
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 8.62%, rgba(0, 0, 0, 0.05) 16.56%, rgba(0, 0, 0, 0.12) 23.93%, rgba(0, 0, 0, 0.2) 30.85%, rgba(0, 0, 0, 0.29) 37.42%, rgba(0, 0, 0, 0.39) 43.77%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.61) 56.23%, rgba(0, 0, 0, 0.71) 62.58%, rgba(0, 0, 0, 0.8) 69.15%, rgba(0, 0, 0, 0.88) 76.07%, rgba(0, 0, 0, 0.95) 83.44%, rgba(0, 0, 0, 0.98) 91.38%, #000000 100%); }
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.02) 8.62%, rgba(0, 0, 0, 0.05) 16.56%, rgba(0, 0, 0, 0.12) 23.93%, rgba(0, 0, 0, 0.2) 30.85%, rgba(0, 0, 0, 0.29) 37.42%, rgba(0, 0, 0, 0.39) 43.77%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.61) 56.23%, rgba(0, 0, 0, 0.71) 62.58%, rgba(0, 0, 0, 0.8) 69.15%, rgba(0, 0, 0, 0.88) 76.07%, rgba(0, 0, 0, 0.95) 83.44%, rgba(0, 0, 0, 0.98) 91.38%, #000000 100%); } */
     .teaser--community .category {
       z-index: 5; }
     @media (max-width: 767px) {

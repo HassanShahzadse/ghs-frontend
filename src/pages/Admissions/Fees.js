@@ -59,7 +59,7 @@ const Fees = () => {
                       // style={{backgroundImage:"url(../../../../../assets/11/461936833_3683428045237321_8140968138120842639_n.jpg)"}}
                       >
                           <img
-                    src="/assets/11/461936833_3683428045237321_8140968138120842639_n.jpg"
+                    src="/assets/11/Academic block- side view.JPG"
                     alt="Image"
                     style={{
                       width: "100%",
@@ -67,10 +67,7 @@ const Fees = () => {
                       objectFit: "cover",
                     }}
                   />
-                      {/* <div
-                        className="fadeIn js-image-move__inner"
-                        data-src="https://www.etoncollege.com/wp-content/uploads/2023/11/EtonClassroomsNov23-3109-2000x1333.jpg"
-                      ></div> */}
+                     
                     </div>
 
                     <div className="col-md-10 offset-md-2"></div>
@@ -86,28 +83,14 @@ const Fees = () => {
                 </div>
 
                 <div className="banner__blue-bar">
-                        {/* <div className="pillar background-secondary"></div> */}
-
-                  {/* <div className="slide-up slide-up--static">
-                    <div>
-                      <span>
-                        <h1
-                          className="banner__title title color-white title--xl2"
-                        >
-                          Fees
-                        </h1>
-                      </span>
-                    </div>
-                  </div> */}
-                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+  
+                  <div className="banner__intro background-primary color-white" style={{paddingLeft:" 10px" }}>
                   <h1
                           className="banner__title title color-white title--xl2" style={{paddingLeft:"70px" }}
                         >
                           Fees
                         </h1>
-                    <p className="intro">
-                    Our fee structure is designed to reflect the exceptional educational experience GHS Karachi provides. Detailed information about tuition, boarding, and other related costs is readily available to families, ensuring complete transparency
-                    </p>
+
                   </div>
                 </div>
               </section>
@@ -134,35 +117,18 @@ const Fees = () => {
               <h2 className="wp-block-heading">School Fees &amp; Extras</h2>
 
               <p>
-              We make sure it is easy to access our world-class education, and work with families to find the best plans for them. For further details, reach out to our admissions team, who will be happy to assist you.
-              </p>
+              Our fee structure is designed to reflect the exceptional educational experience GHS Karachi provides. Detailed information about tuition, boarding, and other related costs is readily available to families, ensuring complete transparency.              </p>
 
               <p>
-                Details of current fees are displayed below, and further
-                information can be obtained from the
+              We make sure it is easy to access our world-class education, and work with families to find the best plans for them. Generally, Global Hub School works on a quarterly system, with payment of fees due every three months. For further details, reach out to our admissions team, who will be happy to assist you.
               </p>
 
-              <blockquote
-                className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-              >
-                <p>
-                  I&#8217;m from East London, so it&#8217;s a completely
-                  different thing coming into a school like this &#8211; but
-                  it&#8217;s not as daunting as it seems.
-                </p>
-                <cite>Hamza</cite>
-              </blockquote>
+              
 
               <h3 className="wp-block-heading">Payment of Fees</h3>
 
               <p>
-              Our fee structure is designed to reflect the exceptional educational experience GHS Karachi provides. Detailed information about tuition, boarding, and other related costs is readily available to families, ensuring complete transparency.
-              </p>
-
-              <p>
-                All relevant fees and charges will be subject to the
-                prevailing VAT rate.
-              </p>
+              Please press the relevant grade level to see the applicable fees.              </p>
 
               <div className="accordion" id="accordion">
                 <div className="accordion__item">

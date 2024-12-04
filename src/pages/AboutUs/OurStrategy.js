@@ -92,7 +92,6 @@ const OurStrategy = () => {
                               Our Strategy
                             </h1>
                       <p className="intro">
-                      At Global Hub School Karachi, our strategy is a dynamic, forward-thinking approach designed to deliver excellence in education while fostering personal and societal growth. Rooted in our core values, our strategy outlines how we empower students, embrace innovation, and build a sustainable future.
                       </p>
                     </div>
                   </div>
@@ -115,23 +114,35 @@ const OurStrategy = () => {
                 </div>
 
                 <p>
-                ⦁	Encourage Creativity and Individuality:
-By offering a diverse range of academic and co-curricular opportunities, we foster an environment where students can explore their passions and develop unique perspectives.
-We emphasize understanding and respect for diverse cultures and viewpoints, preparing our students to be compassionate global citizens.
-Through a curriculum that encourages inquiry and critical analysis, we instill a lifelong love for learning and independent thought.
-Recognizing the importance of physical, mental, and spiritual health, we provide resources and programs that nurture the overall well-being of our students.
-We encourage students to take on leadership roles and engage in community service, understanding the value of contributing to society.
-Kindness, integrity, determination, and gratitude are at the heart of our community, guiding our students in their personal and academic journeys
-
-                  {/* <a
-                    href="../../wp-content/uploads/2023/07/Eton-Strategy-2023-Final-09062023.pdf"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    here
-                  </a> */}
-                  .
+                At Global Hub School Karachi, our strategy is a dynamic, forward-thinking approach designed to deliver excellence in education while fostering personal and societal growth. Rooted in our core values, our strategy outlines how we empower students, embrace innovation, and build a sustainable future.
                 </p>
+                <ol>
+                  <li><strong>Encourage Creativity and Individuality:</strong></li>
+                  <ul>
+                    <li>By offering a diverse range of academic and co-curricular opportunities, we foster an environment where students can explore their passions and develop unique perspectives.</li>
+                  </ul>
+                  <li><strong>Promote Empathy and Cultural Appreciation:</strong></li>
+                  <ul>
+                    <li>We emphasize understanding and respect for diverse cultures and viewpoints, preparing our students to be compassionate global citizens.</li>
+                  </ul>
+                  <li><strong>Foster Independent Thinking:</strong></li>
+                  <ul>
+                    <li>Through a curriculum that encourages inquiry and critical analysis, we instill a lifelong love for learning and independent thought.</li>
+                  </ul>
+                  <li><strong>Support Holistic Well-being:</strong></li>
+                  <ul>
+                    <li>Recognizing the importance of physical, mental, and spiritual health, we provide resources and programs that nurture the overall well-being of our students.</li>
+                  </ul>
+                  <li><strong>Instill Leadership and Service:</strong></li>
+                  <ul>
+                    <li>We encourage students to take on leadership roles and engage in community service, understanding the value of contributing to society.</li>
+                  </ul>
+                  <li><strong>Uphold Core Values:</strong></li>
+                  <ul>
+                    <li>Kindness, integrity, determination, and gratitude are at the heart of our community, guiding our students in their personal and academic journeys.</li>
+                  </ul>
+
+                </ol>
 
                 <p>
                   <img
@@ -144,8 +155,6 @@ Kindness, integrity, determination, and gratitude are at the heart of our commun
                     }}
                   />
                 </p>
-
-                {/* <Footer /> */}
               </article>
             </div>
           </div>

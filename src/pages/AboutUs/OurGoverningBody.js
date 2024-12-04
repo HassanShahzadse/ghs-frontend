@@ -90,7 +90,7 @@ const OurGoverningBody = () => {
                         </h1>
                     <p className="intro">
                       The Governing Body of GHS is known as ‘the
-                      Provost and Fellows’.
+                      Provost and Fellows’
                     </p>
                   </div>
                  
@@ -114,21 +114,18 @@ const OurGoverningBody = () => {
                     </span>
                   </p>
                 </div>
-
-                <p>Statute VII of the College provides that the Fellows shall be as follows:</p>
-
-                <ul className="wp-block-list">
-                  <li>
+<div style={{padding:"20px"}}>
+                  <p>
                   The Governing Body of Global Hub School Karachi comprises 10 distinguished board members from diverse walks of life, including education, philanthropy, and medicine. This group of visionary leaders is united by their unwavering commitment to the school’s mission of delivering world-class education.
 
-                  </li>
-                  <li>
+                  </p>
+                  <p>
                   Their combined expertise and experience drive the school forward with zeal and zest, ensuring it continually evolves and competes with leading international schools across the globe. By setting ambitious goals, maintaining high standards, and fostering innovation, the Governing Body plays a vital role in shaping the future of GHS Karachi.
-                  </li>
-                  <li>
+                  </p>
+                  <p>
                   Through their strategic oversight and passionate advocacy, the board ensures that the school reaches its greatest heights, offering students unparalleled opportunities for growth and excellence. Their dedication to continuous improvement guarantees that GHS remains at the forefront of educational institutions, both locally and internationally.
-                  </li>
-                </ul>
+                  </p>
+                  </div>
             </div>
         </div>
         

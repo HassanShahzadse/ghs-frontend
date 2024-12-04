@@ -25,7 +25,7 @@ const NeedYourSupport = () => {
                           >
                           <span className="breadcrumbs-separator"></span>
                           <span className="breadcrumb_last" aria-current="page"
-                            >Need your Support</span
+                            >Why We Need Your Support</span
                           ></span
                         >
                       </p>
@@ -38,7 +38,7 @@ const NeedYourSupport = () => {
                               <h1
                                 className="banner__title title color-white title--xl2"
                               >
-                               Need your Support
+                              Why We Need Your Support
                               </h1>
                             </span>
                           </div>
@@ -102,7 +102,7 @@ const NeedYourSupport = () => {
                       <h1
                               className="banner__title title color-white title--xl2"
                             >
-                             Need Your Support
+                            Why We Need Your Support
                             </h1>
                         <p className="intro">
                         Education is the foundation upon which individuals and communities build brighter futures. At Global Hub School Karachi, we are dedicated to providing a world-class education to students who may not otherwise have access to such opportunities. However, as a charity school, achieving this vision requires the unwavering support of generous donors like you.
@@ -122,7 +122,7 @@ const NeedYourSupport = () => {
                         
                         <span className="breadcrumbs-separator"></span>
                         <span className="breadcrumb_last" aria-current="page"
-                          >Need your Support</span
+                          >Why We Need Your Support</span
                         ></span
                       >
                     </p>

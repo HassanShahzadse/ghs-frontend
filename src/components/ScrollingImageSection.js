@@ -91,14 +91,14 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   Year 6 pupils from Iqra Primary School visited
                   our science labs last week for a programme of
                   immersive workshops. Here&#8217;s what they
                   got up to 🥼🧪🔥🥽 &#8230;
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -183,14 +183,14 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   &#8220;GHShas an almost limitless ability to
                   provide opportunities across an immense
                   spectrum, creating lasting memories and
                   friendships while achievin&#8230;
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -275,14 +275,14 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   Congratulations to Hannah Vines, our Rowing
                   Manager at #DorneyLake, on her nomination for
                   UK Community #Coach of the Year (Children and
                   Young Peopl&#8230;
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -367,13 +367,13 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   At the going down of the sun and in the
                   morning, We will remember them. #ArmisticeDay
                   #LestWeForget #RemembranceDay
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -458,14 +458,14 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   For anyone who missed it on BBC TWO, here is
                   last week&#8217;s BBC Young Musician winner
                   Ryan Wang revealing what it&#8217;s like to
                   study and board at GHSCo&#8230;
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -550,14 +550,14 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   Shades of autumn around College Chapel, as
                   captured by Anand N. in our Journalism
                   Association #Autumn #AutumnVibes
                   #StudentPhotography #October
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
         </div>
@@ -644,14 +644,14 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   🏏Congratulations to Aryaman Varma OE on his
                   second nomination for #Wisden Schools
                   Cricketer of the Year. With 100+ wickets for
                   GHS, he has more &#8230;
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -736,14 +736,14 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   Last week, we commemorated Dr Jane Goodall’s
                   historic visit to GHSin 2023 and her 90th
                   birthday in 2024 by planting a beech tree at
                   GHSCollege&#8230;.
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -828,14 +828,14 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   🎹🎶 Huge congratulations to Ryan Wang in Year
                   13, who tonight won BBC Young Musician,
                   becoming the first GHSian to have ever done
                   so. Ryan said: “&#8230;
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -920,14 +920,14 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   Last week, boys in Years 11-13 participated in
                   an exciting overnight camping excursion as
                   part of their first Outdoor Education
                   Programme weekend. &#8230;
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -1012,14 +1012,14 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   Well done to all the boys and staff who put on
                   a fantastic performance of wartime comedy Jack
                   Absolute Flies Again for our #SchoolPlay.
                   Written by &#8230;
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -1104,14 +1104,14 @@ const ScrollingImagesSection = () => {
               <div className="ig-hover">
                 <p>View on instagram</p>
               </div>
-              <div className="ig-hover-caption">
+              {/* <div className="ig-hover-caption">
                 <p>
                   🤖 Both our Engineering &#038; Design and
                   #ComputerScience societies had an unusual
                   visitor one evening—Boston Dynamics&#8217;
                   $70K robot dog Spot. Professor S&#8230;
                 </p>
-              </div>
+              </div> */}
             </a>
           </div>
         </div>
@@ -1197,14 +1197,14 @@ const ScrollingImagesSection = () => {
             <div className="ig-hover">
               <p>View on instagram</p>
             </div>
-            <div className="ig-hover-caption">
+            {/* <div className="ig-hover-caption">
               <p>
                 🎶🎉Congratulations to Ryan Wang on becoming the
                 first GHSnian to ever reach the Grand Final of
                 BBC Young Musician. We are incredibly proud of
                 Ryan a&#8230;
               </p>
-            </div>
+            </div> */}
           </a>
         </div>
         <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -1289,14 +1289,14 @@ const ScrollingImagesSection = () => {
             <div className="ig-hover">
               <p>View on instagram</p>
             </div>
-            <div className="ig-hover-caption">
+            {/* <div className="ig-hover-caption">
               <p>
                 Our younger boys have been trying some
                 interesting warm ups in their training sessions
                 on Dutchman&#8217;s playing fields. We are
                 looking forward to supp&#8230;
               </p>
-            </div>
+            </div> */}
           </a>
         </div>
         <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -1381,14 +1381,14 @@ const ScrollingImagesSection = () => {
             <div className="ig-hover">
               <p>View on instagram</p>
             </div>
-            <div className="ig-hover-caption">
+            {/* <div className="ig-hover-caption">
               <p>
                 On #WorldMentalHealthDay 2024, this year&#8217;s
                 theme is prioritising mental health in the
                 workplace💚 This reminds us how important it is
                 to create supp&#8230;
               </p>
-            </div>
+            </div> */}
           </a>
         </div>
         <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -1473,14 +1473,14 @@ const ScrollingImagesSection = () => {
             <div className="ig-hover">
               <p>View on instagram</p>
             </div>
-            <div className="ig-hover-caption">
+            {/* <div className="ig-hover-caption">
               <p>
                 2023/24 was another big year in partnerships at
                 GHSCollege. 8,969 state-sector pupils took
                 part in partnership activities at GHS—including
                 spor&#8230;
               </p>
-            </div>
+            </div> */}
           </a>
         </div>
         <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -1565,13 +1565,13 @@ const ScrollingImagesSection = () => {
             <div className="ig-hover">
               <p>View on instagram</p>
             </div>
-            <div className="ig-hover-caption">
+            {/* <div className="ig-hover-caption">
               <p>
                 Congratulations to Basil Tuma OE on your first
                 senior international call-up to Malta.
                 #ReadingFC #BasilTuma #InternationalFootball
               </p>
-            </div>
+            </div> */}
           </a>
         </div>
         <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -1656,13 +1656,13 @@ const ScrollingImagesSection = () => {
             <div className="ig-hover">
               <p>View on instagram</p>
             </div>
-            <div className="ig-hover-caption">
+            {/* <div className="ig-hover-caption">
               <p>
                 Boys in Common Lane House taking a break for
                 impromptu ping pong over the weekend.
                 #BoardingLife #BoardingSchool #GHSLife
               </p>
-            </div>
+            </div> */}
           </a>
         </div>
         <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -1747,14 +1747,14 @@ const ScrollingImagesSection = () => {
             <div className="ig-hover">
               <p>View on instagram</p>
             </div>
-            <div className="ig-hover-caption">
+            {/* <div className="ig-hover-caption">
               <p>
                 Our boys enjoyed an inspiring day of workshops
                 at the TVLP&#8217;s Student Leadership
                 Conference. A great opportunity to develop
                 #teambuilding skills wit&#8230;
               </p>
-            </div>
+            </div> */}
           </a>
         </div>
         <div className="focus-areas__instagram-feed__post js-touch-trigger">
@@ -1839,14 +1839,14 @@ const ScrollingImagesSection = () => {
             <div className="ig-hover">
               <p>View on instagram</p>
             </div>
-            <div className="ig-hover-caption">
+            {/* <div className="ig-hover-caption">
               <p>
                 👏 Happy World Teachers&#8217; Day 2024! 👏
                 Today we celebrate the incredible dedication,
                 passion and hard work of teachers everywhere.
                 Thank you for insp&#8230;
               </p>
-            </div>
+            </div> */}
           </a>
         </div>
       </div>

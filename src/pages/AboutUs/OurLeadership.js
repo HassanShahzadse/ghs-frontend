@@ -54,22 +54,17 @@ As leaders in education, we are committed to fostering excellence, innovation, a
                     <div className="row">
                       <div className="col-md-6">
                         <a className="inline-popup" href="#target-1">
-                          <div className="teaser teaser--community">
+                           <div className="teaser teaser--community">
                             <span
                               className="teaser__inner"
-                              style={{
-                                backgroundImage:
-                                  "url(/assets/11/IMG_0332.JPG)",
-                              }}
-                            ></span>
+                              
+                            >
 
-                            <span>
-                              <h3 className="title title--small color-white">
-                              Our Leadership
-                              </h3>
-                              <small></small>
+                            <img src="/assets/11/466009322_992508876245571_2160012399104917933_n.jpg" alt=""  style={{ width: "800px", height: "500px" }} />
                             </span>
-                          </div>
+
+                 
+                          </div> 
                         </a>
                       </div>
                       <div className="col-md-6">
@@ -77,38 +72,26 @@ As leaders in education, we are committed to fostering excellence, innovation, a
                           <div className="teaser teaser--community">
                             <span
                               className="teaser__inner"
-                              style={{
-                                backgroundImage:
-                                  "url(/assets/11/275054573_12271.jpg)",
-                              }}
-                            ></span>
+                            
+                            >
 
-                            <span>
-                              <h3 className="title title--small color-white">
-                              Our Managment
-                              </h3>
-                              <small></small>
+                            <img src="/assets/11/IMG_0332.JPG" alt="" style={{ width: "500px", height: "350px" }}/>
                             </span>
+                        
                           </div>
                         </a>
                       </div>
                       <div className="col-md-6">
-                        <a className="inline-popup" href="#target-3">
+                        <a className="inline-popup" href="#target-2">
                           <div className="teaser teaser--community">
-                            <span
+                          <span
                               className="teaser__inner"
-                              style={{
-                                backgroundImage:
-                                  "url(/assets/11/arTTECH.JPG)",
-                              }}
-                            ></span>
 
-                            <span>
-                              {/* <h3 className="title title--small color-white">
-                                
-                              </h3> */}
-                              {/* <small>Janet Walker</small> */}
+                            >
+                            
+                              <img src="/assets/11/445192118_865903638906096_4647768136889827061_n.jpg" alt="" style={{ width: "500px", height: "350px" }}/>
                             </span>
+
                           </div>
                         </a>
                         <div
@@ -119,19 +102,13 @@ As leaders in education, we are committed to fostering excellence, innovation, a
                             <div className="row">
                               <div className="col-md-5">
                                 <div className="mobile-title">
-                                  {" "}
-                                  <div className="title title--md color-primary">
-                                    The Bursar
-                                  </div>
-                                  <p className="intro">Janet Walker</p>
+                                
                                 </div>
                                 <div
-                                  className="author-image"
-                                  style={{
-                                    backgroundImage:
-                                      "url(../../../../../assets/11/IMG_0100.JPG)",
-                                  }}
-                                ></div>
+                                  className="author-image"  >
+                            <img src="/assets/11/445192118_865903638906096_4647768136889827061_n.jpg" alt="" style={{ width: "500px", height: "350px" }}/>
+
+                                </div>
                                 <div className="pullout text-center">
                                   The School&#8217;s professional and
                                   operational services are collectively known as

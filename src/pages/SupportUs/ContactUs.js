@@ -137,7 +137,7 @@ const ContactUs = () => {
                 <p>
                 </p>
 
-                <p>(+44) 01753 370642</p>
+              <a href="(+44) 01753 370642">  <p>(+44) 01753 370642</p></a>
 
                 <h2 className="wp-block-heading">Meet The Team</h2>
 

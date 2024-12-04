@@ -2,6 +2,7 @@ import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
 import "../../components/footer.css"
+import { Link } from 'react-router-dom'
 
 const OurPurpose = () => {
   return (
@@ -60,22 +61,26 @@ const OurPurpose = () => {
                         <div className="col-lg-6">
                           <ol>
                             <li>
-                            We provide an internationally recognized Cambridge-based curriculum delivered by expert educators. This rigorous academic framework develops critical thinking, creativity, and analytical skills, preparing students to excel in an ever-changing world.
+                          <strong> Fostering Academic Excellence : </strong> 
+We provide an internationally recognized Cambridge-based curriculum delivered by expert educators. This rigorous academic framework develops critical thinking, creativity, and analytical skills, preparing students to excel in an ever-changing world.
 
                             </li>
-                            {/* <li>
-                            Our approach encourages students to develop a love for learning, empowering them to pursue knowledge independently and confidently throughout their lives. By cultivating curiosity, we ensure our pupils stay adaptable and informed.
+                            <li>
+                          <strong> Inspiring Lifelong Learning : </strong> 
+Our approach encourages students to develop a love for learning, empowering them to pursue knowledge independently and confidently throughout their lives. By cultivating curiosity, we ensure our pupils stay adaptable and informed.
 
-                            </li> */}
+                            </li>
                           </ol>
                         </div>
                         <div className="col-lg-6">
                           <ol start="3">
                             <li>
-                            GHS nurtures leadership qualities in every student by offering opportunities to take initiative, work collaboratively, and lead with empathy. We prepare our pupils to make meaningful contributions both locally and globally.
+                    <strong>       Creating Leaders of Tomorrow : </strong>
+GHS nurtures leadership qualities in every student by offering opportunities to take initiative, work collaboratively, and lead with empathy. We prepare our pupils to make meaningful contributions both locally and globally.
                             </li>
                             <li>
-                            Our commitment to sustainability drives our decisions and practices. From environmental awareness to community outreach, we instill in our students a sense of responsibility to protect and enhance the world around them.
+                         <strong>  A Holistic Approach to Growth : </strong> 
+Balancing academics, co-curricular activities, and well-being, we provide a well-rounded education that develops confident, compassionate, and competent individuals.
                             </li>
                             {/* <li>
                               nurtures the value of leadership and service;
@@ -87,6 +92,9 @@ const OurPurpose = () => {
                   </div>
                 </div>
               </section>
+                      <div className='flex justify-center text-center content-center '>
+                   <Link to="/AboutUs/OurStrategy">   <button style={{marginRight:"20px"}}>Our Strategy</button></Link>
+                    <a href="https://app.ghskarachi.com/student/online/reg2" target='_blank'> <button>Apply Now</button></a> </div>
 
               <section className="aims-ethos aims-ethos--6" data-color="grey">
                 <div className="container">

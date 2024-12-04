@@ -104,9 +104,8 @@ const OurHistory = () => {
                         >
                           Our History
                         </h1>
-                    <p className="intro">
-                    At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. 
-                    </p>
+                    {/* <p className="intro">
+                    </p> */}
                   </div>
                 </div>
               </section>
@@ -128,9 +127,11 @@ const OurHistory = () => {
               </div>
 
               <p>
-              Global Hub School Karachi carries forward a proud legacy of educational excellence and community service. Established with a vision to bring world-class education to Pakistan, GHS has become the largest Cambridge-based boarding school in the country. Set amidst 250 acres of lush greenery, our school combines state-of-the-art facilities with a commitment to sustainable practices, providing an environment where students can excel academically and personally.
-              </p>
-
+              Global Hub School Karachi is a proud initiative of Falcon Education, an institution rooted in a legacy of educational excellence for over 60 years. Falcon Education began as the Imam Ghazali Education System and has since grown into a network of 25+ educational institutions, having educated more than 60,000 students who have gone on to shape communities and lead in diverse fields worldwide.              </p>
+<p>Our graduates have excelled in civil services, including prestigious roles in the DMG and police, served with distinction in the armed forces, and contributed as government officials, educators, and changemakers in their communities across the globe. We take immense pride in providing an education that not only develops brilliant minds but also nurtures a strong sense of social responsibility and commitment to giving back.</p>
+<p>At GHS Karachi, we are building on this rich heritage with a vision to provide world-class education that equips students to meet global standards. With the best educationists in the country, cutting-edge facilities, and a curriculum designed for holistic development, we are well on our way to becoming one of the most distinguished educational institutes in the world.</p>
+<p>Our mission is to continue inspiring and preparing students to lead with knowledge, character, and purpose, ensuring they contribute meaningfully to society and carry forward the Falcon Education legacy of excellence and impact.</p>
+      
               {/* <h3 className="wp-block-heading">Henry VI Exhibition</h3>
 
               <p>

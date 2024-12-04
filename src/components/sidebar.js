@@ -114,11 +114,11 @@ const Sidebar = () => {
                 Admissions
               </Link>
             </li>
-            <li className="parent-page">
+            {/* <li className="parent-page">
               <Link to="" id="20" className="">
                 News
               </Link>
-            </li>
+            </li> */}
             <li className="parent-page">
               <Link to="" id="10" className="">
                 Support Us
@@ -250,7 +250,7 @@ const Sidebar = () => {
           <div className="back-button">Back</div>
         </div>
 
-        <div className={`sub-menu-wrap ${isMenuOpen ? "open" : ""}`} id="sub_20">
+        {/* <div className={`sub-menu-wrap ${isMenuOpen ? "open" : ""}`} id="sub_20">
           <div className="title title--sm" >News</div>
           <ul>
             <li className="menu-item">
@@ -259,21 +259,14 @@ const Sidebar = () => {
             <li className="menu-item">
               <Link to="/News/PrincipalLetters" onClick={closeMenu}>Principals Letters</Link>
             </li>
-            {/* <li className="menu-item">
-              <a href="https://app.ghskarachi.com/student/online/reg2" target="blank">Apply Online <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-            </li> */}
-            {/* <li className="menu-item">
-              <Link to="/Admissions/AdmissionForm">Admission Form</Link>
-            </li> */}
+
             <li className="menu-item">
               <Link to="/News/AcadmicCalender" onClick={closeMenu}>Acadmic Calender</Link>
             </li>
-            {/* <li className="menu-item">
-              <Link to="/Admissions/Fees" onClick={closeMenu}>Fees</Link>
-            </li> */}
+  
           </ul>
           <div className="back-button">Back</div>
-        </div>
+        </div> */}
 
 
 

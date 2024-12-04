@@ -29,19 +29,25 @@ const ContactDetails = () => {
                       <div className="offset-lg-1 col-lg-10">
                         <div className="row">
                           <div className="col-md-5">
+                            <div>
                             <h3 className="title title--md">Contact Details</h3>
                             <hr />
-                            <p>
-                            +92 21 3644 0300
-                            </p>
-                              <p
-                              >
-                                info@ghskarachi.com
-                              </p>
-                              <p
-                              >
-                                admissions@ghskarachi.com
-                              </p>
+                            <h6 style={{fontWeight:"bold"}}>Mobile Numbers</h6>
+                            <a href="tel:0300 8410040">  <p>0300 8410040</p> </a>
+                            <a href="tel:0324 4717777"><p>0324 4717777</p> </a>
+    </div>
+    <div>
+    <h6 style={{fontWeight:"bold"}}>Landline Number:</h6>
+    <a href="tel:021 36440300"><p>021 36440300</p> </a>
+    </div>
+    <div>
+    <h6 style={{fontWeight:"bold"}}>For General Queries:</h6>
+  <a href="mailto:info@ghskarachi.com"><p>info@ghskarachi.com</p></a>
+  </div>
+  <div>
+  <h6 style={{fontWeight:"bold"}}>Admission Inquiries:</h6>
+  <a href="mailto:admissions@ghskarachi.com"><p>admissions@ghskarachi.com</p></a>
+  </div>
                           </div>
                         </div>
                       </div>

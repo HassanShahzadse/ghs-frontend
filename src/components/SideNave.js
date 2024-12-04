@@ -171,7 +171,7 @@ const SideNave = () => {
               </ul>
             )}
           </li>
-          <li>
+          {/* <li>
             <div className="menu-item" onClick={() => toggleSubMenu("news")}>
             News <span>{activeSubMenu === "news" ? <BiChevronUp size={25}/> : <BiChevronDown size={25}/>}</span>
             </div>
@@ -188,7 +188,7 @@ const SideNave = () => {
             </li>
               </ul>
             )}
-          </li>
+          </li> */}
           <li>
             <div className="menu-item" onClick={() => toggleSubMenu("support")}>
             Support Us <span>{activeSubMenu === "support" ? <BiChevronUp size={25}/> : <BiChevronDown size={25}/>}</span>

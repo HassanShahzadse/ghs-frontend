@@ -106,9 +106,9 @@ const Boarding = () => {
                         >
                           Boarding
                         </h1>
-                    <p className="intro">
+                    {/* <p className="intro">
                     The boarding houses at GHS Karachi are at the heart of the school community, providing a nurturing environment where students can grow and flourish. Each house is more than just a place to stay—it’s a home filled with camaraderie, encouragement, and support.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </section>
@@ -128,15 +128,20 @@ const Boarding = () => {
                   >
                 </p>
               </div>
-
+<p>                    The boarding houses at GHS Karachi are at the heart of the school community, providing a nurturing environment where students can grow and flourish. Each house is more than just a place to stay—it’s a home filled with camaraderie, encouragement, and support.
+</p>
               <p>
-              Boarding life is structured to balance academic responsibilities with personal growth and social interaction. Modern living spaces offer comfortable accommodations, quiet study areas, and recreational facilities that promote a healthy and balanced lifestyle. Students form close bonds with their housemates, creating a sense of family and belonging.
+           <strong>  Empowering Students Through Access </strong> 
+Many of our students come from underserved communities and rely on scholarships and financial aid to pursue their education. Your support ensures that no talented and deserving child is left behind due to financial constraints.
               </p>
 
               <p>
-              Under the guidance of experienced housemasters and caring staff, students learn independence, responsibility, and time management. Whether organizing house events, taking part in inter-house competitions, or simply sharing stories over meals, boarders experience personal development and build lifelong friendships.
+           <strong>  Sustaining Excellence </strong> 
+Our goal is not just to educate but to provide an exceptional experience that includes state-of-the-art facilities, qualified educators, and a nurturing environment. These opportunities empower our students to excel academically, socially, and morally. Your contributions allow us to maintain and enhance the high standards we set for our school.
               </p>
-
+<p> <strong>Leaving a Lasting Impact  </strong>
+Education has a ripple effect—it doesn’t just change the life of one student; it uplifts families and entire communities. By supporting GHS Karachi, you become a part of this transformational journey, impacting lives far beyond the boundaries of our campus.
+</p>
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >

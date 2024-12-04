@@ -108,9 +108,7 @@ const EntryToGHS = () => {
                         >
                           Entry to GHS
                         </h1>
-                    <p className="intro">
-                    Applying to GHS Karachi is a straightforward process designed to evaluate students’ academic capabilities, character, and passion for learning. Applicants are required to complete an online form and submit relevant documentation for review before appearing for an online test.
-                    </p>
+                 
                   </div>
                 </div>
               </section>
@@ -130,23 +128,23 @@ const EntryToGHS = () => {
                   >
                 </p>
               </div>
-
+              <p className="">
+              Applying to GHS Karachi is a straightforward process designed to evaluate students’ academic capabilities, character, and passion for learning. Applicants are required to complete an online form and submit relevant documentation for review before appearing for an online test.                    </p>
               <p>
-              Once shortlisted, students are invited to participate in assessments or interviews, allowing us to get to know them better. This personalized approach ensures that every student is evaluated fairly and holistically
-              </p>
+              Once shortlisted, students are invited to participate in assessments or interviews, allowing us to get to know them better. This personalized approach ensures that every student is evaluated fairly and holistically.              </p>
 
 
-              <p>
+              {/* <p>
                 GHS is committed to supporting boys with disabilities and
                 also has a 
                 Learning Support Centre
                 &nbsp;for boys with special educational needs and
                 disabilities.
-              </p>
+              </p> */}
 
               <p></p>
 
-              <blockquote
+              {/* <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
                 <p>
@@ -154,10 +152,11 @@ const EntryToGHS = () => {
                   pupils&#8217; excellent progress and very high standards
                   is the high quality of the teaching they receive.
                 </p>
-                {/* <cite>ISI inspection, December 2021</cite> */}
-              </blockquote>
+                <cite>ISI inspection, December 2021</cite>
+              </blockquote> */}
 
               <p>Good luck with your application.</p>
+              
               <AdmissionProcedure/>
 
               <section className="image-with-statistic">
