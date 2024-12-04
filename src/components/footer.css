@@ -15011,9 +15011,6 @@ body.page-template-tpl-in-the-news .view-all-block #wpmem_reg .buttons,
           margin-left: -40px;
           margin-right: 40px;
           margin-top: 80px; } }
-      @media (max-width: 768px) {
-        .home-block-introduction .introduction--column-1--media {
-          display: none; } }
     @media (max-width: 768px) {
       .home-block-introduction .introduction--column-1 {
         padding-top: 0;
