@@ -30,10 +30,10 @@ const OurStrategy = () => {
                   </div>
                   <div className="banner__blue-bar banner__blue-bar--first">
                     <div className="blue-bar-hidden">
-                      <div className="slide-up slide-up--static">
+                      <div className="">
                         <div>
                           <span>
-                            <h1 className="banner__title title color-white title--xl2">
+                            <h1 className="">
                               Our Strategy
                             </h1>
                           </span>
@@ -87,7 +87,10 @@ const OurStrategy = () => {
                         </span>
                       </div>
                     </div>
-                    <div className="banner__intro background-primary color-white">
+                    <div className="banner__intro background-primary color-white" style={{paddingLeft:"20px"}}>
+                    <h1 className="banner__title title color-white title--xl2" >
+                              Our Strategy
+                            </h1>
                       <p className="intro">
                       At Global Hub School Karachi, our strategy is a dynamic, forward-thinking approach designed to deliver excellence in education while fostering personal and societal growth. Rooted in our core values, our strategy outlines how we empower students, embrace innovation, and build a sustainable future.
                       </p>

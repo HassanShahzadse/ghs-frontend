@@ -85,7 +85,7 @@ const GiftOfEducation = () => {
                     </div>
     
                     <div className="banner__blue-bar">
-    
+{/*     
                       <div className="slide-up slide-up--static">
                         <div>
                           <span>
@@ -96,8 +96,13 @@ const GiftOfEducation = () => {
                             </h1>
                           </span>
                         </div>
-                      </div>
-                      <div className="banner__intro background-primary color-white">
+                      </div> */}
+                      <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                      <h1
+                              className="banner__title title color-white title--xl2"
+                            >
+                             Gift of Education
+                            </h1>
                         <p className="intro">
                         When you invest in education, you invest in the future. By making a significant contribution, such as funding an academic block, a library, or a sports facility, you leave behind a legacy that shapes countless young lives
                         </p>

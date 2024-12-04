@@ -88,9 +88,9 @@ const EntryToGHS = () => {
                 </div>
 
                 <div className="banner__blue-bar">
-          <div className="pillar background-secondary"></div>
+          {/* <div className="pillar background-secondary"></div> */}
 
-                  <div className="slide-up slide-up--static">
+                  {/* <div className="slide-up slide-up--static">
                     <div>
                       <span>
                         <h1
@@ -100,8 +100,13 @@ const EntryToGHS = () => {
                         </h1>
                       </span>
                     </div>
-                  </div>
-                  <div className="banner__intro background-primary color-white">
+                  </div> */}
+                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <h1
+                          className="banner__title title color-white title--xl2"
+                        >
+                          Entry to GHS
+                        </h1>
                     <p className="intro">
                     Applying to GHS Karachi is a straightforward process designed to evaluate students’ academic capabilities, character, and passion for learning. Applicants are required to complete an online form and submit relevant documentation for review before appearing for an online test.
                     </p>

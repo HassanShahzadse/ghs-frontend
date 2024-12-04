@@ -7545,7 +7545,7 @@ img.responsive {
       color: var(--primary); }
   @media (max-width: 700px) {
     .banner {
-      padding-top: 91px;
+      padding-top: 61px;
       padding-bottom: 40px; } }
   .banner h1 {
     margin-bottom: 25px; }
@@ -13218,7 +13218,7 @@ article strong {
       top: 0;
       left: 0; } }
   .aims-ethos--banner .container {
-    padding: 133px 0; }
+    padding: 13px 0; }
     @media (min-width: 1025px) {
       .aims-ethos--banner .container {
         position: absolute;
@@ -13232,11 +13232,11 @@ article strong {
     @media (max-width: 1024px) {
       .aims-ethos--banner .container {
         position: relative;
-        padding-top: 200px;
+        padding-top: 20px;
         height: auto; } }
     @media (max-width: 767px) {
       .aims-ethos--banner .container {
-        padding: 133px 20px; } }
+        padding: 13px 20px; } }
     .aims-ethos--banner .container ul {
       margin-right: 60px; }
       @media (max-width: 991px) {

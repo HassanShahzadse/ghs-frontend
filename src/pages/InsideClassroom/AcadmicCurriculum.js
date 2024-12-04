@@ -90,7 +90,7 @@ const AcadmicCurriculum = () => {
                 <div className="banner__blue-bar">
           <div className="pillar background-secondary"></div>
 
-                  <div className="slide-up slide-up--static">
+                  {/* <div className="slide-up slide-up--static">
                     <div>
                       <span>
                         <h1
@@ -100,8 +100,13 @@ const AcadmicCurriculum = () => {
                         </h1>
                       </span>
                     </div>
-                  </div>
-                  <div className="banner__intro background-primary color-white">
+                  </div> */}
+                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"20px" }}>
+                  <h1
+                          className="banner__title title color-white title--xl2"
+                        >
+                          The Academic Curriculum
+                        </h1>
                     <p className="intro">
                     Global Hub School Karachi offers a dynamic learning environment with a diverse curriculum designed to foster critical thinking, creativity, and academic excellence. Small class sizes ensure personalized attention, while state-of-the-art facilities, including science labs, computer labs, and a rich library, support hands-on learning and exploration.
                     </p>

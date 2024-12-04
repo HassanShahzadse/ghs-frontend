@@ -85,7 +85,7 @@ const WaysToSupport = () => {
                 </div>
 
                 <div className="banner__blue-bar">
-
+{/* 
                   <div className="slide-up slide-up--static">
                     <div>
                       <span>
@@ -96,8 +96,13 @@ const WaysToSupport = () => {
                         </h1>
                       </span>
                     </div>
-                  </div>
-                  <div className="banner__intro background-primary color-white">
+                  </div> */}
+                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <h1
+                          className="banner__title title color-white title--xl2"
+                        >
+                        Ways to Support
+                        </h1>
                     <p className="intro">
                     There are many meaningful ways to support the Global Hub School Karachi and make a lasting difference in the lives of our students:
                     </p>

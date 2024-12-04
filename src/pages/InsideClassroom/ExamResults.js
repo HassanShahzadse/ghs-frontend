@@ -91,7 +91,7 @@ const ExamResults = () => {
 
                 <div className="banner__blue-bar">
 
-                  <div className="slide-up slide-up--static">
+                  {/* <div className="slide-up slide-up--static">
                     <div>
                       <span>
                         <h1
@@ -101,8 +101,13 @@ const ExamResults = () => {
                         </h1>
                       </span>
                     </div>
-                  </div>
-                  <div className="banner__intro background-primary color-white">
+                  </div> */}
+                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <h1
+                          className="banner__title title color-white title--xl2"
+                        >
+                          Exam result
+                        </h1>
                     <p className="intro">
                     At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. 
 

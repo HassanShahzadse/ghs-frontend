@@ -85,7 +85,7 @@ const ContactUs = () => {
                   <div className="banner__blue-bar">
                     <div className="pillar background-secondary"></div>
 
-                    <div className="slide-up slide-up--static">
+                    {/* <div className="slide-up slide-up--static">
                       <div>
                         <span>
                           <h1 className="banner__title title color-white title--xl2">
@@ -93,8 +93,11 @@ const ContactUs = () => {
                           </h1>
                         </span>
                       </div>
-                    </div>
-                    <div className="banner__intro background-primary color-white">
+                    </div> */}
+                    <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                    <h1 className="banner__title title color-white title--xl2">
+                            Contact Us
+                          </h1>
                       <p className="intro">
                       We would love to hear from you! For more information on how you can support GHS Karachi or to discuss collaboration or partnership opportunities, please get in touch with us.
                       </p>

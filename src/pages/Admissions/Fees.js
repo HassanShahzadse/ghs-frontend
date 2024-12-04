@@ -86,9 +86,9 @@ const Fees = () => {
                 </div>
 
                 <div className="banner__blue-bar">
-                        <div className="pillar background-secondary"></div>
+                        {/* <div className="pillar background-secondary"></div> */}
 
-                  <div className="slide-up slide-up--static">
+                  {/* <div className="slide-up slide-up--static">
                     <div>
                       <span>
                         <h1
@@ -98,8 +98,13 @@ const Fees = () => {
                         </h1>
                       </span>
                     </div>
-                  </div>
-                  <div className="banner__intro background-primary color-white">
+                  </div> */}
+                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <h1
+                          className="banner__title title color-white title--xl2" style={{paddingLeft:"70px" }}
+                        >
+                          Fees
+                        </h1>
                     <p className="intro">
                     Our fee structure is designed to reflect the exceptional educational experience GHS Karachi provides. Detailed information about tuition, boarding, and other related costs is readily available to families, ensuring complete transparency
                     </p>

@@ -87,9 +87,9 @@ const CommunityEngagement = () => {
                 </div>
 
                 <div className="banner__blue-bar">
-          <div className="pillar background-secondary"></div>
+          {/* <div className="pillar background-secondary"></div> */}
 
-                  <div className="slide-up slide-up--static">
+                  {/* <div className="slide-up slide-up--static">
                     <div>
                       <span>
                         <h1
@@ -99,8 +99,13 @@ const CommunityEngagement = () => {
                         </h1>
                       </span>
                     </div>
-                  </div>
-                  <div className="banner__intro background-primary color-white">
+                  </div> */}
+                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <h1
+                          className="banner__title title color-white title--xl2"
+                        >
+                          Community Engagement
+                        </h1>
                     <p className="intro">
                     GHS Karachi is deeply committed to instilling a sense of social responsibility in our students. Through community engagement programs, students have the opportunity to make a real difference while developing empathy and leadership skills.
                     </p>

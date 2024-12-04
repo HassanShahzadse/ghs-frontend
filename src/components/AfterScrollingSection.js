@@ -17,7 +17,7 @@ const AfterScrollingSection = () => {
               </p>
             </div>
           </div>
-          <div className="introduction--column--media introduction--column-1--media" >
+          <div className="introduction--column--media introduction--column-1--media"  style={{marginLeft: "10px"}}>
             <div className="video-embed">
   <video
   controls

@@ -39,8 +39,13 @@ const OurPurpose = () => {
                       <div
                         className="title title--shadow horizontal-scroll--right"
                       ></div>
+                      <h1
+                          className="banner__title title color-black title--xl2" style={{color:"#223C59", marginTop:"18px"}}
+                        >
+                          Our Purpose
+                        </h1>
                       <div className="title title--lg">
-                        <p className="mt-30">
+                        <p className="mt-40">
                         At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. Rooted in our foundational values are the key aims of the college that we hope to instill in each of our students:<br />
                           <p>
                             In advancing this purpose, GHS is committed to

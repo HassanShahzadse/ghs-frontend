@@ -28,7 +28,7 @@ const AcadmicFacilities = () => {
                     >
                   </p>
                 </div>
-                <div className="banner__blue-bar banner__blue-bar--first">
+                {/* <div className="banner__blue-bar banner__blue-bar--first">
                   <div className="blue-bar-hidden">
                     <div className="slide-up slide-up--static">
                       <div>
@@ -49,7 +49,7 @@ const AcadmicFacilities = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="container make-full-width">
                   <div className="row">
                     <div
@@ -72,18 +72,18 @@ const AcadmicFacilities = () => {
                       ></div> */}
                     </div>
 
-                    <div className="col-md-10 offset-md-2"></div>
+                    {/* <div className="col-md-10 offset-md-2"></div> */}
                   </div>
                 </div>
-                <div className="banner__block">
+                {/* <div className="banner__block">
                   <div
                     className=" animate-deactive"
                   >
                     <div className="pillar background-lgrey"></div>
                   </div>
                   <div className="banner__block__inner background-lgrey"></div>
-                </div>
-                  <div className="slide-up slide-up--static">
+                </div> */}
+                  {/* <div className="slide-up slide-up--static">
                     <div>
                       <span>
                         <h1
@@ -93,8 +93,13 @@ const AcadmicFacilities = () => {
                         </h1>
                       </span>
                     </div>
-                  </div>
-                  <div className="banner__intro background-primary color-white">
+                  </div> */}
+                  <div className=" background-primary color-white" style={{ paddingTop:"20px" }}>
+                  <h1
+                          className="banner__title title color-white title--xl2"
+                        >
+                          Academic Facilities
+                        </h1>
                     <p className="intro p-3">
                     An exceptional education begins with a carefully crafted curriculum, and at Global Hub School Karachi, ours is designed to provide a strong foundation for academic and personal growth. With numerous subjects to explore, our curriculum challenges students to think critically, question creatively, and engage deeply with their studies.
                     </p>

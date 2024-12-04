@@ -28,8 +28,8 @@ const OurGoverningBody = () => {
                       </span>
                     </p>
                   </div>
-                  <div className="banner__blue-bar banner__blue-bar--first">
-                    <div className="blue-bar-hidden">
+                  {/* <div className="banner__blue-bar banner__blue-bar--first">
+                    <div className="">
                       <div className="slide-up slide-up--static">
                         <div>
                           <span>
@@ -40,13 +40,16 @@ const OurGoverningBody = () => {
                         </div>
                       </div>
                       <div className="banner__intro background-primary color-white">
+                      <h1 className="banner__title title color-white title--xl2">
+                          Our Governing Body
+                        </h1>
                         <p className="intro">
                           The Governing Body of GHS is known as ‘the
                           Provost and Fellows’.
                         </p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="container make-full-width">
                     <div className="row">
                       <div
@@ -64,23 +67,15 @@ const OurGoverningBody = () => {
                       objectFit: "cover",
                     }}
                   />
-                        {/* <div
-                          className="fadeIn js-image-move__inner"
-                          src="/assets/11/263599925_2949755145271285_6770598982686416049_n.jpg"
-                        ></div> */}
+                     
                       </div>
 
-                      <div className="col-md-10 offset-md-2"></div>
+                      {/* <div className="col-md-10 offset-md-2"></div> */}
                     </div>
                   </div>
-                  {/* <div className="banner__block">
-                    <div className=" animate-deactive">
-                      <div className="pillar background-lgrey"></div>
-                    </div>
-                    <div className="banner__block__inner background-lgrey"></div>
-                  </div> */}
 
-                  <div className="slide-up slide-up--static">
+
+                  {/* <div className="slide-up slide-up--static">
                     <div>
                       <span>
                         <h1 className="banner__title title color-white title--xl2">
@@ -88,8 +83,11 @@ const OurGoverningBody = () => {
                         </h1>
                       </span>
                     </div>
-                  </div>
-                  <div className="banner__intro background-primary color-white">
+                  </div> */}
+                  <div className=" background-primary color-white" style={{paddingLeft:"20px" , paddingBottom:"20px"}}>
+                  <h1 className="banner__title title color-white ">
+                          Our Governing Body
+                        </h1>
                     <p className="intro">
                       The Governing Body of GHS is known as ‘the
                       Provost and Fellows’.

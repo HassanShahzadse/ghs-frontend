@@ -34,6 +34,11 @@ const OurLeadership = () => {
                       className="offset-lg-1 col-lg-10 offset-md-1 col-md-10"
                     ></div>
                 <div className="title title--lg">
+                <h1
+                          className="banner__title title color-black title--xl2" style={{color:"#223C59", marginTop:"18px"}}
+                        >
+                          Our Leadership
+                        </h1>
                         <p className="mt-30 pt-5">
                         At Global Hub School Karachi, our leadership is founded on the belief that the best educators inspire the best outcomes. That’s why we gather the finest teaching professionals from across the country, uniting diverse expertise and experiences under one roof.
 Our educators are not just teachers—they are mentors, role models, and innovators who ignite a passion for learning in our students. Each faculty member brings a unique perspective and specialized knowledge, creating a rich and varied educational experience for every child.

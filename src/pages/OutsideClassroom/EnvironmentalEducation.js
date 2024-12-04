@@ -87,9 +87,9 @@ const EnvironmentalEducation = () => {
                 </div>
 
                 <div className="banner__blue-bar">
-          <div className="pillar background-secondary"></div>
+          {/* <div className="pillar background-secondary"></div> */}
 
-                  <div className="slide-up slide-up--static">
+                  {/* <div className="slide-up slide-up--static">
                     <div>
                       <span>
                         <h1
@@ -99,8 +99,13 @@ const EnvironmentalEducation = () => {
                         </h1>
                       </span>
                     </div>
-                  </div>
-                  <div className="banner__intro background-primary color-white">
+                  </div> */}
+                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <h1
+                          className="banner__title title color-white title--xl2"
+                        >
+                          Environmental Education
+                        </h1>
                     <p className="intro">
                     Environmental sustainability is a cornerstone of the GHS Karachi ethos. Our environmental education programs empower students to take active roles in protecting the planet while gaining a deeper appreciation for nature.
                     </p>

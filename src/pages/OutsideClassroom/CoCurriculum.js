@@ -88,8 +88,8 @@ const CoCurriculum = () => {
                   </div>
   
                   <div className="banner__blue-bar">
-            <div className="pillar background-secondary"></div>
-  
+            {/* <div className="pillar background-secondary"></div> */}
+{/*   
                     <div className="slide-up slide-up--static">
                       <div>
                         <span>
@@ -100,8 +100,13 @@ const CoCurriculum = () => {
                           </h1>
                         </span>
                       </div>
-                    </div>
-                    <div className="banner__intro background-primary color-white">
+                    </div> */}
+                    <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                    <h1
+                            className="banner__title title color-white title--xl2"
+                          >
+                            Co Curriculum
+                          </h1>
                       <p className="intro">
                       At Global Hub School Karachi, we believe that growth is not confined to textbooks and lectures. Our co-curricular program is designed to inspire creativity, innovation, and leadership by offering students a wide range of activities to explore. From debate and public speaking clubs to robotics, music, drama, and cultural societies, students are encouraged to discover their passions and develop unique talents.
                       </p>

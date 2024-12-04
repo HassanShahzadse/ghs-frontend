@@ -87,7 +87,7 @@ const NeedYourSupport = () => {
     
                     <div className="banner__blue-bar">
     
-                      <div className="slide-up slide-up--static">
+                      {/* <div className="slide-up slide-up--static">
                         <div>
                           <span>
                             <h1
@@ -97,8 +97,13 @@ const NeedYourSupport = () => {
                             </h1>
                           </span>
                         </div>
-                      </div>
-                      <div className="banner__intro background-primary color-white">
+                      </div> */}
+                      <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                      <h1
+                              className="banner__title title color-white title--xl2"
+                            >
+                             Need Your Support
+                            </h1>
                         <p className="intro">
                         Education is the foundation upon which individuals and communities build brighter futures. At Global Hub School Karachi, we are dedicated to providing a world-class education to students who may not otherwise have access to such opportunities. However, as a charity school, achieving this vision requires the unwavering support of generous donors like you.
                         </p>

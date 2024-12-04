@@ -87,9 +87,9 @@ const Sport = () => {
                 </div>
 
                 <div className="banner__blue-bar">
-          <div className="pillar background-secondary"></div>
+          {/* <div className="pillar background-secondary"></div> */}
 
-                  <div className="slide-up slide-up--static">
+                  {/* <div className="slide-up slide-up--static">
                     <div>
                       <span>
                         <h1
@@ -99,8 +99,13 @@ const Sport = () => {
                         </h1>
                       </span>
                     </div>
-                  </div>
-                  <div className="banner__intro background-primary color-white">
+                  </div> */}
+                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <h1
+                          className="banner__title title color-white title--xl2" style={{paddingLeft:"60px" }}
+                        >
+                          Sport
+                        </h1>
                     <p className="intro">
                     Sports at GHS Karachi are more than just games—they are a cornerstone of our mission to develop balanced and disciplined individuals. Our extensive sports program allows students to engage in horse riding, cricket, football, swimming, basketball, tennis, and more, catering to both recreational players and competitive athletes.
                     </p>

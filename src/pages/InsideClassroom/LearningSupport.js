@@ -89,7 +89,7 @@ const LearningSupport = () => {
 
                 <div className="banner__blue-bar">
 
-                  <div className="slide-up slide-up--static">
+                  {/* <div className="slide-up slide-up--static">
                     <div>
                       <span>
                         <h1
@@ -99,8 +99,13 @@ const LearningSupport = () => {
                         </h1>
                       </span>
                     </div>
-                  </div>
-                  <div className="banner__intro background-primary color-white">
+                  </div> */}
+                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <h1
+                          className="banner__title title color-white title--xl2"
+                        >
+                          Learning Support
+                        </h1>
                     <p className="intro">
                     Global Hub School Karachi offers a dynamic learning environment with a diverse curriculum designed to foster critical thinking, creativity, and academic excellence. Small class sizes ensure personalized attention, while state-of-the-art facilities, including science labs, computer labs, and a rich library, support hands-on learning and exploration.
 

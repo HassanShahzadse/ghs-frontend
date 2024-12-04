@@ -98,7 +98,12 @@ const OurHistory = () => {
                       </span>
                     </div>
                   </div>
-                  <div className="banner__intro background-primary color-white">
+                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"20px"}}>
+                  <h1
+                          className="banner__title title color-white title--xl2"
+                        >
+                          Our History
+                        </h1>
                     <p className="intro">
                     At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. 
                     </p>
