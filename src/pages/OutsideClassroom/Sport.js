@@ -147,7 +147,7 @@ const Sport = () => {
                   in exceptional results in GCSE, A-level and Pre-U
                   examinations
                 </p>
-                <cite>ISI inspection, December 2021</cite>
+                {/* <cite>ISI inspection, December 2021</cite> */}
               </blockquote>
 
               <p>

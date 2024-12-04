@@ -174,7 +174,7 @@ const ApplyOnline = () => {
                       pupils&#8217; excellent progress and very high standards
                       is the high quality of the teaching they receive.
                     </p>
-                    <cite>ISI inspection, December 2021</cite>
+                    {/* <cite>ISI inspection, December 2021</cite> */}
                   </blockquote>
     
                   {/* <p>

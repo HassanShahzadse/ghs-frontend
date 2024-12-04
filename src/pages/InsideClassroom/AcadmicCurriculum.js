@@ -144,7 +144,7 @@ const AcadmicCurriculum = () => {
                 <p>
                 Regular projects, assignments, and evaluations are seamlessly integrated into the curriculum to foster time management, problem-solving skills, and a culture of lifelong learning. This dynamic curriculum not only prepares students for rigorous examinations but also equips them with the tools to adapt and excel in a rapidly evolving global environment.
                 </p>
-                <cite>ISI inspection, December 2021</cite>
+                {/* <cite>ISI inspection, December 2021</cite> */}
               </blockquote>
 
               <p>
