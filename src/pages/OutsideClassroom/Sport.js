@@ -26,7 +26,7 @@ const Sport = () => {
                       
                       <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page"
-                        >The Academic Curriculum</span
+                        >Sport</span
                       ></span
                     >
                   </p>
@@ -39,7 +39,7 @@ const Sport = () => {
                           <h1
                             className="banner__title title color-white title--xl2"
                           >
-                            The Academic Curriculum
+                           Sport
                           </h1>
                         </span>
                       </div>
@@ -95,7 +95,7 @@ const Sport = () => {
                         <h1
                           className="banner__title title color-white title--xl2"
                         >
-                          The Academic Curriculum
+                          Sport
                         </h1>
                       </span>
                     </div>
@@ -118,7 +118,7 @@ const Sport = () => {
                     >
                     <span className="breadcrumbs-separator"></span>
                     <span className="breadcrumb_last" aria-current="page"
-                      >The Academic Curriculum</span
+                      >Sport</span
                     ></span
                   >
                 </p>

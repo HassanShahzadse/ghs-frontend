@@ -40,7 +40,7 @@ const ExamResults = () => {
                           <h1
                             className="banner__title title color-white title--xl2"
                           >
-                            Learning Support
+                            Exam result
                           </h1>
                         </span>
                       </div>
@@ -97,7 +97,7 @@ const ExamResults = () => {
                         <h1
                           className="banner__title title color-white title--xl2"
                         >
-                          Learning Support
+                          Exam result
                         </h1>
                       </span>
                     </div>
@@ -121,7 +121,7 @@ const ExamResults = () => {
                     >
                     <span className="breadcrumbs-separator"></span>
                     <span className="breadcrumb_last" aria-current="page"
-                      >Learning Support</span
+                      >exam result</span
                     ></span
                   >
                 </p>

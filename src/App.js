@@ -35,6 +35,9 @@ import Footer from './components/footer.jsx';
 import NextSection from './components/NextSection.js';
 import SideNave from './components/SideNave.js';
 import ScrollToTop from './ScrollToTop.js';
+import NewsEvents from './pages/News/NewsEvents.js';
+import PrincipalLetters from './pages/News/PrincipalLetters.js';
+import AcadmicCalender from './pages/News/AcadmicCalender.js';
 // import WaysToSuppport from './pages/SupportUs/WaysToSupport.js';
 function Layout({ children }) {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -85,6 +88,12 @@ function App() {
         <Route path="/Admissions/AdmissionForm" element={<AdmissionForm/>} />
         <Route path="/Admissions/ScholarshipFinancialAid" element={<ScholarshipFinancialAid/>} />
         <Route path="/Admissions/Fees" element={<Fees/>} />
+
+
+
+        <Route path="/News/NewsEvents" element={<NewsEvents/>} />
+        <Route path="/News/PrincipalLetters" element={<PrincipalLetters/>} />
+        <Route path="/News/AcadmicCalender" element={<AcadmicCalender/>} />
 
 
 

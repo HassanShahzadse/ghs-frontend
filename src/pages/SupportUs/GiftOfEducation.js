@@ -25,7 +25,7 @@ const GiftOfEducation = () => {
                           >
                           <span className="breadcrumbs-separator"></span>
                           <span className="breadcrumb_last" aria-current="page"
-                            >Learning Support</span
+                            >Gift of education</span
                           ></span
                         >
                       </p>
@@ -38,7 +38,7 @@ const GiftOfEducation = () => {
                               <h1
                                 className="banner__title title color-white title--xl2"
                               >
-                                Learning Support
+                                Gift of education
                               </h1>
                             </span>
                           </div>
@@ -92,7 +92,7 @@ const GiftOfEducation = () => {
                             <h1
                               className="banner__title title color-white title--xl2"
                             >
-                              Learning Support
+                             Gift of education
                             </h1>
                           </span>
                         </div>
@@ -116,7 +116,7 @@ const GiftOfEducation = () => {
                         
                         <span className="breadcrumbs-separator"></span>
                         <span className="breadcrumb_last" aria-current="page"
-                          >Learning Support</span
+                          >Gift of education</span
                         ></span
                       >
                     </p>

@@ -172,6 +172,24 @@ const SideNave = () => {
             )}
           </li>
           <li>
+            <div className="menu-item" onClick={() => toggleSubMenu("news")}>
+            News <span>{activeSubMenu === "news" ? <BiChevronUp size={25}/> : <BiChevronDown size={25}/>}</span>
+            </div>
+            {activeSubMenu === "news" && (
+              <ul className="sub-menu">
+            <li>
+              <Link to="/News/NewsEvents" onClick={closeMenu}>News & Events</Link>
+            </li>
+            <li>
+              <Link to="/News/PrincipalLetters" onClick={closeMenu}>Principals Letters</Link>
+            </li>
+            <li>
+              <Link to="/News/AcadmicCalender" onClick={closeMenu}>Academic Calendar</Link>
+            </li>
+              </ul>
+            )}
+          </li>
+          <li>
             <div className="menu-item" onClick={() => toggleSubMenu("support")}>
             Support Us <span>{activeSubMenu === "support" ? <BiChevronUp size={25}/> : <BiChevronDown size={25}/>}</span>
             </div>

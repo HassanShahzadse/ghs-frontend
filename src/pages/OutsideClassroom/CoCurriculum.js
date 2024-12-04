@@ -27,7 +27,7 @@ const CoCurriculum = () => {
                         
                         <span className="breadcrumbs-separator"></span>
                         <span className="breadcrumb_last" aria-current="page"
-                          >The Academic Curriculum</span
+                          >Co Curriculum</span
                         ></span
                       >
                     </p>
@@ -40,7 +40,7 @@ const CoCurriculum = () => {
                             <h1
                               className="banner__title title color-white title--xl2"
                             >
-                              The Academic Curriculum
+                              Co Curriculum
                             </h1>
                           </span>
                         </div>
@@ -96,7 +96,7 @@ const CoCurriculum = () => {
                           <h1
                             className="banner__title title color-white title--xl2"
                           >
-                            The Academic Curriculum
+                            Co Curriculum
                           </h1>
                         </span>
                       </div>
@@ -120,7 +120,7 @@ const CoCurriculum = () => {
                       
                       <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page"
-                        >The Academic Curriculum</span
+                        >Co Curriculum</span
                       ></span
                     >
                   </p>

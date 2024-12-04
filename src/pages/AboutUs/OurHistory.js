@@ -12,8 +12,7 @@ const OurHistory = () => {
         <div className="row">
           <div className="col-12">
             <article
-              className="
-                                                                    "
+              className=" "
             >
               <section className="banner">
                 <div className="breadcrumbs-desktop">
@@ -24,7 +23,6 @@ const OurHistory = () => {
                           >Home</a
                         ></span
                       >
-                      
                       <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page"
                         >Our History</span
@@ -61,7 +59,7 @@ const OurHistory = () => {
                       // style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
                     >
                         <img
-                    src="/assets/11/Open air- dining hall.JPG"
+                    src="/assets/11/Dorm block- quadrangle.JPG"
                     alt="Image"
                     style={{
                       width: "100%",

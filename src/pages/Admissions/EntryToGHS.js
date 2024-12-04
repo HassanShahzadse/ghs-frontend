@@ -132,12 +132,9 @@ const EntryToGHS = () => {
 
               <p>
                 GHS is committed to supporting boys with disabilities and
-                also has a
-                <a
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  >Learning Support Centre</a
-                >&nbsp;for boys with special educational needs and
+                also has a 
+                Learning Support Centre
+                &nbsp;for boys with special educational needs and
                 disabilities.
               </p>
 

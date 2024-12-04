@@ -15,7 +15,7 @@ const OurPurpose = () => {
                 className="aims-ethos aims-ethos--banner"
                 data-color="secondary"
               >
-                {/* <div className="breadcrumbs-desk">
+                <div className="breadcrumbs-desk">
                   <p id="breadcrumbs">
                     <span
                       ><span
@@ -30,7 +30,7 @@ const OurPurpose = () => {
                       ></span
                     >
                   </p>
-                </div> */}
+                </div>
                 <div className="container">
                   <div className="row">
                     <div
@@ -90,9 +90,7 @@ const OurPurpose = () => {
                       className="offset-lg-1 col-lg-10 offset-md-1 col-md-10"
                     >
                       <h1>
-                        <div
-                          className="title title--shadow horizontal-scroll--right"
-                        >
+                        <div className="title title--shadow horizontal-scroll--right" style={{marginLeft:'8px'}} >
                           Our Purpose
                         </div>
                       </h1>

@@ -254,10 +254,10 @@ const Sidebar = () => {
           <div className="title title--sm" >News</div>
           <ul>
             <li className="menu-item">
-              <Link to="/" onClick={closeMenu}>News & Events</Link>
+              <Link to="/News/NewsEvents" onClick={closeMenu}>News & Events</Link>
             </li>
             <li className="menu-item">
-              <Link to="/" onClick={closeMenu}>Principals Letters</Link>
+              <Link to="/News/PrincipalLetters" onClick={closeMenu}>Principals Letters</Link>
             </li>
             {/* <li className="menu-item">
               <a href="https://app.ghskarachi.com/student/online/reg2" target="blank">Apply Online <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -266,7 +266,7 @@ const Sidebar = () => {
               <Link to="/Admissions/AdmissionForm">Admission Form</Link>
             </li> */}
             <li className="menu-item">
-              <Link to="/" onClick={closeMenu}>Acadmic Calender</Link>
+              <Link to="/News/AcadmicCalender" onClick={closeMenu}>Acadmic Calender</Link>
             </li>
             {/* <li className="menu-item">
               <Link to="/Admissions/Fees" onClick={closeMenu}>Fees</Link>
