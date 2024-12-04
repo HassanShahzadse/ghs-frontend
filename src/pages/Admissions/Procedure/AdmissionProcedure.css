@@ -1,0 +1,117 @@
+.admission-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .admission-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .procedure-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .procedure-list div {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .eligibility-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .eligibility-section {
+    flex: 1;
+    margin-right: 20px;
+    border-bottom: 3px solid #C50227;
+
+  }
+  
+  .eligibility-section h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .eligibility-text {
+    color: #C50227;
+    margin-bottom: 10px;
+    /* line-height: 22px; */
+  }
+  
+  .scholarship-section {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .scholarship-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  /* .scholarship-button:hover {
+    background-color: #0056b3;
+  } */
+  
+  .documents-section {
+    margin-bottom: 20px;
+  }
+  
+  .documents-section h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Entry Test Section */
+  .entry-test-section {
+    margin-bottom: 20px;
+  }
+  
+  .entry-test-section h2,
+  .entry-test-section h3 {
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  
+  .entry-test-section ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  /* .entry-test-section ol {
+    margin: 10px 0;
+    font-weight: bold;
+    padding-left: 20px;
+  } */
+  
+  @media screen and (max-width: 768px) {
+    .admission-heading{
+        /* text-align: center; */
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+    
+    .procedure-list {
+      flex-direction: column;
+    }
+    .eligibility-container {
+      flex-direction: column;
+    }
+  
+    .scholarship-section {
+      text-align: left;
+      margin-top: 20px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #C50227;
+
+    }
+  }
+  

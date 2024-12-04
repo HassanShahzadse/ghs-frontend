@@ -2,6 +2,7 @@ import React from 'react'
 import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
 import "../../components/footer.css"
+import AdmissionProcedure from './Procedure/AdmissionProcedure'
 
 
 const EntryToGHS = () => {
@@ -157,6 +158,7 @@ const EntryToGHS = () => {
               </blockquote>
 
               <p>Good luck with your application.</p>
+              <AdmissionProcedure/>
 
               <section className="image-with-statistic">
                 <div>
