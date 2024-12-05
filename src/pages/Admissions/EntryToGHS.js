@@ -264,8 +264,6 @@ const EntryToGHS = () => {
           </div>
         </main>
       </div>
-
-
   )
 }
 
