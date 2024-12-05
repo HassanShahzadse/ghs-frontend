@@ -163,11 +163,11 @@ const EntryToGHS = () => {
         href="/assets/GHS Boys Prospectus 2025-26.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="mr-3  btn btn-primary"
+        className="md:mr-3 mr-2  btn btn-primary"
     >
-      <button className='px-5'>
+      <button className='md:px-5 px-2'>
 
-        <i className="fa-regular fa-file-pdf mr-3"></i> BOYS PROSPECTUS
+        <i className="fa-regular fa-file-pdf md:mr-3 mr-1"></i> BOYS PROSPECTUS
       </button>
     </a>
     <a
@@ -176,9 +176,9 @@ const EntryToGHS = () => {
         rel="noopener noreferrer"
         className="btn btn-primary"
     >
-      <button className='px-5'>
+      <button className='md:px-5 px-2'>
 
-        <i className="fa-regular fa-file-pdf mr-3"></i> GIRLS PROSPECTUS
+        <i className="fa-regular fa-file-pdf md:mr-3 mr-1"></i> GIRLS PROSPECTUS
       </button>
     </a>
             </p>              
