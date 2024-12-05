@@ -1,6 +1,4 @@
 import React from 'react';
-import NextSection from '../../components/NextSection';
-import Footer from '../../components/footer';
 import "../../components/footer.css"
 
 
@@ -28,36 +26,10 @@ const OurGoverningBody = () => {
                       </span>
                     </p>
                   </div>
-                  {/* <div className="banner__blue-bar banner__blue-bar--first">
-                    <div className="">
-                      <div className="slide-up slide-up--static">
-                        <div>
-                          <span>
-                            <h1 className="banner__title title color-white title--xl2">
-                              Our Governing Body
-                            </h1>
-                          </span>
-                        </div>
-                      </div>
-                      <div className="banner__intro background-primary color-white">
-                      <h1 className="banner__title title color-white title--xl2">
-                          Our Governing Body
-                        </h1>
-                        <p className="intro">
-                          The Governing Body of GHS is known as ‘the
-                          Provost and Fellows’.
-                        </p>
-                      </div>
-                    </div>
-                  </div> */}
                   <div className="container make-full-width">
                     <div className="row">
                       <div
-                        className="image-container js-image-move grey-background"
-                        // style={{
-                        //   backgroundImage: `url(/assets/11/263599925_2949755145271285_6770598982686416049_n.jpg)`,
-                        // }}
-                      >
+                        className="image-container js-image-move grey-background" >
                           <img
                     src="/assets/11/263599925_2949755145271285_6770598982686416049_n.jpg"
                     alt="Image"
@@ -67,10 +39,7 @@ const OurGoverningBody = () => {
                       objectFit: "fill",
                     }}
                   />
-                     
                       </div>
-
-                      {/* <div className="col-md-10 offset-md-2"></div> */}
                     </div>
                   </div>
 
@@ -79,16 +48,6 @@ const OurGoverningBody = () => {
                           Our Governing Body
                         </h1>
                   </div>
-
-                  {/* <div className="slide-up slide-up--static">
-                    <div>
-                      <span>
-                        <h1 className="banner__title title color-white title--xl2">
-                          Our Governing Body
-                        </h1>
-                      </span>
-                    </div>
-                  </div> */}
                  
                 </section>
                 </article>

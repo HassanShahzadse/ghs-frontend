@@ -1,6 +1,4 @@
 import React from 'react'
-import NextSection from '../../components/NextSection'
-import Footer from '../../components/footer'
 import "../../components/footer.css"
 
 const EnvironmentalEducation = () => {
@@ -31,34 +29,10 @@ const EnvironmentalEducation = () => {
                     >
                   </p>
                 </div>
-                <div className="banner__blue-bar banner__blue-bar--first">
-                  <div className="blue-bar-hidden">
-                    <div className="slide-up slide-up--static">
-                      <div>
-                        <span>
-                          <h1
-                            className="banner__title title color-white title--xl2"
-                          >
-                            Environmental Education
-                          </h1>
-                        </span>
-                      </div>
-                    </div>
-                    <div
-                      className="banner__intro background-primary color-white"
-                    >
-                      <p className="intro">
-                      Environmental sustainability is a cornerstone of the GHS Karachi ethos. Our environmental education programs empower students to take active roles in protecting the planet while gaining a deeper appreciation for nature.
-                      </p>
-                    </div>
-                  </div>
-                </div>
                 <div className="container make-full-width">
                   <div className="row">
                     <div
-                      className="image-container js-image-move grey-background"
-                      // style={{backgroundImage:"url(../../../../../assets/11/300980504_172020772062516_5311573638736429145_n.jpg)"}}
-                    >
+                      className="image-container js-image-move grey-background" >
                                        <img
                     src="/assets/11/300980504_172020772062516_5311573638736429145_n.jpg"
                     alt="Image"
@@ -68,49 +42,16 @@ const EnvironmentalEducation = () => {
                       objectFit: "cover",
                     }}
                   />
-                      {/* <div
-                        className="fadeIn js-image-move__inner"
-                        data-src="https://www.etoncollege.com/wp-content/uploads/2023/10/eton-23-60-1-2000x1333.jpg"
-                      ></div> */}
                     </div>
-
-                    <div className="col-md-10 offset-md-2"></div>
                   </div>
                 </div>
-                <div className="banner__block">
-                  <div
-                    className=" animate-deactive"
-                  >
-                    <div className="pillar background-lgrey"></div>
-                  </div>
-                  <div className="banner__block__inner background-lgrey"></div>
-                </div>
-
-                <div className="banner__blue-bar">
-          {/* <div className="pillar background-secondary"></div> */}
-
-                  {/* <div className="slide-up slide-up--static">
-                    <div>
-                      <span>
-                        <h1
-                          className="banner__title title color-white title--xl2"
-                        >
-                          TEnvironmental Education
-                        </h1>
-                      </span>
-                    </div>
-                  </div> */}
-                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <div className="background-primary color-white" style={{paddingLeft:"10px" , paddingBottom:"20px"}}>
                   <h1
                           className="banner__title title color-white title--xl2"
                         >
                           Environmental Education
                         </h1>
-                    {/* <p className="intro">
-                    Environmental sustainability is a cornerstone of the GHS Karachi ethos. Our environmental education programs empower students to take active roles in protecting the planet while gaining a deeper appreciation for nature.
-                    </p> */}
                   </div>
-                </div>
               </section>
 
               <div className="breadcrumbs-mobile">
@@ -129,21 +70,18 @@ const EnvironmentalEducation = () => {
                 </p>
               </div>
 
-              <p>
+              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
               Students participate in initiatives like tree planting, recycling drives, and conservation projects, learning practical ways to address global challenges. Eco-clubs provide a platform for collaborative problem-solving and innovative ideas, enabling students to lead sustainability efforts both within the school and beyond.
               </p>
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
+                style={{ fontFamily: "'Nunito Sans', sans-serif" }}
               >
-                <p>
+                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                 By fostering an awareness of environmental responsibility, we prepare students to make informed and conscientious decisions that contribute to a sustainable future.
                 </p>
-                <cite></cite>
-              </blockquote>
-
-
-              <section className="image-with-statistic">
+              </blockquote> <section className="image-with-statistic">
                 <div>
                   <div className="animate-wrapper">
                     <div
@@ -167,8 +105,6 @@ const EnvironmentalEducation = () => {
                 </div>
               </section>
               </article>
-              
-              
             </div>
           </div>
         </div>

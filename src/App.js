@@ -38,7 +38,7 @@ import ScrollToTop from './ScrollToTop.js';
 import NewsEvents from './pages/News/NewsEvents.js';
 import PrincipalLetters from './pages/News/PrincipalLetters.js';
 import AcadmicCalender from './pages/News/AcadmicCalender.js';
-import Prospectus from './pages/Admissions/Prospectus.js';
+// import Prospectus from './pages/Admissions/Prospectus.js';
 // import WaysToSuppport from './pages/SupportUs/WaysToSupport.js';
 function Layout({ children }) {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);

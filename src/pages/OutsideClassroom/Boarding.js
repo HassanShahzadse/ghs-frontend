@@ -1,6 +1,4 @@
 import React from 'react'
-import NextSection from '../../components/NextSection'
-import Footer from '../../components/footer'
 import "../../components/footer.css"
 
 const Boarding = () => {
@@ -31,34 +29,10 @@ const Boarding = () => {
                     >
                   </p>
                 </div>
-                <div className="banner__blue-bar banner__blue-bar--first">
-                  <div className="blue-bar-hidden">
-                    <div className="slide-up slide-up--static">
-                      <div>
-                        <span>
-                          <h1
-                            className="banner__title title color-white title--xl2"
-                          >
-                            Boarding
-                          </h1>
-                        </span>
-                      </div>
-                    </div>
-                    <div
-                      className="banner__intro background-primary color-white"
-                    >
-                      <p className="intro">
-                      The boarding houses at GHS Karachi are at the heart of the school community, providing a nurturing environment where students can grow and flourish. Each house is more than just a place to stay—it’s a home filled with camaraderie, encouragement, and support.
-                      </p>
-                    </div>
-                  </div>
-                </div>
                 <div className="container make-full-width">
                   <div className="row">
                     <div
-                      className="image-container js-image-move grey-background"
-                      // style={{backgroundImage:"url(../../../../../assets/11/unnamed.png)"}}
-                    >
+                      className="image-container js-image-move grey-background" >
                                    <img
                     src="/assets/11/unnamed.png"
                     alt="Image"
@@ -68,49 +42,16 @@ const Boarding = () => {
                       objectFit: "cover",
                     }}
                   />
-                      {/* <div
-                        className="fadeIn js-image-move__inner"
-                        data-src="https://www.etoncollege.com/wp-content/uploads/2023/10/eton-23-60-1-2000x1333.jpg"
-                      ></div> */}
                     </div>
-
-                    <div className="col-md-10 offset-md-2"></div>
                   </div>
                 </div>
-                <div className="banner__block">
-                  <div
-                    className=" animate-deactive"
-                  >
-                    <div className="pillar background-lgrey"></div>
-                  </div>
-                  <div className="banner__block__inner background-lgrey"></div>
-                </div>
-
-                <div className="banner__blue-bar">
-          {/* <div className="pillar background-secondary"></div> */}
-
-                  {/* <div className="slide-up slide-up--static">
-                    <div>
-                      <span>
-                        <h1
-                          className="banner__title title color-white title--xl2"
-                        >
-                          Boarding
-                        </h1>
-                      </span>
-                    </div>
-                  </div> */}
-                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <div className="background-primary color-white" style={{paddingLeft:"10px" , paddingBottom:"20px"}}>
                   <h1
                           className="banner__title title color-white title--xl2"
                         >
                           Boarding
                         </h1>
-                    {/* <p className="intro">
-                    The boarding houses at GHS Karachi are at the heart of the school community, providing a nurturing environment where students can grow and flourish. Each house is more than just a place to stay—it’s a home filled with camaraderie, encouragement, and support.
-                    </p> */}
                   </div>
-                </div>
               </section>
 
               <div className="breadcrumbs-mobile">
@@ -128,24 +69,25 @@ const Boarding = () => {
                   >
                 </p>
               </div>
-<p>                    The boarding houses at GHS Karachi are at the heart of the school community, providing a nurturing environment where students can grow and flourish. Each house is more than just a place to stay—it’s a home filled with camaraderie, encouragement, and support.
+<p style={{ fontFamily: "'Nunito Sans', sans-serif" }}> The boarding houses at GHS Karachi are at the heart of the school community, providing a nurturing environment where students can grow and flourish. Each house is more than just a place to stay—it’s a home filled with camaraderie, encouragement, and support.
 </p>
-              <p>
+              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
            <strong>  Empowering Students Through Access </strong> 
 Many of our students come from underserved communities and rely on scholarships and financial aid to pursue their education. Your support ensures that no talented and deserving child is left behind due to financial constraints.
               </p>
 
-              <p>
+              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
            <strong>  Sustaining Excellence </strong> 
 Our goal is not just to educate but to provide an exceptional experience that includes state-of-the-art facilities, qualified educators, and a nurturing environment. These opportunities empower our students to excel academically, socially, and morally. Your contributions allow us to maintain and enhance the high standards we set for our school.
               </p>
-<p> <strong>Leaving a Lasting Impact  </strong>
+<p style={{ fontFamily: "'Nunito Sans', sans-serif" }}> <strong>Leaving a Lasting Impact  </strong>
 Education has a ripple effect—it doesn’t just change the life of one student; it uplifts families and entire communities. By supporting GHS Karachi, you become a part of this transformational journey, impacting lives far beyond the boundaries of our campus.
 </p>
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
+                style={{ fontFamily: "'Nunito Sans', sans-serif" }}
               >
-                <p>
+                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                   The school is highly successful in fulfilling its aim to
                   promote the best habits of independent thought and
                   learning in the pursuit of excellence. This is reflected
@@ -155,20 +97,20 @@ Education has a ripple effect—it doesn’t just change the life of one student
                 {/* <cite>ISI inspection, December 2021</cite> */}
               </blockquote>
 
-              <p>
+              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                 Our academic curriculum is broad. With 28 subjects on offer,
                 including 10 modern and classical languages, every boy has
                 the best opportunity to discover his passion.&nbsp;
               </p>
 
-              <p>
+              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                 Our Masters are subject-specialists who invariably hold
                 prestigious degrees in their subjects, but equally as
                 important in their appointment has been their capacity to
                 build relationships and inspire learners.
               </p>
 
-              <p>
+              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                 Our House Master and Tutor system ensures that at least two
                 adults have oversight of every boy’s individual progress and
                 are there to support and encourage him.
@@ -196,79 +138,7 @@ Education has a ripple effect—it doesn’t just change the life of one student
                     </div>
                   </div>
                 </div>
-              </section>
-
-              {/* <p>
-                We set regular Extra Work (homework) to be completed in the
-                boarding House, with discrete time set aside for this. This
-                encourages a culture of industry but also independence, as
-                boys have to plan their free time to ensure it is completed.
-              </p>
-
-              <p>
-                Regular internal reporting enables House Masters and Tutors
-                to keep track of every boy’s progress. Boys also sit
-                internal examinations, known as Trials, in all their
-                academic subjects at the end of the Michaelmas and Summer
-                halves, unless they are taking external examinations.
-              </p>
-
-              <p>
-                We have a dedicated
-                <a
-                  data-type="25"
-                  rel="noreferrer noopener"
-                  href="../learning-support/index.html"
-                  target="_blank"
-                  >Learning Support Centre</a
-                >
-                to help boys who need support with study skills or have
-                specific educational needs. All boys sit an assessment when
-                they arrive to determine whether additional support is
-                required, and boys can be referred to learning support at
-                any time during their GHScareer.
-              </p>
-
-              <blockquote
-                className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-              >
-                <p>
-                  The pupils&#8217; excellent achievement and progress are
-                  not only evident in the school&#8217;s examination
-                  results. They can also be seen clearly in the breadth and
-                  depth of their intellectual curiosity, revealed when they
-                  discuss their work, in the work itself, and in their
-                  intelligent and perceptive contributions in lessons.
-                </p>
-                <cite>ISI inspection, December 2021</cite>
-              </blockquote>
-
-              <p>
-                Our vibrant academic enrichment programme encourages boys to
-                develop their interests beyond exam syllabuses and to take
-                the lead in introducing those interests to other boys.
-              </p>
-
-              <p>
-                The
-                <a
-                  data-type="18"
-                  rel="noreferrer noopener"
-                  href="../../about-us/our-research-centre/index.html"
-                  target="_blank"
-                  >Tony Little Centre for Innovation and Research in
-                  Learning</a
-                >
-                (CIRL) is unique facility that aims to put us at the
-                forefront of teaching and learning development. Not only
-                does the work of the research centre inform Masters’
-                teaching which directly benefits the boys, but boys can also
-                access the centre to develop their understanding about how
-                best to learn.
-              </p> */}
-              </article>
-              
-              
+              </section> </article>
             </div>
           </div>
         </div>

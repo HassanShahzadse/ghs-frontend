@@ -28,34 +28,10 @@ const OurHistory = () => {
                     >
                   </p>
                 </div>
-                <div className="banner__blue-bar banner__blue-bar--first">
-                  <div className="blue-bar-hidden">
-                    <div className="slide-up slide-up--static">
-                      <div>
-                        <span>
-                          <h1
-                            className="banner__title title color-white title--xl2"
-                          >
-                            Our History
-                          </h1>
-                        </span>
-                      </div>
-                    </div>
-                    <div
-                      className="banner__intro background-primary color-white"
-                    >
-                      <p className="intro">
-                      At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. 
-                      </p>
-                    </div>
-                  </div>
-                </div>
                 <div className="container make-full-width">
                   <div className="row">
                     <div
-                      className="image-container js-image-move grey-background"
-                      // style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
-                    >
+                      className="image-container js-image-move grey-background" >
                         <img
                     src="/assets/11/Dorm block- quadrangle.JPG"
                     alt="Image"
@@ -65,47 +41,16 @@ const OurHistory = () => {
                       objectFit: "fill",
                     }}
                   />
-                      {/* <div
-                        className="fadeIn js-image-move__inner"
-                        data-src="https://www.etoncollege.com/wp-content/uploads/2020/06/EtonEngraving-Hollar1672-1-e1592508894648.jpg"
-                      ></div> */}
-                    </div>
-
-                    <div className="col-md-10 offset-md-2"></div>
-                  </div>
-                </div>
-                <div className="banner__block">
-                  <div
-                    className=" animate-deactive"
-                  >
-                    <div className="pillar background-lgrey"></div>
-                  </div>
-                  <div className="banner__block__inner background-lgrey"></div>
-                </div>
-
-                <div className="banner__blue-bar">
-
-                  <div className="slide-up slide-up--static">
-                    <div>
-                      <span>
-                        <h1
-                          className="banner__title title color-white title--xl2"
-                        >
-                          Our History
-                        </h1>
-                      </span>
                     </div>
                   </div>
-                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"20px"}}>
-                  <h1
-                          className="banner__title title color-white title--xl2"
-                        >
+                </div>
+
+
+                  <div className="background-primary color-white" style={{paddingLeft:"20px", paddingBottom:"20px"}}>
+                  <h1 className="banner__title title color-white title--xl2">
                           Our History
                         </h1>
-                    {/* <p className="intro">
-                    </p> */}
                   </div>
-                </div>
               </section>
 
               <div className="breadcrumbs-mobile">

@@ -1,6 +1,4 @@
 import React from 'react'
-import NextSection from '../../components/NextSection'
-import Footer from '../../components/footer'
 import "../../components/footer.css"
 
 const CommunityEngagement = () => {
@@ -31,34 +29,10 @@ const CommunityEngagement = () => {
                     >
                   </p>
                 </div>
-                <div className="banner__blue-bar banner__blue-bar--first">
-                  <div className="blue-bar-hidden">
-                    <div className="slide-up slide-up--static">
-                      <div>
-                        <span>
-                          <h1
-                            className="banner__title title color-white title--xl2"
-                          >
-                           Community Engagement
-                          </h1>
-                        </span>
-                      </div>
-                    </div>
-                    <div
-                      className="banner__intro background-primary color-white"
-                    >
-                      <p className="intro">
-                      GHS Karachi is deeply committed to instilling a sense of social responsibility in our students. Through community engagement programs, students have the opportunity to make a real difference while developing empathy and leadership skills.
-                      </p>
-                    </div>
-                  </div>
-                </div>
                 <div className="container make-full-width">
                   <div className="row">
                     <div
-                      className="image-container js-image-move grey-background"
-                      // style={{backgroundImage:"url(../../../../../assets/11/70462977_2298415337071939_5397888453499158528_n.jpg)"}}
-                    >
+                      className="image-container js-image-move grey-background" >
                                      <img
                     src="/assets/11/70462977_2298415337071939_5397888453499158528_n.jpg"
                     alt="Image"
@@ -68,49 +42,16 @@ const CommunityEngagement = () => {
                       objectFit: "cover",
                     }}
                   />
-                      {/* <div
-                        className="fadeIn js-image-move__inner"
-                        data-src="https://www.etoncollege.com/wp-content/uploads/2023/10/eton-23-60-1-2000x1333.jpg"
-                      ></div> */}
                     </div>
-
-                    <div className="col-md-10 offset-md-2"></div>
                   </div>
                 </div>
-                <div className="banner__block">
-                  <div
-                    className=" animate-deactive"
-                  >
-                    <div className="pillar background-lgrey"></div>
-                  </div>
-                  <div className="banner__block__inner background-lgrey"></div>
-                </div>
-
-                <div className="banner__blue-bar">
-          {/* <div className="pillar background-secondary"></div> */}
-
-                  {/* <div className="slide-up slide-up--static">
-                    <div>
-                      <span>
-                        <h1
-                          className="banner__title title color-white title--xl2"
-                        >
-                          Community Engagement
-                        </h1>
-                      </span>
-                    </div>
-                  </div> */}
-                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <div className="background-primary color-white" style={{paddingLeft:"10px" , paddingBottom:"20px"}}>
                   <h1
                           className="banner__title title color-white title--xl2"
                         >
                           Community Engagement
                         </h1>
-                    {/* <p className="intro">
-                    GHS Karachi is deeply committed to instilling a sense of social responsibility in our students. Through community engagement programs, students have the opportunity to make a real difference while developing empathy and leadership skills.
-                    </p> */}
                   </div>
-                </div>
               </section>
 
               <div className="breadcrumbs-mobile">
@@ -129,7 +70,7 @@ const CommunityEngagement = () => {
                 </p>
               </div>
 
-              <p>
+              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                 
 Whether it’s volunteering at local shelters, participating in fundraising events, or organizing environmental clean-ups, students are encouraged to contribute to meaningful causes. These experiences help them understand the importance of giving back, cultivating a sense of gratitude and purpose.
 
@@ -139,17 +80,13 @@ Whether it’s volunteering at local shelters, participating in fundraising even
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
+                style={{ fontFamily: "'Nunito Sans', sans-serif" }}
               >
-                <p>
+                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                 By connecting students with their communities, we nurture compassionate individuals who are driven to create positive change in the world.
                 </p>
                 <cite></cite>
-              </blockquote>
-
-
-
-
-              <section className="image-with-statistic">
+              </blockquote> <section className="image-with-statistic">
                 <div>
                   <div className="animate-wrapper">
                     <div
@@ -172,78 +109,7 @@ Whether it’s volunteering at local shelters, participating in fundraising even
                   </div>
                 </div>
               </section>
-
-              {/* <p>
-                We set regular Extra Work (homework) to be completed in the
-                boarding House, with discrete time set aside for this. This
-                encourages a culture of industry but also independence, as
-                boys have to plan their free time to ensure it is completed.
-              </p>
-
-              <p>
-                Regular internal reporting enables House Masters and Tutors
-                to keep track of every boy’s progress. Boys also sit
-                internal examinations, known as Trials, in all their
-                academic subjects at the end of the Michaelmas and Summer
-                halves, unless they are taking external examinations.
-              </p>
-
-              <p>
-                We have a dedicated
-                <a
-                  data-type="25"
-                  rel="noreferrer noopener"
-                  href="../learning-support/index.html"
-                  target="_blank"
-                  >Learning Support Centre</a
-                >
-                to help boys who need support with study skills or have
-                specific educational needs. All boys sit an assessment when
-                they arrive to determine whether additional support is
-                required, and boys can be referred to learning support at
-                any time during their GHS career.
-              </p>
-
-              <blockquote
-                className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-              >
-                <p>
-                  The pupils&#8217; excellent achievement and progress are
-                  not only evident in the school&#8217;s examination
-                  results. They can also be seen clearly in the breadth and
-                  depth of their intellectual curiosity, revealed when they
-                  discuss their work, in the work itself, and in their
-                  intelligent and perceptive contributions in lessons.
-                </p>
-                <cite>ISI inspection, December 2021</cite>
-              </blockquote>
-
-              <p>
-                Our vibrant academic enrichment programme encourages boys to
-                develop their interests beyond exam syllabuses and to take
-                the lead in introducing those interests to other boys.
-              </p>
-
-              <p>
-                The
-                <a
-                  data-type="18"
-                  rel="noreferrer noopener"
-                  href="../../about-us/our-research-centre/index.html"
-                  target="_blank"
-                  >Tony Little Centre for Innovation and Research in
-                  Learning</a
-                >
-                (CIRL) is unique facility that aims to put us at the
-                forefront of teaching and learning development. Not only
-                does the work of the research centre inform Masters’
-                teaching which directly benefits the boys, but boys can also
-                access the centre to develop their understanding about how
-                best to learn.
-              </p> */}
               </article>
-              
-              
             </div>
           </div>
         </div>
