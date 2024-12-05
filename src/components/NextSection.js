@@ -11,7 +11,7 @@ const NextSection = () => {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-6">
-                      <div className="slide-up slide-up--scroll">
+                      <div className="">
                         <div>
                           <span>
                             <h2 className="title title--xl">Next up&#8230;</h2>
