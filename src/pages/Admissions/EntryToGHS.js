@@ -249,11 +249,7 @@ const EntryToGHS = () => {
               </p>
 
               <p>
-                We usually run
-                <p
-                  >Admissions tours</p
-                >
-                twice a week throughout term time, all in the afternoon.
+                We usually run Admissions tours twice a week throughout term time, all in the afternoon.
                 Tours take place on Mondays and Wednesdays during the
                 Michaelmas and Lent terms and Tuesdays and Thursdays during
                 the Summer term. Please note we do not run tours on
