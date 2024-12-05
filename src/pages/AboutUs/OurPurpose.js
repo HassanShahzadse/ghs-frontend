@@ -1,12 +1,10 @@
 import React from 'react'
-import NextSection from '../../components/NextSection'
-import Footer from '../../components/footer'
 import "../../components/footer.css"
 import { Link } from 'react-router-dom'
 
 const OurPurpose = () => {
   return (
-    <div id="content-wrap">
+    <div id="content-wrap" >
     <main className="main">
       <div className="container-fluid">
         <div className="row">
@@ -57,6 +55,7 @@ const OurPurpose = () => {
 
                       <div
                         className="row"
+                        style={{ fontFamily: "'Nunito Sans', sans-serif" }}
                       >
                         <div className="col-lg-6">
                           <ol>
@@ -84,7 +83,7 @@ Balancing academics, co-curricular activities, and well-being, we provide a well
                             </li>
                             {/* <li>
                               nurtures the value of leadership and service;
-                            </li> */}
+                              </li> */}
                           </ol>
                         </div>
                       </div>
@@ -92,9 +91,10 @@ Balancing academics, co-curricular activities, and well-being, we provide a well
                   </div>
                 </div>
               </section>
-                      <div className='flex justify-center text-center content-center '>
-                   <Link to="/AboutUs/OurStrategy">   <button style={{marginRight:"20px"}}>Our Strategy</button></Link>
-                    <a href="https://app.ghskarachi.com/student/online/reg2" target='_blank'> <button>Apply Now</button></a> </div>
+                              <div className='flex justify-center text-center content-center '>
+                           <Link className='button' to="/AboutUs/OurStrategy"> Our Strategy</Link>
+                            <a className="button" href="https://app.ghskarachi.com/student/online/reg2" target='_blank'>Apply Now</a>
+                            </div>
 
               <section className="aims-ethos aims-ethos--6" data-color="grey">
                 <div className="container">
@@ -114,11 +114,12 @@ Balancing academics, co-curricular activities, and well-being, we provide a well
                           <img
                             fetchpriority="high"
                             decoding="async"
+                            style={{height:"600px", objectFit:"fill"}}
                             src="/assets/11/462142391_3684004605179665_4619771339123697881_n.jpg"
                           />
 
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-8" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                           <p>
                             <span className="intro"
                               >In order to achieve this GHS:</span

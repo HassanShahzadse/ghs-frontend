@@ -74,6 +74,11 @@ const OurGoverningBody = () => {
                     </div>
                   </div>
 
+                  <div className=" background-primary color-white" style={{paddingLeft:"20px" , paddingBottom:"20px"}}>
+                  <h1 className="banner__title title color-white ">
+                          Our Governing Body
+                        </h1>
+                  </div>
 
                   {/* <div className="slide-up slide-up--static">
                     <div>
@@ -84,15 +89,6 @@ const OurGoverningBody = () => {
                       </span>
                     </div>
                   </div> */}
-                  <div className=" background-primary color-white" style={{paddingLeft:"20px" , paddingBottom:"20px"}}>
-                  <h1 className="banner__title title color-white ">
-                          Our Governing Body
-                        </h1>
-                    {/* <p className="intro">
-                      The Governing Body of GHS is known as ‘the
-                      Provost and Fellows’
-                    </p> */}
-                  </div>
                  
                 </section>
                 </article>
@@ -114,7 +110,7 @@ const OurGoverningBody = () => {
                     </span>
                   </p>
                 </div>
-<div style={{padding:"20px"}}>
+<div style={{padding:"20px", fontFamily: "'Nunito Sans', sans-serif"}}>
                   <p>
                   The Governing Body of Global Hub School Karachi comprises 10 distinguished board members from diverse walks of life, including education, philanthropy, and medicine. This group of visionary leaders is united by their unwavering commitment to the school’s mission of delivering world-class education.
 

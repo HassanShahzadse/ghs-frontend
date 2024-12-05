@@ -7,7 +7,7 @@ const NextSection = () => {
   
   useEffect(() => {
     const updateFontSize = () => {
-      setFontSize(window.innerWidth < 768 ? '40px' : '100px');
+      setFontSize(window.innerWidth < 768 ? '65px' : '100px');
     };
   
     window.addEventListener('resize', updateFontSize);

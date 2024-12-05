@@ -7534,7 +7534,7 @@ img.responsive {
   background-size: cover;
   width: calc(100% + 30px);
   margin: 0 -15px 0;
-  padding-bottom: 265px; }
+  padding-bottom: 40px; }
   @media (max-width: 1190px) {
     .banner {
       padding-top: 110px;

@@ -113,10 +113,10 @@ const OurStrategy = () => {
                   </p>
                 </div>
 
-                <p>
+                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                 At Global Hub School Karachi, our strategy is a dynamic, forward-thinking approach designed to deliver excellence in education while fostering personal and societal growth. Rooted in our core values, our strategy outlines how we empower students, embrace innovation, and build a sustainable future.
                 </p>
-                <ol>
+                <ol style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                   <li><strong>Encourage Creativity and Individuality:</strong></li>
                   <ul>
                     <li>By offering a diverse range of academic and co-curricular opportunities, we foster an environment where students can explore their passions and develop unique perspectives.</li>
@@ -151,7 +151,7 @@ const OurStrategy = () => {
                     style={{
                       width: "100%",
                       height: "600px",
-                      objectFit: "cover",
+                      objectFit: "fill",
                     }}
                   />
                 </p>
