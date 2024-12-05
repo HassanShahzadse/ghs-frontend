@@ -107,9 +107,9 @@ const CoCurriculum = () => {
                           >
                             Co Curriculum
                           </h1>
-                      <p className="intro">
+                      {/* <p className="intro">
                       At Global Hub School Karachi, we believe that growth is not confined to textbooks and lectures. Our co-curricular program is designed to inspire creativity, innovation, and leadership by offering students a wide range of activities to explore. From debate and public speaking clubs to robotics, music, drama, and cultural societies, students are encouraged to discover their passions and develop unique talents.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </section>

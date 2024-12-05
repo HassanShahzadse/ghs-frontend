@@ -106,9 +106,9 @@ const ReligiousLife = () => {
                         >
                           Religious Life
                         </h1>
-                    <p className="intro">
+                    {/* <p className="intro">
                     While GHS Karachi is a non-denominational institution, we recognize the importance of spiritual growth in shaping well-rounded individuals. For our predominantly Muslim student body, we offer structured programs that provide a comprehensive understanding of Islamic teachings and values.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </section>

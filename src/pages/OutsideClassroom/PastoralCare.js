@@ -106,9 +106,9 @@ const PastoralCare = () => {
                         >
                          Pastoral Care
                         </h1>
-                    <p className="intro">
+                    {/* <p className="intro">
                     At GHS Karachi, we understand that a successful education goes hand in hand with emotional well-being. That’s why pastoral care is a fundamental part of school life, ensuring every student feels valued, supported, and heard.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </section>

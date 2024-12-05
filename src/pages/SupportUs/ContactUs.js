@@ -98,9 +98,9 @@ const ContactUs = () => {
                     <h1 className="banner__title title color-white title--xl2">
                             Contact Us
                           </h1>
-                      <p className="intro">
+                      {/* <p className="intro">
                       We would love to hear from you! For more information on how you can support GHS Karachi or to discuss collaboration or partnership opportunities, please get in touch with us.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </section>

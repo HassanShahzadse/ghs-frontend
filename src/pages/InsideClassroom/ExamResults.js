@@ -108,10 +108,10 @@ const ExamResults = () => {
                         >
                           Exam result
                         </h1>
-                    <p className="intro">
+                    {/* <p className="intro">
                     At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. 
 
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </section>

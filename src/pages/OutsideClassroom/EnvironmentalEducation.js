@@ -106,9 +106,9 @@ const EnvironmentalEducation = () => {
                         >
                           Environmental Education
                         </h1>
-                    <p className="intro">
+                    {/* <p className="intro">
                     Environmental sustainability is a cornerstone of the GHS Karachi ethos. Our environmental education programs empower students to take active roles in protecting the planet while gaining a deeper appreciation for nature.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </section>

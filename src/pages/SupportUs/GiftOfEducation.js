@@ -103,9 +103,9 @@ const GiftOfEducation = () => {
                             >
                              Gift of Education
                             </h1>
-                        <p className="intro">
+                        {/* <p className="intro">
                         When you invest in education, you invest in the future. By making a significant contribution, such as funding an academic block, a library, or a sports facility, you leave behind a legacy that shapes countless young lives
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </section>
