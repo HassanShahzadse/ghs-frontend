@@ -42,6 +42,9 @@ const AfterScrollingSection = () => {
                 decoding="async"
                 src="/assets/11/Admin block- view from Dining hall.JPG"
                 alt="Image description"
+                style={{  width: "100%",
+                  height: "auto",
+                  objectFit: "fill",}}
                 srcset="
         /assets/11/Admin block- view from Dining hall.JPG  1024w,
         /assets/11/Admin block- view from Dining hall.JPG   300w,

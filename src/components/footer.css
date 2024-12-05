@@ -2979,7 +2979,8 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important; }
+  padding-top: 3rem !important;
+ }
 
 .pr-5,
 .px-5 {
@@ -15025,7 +15026,7 @@ body.page-template-tpl-in-the-news .view-all-block #wpmem_reg .buttons,
     .home-block-introduction .introduction--column-2--media {
       margin-bottom: 120px; }
       .home-block-introduction .introduction--column-2--media .image {
-        aspect-ratio: 558/678;
+        aspect-ratio: 558/278;
         height: auto;
         width: 100%;
         position: relative; }
@@ -15038,7 +15039,7 @@ body.page-template-tpl-in-the-news .view-all-block #wpmem_reg .buttons,
           inset: 0; }
         @media (max-width: 768px) {
           .home-block-introduction .introduction--column-2--media .image {
-            aspect-ratio: 375/322;
+            aspect-ratio: 375/262;
             margin: 0 -30px;
             width: calc(100% + 60px); } }
       @media (max-width: 991px) {
@@ -15364,7 +15365,7 @@ body.page-template-tpl-in-the-news .view-all-block #wpmem_reg .buttons,
         width: 100vw; } }
     @media (max-width: 768px) {
       .home-block-focus-areas .focus-areas__instagram {
-        padding-bottom: 60px; } }
+        padding-bottom: ; } }
   .home-block-focus-areas .focus-areas__featured {
     padding-bottom: 130px;
     margin-top: -119px;
