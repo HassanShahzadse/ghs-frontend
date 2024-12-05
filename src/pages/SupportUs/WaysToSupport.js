@@ -127,14 +127,18 @@ const WaysToSupport = () => {
               </div>
 
               <p>
-              ⦁	Educational Supplies: Donate books, computers, lab equipment, or other essential learning tools to enhance the academic experience.
-⦁	Dedicated Facilities: Contribute towards the construction or improvement of key facilities such as science laboratories, the school mosque, or recreational spaces.
-⦁	Scholarships and Financial Aid: Fund a student’s education and give them the opportunity to reach their potential.
-⦁	A School Block: Gift an entire academic block or wing, leaving a legacy that will impact generations of students.
-⦁	Recurring Donations (Sadaqah): Make regular contributions towards operational costs, student meals, or facility maintenance to ensure the school runs smoothly.
+              	<strong>Educational Supplies : </strong>Donate books, computers, lab equipment, or other essential learning tools to enhance the academic experience.
 
               </p>
-
+              <p>
+	<strong>Dedicated Facilities : </strong>Contribute towards the construction or improvement of key facilities such as science laboratories, the school mosque, or recreational spaces.
+</p>
+<p>
+	<strong>Scholarships and Financial Aid : </strong>Fund a student’s education and give them the opportunity to reach their potential.</p>
+  <p>
+<strong>A School Block : </strong>Gift an entire academic block or wing, leaving a legacy that will impact generations of students.</p>
+<p>
+<strong>Recurring Donations (Sadaqah) : </strong>Make regular contributions towards operational costs, student meals, or facility maintenance to ensure the school runs smoothly.</p>
             
 
               <blockquote
@@ -143,7 +147,7 @@ const WaysToSupport = () => {
                 <p>
                 Your support, whether big or small, helps us continue to provide an exceptional educational experience for our students.
                 </p>
-                <cite>Block</cite>
+                {/* <cite>Block</cite> */}
               </blockquote>
 
 
