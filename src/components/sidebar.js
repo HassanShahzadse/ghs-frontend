@@ -131,7 +131,7 @@ const Sidebar = () => {
             </li>
           </ul>
         </div>
-        <div className="social-icons" style={{position:"absolute",bottom:"0px"}}>
+        <div className="social-icons" style={{position:"absolute",bottom:"20px"}}>
     <a href="https://x.com/ghskarachi?s=21&t=i_hlnbuZYNwkgAtrgNSrEQ" target="_blank" rel="noopener noreferrer">
         <img
             src="/assets/img/social/twitter_circle_stroke.svg"

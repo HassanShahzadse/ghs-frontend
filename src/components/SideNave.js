@@ -231,7 +231,7 @@ const SideNave = () => {
               </ul>
             )}
           </li>
-          <div className="social-icons" style={{position:"absolute",bottom:"70px"}}>
+          <div className="social-icons">
     <a href="https://x.com/ghskarachi?s=21&t=i_hlnbuZYNwkgAtrgNSrEQ" target="_blank" rel="noopener noreferrer">
         <img
             src="/assets/img/social/twitter_circle_stroke.svg"
