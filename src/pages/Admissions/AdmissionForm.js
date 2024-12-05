@@ -6,7 +6,7 @@ import * as yup from 'yup';
 // import { FaEye, FaEyeSlash } from 'react-icons/fa';
 // import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
-import '../StudentForm.css';
+// import '../StudentForm.css';
 
 // Validation schema using Yup
 const schema = yup.object().shape({

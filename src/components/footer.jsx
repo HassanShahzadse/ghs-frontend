@@ -1,46 +1,22 @@
 
-import React, { useState } from "react";
-import "./footer.css"; 
-import { Link } from "react-router-dom";
-
-
-
+import React from "react";
+import "./footer.css";
 
 const Footer = () => {
-  const [isSubMenuVisible, setIsSubMenuVisible] = useState(false);  
-  const [isSearchVisible, setIsSearchVisible] = useState(false);  
-
-   
-  const toggleSubMenu = () => {
-    setIsSubMenuVisible((prev) => !prev);
-  };
-
-  const toggleSearchBar = () => {
-    setIsSearchVisible(true);
-  };
- 
-  const closeSearchBar = () => {
-    setIsSearchVisible(false);
-  };
-
-  
-  const handleKeyDown = (event) => {
-    if (event.key === "Escape") {
-      closeSearchBar();
-    }
-  };
 
   return (
-    <footer className="site-footer ">
+    <footer className="site-footer " style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-lg-11">
 						<div className="site-footer__content">
 							<div className="row">
 								<div className="col-lg-3">
-									<div style={{ width: '50px', height: '50px' }}>
+									<div style={{ width: '60px', height: '70px' ,display:"flex", gap:"10px",flexDirection: "row", alignItems: "center",}}>
 									<img	src="/assets/img/Final GHS.png"/>
+									<h2>GHS</h2>
 											</div>
+										
 
 									<div className="social-icons">
 									<a href="https://x.com/ghskarachi?s=21&t=i_hlnbuZYNwkgAtrgNSrEQ" target="_blank"> 

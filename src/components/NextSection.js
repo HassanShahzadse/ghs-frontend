@@ -1,8 +1,22 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
 
 const NextSection = () => {
+  const [fontSize, setFontSize] = useState('100px');
+  
+  useEffect(() => {
+    const updateFontSize = () => {
+      setFontSize(window.innerWidth < 768 ? '40px' : '100px');
+    };
+  
+    window.addEventListener('resize', updateFontSize);
+    updateFontSize();
+  
+    return () => window.removeEventListener('resize', updateFontSize);
+  }, []);
+
+  
   return (
     <section
                 className="pt-5"
@@ -11,10 +25,10 @@ const NextSection = () => {
                 <div className="container">
                   <div className="row">
                     <div className="col-md-6">
-                      <div className="">
+                      <div className="" style={{marginBottom:"100px",marginTop:"50px"}}>
                         <div>
                           <span>
-                            <h2 className="title title--xl">Next up&#8230;</h2>
+                            <h2 className="title title--xl" style={{fontSize}}>Next up&#8230;</h2>
                           </span>
                         </div>
                       </div>
@@ -60,7 +74,7 @@ const NextSection = () => {
                           </div>
                       
                           {/* <Link to="/AboutUs/OurPurpose"> */}
-                          <h3 className="title title--md">Our Purpose</h3>
+                          <h3 className="title title--md" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>Our Purpose</h3>
                           {/* </Link> */}
                           <a
                             href="/AboutUs/OurPurpose"
@@ -104,7 +118,7 @@ const NextSection = () => {
                             </div>
                           </div>
                           {/* <Link to="/OutsideClassroom/Sport">  */}
-                           <h3 className="title title--md">Sport</h3>
+                           <h3 className="title title--md" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>Sport</h3>
                            {/* </Link> */}
                           <a href="/OutsideClassroom/Sport" className="cover-link"></a>
                         </div>
@@ -123,7 +137,7 @@ const NextSection = () => {
                             target="blank"
                             className="cover-link"
                           >
-                             <h3 className="title title--md">Apply Online</h3>
+                             <h3 className="title title--md" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>Apply Online</h3>
                           </a>
                         </div>
                       </div>
