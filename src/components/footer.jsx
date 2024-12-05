@@ -48,7 +48,7 @@ const Footer = () => {
 												src="/assets/img/social/twitter_circle_stroke.svg"
 												alt="twitter Icon" />
 												</a>
-												<a href="https://www.instagram.com/ghskarachi?igsh=MTR6YnViMGNwemY0dg==" target="_blank"> 
+												<a href="https://www.instagram.com/ghskarachi/" target="_blank"> 
 												<img
 												src="/assets/img/social/instagram_circle_stroke.svg"
 												alt="instagram Icon" />
@@ -63,6 +63,9 @@ const Footer = () => {
 												src="/assets/img/social/linkedin_circle_stroke.svg"
 												alt="linkedin Icon" />
 												</a>
+												<a href="https://www.tiktok.com/@ghskarachi" target="_blank" style={{borderRadius:"50%",padding:"10px 12px",border:"2px solid white"}} className="">
+												<i className="fa-brands fa-tiktok fs-5 text-white"></i>
+												</a>
 									</div>
 								</div>
 								<div className="col-lg-8 offset-lg-1">
@@ -75,7 +78,9 @@ const Footer = () => {
 											<h3 className="title title--sm">Contact Us</h3>
 											<p>Global Hub School<br />
 											Hub Dam Road (5 KM from Hamdard University), Karachi, Sindh, Pakistan</p>
-											<p>(+92 ) 21 3644 0300</p>
+											<p>0300 8410040</p>
+											<p>0324 4717777</p>
+											<p>021 36440300</p>
 											<p><a
 													href="cdn-cgi/l/email-protection.html#10757e616579627975635075647f7e737f7c7c7577753e7f62773e657b"><span
 														className="__cf_email__"

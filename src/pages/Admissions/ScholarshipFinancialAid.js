@@ -26,7 +26,7 @@ const ScholarshipFinancialAid = () => {
                           >
                           <span className="breadcrumbs-separator"></span>
                           <span className="breadcrumb_last" aria-current="page"
-                            >Learning Support</span
+                            >Scholarship and Financial Aid</span
                           ></span
                         >
                       </p>

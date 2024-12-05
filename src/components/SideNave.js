@@ -231,6 +231,49 @@ const SideNave = () => {
               </ul>
             )}
           </li>
+          <div className="social-icons" style={{position:"absolute",bottom:"70px"}}>
+    <a href="https://x.com/ghskarachi?s=21&t=i_hlnbuZYNwkgAtrgNSrEQ" target="_blank" rel="noopener noreferrer">
+        <img
+            src="/assets/img/social/twitter_circle_stroke.svg"
+            alt="instagram Icon"
+            style={{ filter: "brightness(0) invert(0)" }}
+        />
+    </a>
+    <a href="https://www.instagram.com/ghskarachi/" target="_blank" rel="noopener noreferrer">
+        <img
+            src="/assets/img/social/instagram_circle_stroke.svg"
+            alt="instagram Icon"
+            style={{ filter: "brightness(0) invert(0)" }}
+        />
+    </a>
+    <a href="https://facebook.com/GHSKarachi/" target="_blank" rel="noopener noreferrer">
+        <img
+            src="/assets/img/social/facebook_circle_stroke.svg"
+            alt="facebook Icon"
+            style={{ filter: "brightness(0) invert(0)" }}
+        />
+    </a>
+    <a href="http://Linkedin.com/company/ghskarachi" target="_blank" rel="noopener noreferrer">
+        <img
+            src="/assets/img/social/linkedin_circle_stroke.svg"
+            alt="linkedin Icon"
+            style={{ filter: "brightness(0) invert(0)" }}
+        />
+    </a>
+    <a
+        href="https://www.tiktok.com/@ghskarachi"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+            borderRadius: "50%",
+            padding: "8px 13px",
+            border: "1px solid black",
+            display: "inline-block",
+        }}
+    >
+        <i className="fa-brands fa-tiktok" style={{ color: "black"}}></i>
+    </a>
+</div>
         </ul>
       </div>
     </>

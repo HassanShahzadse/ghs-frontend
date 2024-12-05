@@ -3,9 +3,11 @@ import NextSection from '../../components/NextSection'
 import Footer from '../../components/footer'
 import "../../components/footer.css"
 import AdmissionProcedure from './Procedure/AdmissionProcedure'
+import { useNavigate } from 'react-router-dom'
 
 
 const EntryToGHS = () => {
+  const navigate = useNavigate();
   return (
     
     <div id="content-wrap">
@@ -156,7 +158,30 @@ const EntryToGHS = () => {
               </blockquote> */}
 
               <p>Good luck with your application.</p>
-              
+              <p className="d-flex">
+              <a
+        href="/assets/GHS Boys Prospectus 2025-26.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mr-3  btn btn-primary"
+    >
+      <button className='px-5'>
+
+        <i className="fa-regular fa-file-pdf mr-3"></i> BOYS PROSPECTUS
+      </button>
+    </a>
+    <a
+        href="/assets/GHS Girls  Prospectus 2025-26.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-primary"
+    >
+      <button className='px-5'>
+
+        <i className="fa-regular fa-file-pdf mr-3"></i> GIRLS PROSPECTUS
+      </button>
+    </a>
+            </p>              
               <AdmissionProcedure/>
 
               <section className="image-with-statistic">
@@ -193,12 +218,12 @@ const EntryToGHS = () => {
                 >
               </p>
 
-              <h2 className="wp-block-heading">Prospectus</h2>
+              {/* <h2 className="wp-block-heading">Prospectus</h2>
 
               <img
                             decoding="async"
                             src="/assets/11/285821649_151499194114674_2299889885274654907_n.jpg"
-                            />
+                            /> */}
 
               <h2 className="wp-block-heading">Essential Information</h2>
 

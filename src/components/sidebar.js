@@ -131,6 +131,50 @@ const Sidebar = () => {
             </li>
           </ul>
         </div>
+        <div className="social-icons" style={{position:"absolute",bottom:"0px"}}>
+    <a href="https://x.com/ghskarachi?s=21&t=i_hlnbuZYNwkgAtrgNSrEQ" target="_blank" rel="noopener noreferrer">
+        <img
+            src="/assets/img/social/twitter_circle_stroke.svg"
+            alt="instagram Icon"
+            style={{ filter: "brightness(0) invert(0)" }}
+        />
+    </a>
+    <a href="https://www.instagram.com/ghskarachi/" target="_blank" rel="noopener noreferrer">
+        <img
+            src="/assets/img/social/instagram_circle_stroke.svg"
+            alt="instagram Icon"
+            style={{ filter: "brightness(0) invert(0)" }}
+        />
+    </a>
+    <a href="https://facebook.com/GHSKarachi/" target="_blank" rel="noopener noreferrer">
+        <img
+            src="/assets/img/social/facebook_circle_stroke.svg"
+            alt="facebook Icon"
+            style={{ filter: "brightness(0) invert(0)" }}
+        />
+    </a>
+    <a href="http://Linkedin.com/company/ghskarachi" target="_blank" rel="noopener noreferrer">
+        <img
+            src="/assets/img/social/linkedin_circle_stroke.svg"
+            alt="linkedin Icon"
+            style={{ filter: "brightness(0) invert(0)" }}
+        />
+    </a>
+    <a
+        href="https://www.tiktok.com/@ghskarachi"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+            borderRadius: "50%",
+            padding: "0px 9px",
+            border: "1px solid black",
+            display: "inline-block",
+        }}
+    >
+        <i className="fa-brands fa-tiktok" style={{ color: "black",fontSize:"12px" }}></i>
+    </a>
+</div>
+
       </nav>
       </div>
 
@@ -289,6 +333,7 @@ const Sidebar = () => {
             <li className="menu-item">
               <Link to="/SupportUs/ContactUs" onClick={closeMenu}>Contact Us</Link>
             </li>
+            
           </ul>
           <div className="back-button" >Back</div>
         </div>
