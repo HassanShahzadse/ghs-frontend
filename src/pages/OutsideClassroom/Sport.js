@@ -106,9 +106,9 @@ const Sport = () => {
                         >
                           Sport
                         </h1>
-                    <p className="intro">
+                    {/* <p className="intro">
                     Sports at GHS Karachi are more than just games—they are a cornerstone of our mission to develop balanced and disciplined individuals. Our extensive sports program allows students to engage in horse riding, cricket, football, swimming, basketball, tennis, and more, catering to both recreational players and competitive athletes.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </section>

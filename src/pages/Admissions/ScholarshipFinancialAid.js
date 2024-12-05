@@ -105,9 +105,9 @@ const ScholarshipFinancialAid = () => {
                             >
                               Scholarship & Financial  Aid
                             </h1>
-                        <p className="intro">
+                        {/* <p className="intro">
                         At GHS Karachi, we believe that financial constraints should never be a barrier to quality education. Our scholarships and financial aid programs provide support to talented and deserving students, allowing them to benefit from the opportunities we offer.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </section>

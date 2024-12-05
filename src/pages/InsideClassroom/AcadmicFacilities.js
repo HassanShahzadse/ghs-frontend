@@ -100,9 +100,9 @@ const AcadmicFacilities = () => {
                         >
                           Academic Facilities
                         </h1>
-                    <p className="intro p-3">
+                    {/* <p className="intro p-3">
                     An exceptional education begins with a carefully crafted curriculum, and at Global Hub School Karachi, ours is designed to provide a strong foundation for academic and personal growth. With numerous subjects to explore, our curriculum challenges students to think critically, question creatively, and engage deeply with their studies.
-                    </p>
+                    </p> */}
                   </div>
               </section>
 

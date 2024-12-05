@@ -106,9 +106,9 @@ const CommunityEngagement = () => {
                         >
                           Community Engagement
                         </h1>
-                    <p className="intro">
+                    {/* <p className="intro">
                     GHS Karachi is deeply committed to instilling a sense of social responsibility in our students. Through community engagement programs, students have the opportunity to make a real difference while developing empathy and leadership skills.
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </section>

@@ -103,9 +103,9 @@ const WaysToSupport = () => {
                         >
                         Ways to Support
                         </h1>
-                    <p className="intro">
+                    {/* <p className="intro">
                     There are many meaningful ways to support the Global Hub School Karachi and make a lasting difference in the lives of our students:
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </section>

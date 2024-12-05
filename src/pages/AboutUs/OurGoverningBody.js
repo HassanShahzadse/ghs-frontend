@@ -88,10 +88,10 @@ const OurGoverningBody = () => {
                   <h1 className="banner__title title color-white ">
                           Our Governing Body
                         </h1>
-                    <p className="intro">
+                    {/* <p className="intro">
                       The Governing Body of GHS is known as ‘the
                       Provost and Fellows’
-                    </p>
+                    </p> */}
                   </div>
                  
                 </section>
