@@ -1,6 +1,4 @@
 import React from 'react'
-import NextSection from '../../components/NextSection'
-import Footer from '../../components/footer'
 import "../../components/footer.css"
 
 
@@ -63,8 +61,8 @@ const OurHistory = () => {
                     alt="Image"
                     style={{
                       width: "100%",
-                      height: "700px",
-                      objectFit: "cover",
+                      height: "auto",
+                      objectFit: "fill",
                     }}
                   />
                       {/* <div

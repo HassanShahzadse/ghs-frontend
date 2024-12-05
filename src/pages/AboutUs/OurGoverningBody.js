@@ -64,7 +64,7 @@ const OurGoverningBody = () => {
                     style={{
                       width: "100%",
                       height: "auto",
-                      objectFit: "cover",
+                      objectFit: "fill",
                     }}
                   />
                      

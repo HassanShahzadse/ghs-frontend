@@ -116,7 +116,7 @@ const ScrollingDivs = () => {
                     <div className="banner__container banner--desktop js-home-banner-container">
                       <div className="banner-col-1">
                         <div className="banner-text js-home-banner-text">
-                          <h1>GHS Karachi.</h1>
+                          <h1 style={{ fontFamily: "'Nunito Sans', sans-serif" }}>GHS Karachi.</h1>
                         </div>
                         <div className="banner--column banner--column-1 js-home-banner-col-1">
                           <div className="banner__image landscape">
@@ -311,7 +311,7 @@ const ScrollingDivs = () => {
                       </div>
 
                       <div className="banner-col-3">
-                        <div className="banner-text js-home-banner-text">
+                        <div className="banner-text js-home-banner-text" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                           Onwards & Upwards.
                         </div>
                         <div className="banner--column banner--column-3 js-home-banner-col-3">
