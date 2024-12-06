@@ -166,7 +166,7 @@ const Sidebar = () => {
         rel="noopener noreferrer"
         style={{
             borderRadius: "50%",
-            padding: "0px 9px",
+            padding: "2px 9px",
             border: "1px solid black",
             display: "inline-block",
         }}
