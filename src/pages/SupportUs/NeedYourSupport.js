@@ -1,11 +1,22 @@
-import React from 'react'
-import NextSection from '../../components/NextSection'
-import Footer from '../../components/footer'
+import React, { useEffect, useState } from 'react'
 import "../../components/footer.css"
 
 const NeedYourSupport = () => {
+  const [imageHeight, setImageHeight] = useState("auto");
+  useEffect(() => {
+    const updateImageHeight = () => {
+      if (window.innerWidth >= 768) {
+        setImageHeight("720px");
+      } else {
+        setImageHeight("auto");
+      }
+    };
+    updateImageHeight();
+    window.addEventListener("resize", updateImageHeight);
+    return () => window.removeEventListener("resize", updateImageHeight);
+  }, []);
     return (
-        <div id="content-wrap">
+        <div id="content-wrap" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
         <main className="main">
           <div className="container-fluid">
             <div className="row">
@@ -30,85 +41,29 @@ const NeedYourSupport = () => {
                         >
                       </p>
                     </div>
-                    <div className="banner__blue-bar banner__blue-bar--first">
-                      <div className="blue-bar-hidden">
-                        <div className="slide-up slide-up--static">
-                          <div>
-                            <span>
-                              <h1
-                                className="banner__title title color-white title--xl2"
-                              >
-                              Why We Need Your Support
-                              </h1>
-                            </span>
-                          </div>
-                        </div>
-                        <div
-                          className="banner__intro background-primary color-white"
-                        >
-                          <p className="intro">
-                          Education is the foundation upon which individuals and communities build brighter futures. At Global Hub School Karachi, we are dedicated to providing a world-class education to students who may not otherwise have access to such opportunities. However, as a charity school, achieving this vision requires the unwavering support of generous donors like you.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
                     <div className="container make-full-width">
                       <div className="row">
                         <div
-                          className="image-container js-image-move grey-background"
-                          // style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
-    >
+                          className="image-container js-image-move grey-background"    >
        <img
     src="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
     alt="Image"
     style={{
       width: "100%",
-      height: "auto",
+      height: imageHeight,
       objectFit: "cover",
     }}
   />
-                          {/* <div
-                            className="fadeIn js-image-move__inner"
-                            data-src="https://www.GHScollege.com/wp-content/uploads/2023/10/GHS-23-50-2000x1333.jpg"
-                          ></div> */}
                         </div>
-    
-                        <div className="col-md-10 offset-md-2"></div>
                       </div>
                     </div>
-                    <div className="banner__block">
-                      <div
-                        className=" animate-deactive"
-                      >
-                        <div className="pillar background-lgrey"></div>
-                      </div>
-                      <div className="banner__block__inner background-lgrey"></div>
-                    </div>
-    
-                    <div className="banner__blue-bar">
-    
-                      {/* <div className="slide-up slide-up--static">
-                        <div>
-                          <span>
-                            <h1
-                              className="banner__title title color-white title--xl2"
-                            >
-                             Need your Support
-                            </h1>
-                          </span>
-                        </div>
-                      </div> */}
-                      <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                      <div className="background-primary color-white" style={{paddingLeft:"10px" ,paddingBottom:"20px"}}>
                       <h1
                               className="banner__title title color-white title--xl2"
                             >
                             Why We Need Your Support
                             </h1>
-                        {/* <p className="intro">
-                        Education is the foundation upon which individuals and communities build brighter futures. At Global Hub School Karachi, we are dedicated to providing a world-class education to students who may not otherwise have access to such opportunities. However, as a charity school, achieving this vision requires the unwavering support of generous donors like you.
-                        </p> */}
                       </div>
-                    </div>
                   </section>
     
                   <div className="breadcrumbs-mobile">

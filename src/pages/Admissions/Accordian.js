@@ -7,7 +7,7 @@ const Accordion = () => {
   };
 
   return (
-    <div style={{ margin: "20px 0" }}>
+    <div style={{ margin: "20px 0" ,fontFamily: "'Nunito Sans', sans-serif" }}>
       {/* Accordion Item 1 */}
       <div style={{ marginBottom: "10px", borderBottom: "1px solid #ccc" }}>
         <div

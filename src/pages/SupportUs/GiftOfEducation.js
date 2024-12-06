@@ -1,11 +1,22 @@
-import React from 'react'
-import NextSection from '../../components/NextSection'
-import Footer from '../../components/footer'
+import React, { useEffect, useState } from 'react'
 import "../../components/footer.css"
 
 const GiftOfEducation = () => {
+  const [imageHeight, setImageHeight] = useState("auto");
+  useEffect(() => {
+    const updateImageHeight = () => {
+      if (window.innerWidth >= 768) {
+        setImageHeight("720px");
+      } else {
+        setImageHeight("auto");
+      }
+    };
+    updateImageHeight();
+    window.addEventListener("resize", updateImageHeight);
+    return () => window.removeEventListener("resize", updateImageHeight);
+  }, []);
     return (
-        <div id="content-wrap">
+        <div id="content-wrap" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
         <main className="main">
           <div className="container-fluid">
             <div className="row">
@@ -30,84 +41,29 @@ const GiftOfEducation = () => {
                         >
                       </p>
                     </div>
-                    <div className="banner__blue-bar banner__blue-bar--first">
-                      <div className="blue-bar-hidden">
-                        <div className="slide-up slide-up--static">
-                          <div>
-                            <span>
-                              <h1
-                                className="banner__title title color-white title--xl2"
-                              >
-                                Gift of education
-                              </h1>
-                            </span>
-                          </div>
-                        </div>
-                        <div
-                          className="banner__intro background-primary color-white"
-                        >
-                          <p className="intro">
-                          When you invest in education, you invest in the future. By making a significant contribution, such as funding an academic block, a library, or a sports facility, you leave behind a legacy that shapes countless young lives
-                          </p>
-                        </div>
-                      </div>
-                    </div>
                     <div className="container make-full-width">
                       <div className="row">
                         <div
                           className="image-container js-image-move grey-background"
-                          // style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
     >        <img
     src="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
     alt="Image"
     style={{
       width: "100%",
-      height: "auto",
+      height: imageHeight,
       objectFit: "cover",
     }}
   />
-                          {/* <div
-                            className="fadeIn js-image-move__inner"
-                            data-src="https://www.etoncollege.com/wp-content/uploads/2023/10/eton-23-50-2000x1333.jpg"
-                          ></div> */}
                         </div>
-    
-                        <div className="col-md-10 offset-md-2"></div>
                       </div>
                     </div>
-                    <div className="banner__block">
-                      <div
-                        className=" animate-deactive"
-                      >
-                        <div className="pillar background-lgrey"></div>
-                      </div>
-                      <div className="banner__block__inner background-lgrey"></div>
-                    </div>
-    
-                    <div className="banner__blue-bar">
-{/*     
-                      <div className="slide-up slide-up--static">
-                        <div>
-                          <span>
-                            <h1
-                              className="banner__title title color-white title--xl2"
-                            >
-                             Gift of education
-                            </h1>
-                          </span>
-                        </div>
-                      </div> */}
-                      <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                      <div className="background-primary color-white" style={{paddingLeft:"10px" , paddingBottom:"20px"}}>
                       <h1
                               className="banner__title title color-white title--xl2"
                             >
                              Gift of Education
                             </h1>
-                        {/* <p className="intro">
-                        When you invest in education, you invest in the future. By making a significant contribution, such as funding an academic block, a library, or a sports facility, you leave behind a legacy that shapes countless young lives
-                        </p> */}
                       </div>
-                    </div>
                   </section>
     
                   <div className="breadcrumbs-mobile">
@@ -155,68 +111,7 @@ const GiftOfEducation = () => {
                       </div>
                     </div>
                   </section>
-    
-                  {/* <p>
-                    Boys that require further intervention can also either be
-                    assessed on-site by one of our specialist teachers or they
-                    can be referred to one of our highly respected, outside
-                    agency professionals.&nbsp; The department also oversees and
-                    monitors all access arrangements for internal and public
-                    examinations, and works closely with the Deputy Head
-                    (Academic) and the Exams Officer.&nbsp; All access
-                    arrangements put into place stringently follow the JCQ and
-                    CIE guidelines.
-                  </p> */}
-    
-                  <p></p>
-    
-                  {/* <blockquote
-                    className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                  >
-                    <p>
-                      Pupils with SEND also make excellent progress in line with
-                      their peers as a result of the additional support they
-                      receive.
-                    </p>
-                    <cite>ISI inspection, December 2021</cite>
-                  </blockquote>
-    
-                  <p>
-                    The department comprises a Head of Learning Support (the
-                    Special Educational Needs Coordinator), a Deputy Head of
-                    Learning Support, two full-time learning support teachers
-                    and two part-time learning support teachers.&nbsp; All staff
-                    within the department have undergone a range of degrees and
-                    specialist qualifications relating to Special Educational
-                    Needs and Disabilities. The department continues to study
-                    and develop with regards to SEND, just as the boys do that
-                    we teach.
-                  </p>
-    
-                  <p>
-                    Communication with parents and carers is also vital to the
-                    development of a boy&#8217;s learning profile and the
-                    department welcomes the input.&nbsp; Even before a boy joins
-                    GHS, such communication is urged so we can ensure the
-                    appropriate support is in place from the first day they move
-                    in.&nbsp;&nbsp;&nbsp;
-                  </p>
-    
-                  <p>
-                    Further information regarding Special Educational Needs and
-                    Disabilities can be found in our
-                    <a
-                      href="../../about-us/policies-and-reports/index.html"
-                      data-type="20"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      >SEND Policy</a
-                    >.
-                  </p>
-     */}
                   </article>
-                  
-                  
                 </div>
                 </div>
                 </div>
@@ -224,5 +119,5 @@ const GiftOfEducation = () => {
         </div>
       )
     }
-    
+
 export default GiftOfEducation

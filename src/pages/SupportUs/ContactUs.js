@@ -1,18 +1,28 @@
-import React from "react";
-import NextSection from "../../components/NextSection";
-import Footer from "../../components/footer";
+import React, { useEffect, useState } from "react";
 import "../../components/footer.css"
 
 const ContactUs = () => {
+  const [imageHeight, setImageHeight] = useState("auto");
+  useEffect(() => {
+    const updateImageHeight = () => {
+      if (window.innerWidth >= 768) {
+        setImageHeight("720px");
+      } else {
+        setImageHeight("auto");
+      }
+    };
+    updateImageHeight();
+    window.addEventListener("resize", updateImageHeight);
+    return () => window.removeEventListener("resize", updateImageHeight);
+  }, []);
   return (
-    <div id="content-wrap">
+    <div id="content-wrap" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
       <main className="main">
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">
               <article
-                className="
-                                                                    "
+                className=" "
               >
                 <section className="banner">
                   <div className="breadcrumbs-desktop">
@@ -30,79 +40,28 @@ const ContactUs = () => {
                       </span>
                     </p>
                   </div>
-                  <div className="banner__blue-bar banner__blue-bar--first">
-                    <div className="blue-bar-hidden">
-                      <div className="slide-up slide-up--static">
-                        <div>
-                          <span>
-                            <h1 className="banner__title title color-white title--xl2">
-                              Contact Us
-                            </h1>
-                          </span>
-                        </div>
-                      </div>
-                      <div className="banner__intro background-primary color-white">
-                        <p className="intro">
-                        We would love to hear from you! For more information on how you can support GHS Karachi or to discuss collaboration or partnership opportunities, please get in touch with us.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
                   <div className="container make-full-width">
                     <div className="row">
                       <div
                         className="image-container js-image-move grey-background"
-                        // style={{
-                        //   backgroundImage:
-                        //     "url(../../../../../assets/11/IMG_0100.JPG)",
-                        // }}
                       >
                                         <img
                     src="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
                     alt="Image"
                     style={{
                       width: "100%",
-                      height: "auto",
+                      height: imageHeight,
                       objectFit: "cover",
                     }}
                   />
-                        {/* <div
-                          className="fadeIn js-image-move__inner"
-                          data-src="https://www.etoncollege.com/wp-content/uploads/2023/11/115531_2_1-1.jpg"
-                        ></div> */}
                       </div>
-
-                      <div className="col-md-10 offset-md-2"></div>
                     </div>
                   </div>
-                  <div className="banner__block">
-                    <div className=" animate-deactive">
-                      <div className="pillar background-lgrey"></div>
-                    </div>
-                    <div className="banner__block__inner background-lgrey"></div>
-                  </div>
-
-                  <div className="banner__blue-bar">
-                    <div className="pillar background-secondary"></div>
-
-                    {/* <div className="slide-up slide-up--static">
-                      <div>
-                        <span>
-                          <h1 className="banner__title title color-white title--xl2">
-                            Contact Us
-                          </h1>
-                        </span>
-                      </div>
-                    </div> */}
-                    <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                    <div className="background-primary color-white" style={{paddingLeft:"10px" , paddingBottom:"20px"}}>
                     <h1 className="banner__title title color-white title--xl2">
                             Contact Us
                           </h1>
-                      {/* <p className="intro">
-                      We would love to hear from you! For more information on how you can support GHS Karachi or to discuss collaboration or partnership opportunities, please get in touch with us.
-                      </p> */}
                     </div>
-                  </div>
                 </section>
 
                 <div className="breadcrumbs-mobile">
@@ -311,8 +270,6 @@ const ContactUs = () => {
                   </div>
                 </div>
               </article>
-              
-              
             </div>
           </div>
         </div>

@@ -7607,8 +7607,8 @@ img.responsive {
       .banner .image-container {
         width: 100%; } }
   .banner .make-full-width {
-    padding: 0;
-    width: 100%;
+    /* padding: 0;
+    width: 100%; */
     max-width: 100%; }
     .banner .make-full-width .animate-wrapper {
       position: absolute;

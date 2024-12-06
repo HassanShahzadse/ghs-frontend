@@ -1,7 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "../../components/footer.css"
 
 const CoCurriculum = () => {
+  const [imageHeight, setImageHeight] = useState("auto");
+  useEffect(() => {
+    const updateImageHeight = () => {
+      if (window.innerWidth >= 768) {
+        setImageHeight("720px");
+      } else {
+        setImageHeight("auto");
+      }
+    };
+    updateImageHeight();
+    window.addEventListener("resize", updateImageHeight);
+    return () => window.removeEventListener("resize", updateImageHeight);
+  }, []);
   return (
 
       <div id="content-wrap">
@@ -39,7 +52,7 @@ const CoCurriculum = () => {
                     alt="Image"
                     style={{
                       width: "100%",
-                      height: "auto",
+                      height: imageHeight,
                       objectFit: "cover",
                     }}
                   />

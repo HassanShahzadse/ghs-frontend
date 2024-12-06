@@ -1,16 +1,24 @@
-import React from 'react'
-import NextSection from '../../components/NextSection'
-import Footer from '../../components/footer'
+import React, { useEffect, useState } from 'react'
 import "../../components/footer.css"
 import AdmissionProcedure from './Procedure/AdmissionProcedure'
-import { useNavigate } from 'react-router-dom'
 
 
 const EntryToGHS = () => {
-  const navigate = useNavigate();
+  const [imageHeight, setImageHeight] = useState("auto");
+  useEffect(() => {
+    const updateImageHeight = () => {
+      if (window.innerWidth >= 768) {
+        setImageHeight("720px");
+      } else {
+        setImageHeight("auto");
+      }
+    };
+    updateImageHeight();
+    window.addEventListener("resize", updateImageHeight);
+    return () => window.removeEventListener("resize", updateImageHeight);
+  }, []);
   return (
-    
-    <div id="content-wrap">
+    <div id="content-wrap" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
     <main className="main">
       <div className="container-fluid">
         <div className="row">
@@ -35,76 +43,24 @@ const EntryToGHS = () => {
                     >
                   </p>
                 </div>
-                <div className="banner__blue-bar banner__blue-bar--first">
-                  <div className="blue-bar-hidden">
-                    <div className="slide-up slide-up--static">
-                      <div>
-                        <span>
-                          <h1
-                            className="banner__title title color-white title--xl2"
-                          >
-                            Entry to GHS 
-                          </h1>
-                        </span>
-                      </div>
-                    </div>
-                    <div
-                      className="banner__intro background-primary color-white"
-                    >
-                      <p className="intro">
-                      Applying to GHS Karachi is a straightforward process designed to evaluate students’ academic capabilities, character, and passion for learning. Applicants are required to complete an online form and submit relevant documentation for review before appearing for an online test.
-                      </p>
-                    </div>
-                  </div>
-                </div>
                 <div className="container make-full-width">
                   <div className="row">
                     <div
                       className="image-container js-image-move grey-background"
-                      // style={{backgroundImage:"url(../../../../../assets/11/IMG_0100.JPG)"}}
                     >
                       <img
                     src="/assets/11/461982838_3683986398514819_5431606055278620223_n.jpg"
                     alt="Image"
                     style={{
                       width: "100%",
-                      height: "auto",
+                      height: imageHeight,
                       objectFit: "cover",
                     }}
                   />
-                      {/* <div
-                        className="fadeIn js-image-move__inner"
-                        data-src="https://www.etoncollege.com/wp-content/uploads/2024/02/20240131145115-2-32.2-2000x1333.jpg"
-                      ></div> */}
                     </div>
-
-                    <div className="col-md-10 offset-md-2"></div>
                   </div>
                 </div>
-                <div className="banner__block">
-                  <div
-                    className=" animate-deactive"
-                  >
-                    <div className="pillar background-lgrey"></div>
-                  </div>
-                  <div className="banner__block__inner background-lgrey"></div>
-                </div>
-
-                <div className="banner__blue-bar">
-          {/* <div className="pillar background-secondary"></div> */}
-
-                  {/* <div className="slide-up slide-up--static">
-                    <div>
-                      <span>
-                        <h1
-                          className="banner__title title color-white title--xl2"
-                        >
-                          Entry to GHS 
-                        </h1>
-                      </span>
-                    </div>
-                  </div> */}
-                  <div className="banner__intro background-primary color-white" style={{paddingLeft:"10px" }}>
+                  <div className="background-primary color-white" style={{paddingLeft:"10px" ,paddingBottom:"20px"}}>
                   <h1
                           className="banner__title title color-white title--xl2"
                         >
@@ -112,7 +68,6 @@ const EntryToGHS = () => {
                         </h1>
                  
                   </div>
-                </div>
               </section>
 
               <div className="breadcrumbs-mobile">
@@ -135,51 +90,25 @@ const EntryToGHS = () => {
               <p>
               Once shortlisted, students are invited to participate in assessments or interviews, allowing us to get to know them better. This personalized approach ensures that every student is evaluated fairly and holistically.              </p>
 
-
-              {/* <p>
-                GHS is committed to supporting boys with disabilities and
-                also has a 
-                Learning Support Centre
-                &nbsp;for boys with special educational needs and
-                disabilities.
-              </p> */}
-
-              <p></p>
-
-              {/* <blockquote
-                className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-              >
-                <p>
-                  Foremost among the many factors which contribute to
-                  pupils&#8217; excellent progress and very high standards
-                  is the high quality of the teaching they receive.
-                </p>
-                <cite>ISI inspection, December 2021</cite>
-              </blockquote> */}
-
               <p>Good luck with your application.</p>
               <p className="d-flex">
               <a
         href="/assets/GHS Boys Prospectus 2025-26.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="md:mr-3 mr-2  btn btn-primary"
+        className="button md:mr-3 mr-2  btn btn-primary"
     >
-      <button className='md:px-5 px-2'>
 
         <i className="fa-regular fa-file-pdf md:mr-3 mr-1"></i> BOYS PROSPECTUS
-      </button>
     </a>
     <a
         href="/assets/GHS Girls  Prospectus 2025-26.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="btn btn-primary"
+        className="button btn btn-primary"
     >
-      <button className='md:px-5 px-2'>
 
         <i className="fa-regular fa-file-pdf md:mr-3 mr-1"></i> GIRLS PROSPECTUS
-      </button>
     </a>
             </p>              
               <AdmissionProcedure/>
@@ -218,13 +147,6 @@ const EntryToGHS = () => {
                 >
               </p>
 
-              {/* <h2 className="wp-block-heading">Prospectus</h2>
-
-              <img
-                            decoding="async"
-                            src="/assets/11/285821649_151499194114674_2299889885274654907_n.jpg"
-                            /> */}
-
               <h2 className="wp-block-heading">Essential Information</h2>
 
               <p>
@@ -235,7 +157,6 @@ const EntryToGHS = () => {
               </p>
 
               <div
-                // style="height: 30px"
                 aria-hidden="true"
                 className="wp-block-spacer"
               ></div>
@@ -257,8 +178,6 @@ const EntryToGHS = () => {
               </p>
 
               </article>
-              
-              
               </div>
             </div>
           </div>

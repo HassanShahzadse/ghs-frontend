@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AdmissionProcedure = () => {
   return (
-    <div className="container admission-container" style={{marginTop:"50px"}}>
+    <div className="container admission-container" style={{marginTop:"50px" ,fontFamily: "'Nunito Sans', sans-serif" }}>
       <h1 className="admission-heading fs-3">Admission Procedure</h1>
       <div className="procedure-list">
         <div>1. Online Registration</div>
@@ -25,7 +25,7 @@ const AdmissionProcedure = () => {
         </div>
         <div className="scholarship-section">
           <h2>Looking For Scholarships?</h2>
-          <Link to="/Admissions/ScholarshipFinancialAid"><button className="scholarship-buttonsss px-5" >Fees & Scholarships</button></Link>
+          <Link className="button" to="/Admissions/ScholarshipFinancialAid">Fees & Scholarships</Link>
         </div>
       </div>
 

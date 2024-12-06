@@ -1,12 +1,10 @@
 import React from "react";
-import NextSection from "../../components/NextSection";
-import Footer from "../../components/footer";
 import "../../components/footer.css"
 
 
 const ContactDetails = () => {
   return (
-    <div id="content-wrap">
+    <div id="content-wrap" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
       <main className="main">
         <div className="container-fluid py-md-5 py-3">
           <div className="row">

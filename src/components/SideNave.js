@@ -201,7 +201,7 @@ const SideNave = () => {
               </Link>
             </li>
             <li>
-              <Link to="/SupportUs/WaysToSupport" onClick={closeMenu}>Ways to Suport</Link>
+              <Link to="/SupportUs/WaysToSupport" onClick={closeMenu}>Ways to Support</Link>
             </li>
             <li>
               <Link to="/SupportUs/GiftOfEducation" onClick={closeMenu}>The Gift of Education</Link>
