@@ -8,7 +8,7 @@ const ScrollingDivs = () => {
   const banners = [
     {
       imageSrc:
-        "/assets/11/277148812_130958129502114_7861657689476040255_n.jpg",
+        "/assets/11/un.png",
       alt: "Image description",
       link: "OutsideClassroom/Boarding",
       description: "Boarding nurtures personal growth and",
@@ -17,21 +17,21 @@ const ScrollingDivs = () => {
     },
     {
       imageSrc:
-        "/assets/11/275054573_122711713660089_1312944415058859257_n.jpg",
+        "/assets/11/447428859_871318545031272_3584749452741300615_n.jpg",
       alt: "Image description",
       link: "OutsideClassroom/Sport",
-      description: "An unparalleled",
-      highlight: "breadth of sport on offer",
-      category: "Sport",
+      description: "Championing ",
+      highlight: "Athletic Spirit",
+      category: "Sports",
     },
     {
       imageSrc:
-        "/assets/11/265025219_2949755348604598_8252143876884700374_n.jpg",
+        "/assets/11/441068841_857863996376727_8535097873388575013_n.jpg",
       alt: "Image description",
       link: "OutsideClassroom/CoCurriculum",
-      description: "World class",
-      highlight: "performance venues",
-      category: "Music",
+      description: "Curiosity-driven",
+      highlight: "minds,growing through every stage.",
+      category: "Lifelong Learners",
     },
     {
       imageSrc:
@@ -44,17 +44,16 @@ const ScrollingDivs = () => {
     },
     {
       imageSrc:
-        "/assets/11/176299917_2788094574770677_7086346180454366200_n.jpg",
+        "/assets/11/464867546_990906286405830_497001862446222814_n.jpg",
       alt: "Image description",
       link: "OutsideClassroom/CoCurriculum",
-      description:
-        "80+ societies run regular lectures, workshops and seminars with",
-      highlight: "world-renowned experts",
-      category: "Societies",
+      description:"With 40+ clubs and societies, fostering passion",
+      highlight: "leadership, and personal growth",
+      category: "Co-Curriculum at GHS",
     },
     {
       imageSrc:
-        "/assets/11/176074127_2788094911437310_1793668116840003786_n.jpg",
+        "/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg",
       alt: "Image description",
       link: "InsideClassroom/AcadmicFacilities",
       description: "Fostering a lifelong appreciation of",
@@ -123,20 +122,20 @@ const ScrollingDivs = () => {
                             <a href="/OutsideClassroom/Sport" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/DSC_2159.JPG"
+                                src="/assets/11/447428859_871318545031272_3584749452741300615_n.jpg"
                                 alt="Image description"
                               />
 
                               <div className="banner__image--hover">
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
-                                    An unparalleled
+                                  Championing 
                                     <span className="text-secondary"  style={{marginLeft: "0.2em"}}>
-                                      breadth of sport on offer
+                                    Athletic Spirit
                                     </span>
                                   </p>
                                   <div className="bottom">
-                                    <p>Sport</p>
+                                    <p>Sports</p>
                                   </div>
                                 </div>
                               </div>
@@ -170,19 +169,19 @@ const ScrollingDivs = () => {
                             <a href="/OutsideClassroom/CoCurriculum" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/DSC_4385.JPG"
+                                src="/assets/11/441068841_857863996376727_8535097873388575013_n.jpg"
                                 alt="Image description"
                               />
                               <div className="banner__image--hover">
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
-                                    World class
+                                  Curiosity-driven
                                     <span className="text-secondary" style={{marginLeft: "0.2em"}}>
-                                      performance venues
+                                    minds,growing through every stage.
                                     </span>
                                   </p>
                                   <div className="bottom">
-                                    <p>Music</p>
+                                    <p>Lifelong Learners</p>
                                   </div>
                                 </div>
                               </div>
@@ -193,19 +192,19 @@ const ScrollingDivs = () => {
                             <a href="/AboutUs/OurHistory" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/DSC_2159.JPG "
+                                src="/assets/11/Hompage Slider - Girls.jpg"
                                 alt="Image description"
                               />
                               <div className="banner__image--hover">
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
-                                    Cherishing our
+                                    Empowering students 
                                     <span className="text-secondary" style={{marginLeft: "0.2em"}}>
-                                      traditions and heritage
+                                    to become tomorrow's leaders
                                     </span>
                                   </p>
                                   <div className="bottom">
-                                    <p>Museums and Collections</p>
+                                    <p>Leaders of Tomorrow</p>
                                   </div>
                                 </div>
                               </div>
@@ -220,7 +219,7 @@ const ScrollingDivs = () => {
                             <a href="/OutsideClassroom/CommunityEngagement" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/71518606_2324152407831565_4640834380917374976_n.jpg"
+                                src="/assets/11/461968913_3684004521846340_906275821340010015_n.jpg"
                                 alt="Image description"
                               />
                               <div className="banner__image--hover">
@@ -243,7 +242,7 @@ const ScrollingDivs = () => {
                             <a href="/OutsideClassroom/EnvironmentalEducation" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/462131386_3683986411848151_2259247329909775880_n.jpg"
+                                src="/assets/11/90172896_2479257448987726_2746791719352664064_n.jpg"
                                 alt="Image description"
                               />
                               <div className="banner__image--hover">
@@ -266,7 +265,7 @@ const ScrollingDivs = () => {
                             <a href="/AboutUs/OurPurpose" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg"
+                                src="/assets/11/176550934_2788094451437356_5384273365940172592_n.jpg"
                                 alt="Image description"
                               />
                               <div className="banner__image--hover">
@@ -289,7 +288,7 @@ const ScrollingDivs = () => {
                             <a href="/OutsideClassroom/Boarding" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/461960192_3683991158514343_4451415336598492767_n.jpg"
+                                src="/assets/11/un.png"
                                 alt="Image description"
                               />
                               <div className="banner__image--hover">
@@ -319,21 +318,20 @@ const ScrollingDivs = () => {
                             <a href="/OutsideClassroom/CommunityEngagement" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/414482271_390719683519003_6561115105494497189_n.jpg"
+                                src="/assets/11/464867546_990906286405830_497001862446222814_n.jpg"
                                 alt="Image description"
                                 sizes="(max-width: 1024px) 100vw, 1024px"
                               />
                               <div className="banner__image--hover">
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
-                                    80+ societies run regular lectures,
-                                    workshops and seminars with
+                                  With 40+ clubs and societies, fostering passion,
                                     <span className="text-secondary" style={{marginLeft: "0.2em"}}>
-                                      world-renowned experts
+                                    leadership, and personal growth
                                     </span>
                                   </p>
                                   <div className="bottom">
-                                    <p>Societies</p>
+                                    <p>Co-Curriculum at GHS</p>
                                   </div>
                                 </div>
                               </div>
@@ -344,19 +342,19 @@ const ScrollingDivs = () => {
                             <a href="/AboutUs/OurStrategy" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/301027547_172020865395840_3346290675082538010_n.jpg"
+                                src="/assets/11/418152059_799137295582731_343385202662830228_n.jpg"
                                 alt="Image description"
                               />
                               <div className="banner__image--hover">
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
-                                    Ambitious cross-sector
-                                    <span className="text-secondary" style={{marginLeft: "0.2em"}}>
-                                      collaboration and research
+                                  Engaging in events 
+                                  <span className="text-secondary" style={{marginLeft: "0.2em"}}>
+                                  that inspire connections and celebrate diversity.
                                     </span>
                                   </p>
                                   <div className="bottom">
-                                    <p>Partnerships</p>
+                                    <p>Vibrant Campus Life</p>
                                   </div>
                                 </div>
                               </div>
@@ -367,19 +365,19 @@ const ScrollingDivs = () => {
                             <a href="/InsideClassroom/AcadmicFacilities" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/300504071_172020888729171_3528704732704868454_n.jpg"
+                                src="/assets/11/417418234_794902259339568_481177711424559643_n.jpg"
                                 alt="Image description"
                               />
                               <div className="banner__image--hover">
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
-                                    Building partnerships hubs and
+                                  Empowering students 
                                     <span className="text-secondary" style={{marginLeft: "0.2em"}}>
-                                      three sixth form colleges
+                                    to imagine, innovate, and create.
                                     </span>
                                   </p>
                                   <div className="bottom">
-                                    <p>GHS Schools Programme</p>
+                                    <p>Fostering Creative Minds</p>
                                   </div>
                                 </div>
                               </div>
@@ -390,19 +388,19 @@ const ScrollingDivs = () => {
                             <a href="/OutsideClassroom/PastoralCare" className="banner__image--link">
                               <img
                                 decoding="async"
-                                src="/assets/11/285821649_151499194114674_2299889885274654907_n.jpg"
+                                src="/assets/11/461848694_3683395301907262_9150366868156804753_n.jpg"
                                 alt="Image description"
                               />
                               <div className="banner__image--hover">
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
-                                    Exceptional pastoral care is at
+                                  Nurturing minds 
                                     <span className="text-secondary" style={{marginLeft: "0.2em"}}>
-                                      the heart of an GHSeducation
+                                    and hearts for lasting growth.
                                     </span>
                                   </p>
                                   <div className="bottom">
-                                    <p>Pastoral Care</p>
+                                    <p>Student Wellbeing</p>
                                   </div>
                                 </div>
                               </div>
