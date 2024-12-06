@@ -10,7 +10,7 @@ const ScholarshipFinancialAid = () => {
           <div className="row">
             <div className="col-12">
               <article className=" ">
-              <Banner
+                <Banner
                   breadcrumbs={[
                     { label: "Home", url: "/" },
                     { label: "Scholarship and Financial Aid" },
@@ -43,6 +43,21 @@ const ScholarshipFinancialAid = () => {
                   every student, regardless of their financial circumstances. To
                   learn more about eligibility and the application process,
                   contact our admissions team for personalized assistance.
+                </p>
+                <p>
+                  <strong>
+                    Get in touch now to speak about how Global Hub School
+                    Karachi is making quality education affordable for everyone:
+                  </strong>
+                  <h5 style={{fontWeight:"bold", paddingTop:"20px"}}>Mobile Numbers:</h5>
+
+                <a href="tel:+92 324 4717777">
+                  <p>+92 324 4717777</p>
+                </a>
+                <h5 style={{fontWeight:"bold"}}>For General Queries:</h5>
+                <a href="mailto:info@ghskarachi.com">
+                  <p>info@ghskarachi.com</p>
+                </a>
                 </p>
 
                 <section className="image-with-statistic">

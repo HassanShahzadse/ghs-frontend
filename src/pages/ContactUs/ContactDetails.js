@@ -30,7 +30,7 @@ const ContactDetails = () => {
                             <div>
                             <h3 className="title title--md">Contact Details</h3>
                             <hr />
-                            <h6 style={{fontWeight:"bold"}}>Mobile Numbers</h6>
+                            <h6 style={{fontWeight:"bold"}}>Mobile Numbers:</h6>
                             <a href="tel:0300 8410040">  <p>0300 8410040</p> </a>
                             <a href="tel:0324 4717777"><p>0324 4717777</p> </a>
     </div>

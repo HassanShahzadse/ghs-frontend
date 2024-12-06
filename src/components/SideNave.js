@@ -152,7 +152,7 @@ const SideNave = () => {
                 </li>
                 <li>
                   <Link to="/InsideClassroom/ExamResults" onClick={closeMenu}>
-                    Exam Results
+                  The Examination System
                   </Link>
                 </li>
               </ul>

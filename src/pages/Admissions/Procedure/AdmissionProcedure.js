@@ -12,6 +12,7 @@ const AdmissionProcedure = () => {
         <div>3. Interview</div>
         <div>4. Medical Checkup</div>
         <div>5. Fee Deposit</div>
+        <div>6. Joining GHS</div>
       </div>
 
       <div className="eligibility-container" style={{marginTop:"50px"}}>

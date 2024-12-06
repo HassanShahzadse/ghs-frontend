@@ -14,11 +14,11 @@ const ExamResults = () => {
             <Banner
                   breadcrumbs={[
                     { label: "Home", url: "/" },
-                    { label: "Exam Result" },
+                    { label: "The Examination System" },
                   ]}
-                  title="Exam Result"
+                  title="The Examination System"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/DSC_4400.JPG"
+                  imageSrc="/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg"
                 />
 
               <div className="breadcrumbs-mobile">
@@ -31,7 +31,7 @@ const ExamResults = () => {
                     >
                     <span className="breadcrumbs-separator"></span>
                     <span className="breadcrumb_last" aria-current="page"
-                      >exam result</span
+                      >The Examination System</span
                     ></span
                   >
                 </p>
@@ -49,7 +49,8 @@ const ExamResults = () => {
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
                 style={{ fontFamily: 'Nunito Sans'}}
               >
-              <ResultAccordion/>
+                <p>Students are prepared to appear at the IGCSE, ‘O’ and ‘A’ Level examinations or Federal Board of Intermediate and Secondary Education examinations. The system is designed to strike a balance between teaching and testing, creating an environment where students can master concepts while learning to handle the pressures of exams. By the time they graduate, our students are equipped not only with knowledge but also with the resilience and skills to excel in competitive academic environments.</p>
+              {/* <ResultAccordion/> */}
               </blockquote>
 
  

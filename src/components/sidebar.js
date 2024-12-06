@@ -227,7 +227,7 @@ const Sidebar = () => {
             </li>
             <li className="menu-item">
               <Link to="/InsideClassroom/ExamResults" onClick={closeMenu}>
-                Exam Results
+                The Examination System
               </Link>
             </li>
           </ul>
