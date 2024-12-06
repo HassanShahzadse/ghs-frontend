@@ -83,15 +83,15 @@ const EnvironmentalEducation = () => {
                 </p>
               </div>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               Students participate in initiatives like tree planting, recycling drives, and conservation projects, learning practical ways to address global challenges. Eco-clubs provide a platform for collaborative problem-solving and innovative ideas, enabling students to lead sustainability efforts both within the school and beyond.
               </p>
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                style={{ fontFamily: "'Nunito Sans', sans-serif" }}
+                style={{ fontFamily: 'Nunito Sans'}}
               >
-                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                <p style={{ fontFamily: 'Nunito Sans'}}>
                 By fostering an awareness of environmental responsibility, we prepare students to make informed and conscientious decisions that contribute to a sustainable future.
                 </p>
               </blockquote> <section className="image-with-statistic">

@@ -55,7 +55,7 @@ const OurPurpose = () => {
 
                       <div
                         className="row"
-                        style={{ fontFamily: "'Nunito Sans', sans-serif" }}
+                        style={{ fontFamily: 'Nunito Sans'}}
                       >
                         <div className="col-lg-6">
                           <ol>
@@ -119,7 +119,7 @@ Balancing academics, co-curricular activities, and well-being, we provide a well
                           />
 
                         </div>
-                        <div className="col-md-8" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                        <div className="col-md-8" style={{ fontFamily: 'Nunito Sans' }}>
                           <p>
                             <span className="intro"
                               >In order to achieve this GHS:</span

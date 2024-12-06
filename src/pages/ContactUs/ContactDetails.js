@@ -4,7 +4,7 @@ import "../../components/footer.css"
 
 const ContactDetails = () => {
   return (
-    <div id="content-wrap" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+    <div id="content-wrap" style={{ fontFamily: 'Nunito Sans'}}>
       <main className="main">
         <div className="container-fluid py-md-5 py-3">
           <div className="row">

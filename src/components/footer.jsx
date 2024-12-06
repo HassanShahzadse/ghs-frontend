@@ -5,7 +5,7 @@ import "./footer.css";
 const Footer = () => {
 
   return (
-    <footer className="site-footer " style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+    <footer className="site-footer " style={{ fontFamily: 'Nunito Sans'}}>
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-lg-11">

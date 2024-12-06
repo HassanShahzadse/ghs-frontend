@@ -83,7 +83,7 @@ const CommunityEngagement = () => {
                 </p>
               </div>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 
 Whether it’s volunteering at local shelters, participating in fundraising events, or organizing environmental clean-ups, students are encouraged to contribute to meaningful causes. These experiences help them understand the importance of giving back, cultivating a sense of gratitude and purpose.
 
@@ -93,9 +93,9 @@ Whether it’s volunteering at local shelters, participating in fundraising even
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                style={{ fontFamily: "'Nunito Sans', sans-serif" }}
+                style={{ fontFamily: 'Nunito Sans'}}
               >
-                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                <p style={{ fontFamily: 'Nunito Sans'}}>
                 By connecting students with their communities, we nurture compassionate individuals who are driven to create positive change in the world.
                 </p>
                 <cite></cite>

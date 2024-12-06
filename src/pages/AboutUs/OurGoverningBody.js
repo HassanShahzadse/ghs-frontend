@@ -82,7 +82,7 @@ const OurGoverningBody = () => {
                     </span>
                   </p>
                 </div>
-<div style={{padding:"20px", fontFamily: "'Nunito Sans', sans-serif"}}>
+<div style={{padding:"20px", fontFamily: 'Nunito Sans'}}>
                   <p>
                   The Governing Body of Global Hub School Karachi comprises 10 distinguished board members from diverse walks of life, including education, philanthropy, and medicine. This group of visionary leaders is united by their unwavering commitment to the school’s mission of delivering world-class education.
 

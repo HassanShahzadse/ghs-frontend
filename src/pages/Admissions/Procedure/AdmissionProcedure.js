@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AdmissionProcedure = () => {
   return (
-    <div className="container admission-container" style={{marginTop:"50px" ,fontFamily: "'Nunito Sans', sans-serif" }}>
+    <div className="container admission-container" style={{marginTop:"50px" ,fontFamily: 'Nunito Sans' }}>
       <h1 className="admission-heading fs-3">Admission Procedure</h1>
       <div className="procedure-list">
         <div>1. Online Registration</div>

@@ -83,7 +83,7 @@ const ReligiousLife = () => {
                 </p>
               </div>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               These programs include Quranic studies, religious discussions, and regular prayers, helping students integrate their faith into daily life. Beyond religious education, we foster an environment of respect and understanding for all beliefs, encouraging students to embrace diversity and develop strong moral principles.
               </p>
 
@@ -91,9 +91,9 @@ const ReligiousLife = () => {
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                style={{ fontFamily: "'Nunito Sans', sans-serif" }}
+                style={{ fontFamily: 'Nunito Sans'}}
               >
-                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                <p style={{ fontFamily: 'Nunito Sans'}}>
                 By emphasizing the role of faith in character building, we aim to guide students toward lives of integrity, compassion, and purpose.
                 </p>
               </blockquote>

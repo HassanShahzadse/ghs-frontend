@@ -74,7 +74,7 @@ const NextSection = () => {
                           </div>
                       
                           {/* <Link to="/AboutUs/OurPurpose"> */}
-                          <h3 className="title title--md" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>Our Purpose</h3>
+                          <h3 className="title title--md" style={{ fontFamily: 'Nunito Sans' }}>Our Purpose</h3>
                           {/* </Link> */}
                           <a
                             href="/AboutUs/OurPurpose"
@@ -118,7 +118,7 @@ const NextSection = () => {
                             </div>
                           </div>
                           {/* <Link to="/OutsideClassroom/Sport">  */}
-                           <h3 className="title title--md" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>Sport</h3>
+                           <h3 className="title title--md" style={{ fontFamily: 'Nunito Sans' }}>Sport</h3>
                            {/* </Link> */}
                           <a href="/OutsideClassroom/Sport" className="cover-link"></a>
                         </div>
@@ -137,7 +137,7 @@ const NextSection = () => {
                             target="blank"
                             className="cover-link"
                           >
-                             <h3 className="title title--md" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>Apply Online</h3>
+                             <h3 className="title title--md" style={{ fontFamily: 'Nunito Sans' }}>Apply Online</h3>
                           </a>
                         </div>
                       </div>

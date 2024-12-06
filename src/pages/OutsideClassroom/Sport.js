@@ -83,19 +83,19 @@ const Sport = () => {
                 </p>
               </div>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               Students benefit from top-tier sports facilities, professional coaches, and structured training schedules that help them grow their skills while fostering resilience and perseverance. Regular inter-school tournaments and competitions provide platforms for students to showcase their abilities, build camaraderie, and experience healthy competition.
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               Our sports curriculum emphasizes both physical and mental well-being. Participation not only improves fitness but also teaches valuable life lessons such as goal setting, teamwork, and handling pressure. Beyond the skills acquired on the field, students carry with them an enduring sense of discipline, collaboration, and sportsmanship.
               </p>
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                style={{ fontFamily: "'Nunito Sans', sans-serif" }}
+                style={{ fontFamily: 'Nunito Sans'}}
               >
-                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                <p style={{ fontFamily: 'Nunito Sans'}}>
                   The school is highly successful in fulfilling its aim to
                   promote the best habits of independent thought and
                   learning in the pursuit of excellence. This is reflected
@@ -104,20 +104,20 @@ const Sport = () => {
                 </p>
               </blockquote>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 Our academic curriculum is broad. With 28 subjects on offer,
                 including 10 modern and classical languages, every boy has
                 the best opportunity to discover his passion.&nbsp;
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 Our Masters are subject-specialists who invariably hold
                 prestigious degrees in their subjects, but equally as
                 important in their appointment has been their capacity to
                 build relationships and inspire learners.
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 Our House Master and Tutor system ensures that at least two
                 adults have oversight of every boy’s individual progress and
                 are there to support and encourage him.
