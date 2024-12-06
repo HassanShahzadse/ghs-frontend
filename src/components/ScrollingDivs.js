@@ -249,13 +249,13 @@ const ScrollingDivs = () => {
                               <div className="banner__image--hover">
                                 <div className="banner__image--hover-inner">
                                   <p className="text">
-                                    Committed to
+                                  Providing a prestigious riding 
                                     <span className="text-secondary" style={{marginLeft: "0.2em"}}>
-                                      sustainability and environmental action
+                                    experience for horseback riding enthusiasts
                                     </span>
                                   </p>
                                   <div className="bottom">
-                                    <p>Environmental Education</p>
+                                    <p>Elite Equestrian Program</p>
                                   </div>
                                 </div>
                               </div>

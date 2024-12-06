@@ -129,6 +129,9 @@ const Sidebar = () => {
                 Contact Us
               </Link>
             </li>
+            <li className="menu-item">
+              <a href="https://app.ghskarachi.com/student/online/reg2" target="blank">Apply Online <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </li>
           </ul>
         </div>
         <div className="social-icons" style={{position:"absolute",bottom:"20px"}}>
@@ -278,18 +281,18 @@ const Sidebar = () => {
             {/* <li className="menu-item">
               <Link to="/Admissions/ApplyOnline" onClick={closeMenu}>Apply Online</Link>
             </li> */}
-            <li className="menu-item">
-              <a href="https://app.ghskarachi.com/student/online/reg2" target="blank">Apply Online <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-            </li>
             {/* <li className="menu-item">
               <Link to="/Admissions/AdmissionForm">Admission Form</Link>
-            </li> */}
+              </li> */}
             <li className="menu-item">
               <Link to="/Admissions/ScholarshipFinancialAid" onClick={closeMenu}>Scholarships and Financial Aid</Link>
             </li>
             <li className="menu-item">
               <Link to="/Admissions/Fees" onClick={closeMenu}>Fees</Link>
             </li>
+              <li className="menu-item">
+                <a href="https://app.ghskarachi.com/student/online/reg2" target="blank">Apply Online <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </li>
           </ul>
           <div className="back-button">Back</div>
         </div>

@@ -7630,7 +7630,7 @@ img.responsive {
         margin-left: 30px; } }
   .banner__blue-bar {
     position: absolute;
-    top: calc(100% - 80px);
+    top: calc(100% - 46px);
     -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
             transform: translateY(-100%);

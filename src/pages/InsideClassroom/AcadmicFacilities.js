@@ -1,5 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import "../../components/footer.css"
+import Banner from '../../components/Banner';
 
 const AcadmicFacilities = () => {
   const [imageHeight, setImageHeight] = useState("auto");
@@ -22,46 +23,15 @@ const AcadmicFacilities = () => {
         <div className="row">
           <div className="col-12">
             <article className="">
-              <section className="banner">
-                <div className="breadcrumbs-desktop">
-                  <p id="breadcrumbs">
-                    <span
-                      ><span
-                        ><a className="my-class" href=""
-                          >Home</a
-                        ></span
-                      >
-                      
-                      <span className="breadcrumbs-separator"></span>
-                      <span className="breadcrumb_last" aria-current="page"
-                        >Academic Facilities</span
-                      ></span
-                    >
-                  </p>
-                </div>
-                <div className="container make-full-width">
-                  <div className="row">
-                    <div className="image-container js-image-move grey-background" >
-
-<img
-                    src="/assets/11/461968913_3684004521846340_906275821340010015_n.jpg"
-                    alt="Image"
-                    style={{
-                      width: "100%",
-                      height: imageHeight,
-                      objectFit: "cover",
-                    }}
-                  />
-                    </div>
-                  </div>
-                </div>
-                  <div className="background-primary color-white" style={{ paddingTop:"20px" , paddingBottom:"20px"}}>
-                  <h1 className="banner__title title color-white title--xl2">
-                          Academic Facilities
-                        </h1>
-                  </div>
-              </section>
-
+              <Banner
+                  breadcrumbs={[
+                    { label: "Home", url: "/" },
+                    { label: "Academic Facilities" },
+                  ]}
+                  title="Academic Facilities"
+                  introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
+                  imageSrc="/assets/11/461968913_3684004521846340_906275821340010015_n.jpg"
+                />
               <div className="breadcrumbs-mobile">
                 <p id="breadcrumbs">
                   <span
