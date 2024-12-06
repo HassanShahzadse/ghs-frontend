@@ -68,7 +68,7 @@ const AfterScrollingSection = () => {
                 </span>
               </p>
               <p>
-                <span style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                <span style={{ fontFamily: 'Nunito Sans' }}>
                   Growing up in our boarding community develops personal growth
                   and lifelong friendships in the safety of our wrap-around
                   pastoral care, while nurturing the value of leadership and
@@ -77,7 +77,7 @@ const AfterScrollingSection = () => {
               </p>
               <p>&nbsp;</p>
               <p>
-                <a className="button" href="/Admissions/EntryToGHS" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                <a className="button" href="/Admissions/EntryToGHS" style={{ fontFamily: 'Nunito Sans'}}>
                             Our Prospectus
                 </a>
               </p>

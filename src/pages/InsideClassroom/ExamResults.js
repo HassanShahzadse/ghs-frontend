@@ -82,17 +82,17 @@ const ExamResults = () => {
                 </p>
               </div>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               Assessment plays a critical role in shaping a student’s learning journey, and at Global Hub School Karachi, we have developed a comprehensive examination system that reflects this philosophy. Year-round evaluations are designed to not only test a student’s understanding but also encourage consistent effort and continuous learning.
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               As students advance through their academic years, the level of rigor increases, preparing them thoroughly for their final board examinations. These carefully curated assessments ensure that students are both challenged and supported, building their confidence and competence as they progress.
               </p>
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                style={{ fontFamily: "'Nunito Sans', sans-serif" }}
+                style={{ fontFamily: 'Nunito Sans'}}
               >
               <ResultAccordion/>
               </blockquote>

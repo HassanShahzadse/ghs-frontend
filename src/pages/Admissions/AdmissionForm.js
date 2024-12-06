@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
-import { Form, Button, Col, Row, Dropdown } from 'react-bootstrap';
+import React from 'react';
+import { Form, Button, Col, Row } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-// import { FaEye, FaEyeSlash } from 'react-icons/fa';
-// import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 // import '../StudentForm.css';
 

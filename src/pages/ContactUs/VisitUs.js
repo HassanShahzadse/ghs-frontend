@@ -4,7 +4,7 @@ import "../../components/footer.css"
 const VisitUs = () => {
   return (
 	  <>
-              <div className="pt-5" style={{marginLeft:"100px" ,fontFamily: "'Nunito Sans', sans-serif" }}>
+              <div className="pt-5" style={{marginLeft:"100px" ,fontFamily: 'Nunito Sans'}}>
                 <div className="container">
                   <div className="row">
                     <div className="offset-lg-1 col-lg-9 pt-5 pt-md-0">

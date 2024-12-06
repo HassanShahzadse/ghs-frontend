@@ -83,34 +83,34 @@ const PastoralCare = () => {
                 </p>
               </div>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               Our approach to pastoral care includes one-on-one mentorship programs, group workshops, and open-door policies that encourage students to reach out whenever they need guidance. Dedicated staff members work to create a nurturing environment where students can confidently navigate challenges, celebrate their achievements, and build emotional resilience.
               </p>
 
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                style={{ fontFamily: "'Nunito Sans', sans-serif" }}
+                style={{ fontFamily: 'Nunito Sans'}}
               >
-                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                <p style={{ fontFamily: 'Nunito Sans'}}>
                 Through a focus on empathy, kindness, and mutual respect, we aim to foster a community where every student feels secure and empowered to be their best self.
                 </p>
               </blockquote>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 Our academic curriculum is broad. With 28 subjects on offer,
                 including 10 modern and classical languages, every boy has
                 the best opportunity to discover his passion.&nbsp;
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 Our Masters are subject-specialists who invariably hold
                 prestigious degrees in their subjects, but equally as
                 important in their appointment has been their capacity to
                 build relationships and inspire learners.
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 Our House Master and Tutor system ensures that at least two
                 adults have oversight of every boy’s individual progress and
                 are there to support and encourage him.

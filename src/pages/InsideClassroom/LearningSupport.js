@@ -75,23 +75,23 @@ const LearningSupport = () => {
                 </p>
               </div>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               Every student learns differently, and we celebrate this diversity by offering a robust learning support program tailored to individual needs. At GHS Karachi, we are committed to helping every child overcome challenges, build confidence, and achieve their personal best.
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               Students with specific learning needs receive targeted interventions that focus on skill-building, self-awareness, and strategy development. Whether it’s strengthening study habits, tackling academic obstacles, or addressing learning differences, our support team works collaboratively with teachers and families to provide an integrated and compassionate approach.
               </p>
 
               <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
               >
-                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                <p style={{ fontFamily: 'Nunito Sans'}}>
                 The program emphasizes not only academic success but also emotional resilience, helping students develop a positive mindset toward challenges. With the right tools and encouragement, students are empowered to thrive not just in school, but in every stage of life.
                 </p>
               </blockquote>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 Support comes in many bespoke forms and is in place to help
                 boys confidently overcome current and future potential
                 challenges. Boys may receive one-to-one lessons focusing on

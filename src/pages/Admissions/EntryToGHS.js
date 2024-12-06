@@ -18,7 +18,7 @@ const EntryToGHS = () => {
     return () => window.removeEventListener("resize", updateImageHeight);
   }, []);
   return (
-    <div id="content-wrap" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+    <div id="content-wrap" style={{ fontFamily: 'Nunito Sans'}}>
     <main className="main">
       <div className="container-fluid">
         <div className="row">

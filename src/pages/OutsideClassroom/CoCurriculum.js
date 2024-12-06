@@ -86,19 +86,19 @@ const CoCurriculum = () => {
                   </p>
                 </div>
   
-                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                <p style={{ fontFamily: 'Nunito Sans'}}>
                 Through these opportunities, students learn the value of teamwork, time management, and problem-solving. For instance, our debate team provides a platform to hone analytical skills, while the robotics club ignites curiosity and innovation. Artistic expression is also celebrated through fine arts and drama productions, where students gain confidence and creative vision.
                 </p>
   
-                <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                <p style={{ fontFamily: 'Nunito Sans'}}>
                 By integrating the co-curriculum into daily life at GHS, we ensure students are not only academically prepared but also equipped with the confidence and skills to lead in any field they choose. These experiences help shape their character, broaden their perspectives, and build memories they will cherish for a lifetime.
                 </p>
   
                 <blockquote
                   className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                  style={{ fontFamily: "'Nunito Sans', sans-serif" }}
+                  style={{ fontFamily: 'Nunito Sans'}}
                 >
-                  <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                  <p style={{ fontFamily: 'Nunito Sans'}}>
                     The school is highly successful in fulfilling its aim to
                     promote the best habits of independent thought and
                     learning in the pursuit of excellence. This is reflected

@@ -78,21 +78,21 @@ const AcadmicFacilities = () => {
                 </p>
               </div>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               Our campus is designed to create an environment that nurtures focus, collaboration, and excellence. With cutting-edge facilities, small class sizes, and a commitment to personalized learning, we ensure that every student has the resources and support they need to succeed.
               </p>
 
-              <h2 className="wp-block-heading" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>Global Hub School Karachi</h2>
+              <h2 className="wp-block-heading" style={{ fontFamily: 'Nunito Sans'}}>Global Hub School Karachi</h2>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               Each classroom is purpose-built to foster a productive and engaging learning atmosphere. By keeping class sizes small, teachers are able to give individualized attention to every student, addressing their strengths and areas for improvement in real-time. This ensures that no child is left behind and that every student has the opportunity to thrive academically.
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               Our science laboratories for Physics, Chemistry, and Biology allow students to experience the excitement of hands-on experiments, while our computer labs provide access to advanced software and technologies to sharpen digital skills. The school library, a treasure trove of knowledge, offers an extensive collection of books, journals, and digital resources to stimulate curiosity and intellectual growth.
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               
 Additionally, dedicated collaborative spaces encourage teamwork and creative problem-solving, helping students develop essential life skills beyond academics. At GHS, our facilities reflect our commitment to excellence and innovation in education.
 
@@ -145,9 +145,9 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                 </div>
               </section>
 
-              <h2 className="wp-block-heading" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>College Library</h2>
+              <h2 className="wp-block-heading" style={{ fontFamily: 'Nunito Sans'}}>College Library</h2>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 College Library is a library of international importance
                 that holds an outstanding collection of rare books and
                 manuscripts together with the GHSarchives. This working
@@ -157,7 +157,7 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                 it for independent study.
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 Established soon after the foundation of GHSCollege, this
                 library houses more than 150,000 items, ranging from the 9th
                 to 21st Centuries. These include printed and manuscript
@@ -165,7 +165,7 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                 drawings.&nbsp;
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 The Library&#8217;s earliest collections were predominantly
                 theological. Changes in taste and thought are reflected in
                 subsequent additions, which include large numbers of
@@ -175,7 +175,7 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                 interest.
               </p>
 
-              <p style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
                 In the 1960s, the College began also collecting rare books
                 and manuscripts from the 19th century onwards. The modern
                 collection includes important holdings of English literature
