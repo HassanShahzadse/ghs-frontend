@@ -1,21 +1,7 @@
-import React,{useState, useEffect} from 'react';
+import React from 'react';
 import "../../components/footer.css"
-
-
+import Banner from '../../components/Banner';
 const OurGoverningBody = () => {
-  const [imageHeight, setImageHeight] = useState("auto");
-  useEffect(() => {
-    const updateImageHeight = () => {
-      if (window.innerWidth >= 768) {
-        setImageHeight("720px");
-      } else {
-        setImageHeight("auto");
-      }
-    };
-    updateImageHeight();
-    window.addEventListener("resize", updateImageHeight);
-    return () => window.removeEventListener("resize", updateImageHeight);
-  }, []);
   return (
     <div id="content-wrap">
       <main className="main">
@@ -23,46 +9,15 @@ const OurGoverningBody = () => {
           <div className="row">
             <div className="col-12">
               <article>
-                <section className="banner">
-                  <div className="breadcrumbs-desktop">
-                    <p id="breadcrumbs">
-                      <span>
-                        <span>
-                          <a className="my-class" href="/">
-                            Home
-                          </a>
-                        </span>
-                        <span className="breadcrumbs-separator"></span>
-                        <span className="breadcrumb_last" aria-current="page">
-                          Our Governing Body
-                        </span>
-                      </span>
-                    </p>
-                  </div>
-                  <div className="container make-full-width">
-                    <div className="row">
-                      <div
-                        className="image-container js-image-move grey-background" >
-                          <img
-                    src="/assets/11/263599925_2949755145271285_6770598982686416049_n.jpg"
-                    alt="Image"
-                    style={{
-                      width: "100%",
-                      height: imageHeight,
-                      objectFit: "fill",
-                    }}
-                  />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className=" background-primary color-white" style={{paddingLeft:"20px" , paddingBottom:"20px"}}>
-                  <h1 className="banner__title title color-white ">
-                          Our Governing Body
-                        </h1>
-                  </div>
-                 
-                </section>
+              <Banner
+                  breadcrumbs={[
+                    { label: "Home", url: "/" },
+                    { label: "Our Governing Body" },
+                  ]}
+                  title="Our Governing Body"
+                  introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
+                  imageSrc="/assets/11/263599925_2949755145271285_6770598982686416049_n.jpg"
+                />
                 </article>
                 </div>
 

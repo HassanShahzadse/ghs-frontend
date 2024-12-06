@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../../components/footer.css";
 import Banner from "../../components/Banner";
 

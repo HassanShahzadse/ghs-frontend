@@ -1,70 +1,25 @@
-import React, { useEffect, useState } from 'react'
+import React  from 'react'
 import "../../components/footer.css"
 import ResultAccordion from './ResultAccordian'
+import Banner from '../../components/Banner';
 
 const ExamResults = () => {
-  const [imageHeight, setImageHeight] = useState("auto");
-  useEffect(() => {
-    const updateImageHeight = () => {
-      if (window.innerWidth >= 768) {
-        setImageHeight("720px");
-      } else {
-        setImageHeight("auto");
-      }
-    };
-    updateImageHeight();
-    window.addEventListener("resize", updateImageHeight);
-    return () => window.removeEventListener("resize", updateImageHeight);
-  }, []);
   return (
     <div id="content-wrap">
     <main className="main">
       <div className="container-fluid">
         <div className="row">
           <div className="col-12">
-            <article
-              className="
-                                "
-            >
-              <section className="banner">
-                <div className="breadcrumbs-desktop">
-                  <p id="breadcrumbs">
-                    <span
-                      ><span
-                        ><a className="my-class" href="/"
-                          >Home</a
-                        ></span
-                      >
-                      
-                      <span className="breadcrumbs-separator"></span>
-                      <span className="breadcrumb_last" aria-current="page"
-                        >Inside the Classroom</span
-                      ></span
-                    >
-                  </p>
-                </div>
-                <div className="container make-full-width">
-                  <div className="row">
-                    <div
-                      className="image-container js-image-move grey-background">
-<img
-                    src="/assets/11/DSC_4400.JPG"
-                    alt="Image"
-                    style={{
-                      width: "100%",
-                      height: imageHeight,
-                      objectFit: "cover",
-                    }}
-                  />
-                    </div>
-                  </div>
-                </div>
-                  <div className="background-primary color-white" style={{paddingLeft:"10px" , paddingBottom:"20px"}}>
-                  <h1 className="banner__title title color-white title--xl2">
-                          Exam result
-                        </h1>
-                  </div>
-              </section>
+            <article className="  " >
+            <Banner
+                  breadcrumbs={[
+                    { label: "Home", url: "/" },
+                    { label: "Exam Result" },
+                  ]}
+                  title="Exam Result"
+                  introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
+                  imageSrc="/assets/11/DSC_4400.JPG"
+                />
 
               <div className="breadcrumbs-mobile">
                 <p id="breadcrumbs">
