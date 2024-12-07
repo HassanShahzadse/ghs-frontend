@@ -80,7 +80,7 @@ As leaders in education, we are committed to fostering excellence, innovation, a
                             
                             >
 
-                            <img src="/assets/11/263856165_2949755955271204_4147642677834431307_n.JPG" alt="" style={{ width: "500px", height: "350px" }}/>
+                            <img src="/assets/11/263856165_2949755955271204_4147642677834431307_n.jpg" alt="" style={{ width: "500px", height: "350px" }}/>
                             </span>
                         
                           </div>

@@ -18,7 +18,7 @@ const OurPurpose = () => {
                   ]}
                   title="Our Purpose"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/DSC_4385.jpg"
+                  imageSrc="/assets/11/DSC_4385.JPG"
                 />
               <section
                 className="aims-ethos aims-ethos--banner"

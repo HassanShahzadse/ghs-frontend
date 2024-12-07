@@ -105,7 +105,7 @@ const Footer = () => {
 
 				<div className="pillar background-secondary"></div>
 
-				<div className="credit">Web design by comeleit</div>
+				<div className="credit">Design by Compleit</div>
 			</div>
 		</footer>
   );

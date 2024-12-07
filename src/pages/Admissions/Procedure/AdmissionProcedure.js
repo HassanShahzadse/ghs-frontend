@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const AdmissionProcedure = () => {
   return (
     <div className="container admission-container" style={{marginTop:"50px" ,fontFamily: 'Nunito Sans' }}>
-      <h1 className="admission-heading fs-3">Admission Procedure</h1>
-      <div className="procedure-list">
+      <h1 className="admission-heading fs-3" style={{color: "#223C59"}}>Admission Procedure</h1>
+      <div className="procedure-list" style={{color: "#223C59"}}>
         <div>1. Online Registration</div>
         <div>2. Online Test</div>
         <div>3. Interview</div>
