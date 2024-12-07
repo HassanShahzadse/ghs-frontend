@@ -48,7 +48,7 @@ const SideNave = () => {
           <img
             src="/assets/img/Final GHS.png"
             alt=""
-            style={{ width: `${40}px`, height: "auto" }}
+            style={{ width: `${50}px`, height: "auto" }}
           />
           </a>
         </div>

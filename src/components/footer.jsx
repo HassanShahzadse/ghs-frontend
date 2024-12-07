@@ -12,9 +12,8 @@ const Footer = () => {
 						<div className="site-footer__content">
 							<div className="row">
 								<div className="col-lg-3">
-									<div style={{ width: '60px', height: '70px' ,display:"flex", gap:"10px",flexDirection: "row", alignItems: "center",}}>
-									<img	src="/assets/img/Final GHS.png"/>
-									<h2>GHS</h2>
+									<div className="mb-3" style={{ width: '120px', height: '70px' ,display:"flex", gap:"10px",flexDirection: "row", alignItems: "center",}}>
+									<img	src="/assets/img/white-logo.png"/>
 											</div>
 										
 

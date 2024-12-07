@@ -5569,7 +5569,7 @@ body.page-template-tpl-dark-bg {
     .top-nav--grey .hamburger {
       background-color: #eff3f0; }
   .top-nav__logo {
-    width: 48px; }
+    width: 72px; }
     @media (max-width: 1190px) {
       .top-nav__logo {
         width: 35px;
@@ -8712,15 +8712,20 @@ html.no-objectfit .home .banner .image-container img {
           font-size: 34px;
           line-height: 39px; } }
     .teaser--community span {
+background: rgba(255, 255, 255, 0.8);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.7px);
+-webkit-backdrop-filter: blur(1.7px);
+border: 1px solid rgba(255, 255, 255, 0.3);
       position: absolute;
-      bottom: 30px;
-      left: 30px;
+      bottom: 2px;
+      padding:10px;
+      left: 2px;
       z-index: 5; }
       .teaser--community span small {
         color: var(--secondary);
         font-size: 16px; }
-    .teaser--community span:not(.teaser__inner) {
-      right: 30px; }
     /* .teaser--community:after {
       z-index: 4;
       content: "";

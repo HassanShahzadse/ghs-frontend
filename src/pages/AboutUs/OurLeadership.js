@@ -11,7 +11,7 @@ const LeadershipCard = ({ title, name, imageUrl, targetId }) => (
           style={{ backgroundImage: `url(${imageUrl})` }}
         ></span>
         <span>
-          <h3 className="title title--small color-white">{title}</h3>
+          <h3 className="title title--small color-white m-0" style={{color:"#223C59"}}>{title}</h3>
           <small clas>{name}</small>
         </span>
       </div>
