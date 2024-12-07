@@ -45,13 +45,13 @@ const ExamResults = () => {
               As students advance through their academic years, the level of rigor increases, preparing them thoroughly for their final board examinations. These carefully curated assessments ensure that students are both challenged and supported, building their confidence and competence as they progress.
               </p>
 
-              <blockquote
+              {/* <blockquote
                 className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
                 style={{ fontFamily: 'Nunito Sans'}}
-              >
-                <p>Students are prepared to appear at the IGCSE, ‘O’ and ‘A’ Level examinations or Federal Board of Intermediate and Secondary Education examinations. The system is designed to strike a balance between teaching and testing, creating an environment where students can master concepts while learning to handle the pressures of exams. By the time they graduate, our students are equipped not only with knowledge but also with the resilience and skills to excel in competitive academic environments.</p>
+              > */}
+                <p style={{ fontFamily: 'Nunito Sans'}}>Students are prepared to appear at the IGCSE, ‘O’ and ‘A’ Level examinations or Federal Board of Intermediate and Secondary Education examinations. The system is designed to strike a balance between teaching and testing, creating an environment where students can master concepts while learning to handle the pressures of exams. By the time they graduate, our students are equipped not only with knowledge but also with the resilience and skills to excel in competitive academic environments.</p>
               {/* <ResultAccordion/> */}
-              </blockquote>
+              {/* </blockquote> */}
 
  
 

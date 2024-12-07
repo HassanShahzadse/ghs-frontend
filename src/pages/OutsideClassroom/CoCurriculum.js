@@ -63,8 +63,7 @@ const CoCurriculum = () => {
                   <p style={{ fontFamily: "Nunito Sans" }}>
                     The school is highly successful in fulfilling its aim to
                     promote the best habits of independent thought and learning
-                    in the pursuit of excellence. This is reflected in
-                    exceptional results in GCSE, A-level and Pre-U examinations
+                    in the pursuit of excellence. This is reflected in exceptional results in GCSE, Federal Board and A-Level.
                   </p>
                 </blockquote>
                 <section className="image-with-statistic">
@@ -78,7 +77,7 @@ const CoCurriculum = () => {
                           <div className="js-image-move__inner object-fit object-fit--cover">
                             <img
                               decoding="async"
-                              src="/assets/11/70462977_2298415337071939_5397888453499158528_n.jpg"
+                              src="/assets/11/417445720_799979195498541_7184869998067075679_n.jpg"
                             />
                           </div>
                         </div>

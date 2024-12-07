@@ -17,7 +17,7 @@ const AcadmicFacilities = () => {
                   ]}
                   title="Academic Facilities"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/445782557_871319641697829_7815744372853900849_n.jpg"
+                  imageSrc="/assets/11/Academic block- side view.JPG"
                 />
               <div className="breadcrumbs-mobile">
                 <p id="breadcrumbs">
@@ -52,7 +52,7 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
 
               </p>
 
-              <section className="image-with-statistic">
+              {/* <section className="image-with-statistic">
                 <div>
                   <div className="animate-wrapper">
                     <div
@@ -74,7 +74,7 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                     </div>
                   </div>
                 </div>
-              </section>
+              </section> */}
               <section className="image-with-statistic blockquote-loaded">
                 <div>
                   <div className="animate-wrapper">
