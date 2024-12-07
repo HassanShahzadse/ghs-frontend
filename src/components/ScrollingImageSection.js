@@ -362,7 +362,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/IMG_0226.jpg"              />
+                src="/assets/11/IMG_0226.JPG"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
