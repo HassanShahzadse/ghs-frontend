@@ -23,7 +23,7 @@ const AfterScrollingSection = () => {
   controls
     autoPlay
     loop
-    playsinline
+    playsInline
     muted
     className="h-full w-full absolute object-cover"
   >
@@ -45,7 +45,7 @@ const AfterScrollingSection = () => {
                 style={{  width: "100%",
                   height: "auto",
                   objectFit: "fill",}}
-                srcset="
+                srcSet="
         /assets/11/Admin block- view from Dining hall.JPG  1024w,
         /assets/11/Admin block- view from Dining hall.JPG   300w,
         /assets/11/Admin block- view from Dining hall.JPG   768w,
