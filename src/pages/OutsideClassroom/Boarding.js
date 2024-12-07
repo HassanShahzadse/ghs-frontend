@@ -17,7 +17,7 @@ const Boarding = () => {
                   ]}
                   title="Boarding"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/unnamed.png"
+                  imageSrc="/assets/11/un.png"
                 />
                 <div className="breadcrumbs-mobile">
                   <p id="breadcrumbs">
@@ -79,7 +79,7 @@ const Boarding = () => {
                   </p>
                   {/* <cite>ISI inspection, December 2021</cite> */}
                 </blockquote>
-                <p style={{ fontFamily: "Nunito Sans" }}>
+                {/* <p style={{ fontFamily: "Nunito Sans" }}>
                   Our academic curriculum is broad. With 28 subjects on offer,
                   including 10 modern and classical languages, every boy has the
                   best opportunity to discover his passion.&nbsp;
@@ -94,7 +94,7 @@ const Boarding = () => {
                   Our House Master and Tutor system ensures that at least two
                   adults have oversight of every boy’s individual progress and
                   are there to support and encourage him.
-                </p>
+                </p> */}
                 <section className="image-with-statistic">
                   <div>
                     <div className="animate-wrapper">

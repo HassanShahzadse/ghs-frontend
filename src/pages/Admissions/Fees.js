@@ -39,7 +39,7 @@ const Fees = () => {
 
                 <p></p>
 
-                <h2 className="wp-block-heading">School Fees &amp; Extras</h2>
+                {/* <h2 className="wp-block-heading">School Fees &amp; Extras</h2> */}
 
                 <p>
                   Our fee structure is designed to reflect the exceptional

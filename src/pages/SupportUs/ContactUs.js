@@ -17,7 +17,7 @@ const ContactUs = () => {
                   ]}
                   title="Contact Us"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
+                  imageSrc="/assets/11/263856165_2949755955271204_4147642677834431307_n.jpg"
                 />
                 <div className="breadcrumbs-mobile">
                   <p id="breadcrumbs">
@@ -48,12 +48,13 @@ const ContactUs = () => {
 
                 <p>Windsor, SL4 6DW</p>
 
-                <p></p>
+                <p>
 
                 <a href="(+44) 01753 370642">
                   {" "}
                   <p>(+44) 01753 370642</p>
                 </a>
+                </p>
 
                 <h2 className="wp-block-heading">Meet The Team</h2>
 

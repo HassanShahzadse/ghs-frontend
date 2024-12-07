@@ -13,9 +13,9 @@ const CoCurriculum = () => {
               <Banner
                   breadcrumbs={[
                     { label: "Home", url: "/" },
-                    { label: "CoCurriculum" },
+                    { label: "The CoCurriculum" },
                   ]}
-                  title="CoCurriculum"
+                  title="The CoCurriculum"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
                   imageSrc="/assets/11/173949365_2788094718103996_8914009337549083740_n.jpg"
                 />

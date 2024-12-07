@@ -15,7 +15,7 @@ const Sport = () => {
                     { label: "Home", url: "/" },
                     { label: "Sport" },
                   ]}
-                  title="Sport"
+                  title="Sport at GHS"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
                   imageSrc="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
                 />

@@ -13,11 +13,11 @@ const GiftOfEducation = () => {
               <Banner
                   breadcrumbs={[
                     { label: "Home", url: "/" },
-                    { label: "Gift of education" },
+                    { label: "Gift of Education" },
                   ]}
-                  title="Gift of education"
+                  title="Gift of Education"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
+                  imageSrc="/assets/11/441068841_857863996376727_8535097873388575013_n.jpg"
                 />
                 <div className="breadcrumbs-mobile">
                   <p id="breadcrumbs">
@@ -63,7 +63,7 @@ const GiftOfEducation = () => {
                           <div className="js-image-move__inner object-fit object-fit--cover">
                             <img
                               decoding="async"
-                              src="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
+                              src="/assets/11/90113830_2479258868987584_3657821726705713152_n.jpg"
                             />
                           </div>
                         </div>

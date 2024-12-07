@@ -13,11 +13,11 @@ const PastoralCare = () => {
               <Banner
                   breadcrumbs={[
                     { label: "Home", url: "/" },
-                    { label: "PastoralCare" },
+                    { label: "Pastoral Care" },
                   ]}
-                  title="PastoralCare"
+                  title="Pastoral Care"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/247470871_2919321168314683_3967744707871769205_n.png"
+                  imageSrc="/assets/11/277148812_130958129502114_7861657689476040255_n.jpg"
                 />
 
                 <div className="breadcrumbs-mobile">

@@ -17,7 +17,7 @@ const ReligiousLife = () => {
                   ]}
                   title="Religious Life"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/247470871_2919321168314683_3967744707871769205_n.png"
+                  imageSrc="/assets/11/417474905_799979165498544_209576125104193647_n.jpg"
                 />
 
                 <div className="breadcrumbs-mobile">
@@ -66,7 +66,7 @@ const ReligiousLife = () => {
                           <div className="js-image-move__inner object-fit object-fit--cover">
                             <img
                               decoding="async"
-                              src="/assets/11/247470871_2919321168314683_3967744707871769205_n.png"
+                              src="/assets/11/418152059_799137295582731_343385202662830228_n.jpg"
                             />
                           </div>
                         </div>

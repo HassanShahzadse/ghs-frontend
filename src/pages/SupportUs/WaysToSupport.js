@@ -17,7 +17,7 @@ const WaysToSupport = () => {
                   ]}
                   title="Ways to Support"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
+                  imageSrc="/assets/11/461960192_3683991158514343_4451415336598492767_n.jpg"
                 />
                 <div className="breadcrumbs-mobile">
                   <p id="breadcrumbs">

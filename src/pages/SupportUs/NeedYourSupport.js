@@ -17,7 +17,7 @@ const NeedYourSupport = () => {
                   ]}
                   title="Why We Need Your Support"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
+                  imageSrc="/assets/11/275555348_126105986653995_8272690267920767325_n.jpg"
                 />
 
                 <div className="breadcrumbs-mobile">
@@ -38,7 +38,7 @@ const NeedYourSupport = () => {
                 </div>
 
                 <p>
-                  Empowering Students Through Access Many of our students come
+                <strong>  Empowering Students Through Access : </strong> Many of our students come
                   from underserved communities and rely on scholarships and
                   financial aid to pursue their education. Your support ensures
                   that no talented and deserving child is left behind due to
@@ -46,7 +46,7 @@ const NeedYourSupport = () => {
                 </p>
 
                 <p>
-                  Sustaining Excellence Our goal is not just to educate but to
+               <strong> Sustaining Excellence : </strong> Our goal is not just to educate but to
                   provide an exceptional experience that includes
                   state-of-the-art facilities, qualified educators, and a
                   nurturing environment. These opportunities empower our
@@ -67,7 +67,7 @@ const NeedYourSupport = () => {
                 </blockquote>
 
                 <p>
-                  Leaving a Lasting Impact Education has a ripple effect—it
+                 <strong>Leaving a Lasting : </strong> Impact Education has a ripple effect—it
                   doesn’t just change the life of one student; it uplifts
                   families and entire communities. By supporting GHS Karachi,
                   you become a part of this transformational journey, impacting
@@ -85,7 +85,7 @@ const NeedYourSupport = () => {
                           <div className="js-image-move__inner object-fit object-fit--cover">
                             <img
                               decoding="async"
-                              src="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"
+                              src="/assets/11/461939397_3683732285206897_1030922366464620113_n.jpg"
                             />
                           </div>
                         </div>

@@ -17,7 +17,7 @@ const AcadmicFacilities = () => {
                   ]}
                   title="Academic Facilities"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/461968913_3684004521846340_906275821340010015_n.jpg"
+                  imageSrc="/assets/11/445782557_871319641697829_7815744372853900849_n.jpg"
                 />
               <div className="breadcrumbs-mobile">
                 <p id="breadcrumbs">
@@ -38,9 +38,6 @@ const AcadmicFacilities = () => {
               <p style={{ fontFamily: 'Nunito Sans'}}>
               Our campus is designed to create an environment that nurtures focus, collaboration, and excellence. With cutting-edge facilities, small class sizes, and a commitment to personalized learning, we ensure that every student has the resources and support they need to succeed.
               </p>
-
-              <h2 className="wp-block-heading" style={{ fontFamily: 'Nunito Sans'}}>Global Hub School Karachi</h2>
-
               <p style={{ fontFamily: 'Nunito Sans'}}>
               Each classroom is purpose-built to foster a productive and engaging learning atmosphere. By keeping class sizes small, teachers are able to give individualized attention to every student, addressing their strengths and areas for improvement in real-time. This ensures that no child is left behind and that every student has the opportunity to thrive academically.
               </p>
@@ -101,46 +98,6 @@ Additionally, dedicated collaborative spaces encourage teamwork and creative pro
                   </div>
                 </div>
               </section>
-
-              <h2 className="wp-block-heading" style={{ fontFamily: 'Nunito Sans'}}>College Library</h2>
-
-              <p style={{ fontFamily: 'Nunito Sans'}}>
-                College Library is a library of international importance
-                that holds an outstanding collection of rare books and
-                manuscripts together with the GHSarchives. This working
-                library is open throughout the year and used by visiting
-                scholars. Introduced to this library in their first year,
-                boys visit for teaching sessions and are encouraged to use
-                it for independent study.
-              </p>
-
-              <p style={{ fontFamily: 'Nunito Sans'}}>
-                Established soon after the foundation of GHSCollege, this
-                library houses more than 150,000 items, ranging from the 9th
-                to 21st Centuries. These include printed and manuscript
-                volumes, literary manuscripts, autograph letters, prints and
-                drawings.&nbsp;
-              </p>
-
-              <p style={{ fontFamily: 'Nunito Sans'}}>
-                The Library&#8217;s earliest collections were predominantly
-                theological. Changes in taste and thought are reflected in
-                subsequent additions, which include large numbers of
-                classical books and manuscripts, early scientific works,
-                historical and literary texts in modern languages, and
-                materials valued primarily for their aesthetic or historical
-                interest.
-              </p>
-
-              <p style={{ fontFamily: 'Nunito Sans'}}>
-                In the 1960s, the College began also collecting rare books
-                and manuscripts from the 19th century onwards. The modern
-                collection includes important holdings of English literature
-                and is also rich in travel writing, theatrical history and
-                fine printing. College Library also has responsibility for
-                the Macnaghten Library of First World War materials,
-                presented to GHSas a memorial in 1938.&nbsp;
-              </p>
               </article>
             </div>
             </div>

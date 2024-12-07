@@ -17,7 +17,7 @@ const LearningSupport = () => {
                   ]}
                   title="Learning Support"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/IMG_0146.JPG"
+                  imageSrc="/assets/11/445757046_871320528364407_1616292855471534509_n.jpg"
                 />
 
               <div className="breadcrumbs-mobile">
@@ -51,22 +51,6 @@ const LearningSupport = () => {
                 The program emphasizes not only academic success but also emotional resilience, helping students develop a positive mindset toward challenges. With the right tools and encouragement, students are empowered to thrive not just in school, but in every stage of life.
                 </p>
               </blockquote>
-
-              <p style={{ fontFamily: 'Nunito Sans'}}>
-                Support comes in many bespoke forms and is in place to help
-                boys confidently overcome current and future potential
-                challenges. Boys may receive one-to-one lessons focusing on
-                areas such as executive functioning skills, revision and
-                learning strategies, and handwriting development which will
-                enable them to work successfully across subject
-                areas.&nbsp;Group lessons are also provided focusing on
-                areas such as study skills, exam techniques and effective
-                reading strategies. The department also provides training,
-                support and information to the wider staff body with regards
-                to how they can differentiate and develop the educational
-                experiences of the boys they work with or teach.
-              </p>
-
               <section className="image-with-statistic">
                 <div>
                   <div className="animate-wrapper">
@@ -82,7 +66,7 @@ const LearningSupport = () => {
                         >
                           <img
                             decoding="async"
-                            src="/assets/11/275241410_126106049987322_9784042813719939_n.jpg"                          />
+                            src="/assets/11/IMG_0146.jpg"                          />
                         </div>
                       </div>
                     </div>
