@@ -30,7 +30,7 @@ const PastoralCare = () => {
                       </span>
                       <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page">
-                        PastoralCare
+                        Pastoral Care
                       </span>
                     </span>
                   </p>

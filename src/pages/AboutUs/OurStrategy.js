@@ -72,10 +72,10 @@ const OurStrategy = () => {
                   <img
                     src="/assets/11/275054573_122711713660089_1312944415058859257_n.jpg"
                     alt="Image"
+                    className="image-our-purpose"
                     style={{
                       width: "100%",
-                      height: "600px",
-                      objectFit: "fill",
+                      objectFit: "contain",
                     }}
                   />
                 </p>

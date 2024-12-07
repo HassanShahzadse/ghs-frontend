@@ -14,10 +14,10 @@ const ContactDetails = () => {
                   <div className="container">
                     <div className="row">
                       <div className="offset-lg-1 col-lg-9 pt-5 pt-md-0">
-                      <h1 className="banner__title title color-white title--xl2 " style={{color:"#223c59" , paddingTop:"30px"}}>
+                      <h1 className="banner__title title color-white title--xl2 ml-0 ml-md-5" style={{color:"#223c59" , paddingTop:"30px"}}>
                             Contact Details
                           </h1>
-                        <h2 className="title title--lg pt-2 pt-md-0 fs-6">
+                        <h2 className="title title--lg py-3 py-md-0 fs-6">
 
                         We’d love to hear from you! Whether you have questions about our programs, admissions, or how to support GHS Karachi, our team is here to assist you. Please use the contact details below to get in touch, and we’ll be happy to help.
                         </h2>

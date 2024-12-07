@@ -6243,7 +6243,14 @@ body#site-6 .site-logo {
       .title--md, h2, #wpmem_login legend, #wpmem_reg legend {
         font-size: 23px;
         line-height: 28px; } }
-  .title--lg {
+        @media (max-width: 768px) {
+
+          .title--lg {
+      font-size: 1.5rem !important;
+      line-height: 32px !important;
+       }
+        }
+        .title--lg {
     font-family: var(--serifLight);
     font-size: 2.5rem;
     letter-spacing: -1px;
@@ -13199,9 +13206,18 @@ article strong {
 @media (max-width: 768px) {
   .contacts-list {
     margin-top: 30px; } }
-
+@media (max-width: 768px) {
+    .visit-us-main{
+      margin-left:0px
+    }
+  }
+  .image-our-purpose{
+    height:600px   }
+@media (max-width: 768px) {
+    .image-our-purpose{
+      height:auto    }
+  }
 .aims-ethos--banner {
-  height: 100vh;
   position: relative;
   margin-left: -15px;
   margin-right: -15px; }

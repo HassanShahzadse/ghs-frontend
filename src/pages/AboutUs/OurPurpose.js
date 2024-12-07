@@ -24,13 +24,13 @@ const OurPurpose = () => {
                 className="aims-ethos aims-ethos--banner"
                 data-color="secondary"
               >
-                <div className="container">
+                <div className="">
                   <div className="row">
                     <div
-                      className="offset-lg-1 col-lg-10 offset-md-1 col-md-10"
+                      className="offset-lg-1 col-lg-10 offset-md-1 col-md-10 "
                     >
                      
-                <div className="breadcrumbs-mobile">
+                <div className="breadcrumbs-mobile p-md-0 px-3">
                   <p id="breadcrumbs">
                     <span>
                       <span>
@@ -45,7 +45,7 @@ const OurPurpose = () => {
                     </span>
                   </p>
                 </div>
-                      <div className="title title--lg">
+                      <div className="title title--lg p-md-0 px-3">
                         <p className="mt-40">
                         At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. Rooted in our foundational values are the key aims of the college that we hope to instill in each of our students:<br />
                           <p>
@@ -113,7 +113,8 @@ Balancing academics, co-curricular activities, and well-being, we provide a well
                           <img
                             fetchpriority="high"
                             decoding="async"
-                            style={{height:"600px", objectFit:"fill"}}
+                            className='image-our-purpose'
+                            style={{ objectFit:"contain"}}
                             src="/assets/11/464498630_980572330772559_1755386396991265517_n.jpg"
                           />
 
