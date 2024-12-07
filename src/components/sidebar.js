@@ -1,4 +1,5 @@
 import React, {useState,useEffect} from "react";
+import $ from "jquery";
 import {Link, useLocation } from "react-router-dom";
 // import { FaPhone } from "react-icons/fa";
 import { FiPhone } from "react-icons/fi";
@@ -18,6 +19,55 @@ const Sidebar = () => {
   useEffect(() => {
     console.log("Route changed to:", location.pathname);
     closeMenu();
+
+    // jQuery logic
+    $(document).ready(() => {
+      let menuopen = false;
+
+      $(".parent-page > a").on("click", function (e) {
+        e.preventDefault();
+        const menutoopen = $(this).attr("id");
+        $(".parent-page > a").removeClass("active");
+        $(this).addClass("active");
+        $(".sub-menu-wrap").removeClass("sub-menu-open");
+        $(`#sub_${menutoopen}`).toggleClass("sub-menu-open");
+      });
+
+      $(".back-button").on("click", () => {
+        $(".parent-page > a").removeClass("active");
+        $(".sub-menu-wrap").removeClass("sub-menu-open");
+      });
+
+      $("#content-wrap").on("click", () => {
+        if (menuopen) {
+          $(".parent-page > a").removeClass("active");
+          $(".sub-menu-wrap").removeClass("sub-menu-open");
+          $(".hamburger").removeClass("open");
+          $(".nav-menu").removeClass("open");
+          $(".hamburger span").text("Menu");
+          menuopen = false;
+        }
+      });
+
+      if ($("body#site-5").length > 0) {
+        $(".post-type-archive-news-item #sub_6, .single #sub_6").addClass(
+          "sub-menu-slide"
+        );
+      } else {
+        $(
+          ".post-type-archive-news-item #sub_12, .single #sub_12, .blog #sub_12"
+        ).addClass("sub-menu-slide");
+      }
+
+      $("#menu-footer-menu li a").each(function () {
+        if (
+          $(this).attr("href") === '' ||
+          $(this).attr("href") === `/`
+        ) {
+          $(this).parent().addClass("current-menu-item");
+        }
+      });
+    });
   }, [location]);
   const phoneNumber = '0324-4717777';
 

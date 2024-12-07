@@ -658,74 +658,74 @@ jQuery(document).ready(function ($) {
 
 		}
 	} */
-  menu: {
-    let menuopen = false
+  // menu: {
+  //   let menuopen = false
     
 
-    //	$('#menu-nested-pages > li:has(div ul) > a').addClass('page-has-children');
-    // $('.hamburger').on('click', function () {
-      // menuopen = true
-      // $(this).toggleClass('open')
-      // $('.nav-menu').toggleClass('open')
-      // $('.parent-page > Link').removeClass('active')
-      // $('.sub-menu-wrap > Link').removeClass('sub-menu-open')
-      // if ($('.hamburger span').text() == 'Close') {
-        // $('.hamburger span').text('Menu')
-      // } else {
-        // $('.hamburger span').text('Close')
-        // setTimeout(function () {
-          // $('.sub-menu-slide').addClass('sub-menu-open')
-        // }, 300)
-      // }
-    // })
-    $('.parent-page > a').on('click', function (e) {
-      e.preventDefault()
-      let menutoopen = $(this).attr('id')
-      //console.log(menutoopen)
-      $('.parent-page > a').removeClass('active')
-      $(this).addClass('active')
-      $('.sub-menu-wrap').removeClass('sub-menu-open')
-      $('#sub_' + menutoopen).toggleClass('sub-menu-open')
-    })
-    $('.back-button').on('click', function () {
-      $('.parent-page > a').removeClass('active')
-      $('.sub-menu-wrap').removeClass('sub-menu-open')
-    })
+  //   //	$('#menu-nested-pages > li:has(div ul) > a').addClass('page-has-children');
+  //   // $('.hamburger').on('click', function () {
+  //     // menuopen = true
+  //     // $(this).toggleClass('open')
+  //     // $('.nav-menu').toggleClass('open')
+  //     // $('.parent-page > Link').removeClass('active')
+  //     // $('.sub-menu-wrap > Link').removeClass('sub-menu-open')
+  //     // if ($('.hamburger span').text() == 'Close') {
+  //       // $('.hamburger span').text('Menu')
+  //     // } else {
+  //       // $('.hamburger span').text('Close')
+  //       // setTimeout(function () {
+  //         // $('.sub-menu-slide').addClass('sub-menu-open')
+  //       // }, 300)
+  //     // }
+  //   // })
+  //   $('.parent-page > a').on('click', function (e) {
+  //     e.preventDefault()
+  //     let menutoopen = $(this).attr('id')
+  //     //console.log(menutoopen)
+  //     $('.parent-page > a').removeClass('active')
+  //     $(this).addClass('active')
+  //     $('.sub-menu-wrap').removeClass('sub-menu-open')
+  //     $('#sub_' + menutoopen).toggleClass('sub-menu-open')
+  //   })
+  //   $('.back-button').on('click', function () {
+  //     $('.parent-page > a').removeClass('active')
+  //     $('.sub-menu-wrap').removeClass('sub-menu-open')
+  //   })
 
-    $('#content-wrap').on('click', function () {
-      if (menuopen == true) {
-        //console.log('its true');
-        $('.parent-page > a').removeClass('active')
-        $('.sub-menu-wrap').removeClass('sub-menu-open')
-        $('.hamburger').removeClass('open')
-        $('.nav-menu').removeClass('open')
-        $('.hamburger span').text('Menu')
-        menuopen = false
-      } else {
-      }
-    })
+  //   $('#content-wrap').on('click', function () {
+  //     if (menuopen == true) {
+  //       //console.log('its true');
+  //       $('.parent-page > a').removeClass('active')
+  //       $('.sub-menu-wrap').removeClass('sub-menu-open')
+  //       $('.hamburger').removeClass('open')
+  //       $('.nav-menu').removeClass('open')
+  //       $('.hamburger span').text('Menu')
+  //       menuopen = false
+  //     } else {
+  //     }
+  //   })
 
-    if ($('body#site-5').length > 0) {
-      // Collections
-      $('.post-type-archive-news-item #sub_6, .single  #sub_6').addClass(
-        'sub-menu-slide'
-      )
-    } else {
-      $(
-        '.post-type-archive-news-item #sub_12, .single  #sub_12, .blog #sub_12'
-      ).addClass('sub-menu-slide')
-    }
+  //   if ($('body#site-5').length > 0) {
+  //     // Collections
+  //     $('.post-type-archive-news-item #sub_6, .single  #sub_6').addClass(
+  //       'sub-menu-slide'
+  //     )
+  //   } else {
+  //     $(
+  //       '.post-type-archive-news-item #sub_12, .single  #sub_12, .blog #sub_12'
+  //     ).addClass('sub-menu-slide')
+  //   }
 
-    // Subsites active links on bottom menu.
-    $('#menu-footer-menu li a').each(function () {
-      if (
-        $(this).attr('href') === php_vars.homeUrl ||
-        $(this).attr('href') === php_vars.homeUrl + '/'
-      ) {
-        $(this).parent().addClass('current-menu-item')
-      }
-    })
-  }
+  //   // Subsites active links on bottom menu.
+  //   $('#menu-footer-menu li a').each(function () {
+  //     if (
+  //       $(this).attr('href') === php_vars.homeUrl ||
+  //       $(this).attr('href') === php_vars.homeUrl + '/'
+  //     ) {
+  //       $(this).parent().addClass('current-menu-item')
+  //     }
+  //   })
+  // }
 //  accordion: {
 //     function toggleAccordion() {
 //       $('.js-accordion-target')
