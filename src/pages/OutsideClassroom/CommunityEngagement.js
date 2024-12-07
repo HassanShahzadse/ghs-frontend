@@ -35,23 +35,20 @@ const CommunityEngagement = () => {
                   </p>
                 </div>
                 <p style={{ fontFamily: "Nunito Sans" }}>
+                GHS Karachi is deeply committed to instilling a sense of social responsibility in our students. Through community engagement programs, students have the opportunity to make a real difference while developing empathy and leadership skills.
+                </p>
+                <p style={{ fontFamily: "Nunito Sans" }}>
                   Whether it’s volunteering at local shelters, participating in
                   fundraising events, or organizing environmental clean-ups,
                   students are encouraged to contribute to meaningful causes.
                   These experiences help them understand the importance of
                   giving back, cultivating a sense of gratitude and purpose.
                 </p>
-                <blockquote
-                  className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                  style={{ fontFamily: "Nunito Sans" }}
-                >
                   <p style={{ fontFamily: "Nunito Sans" }}>
                     By connecting students with their communities, we nurture
                     compassionate individuals who are driven to create positive
                     change in the world.
                   </p>
-                  <cite></cite>
-                </blockquote>{" "}
                 <section className="image-with-statistic">
                   <div>
                     <div className="animate-wrapper">

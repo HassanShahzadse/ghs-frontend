@@ -43,14 +43,23 @@ const Boarding = () => {
                   encouragement, and support.
                 </p>
                 <p style={{ fontFamily: "Nunito Sans" }}>
-                  <strong> Empowering Students Through Access </strong>
+                  {" "}
+                  Boarding life is structured to balance academic responsibilities with personal growth and social interaction. Modern living spaces offer comfortable accommodations, quiet study areas, and recreational facilities that promote a healthy and balanced lifestyle. Students form close bonds with their housemates, creating a sense of family and belonging.
+
+                </p>
+                <p style={{ fontFamily: "Nunito Sans" }}>
+                  {" "}
+                  Under the guidance of experienced housemasters and caring staff, students learn independence, responsibility, and time management. Whether organizing house events, taking part in inter-house competitions, or simply sharing stories over meals, boarders experience personal development and build lifelong friendships.
+                </p>
+                <p style={{ fontFamily: "Nunito Sans" }}>
+                  <strong> Empowering Students Through Access: </strong>
                   Many of our students come from underserved communities and
                   rely on scholarships and financial aid to pursue their
                   education. Your support ensures that no talented and deserving
                   child is left behind due to financial constraints.
                 </p>
                 <p style={{ fontFamily: "Nunito Sans" }}>
-                  <strong> Sustaining Excellence </strong>
+                  <strong> Sustaining Excellence: </strong>
                   Our goal is not just to educate but to provide an exceptional
                   experience that includes state-of-the-art facilities,
                   qualified educators, and a nurturing environment. These
@@ -60,14 +69,14 @@ const Boarding = () => {
                 </p>
                 <p style={{ fontFamily: "Nunito Sans" }}>
                   {" "}
-                  <strong>Leaving a Lasting Impact </strong>
+                  <strong>Leaving a Lasting Impact: </strong>
                   Education has a ripple effect—it doesn’t just change the life
                   of one student; it uplifts families and entire communities. By
                   supporting GHS Karachi, you become a part of this
                   transformational journey, impacting lives far beyond the
                   boundaries of our campus.
                 </p>
-                <blockquote
+                {/* <blockquote
                   className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
                   style={{ fontFamily: "Nunito Sans" }}
                 >
@@ -77,8 +86,7 @@ const Boarding = () => {
                     in the pursuit of excellence. This is reflected in
                     exceptional results in GCSE, A-level and Pre-U examinations
                   </p>
-                  {/* <cite>ISI inspection, December 2021</cite> */}
-                </blockquote>
+                </blockquote> */}
                 {/* <p style={{ fontFamily: "Nunito Sans" }}>
                   Our academic curriculum is broad. With 28 subjects on offer,
                   including 10 modern and classical languages, every boy has the

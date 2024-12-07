@@ -15,7 +15,7 @@ const Sport = () => {
                     { label: "Home", url: "/" },
                     { label: "Sport" },
                   ]}
-                  title="Sport at GHS"
+                  title="Sport"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
                   imageSrc="/assets/11/426483706_798635335632927_6247193730931777733_n.jpg"
                 />
@@ -37,6 +37,9 @@ const Sport = () => {
                 </div>
 
                 <p style={{ fontFamily: "Nunito Sans" }}>
+                Sports at GHS Karachi are more than just games—they are a cornerstone of our mission to develop balanced and disciplined individuals. Our extensive sports program allows students to engage in horse riding, cricket, football, swimming, basketball, tennis, and more, catering to both recreational players and competitive athletes.
+                </p>
+                <p style={{ fontFamily: "Nunito Sans" }}>
                   Students benefit from top-tier sports facilities, professional
                   coaches, and structured training schedules that help them grow
                   their skills while fostering resilience and perseverance.
@@ -54,7 +57,7 @@ const Sport = () => {
                   discipline, collaboration, and sportsmanship.
                 </p>
 
-                <blockquote
+                {/* <blockquote
                   className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
                   style={{ fontFamily: "Nunito Sans" }}
                 >
@@ -64,25 +67,8 @@ const Sport = () => {
                     in the pursuit of excellence. This is reflected in
                     exceptional results in GCSE, A-level and Pre-U examinations
                   </p>
-                </blockquote>
+                </blockquote> */}
 
-                <p style={{ fontFamily: "Nunito Sans" }}>
-                  Our academic curriculum is broad. With 28 subjects on offer,
-                  including 10 modern and classical languages, every boy has the
-                  best opportunity to discover his passion.&nbsp;
-                </p>
-
-                <p style={{ fontFamily: "Nunito Sans" }}>
-                  Our Masters are subject-specialists who invariably hold
-                  prestigious degrees in their subjects, but equally as
-                  important in their appointment has been their capacity to
-                  build relationships and inspire learners.
-                </p>
-
-                <p style={{ fontFamily: "Nunito Sans" }}>
-                  Our House Master and Tutor system ensures that at least two
-                  adults have oversight of every boy’s individual progress and
-                  are there to support and encourage him.
                   <div className="mt-10">
                     <video
                       controls
@@ -104,7 +90,6 @@ const Sport = () => {
                       Your browser does not support the video tag.
                     </video>
                   </div>
-                </p>
                 <section className="image-with-statistic">
                   <div>
                     <div className="animate-wrapper">

@@ -17,7 +17,7 @@ const NeedYourSupport = () => {
                   ]}
                   title="Why We Need Your Support"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
-                  imageSrc="/assets/11/275555348_126105986653995_8272690267920767325_n.jpg"
+                  imageSrc="/assets/11/Hompage Slider - Girls.jpg"
                 />
 
                 <div className="breadcrumbs-mobile">
@@ -37,6 +37,11 @@ const NeedYourSupport = () => {
                   </p>
                 </div>
 
+                <p>
+                At Global Hub School Karachi, our mission to provide world-class education to deserving students is made possible through the generosity of individuals, organizations, and communities who share our vision. As a charity school, we rely on your support to maintain and enhance our exceptional facilities, foster academic excellence, and empower students to achieve their fullest potential.
+By contributing to GHS, you’re not just making a donation—you’re transforming lives, uplifting communities, and investing in the future of education. Together, we can ensure that every child, regardless of their circumstances, has access to the tools and opportunities they need to succeed.
+
+                  </p>
                 <p>
                 <strong>  Empowering Students Through Access : </strong> Many of our students come
                   from underserved communities and rely on scholarships and

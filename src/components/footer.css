@@ -5683,7 +5683,18 @@ body.page-template-tpl-dark-bg {
       margin: 0; }
       .hamburger span {
         display: none; } }
+.font-23{
+  font-size:23px
+}
+@media (max-width: 786px) {
+  .map-visit-us{
+    width:90% !important
+  }
 
+}
+.map-visit-us{
+  width:70%
+}
 .nav-menu {
   position: fixed;
   padding: 104px 40px 57px;
@@ -13904,6 +13915,10 @@ body.page-id-13113 .aims-ethos--6 p {
 
 .leadership-grid {
   margin: 100px 0; }
+@media (max-width:786px){
+  .leadership-grid {
+    margin: 30px 0 0 0; }
+}
   .leadership-grid .title--lg {
     font-family: "Nunito Sans", sans-serif; }
   .leadership-grid .title--small {
@@ -13965,7 +13980,7 @@ body.page-id-13113 .aims-ethos--6 p {
       padding-top: 20px; }
 
 @media (min-width: 900px) {
-  body.page-id-21 .leadership-grid .col-md-6:first-of-type,
+  .page-id-21 .leadership-grid .col-md-6:first-of-type,
   #site-6.page-id-471 .leadership-grid .col-md-6:first-of-type {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 33.33333%;
@@ -13973,20 +13988,20 @@ body.page-id-13113 .aims-ethos--6 p {
     max-width: 33.33333%;
     margin-left: 16.66667%;
     margin-top: 0; }
-    body.page-id-21 .leadership-grid .col-md-6:first-of-type .teaser--community .title,
+    .page-id-21 .leadership-grid .col-md-6:first-of-type .teaser--community .title,
     #site-6.page-id-471 .leadership-grid .col-md-6:first-of-type .teaser--community .title {
       font-size: 24px;
       line-height: 28px; }
-    body.page-id-21 .leadership-grid .col-md-6:first-of-type .teaser--community small,
+    .page-id-21 .leadership-grid .col-md-6:first-of-type .teaser--community small,
     #site-6.page-id-471 .leadership-grid .col-md-6:first-of-type .teaser--community small {
       font-size: 16px; }
-  body.page-id-21 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(even),
+  .page-id-21 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(even),
   #site-6.page-id-471 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(even) {
     margin-top: 0; }
-  body.page-id-21 .leadership-grid .col-md-6:nth-of-type(2),
+  .page-id-21 .leadership-grid .col-md-6:nth-of-type(2),
   #site-6.page-id-471 .leadership-grid .col-md-6:nth-of-type(2) {
     margin-top: 6% !important; }
-  body.page-id-21 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(odd),
+  .page-id-21 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(odd),
   #site-6.page-id-471 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(odd) {
     margin-top: -6%; } }
 

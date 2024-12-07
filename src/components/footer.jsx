@@ -105,7 +105,7 @@ const Footer = () => {
 
 				<div className="pillar background-secondary"></div>
 
-				<div className="credit">Design by Compleit</div>
+				<div className="credit">Design by <a href="https://compleit.us/" target="blank">Compleit</a></div>
 			</div>
 		</footer>
   );

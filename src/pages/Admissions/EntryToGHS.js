@@ -4,6 +4,23 @@ import AdmissionProcedure from "./Procedure/AdmissionProcedure";
 import Banner from "../../components/Banner";
 
 const EntryToGHS = () => {
+  const phoneNumber = "0300-8410040";
+  const handlePhoneClick = () => {
+    if (navigator.userAgent.match(/iPhone|Android/i)) {
+      // For mobile devices, the `tel:` protocol will open the dialer
+      window.location.href = `tel:${phoneNumber}`;
+    } else {
+      // For desktop devices, let's copy the number to clipboard
+      navigator.clipboard
+        .writeText(phoneNumber)
+        .then(() => {
+          alert("Phone number copied to clipboard!");
+        })
+        .catch((error) => {
+          alert("Failed to copy phone number: " + error);
+        });
+    }
+  };
   return (
     <div id="content-wrap" style={{ fontFamily: "Nunito Sans" }}>
       <main className="main">
@@ -37,6 +54,16 @@ const EntryToGHS = () => {
                   </p>
                 </div>
                 <p className="">
+                At Global Hub School Karachi, we welcome bright and ambitious students from diverse backgrounds to join our vibrant community. Our admissions process is designed to identify students who will thrive in our academically rigorous and supportive environment.
+Through merit-based evaluations, we ensure that every applicant is given an equal opportunity to demonstrate their potential. With a focus on academic excellence, personal growth, and holistic development, GHS is committed to making quality education accessible to deserving students.
+.{" "}
+                </p>
+                <p className="d-flex justify-content-center">
+
+                <a className="button" href="https://app.ghskarachi.com/student/online/reg2" target='_blank'>Apply Now</a>
+                </p>
+
+                <p className="">
                   Applying to GHS Karachi is a straightforward process designed
                   to evaluate students’ academic capabilities, character, and
                   passion for learning. Applicants are required to complete an
@@ -51,7 +78,7 @@ const EntryToGHS = () => {
                 </p>
 
                 <p>Good luck with your application.</p>
-                <p className="d-flex">
+                <p className="d-flex justify-content-center">
                   <a
                     href="/assets/GHS Boys Prospectus 2025-26.pdf"
                     target="_blank"
@@ -93,7 +120,7 @@ const EntryToGHS = () => {
                   </div>
                 </section>
 
-                <p>
+                {/* <p>
                   <a
                     className="button"
                     href="https://app.ghskarachi.com/student/online/reg2"
@@ -102,16 +129,9 @@ const EntryToGHS = () => {
                   >
                     Online Registration
                   </a>
-                </p>
+                </p> */}
 
-                <h2 className="wp-block-heading">Essential Information</h2>
-
-                <p>
-                  <img
-                    decoding="async"
-                    src="/assets/11/176550934_2788094451437356_5384273365940172592_n.jpg"
-                  />
-                </p>
+               
 
                 <div aria-hidden="true" className="wp-block-spacer"></div>
 
@@ -120,15 +140,8 @@ const EntryToGHS = () => {
                 <p>
                   If you are a prospective parent and would like to be booked
                   onto a visit to GHS College, please contact our Admissions
-                  Team (+92 21 3644 0300).
-                </p>
-
-                <p>
-                  We usually run Admissions tours twice a week throughout term
-                  time, all in the afternoon. Tours take place on Mondays and
-                  Wednesdays during the Michaelmas and Lent terms and Tuesdays
-                  and Thursdays during the Summer term. Please note we do not
-                  run tours on weekends.
+                  Team <span onClick={handlePhoneClick}
+                  >(+92300 8410040)</span>.
                 </p>
               </article>
             </div>

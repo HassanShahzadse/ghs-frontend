@@ -37,6 +37,11 @@ const AcadmicCurriculum = () => {
 
 
               <p style={{ fontFamily: 'Nunito Sans'}}>
+              Global Hub School Karachi offers a dynamic learning environment with a diverse curriculum designed to foster critical thinking, creativity, and academic excellence. Small class sizes ensure personalized attention, while state-of-the-art facilities, including science labs, computer labs, and a rich library, support hands-on learning and exploration.
+Our tailored learning support helps students overcome challenges and build confidence, ensuring every child reaches their potential. A rigorous examination system prepares students for success in board exams, balancing learning with evaluation to build resilience and competence.
+At GHS, we combine innovation, support, and excellence to help students thrive academically and beyond.
+              </p>
+              <p style={{ fontFamily: 'Nunito Sans'}}>
               An exceptional education begins with a carefully crafted curriculum, and at Global Hub School Karachi, ours is designed to provide a strong foundation for academic and personal growth. With numerous subjects to explore, our curriculum challenges students to think critically, question creatively, and engage deeply with their studies.
               </p>
 

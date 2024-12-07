@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/footer.css";
 import Banner from "../../components/Banner";
+import { Link } from "react-router-dom";
 
 const WaysToSupport = () => {
   return (
@@ -69,6 +70,10 @@ const WaysToSupport = () => {
                   </p>
                   {/* <cite>Block</cite> */}
                 </blockquote>
+                <p className="d-flex justify-content-center">
+
+                <Link className="button" to={'/ContactUs/ContactDetails'}>Contact Us</Link>
+                </p>
 
                 <section className="image-with-statistic">
                   <div>
