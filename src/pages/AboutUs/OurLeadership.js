@@ -1,11 +1,21 @@
 import React from "react";
 import "../../components/footer.css"
+import Banner from "../../components/Banner";
 
 
 const OurLeadership = () => {
   return (
     <div id="content-wrap">
       <main className="main ">
+      <Banner
+                  breadcrumbs={[
+                    { label: "Home", url: "/" },
+                    { label: "Our Leadership" },
+                  ]}
+                  title="Our Leadership"
+                  introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
+                  imageSrc="/assets/11/IMG_0332.JPG"
+                />
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">
@@ -28,16 +38,13 @@ const OurLeadership = () => {
                 </div>
                 <div className="container">
                   <div className="row">
-                    <div
-                      className="offset-lg-1 col-lg-10 offset-md-1 col-md-10"
-                    ></div>
                 <div className="title title--lg">
-                <h1
+                {/* <h1
                           className="banner__title title color-black title--xl2" style={{color:"#223C59", marginTop:"18px"}}
                         >
                           Our Leadership
-                        </h1>
-                        <p className="mt-30 pt-5">
+                        </h1> */}
+                        <p className="mt-1 pt-3">
                         At Global Hub School Karachi, our leadership is founded on the belief that the best educators inspire the best outcomes. That’s why we gather the finest teaching professionals from across the country, uniting diverse expertise and experiences under one roof.
 Our educators are not just teachers—they are mentors, role models, and innovators who ignite a passion for learning in our students. Each faculty member brings a unique perspective and specialized knowledge, creating a rich and varied educational experience for every child.
 By learning from educators with diverse skills and backgrounds, our students are exposed to multiple ways of thinking, problem-solving, and understanding the world. This dynamic exchange of ideas equips them to become responsible, capable, and global citizens.
@@ -73,7 +80,7 @@ As leaders in education, we are committed to fostering excellence, innovation, a
                             
                             >
 
-                            <img src="/assets/11/IMG_0332.JPG" alt="" style={{ width: "500px", height: "350px" }}/>
+                            <img src="/assets/11/263856165_2949755955271204_4147642677834431307_n.JPG" alt="" style={{ width: "500px", height: "350px" }}/>
                             </span>
                         
                           </div>

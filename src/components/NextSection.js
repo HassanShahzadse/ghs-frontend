@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from "react";
 import "./footer.css";
-import { Link } from "react-router-dom";
 
 const NextSection = () => {
   const [fontSize, setFontSize] = useState('100px');

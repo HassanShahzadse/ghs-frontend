@@ -86,7 +86,7 @@ const ScrollingImagesSection = () => {
               <img
                 decoding="async"
                 className=""
-                src="/assets/11/69729319_2298412693738870_1343645145202950144_n.jpg"              />
+                src="/assets/11/426483706_798635335632927_6247193730931777733_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -178,7 +178,7 @@ const ScrollingImagesSection = () => {
               <img
                 decoding="async"
                 className=""
-                src="/assets/11/73372222_2355401751373297_7012429237739061248_n.jpg"              />
+                src="/assets/11/445777525_871320578364402_7168044547458334355_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -270,7 +270,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/247470871_2919321168314683_3967744707871769205_n.png"              />
+                src="/assets/11/410979369_760034769492984_442924052359020675_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -362,7 +362,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/300435996_172020862062507_4477850517123929161_n.jpg"              />
+                src="/assets/11/IMG_0226.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -453,7 +453,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/174739355_2788092938104174_1790550117626444802_n.jpg"              />
+                src="/assets/11/468623903_17887571334114188_2434541860823839012_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -731,7 +731,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/90192471_2479260052320799_1132917114605142016_n.jpg"              />
+                src="/assets/11/464114143_975499257946533_5600953240592261463_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -823,7 +823,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/90181962_2479259875654150_3669534647982751744_n.jpg"              />
+                src="/assets/11/463534695_973260718170387_1682428706051631461_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -915,7 +915,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/90148787_2479258218987649_5600563102589386752_n.jpg"              />
+                src="/assets/11/417474905_799979165498544_209576125104193647_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -1007,7 +1007,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/176074127_2788094911437310_1793668116840003786_n.jpg"              />
+                src="/assets/11/417452177_795742179255576_7241016726789719105_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>
@@ -1099,7 +1099,7 @@ const ScrollingImagesSection = () => {
              <img
                 decoding="async"
                 className=""
-                src="/assets/11/173949365_2788094718103996_8914009337549083740_n.jpg"              />
+                src="/assets/11/448144176_877114231118370_3600972621972443277_n.jpg"              />
 
               <div className="ig-hover">
                 <p>View on instagram</p>

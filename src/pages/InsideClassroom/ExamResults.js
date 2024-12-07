@@ -1,6 +1,6 @@
 import React  from 'react'
 import "../../components/footer.css"
-import ResultAccordion from './ResultAccordian'
+// import ResultAccordion from './ResultAccordian'
 import Banner from '../../components/Banner';
 
 const ExamResults = () => {

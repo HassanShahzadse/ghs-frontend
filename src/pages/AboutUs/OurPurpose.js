@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../components/footer.css"
 import { Link } from 'react-router-dom'
+import Banner from '../../components/Banner'
 
 const OurPurpose = () => {
   return (
@@ -10,39 +11,40 @@ const OurPurpose = () => {
         <div className="row">
           <div className="col-12">
             <article className="">
+            <Banner
+                  breadcrumbs={[
+                    { label: "Home", url: "/" },
+                    { label: "Our Purpose" },
+                  ]}
+                  title="Our Purpose"
+                  introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
+                  imageSrc="/assets/11/DSC_4385.jpg"
+                />
               <section
                 className="aims-ethos aims-ethos--banner"
                 data-color="secondary"
               >
-                <div className="breadcrumbs-desk">
-                  <p id="breadcrumbs">
-                    <span
-                      ><span
-                        ><a className="my-class" href="/"
-                          >Home</a
-                        ></span
-                      >
-                      
-                      <span className="breadcrumbs-separator"></span>
-                      <span className="breadcrumb_last" aria-current="page"
-                        >Our Purpose</span
-                      ></span
-                    >
-                  </p>
-                </div>
                 <div className="container">
                   <div className="row">
                     <div
                       className="offset-lg-1 col-lg-10 offset-md-1 col-md-10"
                     >
-                      <div
-                        className="title title--shadow horizontal-scroll--right"
-                      ></div>
-                      <h1
-                          className="banner__title title color-black title--xl2" style={{color:"#223C59", marginTop:"18px"}}
-                        >
-                          Our Purpose
-                        </h1>
+                     
+                <div className="breadcrumbs-mobile">
+                  <p id="breadcrumbs">
+                    <span>
+                      <span>
+                        <a className="my-class" href="/">
+                          Home
+                        </a>
+                      </span>
+                      <span className="breadcrumbs-separator"></span>
+                      <span className="breadcrumb_last" aria-current="page">
+                        Our Purpose
+                      </span>
+                    </span>
+                  </p>
+                </div>
                       <div className="title title--lg">
                         <p className="mt-40">
                         At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. Rooted in our foundational values are the key aims of the college that we hope to instill in each of our students:<br />
@@ -81,9 +83,6 @@ GHS nurtures leadership qualities in every student by offering opportunities to 
                          <strong>  A Holistic Approach to Growth : </strong> 
 Balancing academics, co-curricular activities, and well-being, we provide a well-rounded education that develops confident, compassionate, and competent individuals.
                             </li>
-                            {/* <li>
-                              nurtures the value of leadership and service;
-                              </li> */}
                           </ol>
                         </div>
                       </div>
@@ -115,7 +114,7 @@ Balancing academics, co-curricular activities, and well-being, we provide a well
                             fetchpriority="high"
                             decoding="async"
                             style={{height:"600px", objectFit:"fill"}}
-                            src="/assets/11/462142391_3684004605179665_4619771339123697881_n.jpg"
+                            src="/assets/11/464498630_980572330772559_1755386396991265517_n.jpg"
                           />
 
                         </div>
