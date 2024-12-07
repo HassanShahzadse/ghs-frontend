@@ -17,7 +17,7 @@ const AfterScrollingSection = () => {
               </p>
             </div>
           </div>
-          <div className="introduction--column--media introduction--column-1--media"  style={{marginLeft: "10px"}}>
+          <div className="introduction--column--media introduction--column-1--media ml-0 ml-md-3">
             <div className="video-embed">
   <video
   controls
@@ -76,11 +76,26 @@ const AfterScrollingSection = () => {
                 </span>
               </p>
               <p>&nbsp;</p>
-              <p>
-                <a className="button" href="/Admissions/EntryToGHS" style={{ fontFamily: 'Nunito Sans'}}>
-                            Our Prospectus
-                </a>
-              </p>
+              <p className="d-flex">
+                  <a
+                    href="/assets/GHS Boys Prospectus 2025-26.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="button md:mr-3 mr-2  btn btn-primary"
+                  >
+                    <i className="fa-regular fa-file-pdf md:mr-3 mr-1"></i> BOYS
+                    PROSPECTUS
+                  </a>
+                  <a
+                    href="/assets/GHS Girls  Prospectus 2025-26.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="button btn btn-primary"
+                  >
+                    <i className="fa-regular fa-file-pdf md:mr-3 mr-1"></i>{" "}
+                    GIRLS PROSPECTUS
+                  </a>
+                </p>
             </div>
           </div>
         </div>

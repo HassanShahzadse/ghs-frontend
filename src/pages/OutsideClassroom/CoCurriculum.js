@@ -13,7 +13,7 @@ const CoCurriculum = () => {
               <Banner
                   breadcrumbs={[
                     { label: "Home", url: "/" },
-                    { label: "The CoCurriculum" },
+                    { label: "The Co-Curriculum" },
                   ]}
                   title="The CoCurriculum"
                   introText="Our broad curriculum promotes academic excellence, the best habits of independent thought and a lifelong habit of intellectual curiosity and love of learning."
@@ -31,7 +31,7 @@ const CoCurriculum = () => {
 
                       <span className="breadcrumbs-separator"></span>
                       <span className="breadcrumb_last" aria-current="page">
-                        Co Curriculum
+                        Co-Curriculum
                       </span>
                     </span>
                   </p>

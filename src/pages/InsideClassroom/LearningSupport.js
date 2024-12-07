@@ -66,7 +66,7 @@ const LearningSupport = () => {
                         >
                           <img
                             decoding="async"
-                            src="/assets/11/IMG_0146.jpg"                          />
+                            src="/assets/11/IMG_0146-min.jpg"                          />
                         </div>
                       </div>
                     </div>

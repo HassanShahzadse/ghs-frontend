@@ -4,14 +4,14 @@ import "../../components/footer.css"
 const VisitUs = () => {
   return (
 	  <>
-              <div className="pt-5" style={{marginLeft:"100px" ,fontFamily: 'Nunito Sans'}}>
+              <div className="pt-5 visit-us-main" style={{fontFamily: 'Nunito Sans'}}>
                 <div className="container">
                   <div className="row">
                     <div className="offset-lg-1 col-lg-9 pt-5 pt-md-0">
-                    <h1 className="banner__title title color-white title--xl2 " style={{color:"#223c59" , paddingTop:"30px"}}>
+                    <h1 className="banner__title title color-white title--xl2 ml-0 ml-md-5" style={{color:"#223c59" , paddingTop:"30px"}}>
                             Visit Us
                           </h1>
-                      <h2 className="title title--lg pt-5 pt-md-0">
+                      <h2 className="title title--lg py-3 pt-md-0">
                       Experience Global Hub School Karachi firsthand! We welcome you to visit our campus, explore our state-of-the-art facilities, and meet our dedicated team. Schedule a visit to see how we are shaping the future, one student at a time.
                       </h2>
                     </div>
