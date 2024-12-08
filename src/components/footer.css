@@ -8672,7 +8672,11 @@ html.no-objectfit .home .banner .image-container img {
       background: linear-gradient(151.15deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 63%); }
   .page-id-8400 .breadcrumbs-desktop > p > span > span > span .my-class, .page-id-8400 .breadcrumbs-desktop > p > span > span > span .breadcrumbs-separator {
     display: none; } }
-
+    @media (max-width: 769px) {
+      .aims-ethos--6{
+        margin:10px 0px !important
+      }
+    }
 .teaser {
   position: relative; }
   .teaser__inner {
@@ -8713,7 +8717,7 @@ html.no-objectfit .home .banner .image-container img {
           line-height: 39px; } }
     .teaser--community span {
 background: rgba(255, 255, 255, 0.8);
-border-radius: 16px;
+/* border-radius: 16px; */
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(1.7px);
 -webkit-backdrop-filter: blur(1.7px);
