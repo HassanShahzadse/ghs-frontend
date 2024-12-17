@@ -41,6 +41,33 @@ const VisitUs = () => {
 
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d451.5055541637115!2d67.0252268!3d25.1341886!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb35d392a08bce5%3A0xaa4aec05dc637295!2s42PF%2B7JG%2C%20Hub%20Dam%20Rd%D8%8C%20near%20Hamdard%20University%2C%20Gadap%20Town%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh!5e0!3m2!1sen!2s!4v1732990375720!5m2!1sen!2s" width="100%" height="450px" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+    
+                </div>
+                <div className="container pt-5">
+                <div className="row">
+                    <div className="offset-lg-1 col-lg-10">
+                      <div className="row">
+                        <div className="col-md-5">
+                          <h3 className="title title--md">Global Hub School Karachi-Karachi City Office</h3>
+                          <hr />
+                          <p>
+                        <strong> For more information, you can also visit our Karachi city office:</strong></p>
+<p>113-A، Main Shahrah-e-Faisal Rd, Sindhi Muslim Cooperative Housing Society Karachi, 74400, Pakistan.
+</p>
+                          <hr />
+                        </div>
+                        <div className="col-md-6 offset-md-1">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div className='d-flex justify-content-center'>
+    <div className='map-visit-us'>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.1066452888977!2d67.05352177519998!3d24.86020697792948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f702a9f8287%3A0x7e34335b745d5100!2sAJCL%20(Private)%20Limited!5e0!3m2!1sen!2s!4v1734421667848!5m2!1sen!2s"  width="100%" height="450px" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+    
                 </div>
               </div>
   </>

@@ -53,7 +53,9 @@ const Footer = () => {
 											<h3 className="title title--sm">Contact Us</h3>
 											<p>Global Hub School<br />
 											Hub Dam Road (5 KM from Hamdard University), Karachi, Sindh, Pakistan</p>
-											<p>0300 8410040</p>
+											<p>GHS Karachi Office:</p>
+											<p>113-A، Main Shahrah-e-Faisal Rd, Sindhi Muslim Cooperative Housing Society Karachi, 74400, Pakistan</p>
+										<p>0300 8410040</p>
 											<p>0324 4717777</p>
 											<p>021 36440300</p>
 											<p><a

@@ -81,7 +81,7 @@ const OurHistory = () => {
                 there now being three.
               </p> */}
 
-              <section className="image-with-statistic">
+              {/* <section className="image-with-statistic">
                 <div>
                   <div className="animate-wrapper">
                     <div
@@ -103,7 +103,7 @@ const OurHistory = () => {
                     </div>
                   </div>
                 </div>
-              </section>
+              </section> */}
 
               {/* <p>
                 The first proper boarding House, Jourdelay’s, was built in
@@ -140,7 +140,7 @@ const OurHistory = () => {
                 museum and library.
               </p> */}
 
-              <p>
+              {/* <p>
                   <img
                     src="/assets/11/DSC_2159.JPG"
                     alt="Image"
@@ -150,7 +150,7 @@ const OurHistory = () => {
                       objectFit: "cover",
                     }}
                   />
-              </p>
+              </p> */}
 
               {/* <h3 className="wp-block-heading">Floreat Etona</h3>
 
