@@ -52,11 +52,7 @@ const ContactDetails = () => {
                     </div>
                   </div>
                 </div>
-
-               
               </article>
-              
-              
             </div>
           </div>
         </div>
