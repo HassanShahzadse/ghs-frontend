@@ -1,7 +1,21 @@
-import React from 'react'
-import "../../components/footer.css"
+import React from "react";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+import "../../components/footer.css";
+
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png",
+  iconRetinaUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png",
+  shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
+});
 
 const VisitUs = () => {
+  const latitude = 25.1341886;
+  const longitude = 67.0252268;
+  const googleMapsUrl = `https://www.google.com/maps?q=${latitude},${longitude}&z=15`;
+
   return (
 	  <>
               <div className="pt-5 visit-us-main" style={{fontFamily: 'Nunito Sans'}}>
@@ -74,4 +88,4 @@ const VisitUs = () => {
   )
 }
 
-export default VisitUs
+export default VisitUs;
