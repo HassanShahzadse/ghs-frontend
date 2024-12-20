@@ -35,6 +35,9 @@ const EnvironmentalEducation = () => {
                   </p>
                 </div>
                 <p style={{ fontFamily: "Nunito Sans" }}>
+                Environmental sustainability is a cornerstone of the GHS Karachi ethos. Our environmental education programs empower students to take active roles in protecting the planet while gaining a deeper appreciation for nature.
+                </p>
+                <p style={{ fontFamily: "Nunito Sans" }}>
                   Students participate in initiatives like tree planting,
                   recycling drives, and conservation projects, learning
                   practical ways to address global challenges. Eco-clubs provide
@@ -42,16 +45,11 @@ const EnvironmentalEducation = () => {
                   ideas, enabling students to lead sustainability efforts both
                   within the school and beyond.
                 </p>
-                <blockquote
-                  className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                  style={{ fontFamily: "Nunito Sans" }}
-                >
                   <p style={{ fontFamily: "Nunito Sans" }}>
                     By fostering an awareness of environmental responsibility,
                     we prepare students to make informed and conscientious
                     decisions that contribute to a sustainable future.
                   </p>
-                </blockquote>{" "}
                 <section className="image-with-statistic">
                   <div>
                     <div className="animate-wrapper">

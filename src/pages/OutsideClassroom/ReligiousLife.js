@@ -37,6 +37,9 @@ const ReligiousLife = () => {
                 </div>
 
                 <p style={{ fontFamily: "Nunito Sans" }}>
+                While GHS Karachi is a non-denominational institution, we recognize the importance of spiritual growth in shaping well-rounded individuals. For our predominantly Muslim student body, we offer structured programs that provide a comprehensive understanding of Islamic teachings and values.
+                </p>
+                <p style={{ fontFamily: "Nunito Sans" }}>
                   These programs include Quranic studies, religious discussions,
                   and regular prayers, helping students integrate their faith
                   into daily life. Beyond religious education, we foster an
@@ -44,17 +47,11 @@ const ReligiousLife = () => {
                   encouraging students to embrace diversity and develop strong
                   moral principles.
                 </p>
-
-                <blockquote
-                  className="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow"
-                  style={{ fontFamily: "Nunito Sans" }}
-                >
                   <p style={{ fontFamily: "Nunito Sans" }}>
                     By emphasizing the role of faith in character building, we
                     aim to guide students toward lives of integrity, compassion,
                     and purpose.
                   </p>
-                </blockquote>
                 <section className="image-with-statistic">
                   <div>
                     <div className="animate-wrapper">
