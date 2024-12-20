@@ -158,7 +158,7 @@ const ScrollingDivs = () => {
                     <div className="banner__container banner--desktop js-home-banner-container">
                       <div className="banner-col-1">
                         <div className="banner-text js-home-banner-text">
-                          <h1 >GHS Karachi.</h1>
+                          <h1 >Global Hub School Karachi.</h1>
                         </div>
                         <div className="banner--column banner--column-1 js-home-banner-col-1">
                           <div className="banner__image landscape">
@@ -457,7 +457,7 @@ const ScrollingDivs = () => {
                   <div className="banner--mobile">
                     <div className="banner-text">
                       <h1>
-                        GHS Karachi.
+                        Global Hub School Karachi.
                         <br />
                         Onwards & Upwards.
                       </h1>
