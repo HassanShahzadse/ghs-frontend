@@ -47,7 +47,10 @@ const OurPurpose = () => {
                 </div>
                       <div className="title title--lg p-md-0 px-3">
                         <p className="mt-40">
-                        At Global Hub School Karachi, our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. Rooted in our foundational values are the key aims of the college that we hope to instill in each of our students:<br />
+                        At Global Hub School Karachi, we are dedicated to providing a world-class education that inspires excellence, fosters individuality, and empowers students to become compassionate global citizens. Situated on a sprawling 250-acre campus, GHS combines an internationally recognized Cambridge-based curriculum with state-of-the-art facilities and a commitment to sustainable practices. Our experienced educators, drawn from diverse backgrounds, bring unique expertise to nurture critical thinking, creativity, and leadership in every student. Guided by a dynamic Governing Body of leaders from education, philanthropy, and medicine, we continually strive to set new benchmarks in academic and personal development, ensuring our students are prepared to thrive in a rapidly evolving world.
+                        </p>
+                        <p className="mt-40">
+                        Our mission is to cultivate the inherent talents of young individuals, enabling them to thrive and positively impact society. Rooted in our foundational values are the key aims of the college that we hope to instill in each of our students:<br />
                           <p>
                             In advancing this purpose, GHS is committed to
                             an ethos which:
@@ -56,7 +59,7 @@ const OurPurpose = () => {
                       </div>
 
                       <div
-                        className="row"
+                        className="row title title--lg p-md-0 px-3"
                         style={{ fontFamily: 'Nunito Sans'}}
                       >
                         <div className="col-lg-6">
@@ -99,7 +102,7 @@ Balancing academics, co-curricular activities, and well-being, we provide a well
                 <div className="container">
                   <div className="row">
                     <div
-                      className="offset-lg-1 col-lg-10 offset-md-1 col-md-10"
+                      className=""
                     >
                       <h1>
                         <div className="title title--shadow horizontal-scroll--right" style={{marginLeft:'8px'}} >
@@ -108,18 +111,36 @@ Balancing academics, co-curricular activities, and well-being, we provide a well
                       </h1>
                       <div className="title title--lg"></div>
 
-                      <div className="row">
-                        <div className="col-md-4">
-                          <img
+                      <div className="row align-items-center">
+                        <div className="col-md-6">
+                          {/* <img
                             fetchpriority="high"
                             decoding="async"
                             className='image-our-purpose'
                             style={{ objectFit:"contain"}}
                             src="/assets/11/464498630_980572330772559_1755386396991265517_n.jpg"
-                          />
+                          /> */}
+                    <video
+                      controls
+                      autoPlay
+                      loop
+                      playsinline
+                      muted
+                      className="h-1/2 w-1/2 absolute object-cover"
+                      style={{
+                        width: "100%",
+                        marginTop: "70px",
+                      }}
+                    >
+                      <source
+                        src="/assets/video/MVI_0263.MOV"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
 
                         </div>
-                        <div className="col-md-8" style={{ fontFamily: 'Nunito Sans' }}>
+                        <div className="col-md-6 title title--lg p-md-0 px-3" style={{ fontFamily: 'Nunito Sans' }}>
                           <p>
                             <span className="intro"
                               >In order to achieve this GHS:</span

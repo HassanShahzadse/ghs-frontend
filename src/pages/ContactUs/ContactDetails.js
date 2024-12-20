@@ -1,10 +1,9 @@
 import React from "react";
-import "../../components/footer.css"
-
+import "../../components/footer.css";
 
 const ContactDetails = () => {
   return (
-    <div id="content-wrap" style={{ fontFamily: 'Nunito Sans'}}>
+    <div id="content-wrap" style={{ fontFamily: "Nunito Sans" }}>
       <main className="main">
         <div className="container-fluid py-md-5 py-3">
           <div className="row">
@@ -14,12 +13,18 @@ const ContactDetails = () => {
                   <div className="container">
                     <div className="row">
                       <div className="offset-lg-1 col-lg-9 pt-5 pt-md-0">
-                      <h1 className="banner__title title color-white title--xl2 ml-0 ml-md-5" style={{color:"#223c59" , paddingTop:"30px"}}>
-                            Contact Details
-                          </h1>
+                        <h1
+                          className="banner__title title color-white title--xl2 ml-0"
+                          style={{ color: "#223c59", paddingTop: "30px" }}
+                        >
+                          Contact Details
+                        </h1>
                         <h2 className="title title--lg py-3 py-md-0 fs-6">
-
-                        We’d love to hear from you! Whether you have questions about our programs, admissions, or how to support GHS Karachi, our team is here to assist you. Please use the contact details below to get in touch, and we’ll be happy to help.
+                          We’d love to hear from you! Whether you have questions
+                          about our programs, admissions, or how to support GHS
+                          Karachi, our team is here to assist you. Please use
+                          the contact details below to get in touch, and we’ll
+                          be happy to help.
                         </h2>
                       </div>
                     </div>
@@ -28,24 +33,53 @@ const ContactDetails = () => {
                         <div className="row">
                           <div className="col-md-5">
                             <div>
-                            <h3 className="title title--md">Contact Details</h3>
-                            <hr />
-                            <h6 style={{fontWeight:"bold"}}>Mobile Numbers:</h6>
-                            <a href="tel:0300 8410040">  <p>0300 8410040</p> </a>
-                            <a href="tel:0324 4717777"><p>0324 4717777</p> </a>
-    </div>
-    <div>
-    <h6 style={{fontWeight:"bold"}}>Landline Number:</h6>
-    <a href="tel:021 36440300"><p>021 36440300</p> </a>
-    </div>
-    <div>
-    <h6 style={{fontWeight:"bold"}}>For General Queries:</h6>
-  <a href="mailto:info@ghskarachi.com"><p>info@ghskarachi.com</p></a>
-  </div>
-  <div>
-  <h6 style={{fontWeight:"bold"}}>Admission Inquiries:</h6>
-  <a href="mailto:admissions@ghskarachi.com"><p>admissions@ghskarachi.com</p></a>
-  </div>
+                              <h3
+                                className="mb-2"
+                                style={{ fontWeight: "bold" }}
+                              >
+                                Mobile/WhatsApp Numbers:
+                              </h3>
+                              <a href="tel:0300 8410040">
+                                {" "}
+                                <p className="font-23">0300 8410040</p>{" "}
+                              </a>
+                              <a href="tel:0324 4717777">
+                                <p className="font-23">0324 4717777</p>{" "}
+                              </a>
+                            </div>
+                            <div>
+                              <h3
+                                className="mb-2"
+                                style={{ fontWeight: "bold" }}
+                              >
+                                Landline Number:
+                              </h3>
+                              <a href="tel:021 36440300">
+                                <p className="font-23">021 36440300</p>{" "}
+                              </a>
+                            </div>
+                            <div>
+                              <h3
+                                className="mb-2"
+                                style={{ fontWeight: "bold" }}
+                              >
+                                For General Queries:
+                              </h3>
+                              <a href="mailto:info@ghskarachi.com">
+                                <p className="font-23">info@ghskarachi.com</p>
+                              </a>
+                            </div>
+                            <div>
+                              <h3
+                                className="mb-2"
+                                style={{ fontWeight: "bold" }}
+                              >
+                                Admission Inquiries:
+                              </h3>
+                              <a href="mailto:admissions@ghskarachi.com">
+                                <p className="font-23">admissions@ghskarachi.com</p>
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>

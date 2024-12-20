@@ -7,60 +7,103 @@ import Slider from "react-slick";
 const ScrollingDivs = () => {
   const banners = [
     {
-      imageSrc:
-        "/assets/11/un.png",
+      imageSrc: "/assets/11/447428859_871318545031272_3584749452741300615_n.jpg",
       alt: "Image description",
-      link: "OutsideClassroom/Boarding",
-      description: "Boarding nurtures personal growth and",
-      highlight: "lifelong friendships",
-      category: "Boarding",
-    },
-    {
-      imageSrc:
-        "/assets/11/447428859_871318545031272_3584749452741300615_n.jpg",
-      alt: "Image description",
-      link: "OutsideClassroom/Sport",
-      description: "Championing ",
+      link: "/OutsideClassroom/Sport",
+      description: "Championing",
       highlight: "Athletic Spirit",
       category: "Sports",
     },
     {
-      imageSrc:
-        "/assets/11/441068841_857863996376727_8535097873388575013_n.jpg",
+      imageSrc: "/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg",
       alt: "Image description",
-      link: "OutsideClassroom/CoCurriculum",
+      link: "/InsideClassroom/AcadmicCurriculum",
+      description: "Fostering a lifelong appreciation of",
+      highlight: "independent thinking and learning",
+      category: "Academic",
+    },
+    {
+      imageSrc: "/assets/11/441068841_857863996376727_8535097873388575013_n.jpg",
+      alt: "Image description",
+      link: "/InsideClassroom/LearningSupport",
       description: "Curiosity-driven",
       highlight: "minds,growing through every stage.",
       category: "Lifelong Learners",
     },
     {
-      imageSrc:
-        "/assets/11/176550934_2788094451437356_5384273365940172592_n.jpg",
+      imageSrc: "/assets/11/Hompage Slider - Girls.jpg",
       alt: "Image description",
-      link: "OutsideClassroom/CoCurriculum",
+      link: "/OutsideClassroom/CommunityEngagement",
+      description: "Empowering students",
+      highlight: "to become tomorrow's leaders",
+      category: "Leaders of Tomorrow",
+    },
+    {
+      imageSrc: "/assets/11/461968913_3684004521846340_906275821340010015_n.jpg",
+      alt: "Image description",
+      link: "/InsideClassroom/AcadmicFacilities",
+      description: "At the vanguard of",
+      highlight: "innovation in education",
+      category: "Research and Innovation",
+    },
+    {
+      imageSrc: "/assets/11/90172896_2479257448987726_2746791719352664064_n.jpg",
+      alt: "Image description",
+      link: "/OutsideClassroom/Sport",
+      description: "Providing a prestigious riding",
+      highlight: "experience for horseback riding enthusiasts",
+      category: "Elite Equestrian Program",
+    },
+    {
+      imageSrc: "/assets/11/176550934_2788094451437356_5384273365940172592_n.jpg",
+      alt: "Image description",
+      link: "/OutsideClassroom/CoCurriculum",
       description: "Providing a stage for",
       highlight: "talent to shine",
       category: "Drama",
     },
     {
-      imageSrc:
-        "/assets/11/464867546_990906286405830_497001862446222814_n.jpg",
+      imageSrc: "/assets/11/un.png",
       alt: "Image description",
-      link: "OutsideClassroom/CoCurriculum",
-      description:"With 40+ clubs and societies, fostering passion",
+      link: "/OutsideClassroom/Boarding",
+      description: "Boarding nurtures personal growth and",
+      highlight: "lifelong friendships",
+      category: "Boarding",
+    },
+    {
+      imageSrc: "/assets/11/464867546_990906286405830_497001862446222814_n.jpg",
+      alt: "Image description",
+      link: "/OutsideClassroom/CoCurriculum",
+      description: "With 40+ clubs and societies, fostering passion,",
       highlight: "leadership, and personal growth",
       category: "Co-Curriculum at GHS",
     },
     {
-      imageSrc:
-        "/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg",
+      imageSrc: "/assets/11/418152059_799137295582731_343385202662830228_n.jpg",
       alt: "Image description",
-      link: "InsideClassroom/AcadmicFacilities",
-      description: "Fostering a lifelong appreciation of",
-      highlight: "independent thinking and learning",
-      category: "Academic",
+      link: "/OutsideClassroom/EnvironmentalEducation",
+      description: "Engaging in events",
+      highlight: "that inspire connections and celebrate diversity.",
+      category: "Vibrant Campus Life",
     },
+    {
+      imageSrc: "/assets/11/417418234_794902259339568_481177711424559643_n.jpg",
+      alt: "Image description",
+      link: "/InsideClassroom/ExamResults",
+      description: "Empowering students",
+      highlight: "to imagine, innovate, and create.",
+      category: "Fostering Creative Minds",
+    },
+    {
+      imageSrc: "/assets/11/461848694_3683395301907262_9150366868156804753_n.jpg",
+      alt: "Image description",
+      link: "/OutsideClassroom/PastoralCare",
+      description: "Nurturing minds",
+      highlight: "and hearts for lasting growth.",
+      category: "Student Wellbeing",
+    }
   ];
+  
   const BannerCarousel = ({ banners }) => {
     const settings = {
       dots: false,
@@ -143,7 +186,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="/InsideClassroom/AcadmicCurriculum" className="banner__image--link">
+                            <a href="/InsideClassroom/ExamResults" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/461991582_3684004391846353_7501919082942478913_n.jpg"
@@ -166,7 +209,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="/OutsideClassroom/CoCurriculum" className="banner__image--link">
+                            <a href="/InsideClassroom/LearningSupport" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/441068841_857863996376727_8535097873388575013_n.jpg"
@@ -189,7 +232,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image landscape">
-                            <a href="/AboutUs/OurHistory" className="banner__image--link">
+                            <a href="/OutsideClassroom/CommunityEngagement" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/Hompage Slider - Girls.jpg"
@@ -216,7 +259,7 @@ const ScrollingDivs = () => {
                       <div>
                         <div className="banner--column banner--column-2 js-home-banner-col-2">
                           <div className="banner__image landscape">
-                            <a href="/OutsideClassroom/CommunityEngagement" className="banner__image--link">
+                            <a href="/InsideClassroom/AcadmicFacilities" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/461968913_3684004521846340_906275821340010015_n.jpg"
@@ -239,7 +282,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="/OutsideClassroom/EnvironmentalEducation" className="banner__image--link">
+                            <a href="/OutsideClassroom/Sport" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/90172896_2479257448987726_2746791719352664064_n.jpg"
@@ -262,7 +305,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="/AboutUs/OurPurpose" className="banner__image--link">
+                            <a href="/OutsideClassroom/CoCurriculum" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/176550934_2788094451437356_5384273365940172592_n.jpg"
@@ -315,7 +358,7 @@ const ScrollingDivs = () => {
                         </div>
                         <div className="banner--column banner--column-3 js-home-banner-col-3">
                           <div className="banner__image portrait">
-                            <a href="/OutsideClassroom/CommunityEngagement" className="banner__image--link">
+                            <a href="/OutsideClassroom/CoCurriculum" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/464867546_990906286405830_497001862446222814_n.jpg"
@@ -339,7 +382,7 @@ const ScrollingDivs = () => {
                           </div>
 
                           <div className="banner__image portrait">
-                            <a href="/AboutUs/OurStrategy" className="banner__image--link">
+                            <a href="/OutsideClassroom/EnvironmentalEducation" className="banner__image--link">
                               <img
                                 decoding="async"
                                 src="/assets/11/418152059_799137295582731_343385202662830228_n.jpg"

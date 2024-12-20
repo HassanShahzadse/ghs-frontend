@@ -18,7 +18,7 @@ const SideNave = () => {
   const closeMenu = () => {
     setMenuOpen(false);
   };
-  const phoneNumber = "0324-4717777";
+  const phoneNumber = "0300-8410040";
 
   const handlePhoneClick = () => {
     if (navigator.userAgent.match(/iPhone|Android/i)) {
@@ -44,11 +44,13 @@ const SideNave = () => {
           ☰
         </div>
         <div className="navbar-logo">
+        <a href="/">
           <img
             src="/assets/img/Final GHS.png"
             alt=""
-            style={{ width: `${40}px`, height: "auto" }}
+            style={{ width: `${50}px`, height: "auto" }}
           />
+          </a>
         </div>
         <div className="search-icon">
           {" "}
@@ -310,11 +312,11 @@ const SideNave = () => {
                     The Gift of Education
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/SupportUs/ContactUs" onClick={closeMenu}>
                     Contact Us
                   </Link>
-                </li>
+                </li> */}
               </ul>
             )}
           </li>

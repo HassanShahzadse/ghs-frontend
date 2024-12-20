@@ -69,7 +69,7 @@ const Sidebar = () => {
       });
     });
   }, [location]);
-  const phoneNumber = '0324-4717777';
+  const phoneNumber = '0300-8410040';
 
   const handlePhoneClick = () => {
     if (navigator.userAgent.match(/iPhone|Android/i)) {
@@ -383,9 +383,9 @@ const Sidebar = () => {
             <li className="menu-item">
               <Link to="/SupportUs/GiftOfEducation" onClick={closeMenu}>The Gift of Education</Link>
             </li>
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <Link to="/SupportUs/ContactUs" onClick={closeMenu}>Contact Us</Link>
-            </li>
+            </li> */}
             
           </ul>
           <div className="back-button" >Back</div>

@@ -5569,7 +5569,7 @@ body.page-template-tpl-dark-bg {
     .top-nav--grey .hamburger {
       background-color: #eff3f0; }
   .top-nav__logo {
-    width: 48px; }
+    width: 72px; }
     @media (max-width: 1190px) {
       .top-nav__logo {
         width: 35px;
@@ -5683,7 +5683,18 @@ body.page-template-tpl-dark-bg {
       margin: 0; }
       .hamburger span {
         display: none; } }
+.font-23{
+  font-size:23px
+}
+@media (max-width: 786px) {
+  .map-visit-us{
+    width:90% !important
+  }
 
+}
+.map-visit-us{
+  width:70%
+}
 .nav-menu {
   position: fixed;
   padding: 104px 40px 57px;
@@ -8661,7 +8672,11 @@ html.no-objectfit .home .banner .image-container img {
       background: linear-gradient(151.15deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 63%); }
   .page-id-8400 .breadcrumbs-desktop > p > span > span > span .my-class, .page-id-8400 .breadcrumbs-desktop > p > span > span > span .breadcrumbs-separator {
     display: none; } }
-
+    @media (max-width: 769px) {
+      .aims-ethos--6{
+        margin:10px 0px !important
+      }
+    }
 .teaser {
   position: relative; }
   .teaser__inner {
@@ -8701,15 +8716,20 @@ html.no-objectfit .home .banner .image-container img {
           font-size: 34px;
           line-height: 39px; } }
     .teaser--community span {
+background: rgba(255, 255, 255, 0.8);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.7px);
+-webkit-backdrop-filter: blur(1.7px);
+border: 1px solid rgba(255, 255, 255, 0.3);
       position: absolute;
-      bottom: 30px;
-      left: 30px;
+      bottom: 2px;
+      padding:10px;
+      left: 2px;
       z-index: 5; }
       .teaser--community span small {
         color: var(--secondary);
         font-size: 16px; }
-    .teaser--community span:not(.teaser__inner) {
-      right: 30px; }
     /* .teaser--community:after {
       z-index: 4;
       content: "";
@@ -13904,6 +13924,10 @@ body.page-id-13113 .aims-ethos--6 p {
 
 .leadership-grid {
   margin: 100px 0; }
+@media (max-width:786px){
+  .leadership-grid {
+    margin: 30px 0 0 0; }
+}
   .leadership-grid .title--lg {
     font-family: "Nunito Sans", sans-serif; }
   .leadership-grid .title--small {
@@ -13965,7 +13989,7 @@ body.page-id-13113 .aims-ethos--6 p {
       padding-top: 20px; }
 
 @media (min-width: 900px) {
-  body.page-id-21 .leadership-grid .col-md-6:first-of-type,
+  .page-id-21 .leadership-grid .col-md-6:first-of-type,
   #site-6.page-id-471 .leadership-grid .col-md-6:first-of-type {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 33.33333%;
@@ -13973,20 +13997,20 @@ body.page-id-13113 .aims-ethos--6 p {
     max-width: 33.33333%;
     margin-left: 16.66667%;
     margin-top: 0; }
-    body.page-id-21 .leadership-grid .col-md-6:first-of-type .teaser--community .title,
+    .page-id-21 .leadership-grid .col-md-6:first-of-type .teaser--community .title,
     #site-6.page-id-471 .leadership-grid .col-md-6:first-of-type .teaser--community .title {
       font-size: 24px;
       line-height: 28px; }
-    body.page-id-21 .leadership-grid .col-md-6:first-of-type .teaser--community small,
+    .page-id-21 .leadership-grid .col-md-6:first-of-type .teaser--community small,
     #site-6.page-id-471 .leadership-grid .col-md-6:first-of-type .teaser--community small {
       font-size: 16px; }
-  body.page-id-21 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(even),
+  .page-id-21 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(even),
   #site-6.page-id-471 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(even) {
     margin-top: 0; }
-  body.page-id-21 .leadership-grid .col-md-6:nth-of-type(2),
+  .page-id-21 .leadership-grid .col-md-6:nth-of-type(2),
   #site-6.page-id-471 .leadership-grid .col-md-6:nth-of-type(2) {
     margin-top: 6% !important; }
-  body.page-id-21 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(odd),
+  .page-id-21 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(odd),
   #site-6.page-id-471 .leadership-grid .col-md-6:not(:first-of-type):nth-of-type(odd) {
     margin-top: -6%; } }
 

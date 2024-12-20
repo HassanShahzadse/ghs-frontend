@@ -1547,31 +1547,31 @@ document.addEventListener('DOMContentLoaded', function () {
     
   }
 
-  scrollanimations: {
-    if ($('.js-image-move').length > 0) {
-      $('.js-image-move').each(function () {
-        let trigger = $(this)
-        let element = $(this).find('.js-image-move__inner')
+  // scrollanimations: {
+  //   if ($('.js-image-move').length > 0) {
+  //     $('.js-image-move').each(function () {
+  //       let trigger = $(this)
+  //       let element = $(this).find('.js-image-move__inner')
 
-        let mouseScrollSliderTL = gsap.timeline({})
-        let animation = gsap.fromTo(
-          element,
-          { yPercent: '0' },
-          { duration: 2, yPercent: '-10', ease: 'easeOut' }
-        )
+  //       let mouseScrollSliderTL = gsap.timeline({})
+  //       let animation = gsap.fromTo(
+  //         element,
+  //         { yPercent: '0' },
+  //         { duration: 2, yPercent: '-10', ease: 'easeOut' }
+  //       )
 
-        ScrollTrigger.create({
-          animation: animation,
-          trigger: trigger,
-          //		toggleActions: "restart reset restart reset",
-          start: 'top bottom',
-          end: 'bottom top',
-          scrub: 1,
-          //				markers: true,
-        })
-      })
-    }
-  }
+  //       ScrollTrigger.create({
+  //         animation: animation,
+  //         trigger: trigger,
+  //         //		toggleActions: "restart reset restart reset",
+  //         start: 'top bottom',
+  //         end: 'bottom top',
+  //         scrub: 1,
+  //         //				markers: true,
+  //       })
+  //     })
+  //   }
+  // }
   titles: {
     function horizontal_scroll_left() {
       var horizontal = $('.horizontal-scroll--left')

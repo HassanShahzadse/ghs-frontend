@@ -1868,7 +1868,11 @@ const ScrollingImagesSection = () => {
             />
           </svg>
         </div>
-        <p>Follow @ghs.school on Instagram</p>
+        <p>Follow 
+          <a href="https://www.instagram.com/ghskarachi/" target="blank" className="mx-2">
+          @GHSKarachi
+          </a>
+           on Instagram</p>
       </div>
     </div>
   </section>
